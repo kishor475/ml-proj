@@ -1,0 +1,46 @@
+{
+    "gradient_accumulation_steps": 2,
+    "wall_clock_breakdown": false,
+    "gradient_clipping": 1.0,
+    "steps_per_print": 100,
+    "fp16": {
+        "enabled": true
+    },
+    "amp": {
+        "enabled": false,
+        "opt_level": "O2"
+    },
+    "zero_optimization": {
+        "stage": 2,
+        "allgather_partitions": true,
+        "allgather_bucket_size": 100000000.0,
+        "overlap_comm": true,
+        "reduce_scatter": true,
+        "reduce_bucket_size": 100000000.0,
+        "contiguous_gradients": true,
+        "sub_group_size": "auto",
+        "stage3_prefetch_bucket_size": "auto",
+        "stage3_param_persistence_threshold": "auto",
+        "stage3_max_live_parameters": 1000000000.0,
+        "stage3_max_reuse_distance": 1000000000.0,
+        "gather_16bit_weights_on_model_save": true,
+        "offload_optimizer": {
+            "device": "none"
+        },
+        "offload_param": {
+            "device": "none"
+        }
+    },
+    "zero_allow_untested_optimizer": true,
+    "data_efficiency": {
+        "enabled": true,
+        "seed": 42
+    },
+    "data_sampling": {
+        "enabled": true,
+        "num_workers": 8
+    },
+    "bf16": {
+        "enabled": false
+    }
+}

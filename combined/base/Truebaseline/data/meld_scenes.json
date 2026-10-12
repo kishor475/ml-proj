@@ -1,0 +1,5730 @@
+{
+ "train:0": {
+  "scene": "Office (Chandler, Interviewer)",
+  "raw": "Office (Chandler, Interviewer)"
+ },
+ "train:1": {
+  "scene": "Coffee Shop. Joey, Rachel present.",
+  "raw": "Coffee Shop. Joey, Rachel present."
+ },
+ "train:2": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:3": {
+  "scene": "Apartment (Monica, Phoebe, Chandler)",
+  "raw": "Apartment (Monica, Phoebe, Chandler)"
+ },
+ "train:4": {
+  "scene": "Apartment (Ross, Rachel)",
+  "raw": "Apartment (Ross, Rachel)"
+ },
+ "train:5": {
+  "scene": "Central Perk. Phoebe and Joey are present.",
+  "raw": "Central Perk. Phoebe and Joey are present."
+ },
+ "train:6": {
+  "scene": "Apartment (Chandler, Joey)",
+  "raw": "Apartment (Chandler, Joey)"
+ },
+ "train:7": {
+  "scene": "Thanksgiving dinner at Monica and Rachel's apartment (Joey, Ross, Monica, Rachel, Chandler, Phoebe, and Gunther present)",
+  "raw": "Thanksgiving dinner at Monica and Rachel's apartment (Joey, Ross, Monica, Rachel, Chandler, Phoebe, and Gunther present)"
+ },
+ "train:8": {
+  "scene": "Central Perk. Phoebe, Chandler present.",
+  "raw": "Central Perk. Phoebe, Chandler present."
+ },
+ "train:9": {
+  "scene": "Gym (Jade, Chandler)",
+  "raw": "Gym (Jade, Chandler)"
+ },
+ "train:10": {
+  "scene": "Central Perk Coffee Shop. Phoebe is present.",
+  "raw": "Central Perk Coffee Shop. Phoebe is present."
+ },
+ "train:11": {
+  "scene": "Wedding venue, Ross and Monica present.",
+  "raw": "Wedding venue, Ross and Monica present."
+ },
+ "train:12": {
+  "scene": "Apartment (Chandler, Joey)",
+  "raw": "Apartment (Chandler, Joey)"
+ },
+ "train:13": {
+  "scene": "Apartment (Ross, Mona)",
+  "raw": "Apartment (Ross, Mona)"
+ },
+ "train:14": {
+  "scene": "Monica and Ross's apartment (Ross, Monica)",
+  "raw": "Monica and Ross's apartment (Ross, Monica)"
+ },
+ "train:15": {
+  "scene": "Central Perk. Ross and Charlie are present.",
+  "raw": "Central Perk. Ross and Charlie are present."
+ },
+ "train:16": {
+  "scene": "Central Perk. Ross, Rachel, Phoebe present.",
+  "raw": "Central Perk. Ross, Rachel, Phoebe present."
+ },
+ "train:17": {
+  "scene": "Central Perk Coffeehouse. Joey is present.",
+  "raw": "Central Perk Coffeehouse. Joey is present."
+ },
+ "train:18": {
+  "scene": "Apartment (Ross, Joey)",
+  "raw": "Apartment (Ross, Joey)"
+ },
+ "train:19": {
+  "scene": "Apartment (Joey, Phoebe)",
+  "raw": "Apartment (Joey, Phoebe)"
+ },
+ "train:20": {
+  "scene": "Apartment (Rachel, Joey, Phoebe)",
+  "raw": "Apartment (Rachel, Joey, Phoebe)"
+ },
+ "train:21": {
+  "scene": "Coffee Shop. Monica, Ross.",
+  "raw": "Coffee Shop. Monica, Ross."
+ },
+ "train:22": {
+  "scene": "Hospital - Joey, Nurse",
+  "raw": "Hospital - Joey, Nurse"
+ },
+ "train:23": {
+  "scene": "Apartment (Monica, Joey, Chandler)",
+  "raw": "Apartment (Monica, Joey, Chandler)"
+ },
+ "train:24": {
+  "scene": "Central Perk Coffeehouse. Rachel is present. (Monica, Chandler, Joey, Ross, and Gunther are also typically present.)",
+  "raw": "Central Perk Coffeehouse. Rachel is present. (Monica, Chandler, Joey, Ross, and Gunther are also typically present.)"
+ },
+ "train:25": {
+  "scene": "Apartment building lobby, Mr. Treeger and Joey (Tribbiani)",
+  "raw": "Apartment building lobby, Mr. Treeger and Joey (Tribbiani)"
+ },
+ "train:26": {
+  "scene": "Apartment (Ross, Joey, and Carol)",
+  "raw": "Apartment (Ross, Joey, and Carol)"
+ },
+ "train:27": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:28": {
+  "scene": "Central Perk Coffee Shop. Ross is present.",
+  "raw": "Central Perk Coffee Shop. Ross is present."
+ },
+ "train:29": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:30": {
+  "scene": "Apartment (Ross Geller, Elizabeth, Paul Stevens)",
+  "raw": "Apartment (Ross Geller, Elizabeth, Paul Stevens)"
+ },
+ "train:31": {
+  "scene": "Apartment (Joey, Dry Cleaner)",
+  "raw": "Apartment (Joey, Dry Cleaner)"
+ },
+ "train:32": {
+  "scene": "Apartment (Joey, Chandler, Phoebe)",
+  "raw": "Apartment (Joey, Chandler, Phoebe)"
+ },
+ "train:33": {
+  "scene": "Apartment (Monica, Chandler, Joey, Ross)",
+  "raw": "Apartment (Monica, Chandler, Joey, Ross)"
+ },
+ "train:34": {
+  "scene": "Apartment (Rachel)",
+  "raw": "Apartment (Rachel)"
+ },
+ "train:35": {
+  "scene": "Central Perk Coffee Shop. Phoebe is present.",
+  "raw": "Central Perk Coffee Shop. Phoebe is present."
+ },
+ "train:36": {
+  "scene": "Apartment (Ross, Rachel, and Chandler)",
+  "raw": "Apartment (Ross, Rachel, and Chandler)"
+ },
+ "train:37": {
+  "scene": "Apartment (Monica, Joey)",
+  "raw": "Apartment (Monica, Joey)"
+ },
+ "train:38": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:39": {
+  "scene": "Central Perk Coffee Shop. Joey and Kate are present.",
+  "raw": "Central Perk Coffee Shop. Joey and Kate are present."
+ },
+ "train:40": {
+  "scene": "Apartment (Monica, Chandler, Phoebe, Joey)",
+  "raw": "Apartment (Monica, Chandler, Phoebe, Joey)"
+ },
+ "train:41": {
+  "scene": "Apartment (Joey, Ronni)",
+  "raw": "Apartment (Joey, Ronni)"
+ },
+ "train:42": {
+  "scene": "Apartment (Chandler, Guru Saj)",
+  "raw": "Apartment (Chandler, Guru Saj)"
+ },
+ "train:43": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "train:44": {
+  "scene": "Central Perk Coffee House. Ross and Charlie present.",
+  "raw": "Central Perk Coffee House. Ross and Charlie present."
+ },
+ "train:45": {
+  "scene": "Apartment (Joey, Chandler)",
+  "raw": "Apartment (Joey, Chandler)"
+ },
+ "train:46": {
+  "scene": "Apartment (Monica, Joey)",
+  "raw": "Apartment (Monica, Joey)"
+ },
+ "train:47": {
+  "scene": "Apartment (Monica, Chandler, Joey)",
+  "raw": "Apartment (Monica, Chandler, Joey)"
+ },
+ "train:48": {
+  "scene": "Central Perk Coffeehouse. Rachel, Ross, Monica, Chandler, Joey, and Phoebe are present.",
+  "raw": "Central Perk Coffeehouse. Rachel, Ross, Monica, Chandler, Joey, and Phoebe are present."
+ },
+ "train:49": {
+  "scene": "Central Perk coffee shop. Ross is present.",
+  "raw": "Central Perk coffee shop. Ross is present."
+ },
+ "train:50": {
+  "scene": "Apartment (Joey, Chandler, and Chandler's robot)",
+  "raw": "Apartment (Joey, Chandler, and Chandler's robot)"
+ },
+ "train:51": {
+  "scene": "Apartment (Ross, Rachel)",
+  "raw": "Apartment (Ross, Rachel)"
+ },
+ "train:52": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "train:53": {
+  "scene": "Apartment (Monica, Richard)",
+  "raw": "Apartment (Monica, Richard)"
+ },
+ "train:54": {
+  "scene": "Apartment (Joey, Rachel)",
+  "raw": "Apartment (Joey, Rachel)"
+ },
+ "train:55": {
+  "scene": "Apartment (Monica, Rachel, Danny)",
+  "raw": "Apartment (Monica, Rachel, Danny)"
+ },
+ "train:56": {
+  "scene": "ATM vestibule. Chandler, Jill Goodacre present.",
+  "raw": "ATM vestibule. Chandler, Jill Goodacre present."
+ },
+ "train:57": {
+  "scene": "Central Perk. Chandler and unspecified person present.",
+  "raw": "Central Perk. Chandler and unspecified person present."
+ },
+ "train:58": {
+  "scene": "High-end clothing store. Phoebe, Rachel present.",
+  "raw": "High-end clothing store. Phoebe, Rachel present."
+ },
+ "train:59": {
+  "scene": "Central Perk coffee shop. Doug is present with a team.",
+  "raw": "Central Perk coffee shop. Doug is present with a team."
+ },
+ "train:60": {
+  "scene": "Apartment (Chandler, Joey)",
+  "raw": "Apartment (Chandler, Joey)"
+ },
+ "train:61": {
+  "scene": "Central Perk. Chandler and Bob are present.",
+  "raw": "Central Perk. Chandler and Bob are present."
+ },
+ "train:62": {
+  "scene": "The setting is Monica and Chandler's apartment. Ross and Chandler are present.",
+  "raw": "The setting is Monica and Chandler's apartment. Ross and Chandler are present."
+ },
+ "train:63": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:64": {
+  "scene": "Central Perk. Ross, Rachel present.",
+  "raw": "Central Perk. Ross, Rachel present."
+ },
+ "train:65": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "train:66": {
+  "scene": "Apartment (Rachel, Ross)",
+  "raw": "Apartment (Rachel, Ross)"
+ },
+ "train:67": {
+  "scene": "Soundstage set, Director and Joey present.",
+  "raw": "Soundstage set, Director and Joey present."
+ },
+ "train:68": {
+  "scene": "Central Perk Coffeehouse. Chandler, Janice present.",
+  "raw": "Central Perk Coffeehouse. Chandler, Janice present."
+ },
+ "train:69": {
+  "scene": "Apartment (Joey, Chandler, Tony)",
+  "raw": "Apartment (Joey, Chandler, Tony)"
+ },
+ "train:70": {
+  "scene": "Central Perk. Rachel and Phoebe are present.",
+  "raw": "Central Perk. Rachel and Phoebe are present."
+ },
+ "train:71": {
+  "scene": "Ticket counter at airport, Chandler present.",
+  "raw": "Ticket counter at airport, Chandler present."
+ },
+ "train:72": {
+  "scene": "Central Perk. Chandler is present.",
+  "raw": "Central Perk. Chandler is present."
+ },
+ "train:73": {
+  "scene": "Apartment (Joey, Phoebe, Chandler)",
+  "raw": "Apartment (Joey, Phoebe, Chandler)"
+ },
+ "train:74": {
+  "scene": "Central Perk Coffee House. Ross, Rachel, Monica, Chandler, Joey, and Gunther are present.",
+  "raw": "Central Perk Coffee House. Ross, Rachel, Monica, Chandler, Joey, and Gunther are present."
+ },
+ "train:75": {
+  "scene": "Apartment (Rachel, Ross)",
+  "raw": "Apartment (Rachel, Ross)"
+ },
+ "train:76": {
+  "scene": "Hospital - Dr. Long, Rachel (character names given, setting inferred as medical facility)",
+  "raw": "Hospital - Dr. Long, Rachel (character names given, setting inferred as medical facility)"
+ },
+ "train:77": {
+  "scene": "Apartment (Ross, Rachel, Phoebe)",
+  "raw": "Apartment (Ross, Rachel, Phoebe)"
+ },
+ "train:78": {
+  "scene": "Joey's apartment (Joey, Rachel present)",
+  "raw": "Joey's apartment (Joey, Rachel present)"
+ },
+ "train:79": {
+  "scene": "Apartment (Rachel, Joey)",
+  "raw": "Apartment (Rachel, Joey)"
+ },
+ "train:80": {
+  "scene": "Apartment (Joey, Monica)",
+  "raw": "Apartment (Joey, Monica)"
+ },
+ "train:81": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:82": {
+  "scene": "Apartment (Joey)",
+  "raw": "Apartment (Joey)"
+ },
+ "train:83": {
+  "scene": "Apartment (Monica, Rachel, Phoebe)",
+  "raw": "Apartment (Monica, Rachel, Phoebe)"
+ },
+ "train:84": {
+  "scene": "Apartment (Rachel, Phoebe)",
+  "raw": "Apartment (Rachel, Phoebe)"
+ },
+ "train:85": {
+  "scene": "Central Perk Coffeehouse. Rachel, Nancy, and unspecified others are present.",
+  "raw": "Central Perk Coffeehouse. Rachel, Nancy, and unspecified others are present."
+ },
+ "train:86": {
+  "scene": "Central Perk. Rachel and Ross are present.",
+  "raw": "Central Perk. Rachel and Ross are present."
+ },
+ "train:87": {
+  "scene": "Central Perk Coffee Shop. Phoebe and Rachel present.",
+  "raw": "Central Perk Coffee Shop. Phoebe and Rachel present."
+ },
+ "train:88": {
+  "scene": "Apartment (Joey, Chandler, Rachel)",
+  "raw": "Apartment (Joey, Chandler, Rachel)"
+ },
+ "train:89": {
+  "scene": "Central Perk Coffee Shop. Phoebe, Ross, Chandler, Monica, Rachel, and Gunther are present.",
+  "raw": "Central Perk Coffee Shop. Phoebe, Ross, Chandler, Monica, Rachel, and Gunther are present."
+ },
+ "train:90": {
+  "scene": "Central Perk Coffee Shop. Phoebe, Ross, Chandler, Monica, Rachel, and Joey are present.",
+  "raw": "Central Perk Coffee Shop. Phoebe, Ross, Chandler, Monica, Rachel, and Joey are present."
+ },
+ "train:91": {
+  "scene": "Central Perk Coffeehouse. Phoebe is present.",
+  "raw": "Central Perk Coffeehouse. Phoebe is present."
+ },
+ "train:92": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:93": {
+  "scene": "Apartment (Rachel, Joanna)",
+  "raw": "Apartment (Rachel, Joanna)"
+ },
+ "train:94": {
+  "scene": "Apartment (Monica, Rachel, Joey)",
+  "raw": "Apartment (Monica, Rachel, Joey)"
+ },
+ "train:95": {
+  "scene": "Apartment (Monica)",
+  "raw": "Apartment (Monica)"
+ },
+ "train:96": {
+  "scene": "Apartment (Monica, Rachel, Ross)",
+  "raw": "Apartment (Monica, Rachel, Ross)"
+ },
+ "train:97": {
+  "scene": "Apartment (Monica, Chandler, Joey)",
+  "raw": "Apartment (Monica, Chandler, Joey)"
+ },
+ "train:98": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:99": {
+  "scene": "Apartment (Ross)",
+  "raw": "Apartment (Ross)"
+ },
+ "train:100": {
+  "scene": "Central Perk Coffee Shop. Ross, Dr. Rhodes present.",
+  "raw": "Central Perk Coffee Shop. Ross, Dr. Rhodes present."
+ },
+ "train:101": {
+  "scene": "Hospital office. Dr. Rhodes, Dr. Johnson, and Dr. Hamilton are present.",
+  "raw": "Hospital office. Dr. Rhodes, Dr. Johnson, and Dr. Hamilton are present."
+ },
+ "train:102": {
+  "scene": "Apartment (Monica, Chandler, Ross, Kristen)",
+  "raw": "Apartment (Monica, Chandler, Ross, Kristen)"
+ },
+ "train:103": {
+  "scene": "Central Perk. Janice, Rachel, and (implied) Ross are present.",
+  "raw": "Central Perk. Janice, Rachel, and (implied) Ross are present."
+ },
+ "train:104": {
+  "scene": "Central Perk. Ross, Janice, and (possibly) other characters are present.",
+  "raw": "Central Perk. Ross, Janice, and (possibly) other characters are present."
+ },
+ "train:105": {
+  "scene": "Apartment (Ross, Janice)",
+  "raw": "Apartment (Ross, Janice)"
+ },
+ "train:106": {
+  "scene": "Central Perk. Ross, Joey, and (implied) Monica are present.",
+  "raw": "Central Perk. Ross, Joey, and (implied) Monica are present."
+ },
+ "train:107": {
+  "scene": "Apartment (Monica, Chandler, Rachel)",
+  "raw": "Apartment (Monica, Chandler, Rachel)"
+ },
+ "train:108": {
+  "scene": "Monica, Chandler, and Phoebe are in Monica's apartment.",
+  "raw": "Monica, Chandler, and Phoebe are in Monica's apartment."
+ },
+ "train:109": {
+  "scene": "Apartment kitchen (Monica, Phoebe)",
+  "raw": "Apartment kitchen (Monica, Phoebe)"
+ },
+ "train:110": {
+  "scene": "Apartment (Joey, Chandler)",
+  "raw": "Apartment (Joey, Chandler)"
+ },
+ "train:111": {
+  "scene": "Apartment (Ross, Phoebe)",
+  "raw": "Apartment (Ross, Phoebe)"
+ },
+ "train:112": {
+  "scene": "Apartment (Ross, Monica)",
+  "raw": "Apartment (Ross, Monica)"
+ },
+ "train:113": {
+  "scene": "Living Room. Chandler present.",
+  "raw": "Living Room. Chandler present."
+ },
+ "train:114": {
+  "scene": "Apartment (Monica, Jester)",
+  "raw": "Apartment (Monica, Jester)"
+ },
+ "train:115": {
+  "scene": "Living room. Ross, Sarah present.",
+  "raw": "Living room. Ross, Sarah present."
+ },
+ "train:116": {
+  "scene": "Apartment (Monica, Richard)",
+  "raw": "Apartment (Monica, Richard)"
+ },
+ "train:117": {
+  "scene": "Apartment (Chandler, Joey)",
+  "raw": "Apartment (Chandler, Joey)"
+ },
+ "train:118": {
+  "scene": "Apartment (Joey, Chandler)",
+  "raw": "Apartment (Joey, Chandler)"
+ },
+ "train:119": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "train:120": {
+  "scene": "Strip club, Phoebe, Monica, Chandler present.",
+  "raw": "Strip club, Phoebe, Monica, Chandler present."
+ },
+ "train:121": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "train:122": {
+  "scene": "Central Perk. Chandler, Ross present.",
+  "raw": "Central Perk. Chandler, Ross present."
+ },
+ "train:123": {
+  "scene": "Ross's apartment (Ross, Chandler)",
+  "raw": "Ross's apartment (Ross, Chandler)"
+ },
+ "train:124": {
+  "scene": "Central Perk Coffee Shop. Ross, Emily present.",
+  "raw": "Central Perk Coffee Shop. Ross, Emily present."
+ },
+ "train:125": {
+  "scene": "Central Perk Coffee Shop. The Singing Man and Rachel are present.",
+  "raw": "Central Perk Coffee Shop. The Singing Man and Rachel are present."
+ },
+ "train:126": {
+  "scene": "Apartment (Monica, Chandler, and a dog)",
+  "raw": "Apartment (Monica, Chandler, and a dog)"
+ },
+ "train:127": {
+  "scene": "Apartment - Phoebe, Monica present",
+  "raw": "Apartment - Phoebe, Monica present"
+ },
+ "train:128": {
+  "scene": "Apartment (Chandler, Monica, Joey)",
+  "raw": "Apartment (Chandler, Monica, Joey)"
+ },
+ "train:129": {
+  "scene": "Apartment (Rachel, Joey)",
+  "raw": "Apartment (Rachel, Joey)"
+ },
+ "train:130": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "train:131": {
+  "scene": "Apartment (Rachel, Mark)",
+  "raw": "Apartment (Rachel, Mark)"
+ },
+ "train:132": {
+  "scene": "Apartment (Monica, Chandler, Joey)",
+  "raw": "Apartment (Monica, Chandler, Joey)"
+ },
+ "train:133": {
+  "scene": "Apartment (Monica, Chandler, Joey, Ross, Rachel, Phoebe)",
+  "raw": "Apartment (Monica, Chandler, Joey, Ross, Rachel, Phoebe)"
+ },
+ "train:134": {
+  "scene": "City bus. Chandler is present.",
+  "raw": "City bus. Chandler is present."
+ },
+ "train:135": {
+  "scene": "Apartment (Ross, Rachel, Monica, Chandler, Joey)",
+  "raw": "Apartment (Ross, Rachel, Monica, Chandler, Joey)"
+ },
+ "train:136": {
+  "scene": "Apartment building, Ross Geller present.",
+  "raw": "Apartment building, Ross Geller present."
+ },
+ "train:137": {
+  "scene": "High school - Rachel, (implied: unnamed friend)",
+  "raw": "High school - Rachel, (implied: unnamed friend)"
+ },
+ "train:138": {
+  "scene": "Central Perk Coffee Shop. Phoebe and a Female Student are present.",
+  "raw": "Central Perk Coffee Shop. Phoebe and a Female Student are present."
+ },
+ "train:139": {
+  "scene": "Central Perk Coffee Shop. Phoebe, Cliff present.",
+  "raw": "Central Perk Coffee Shop. Phoebe, Cliff present."
+ },
+ "train:140": {
+  "scene": "Office (Mr. Franklin, Chandler)",
+  "raw": "Office (Mr. Franklin, Chandler)"
+ },
+ "train:141": {
+  "scene": "Apartment (Ross, rest of the Friends group) and New Mexico (Julie)",
+  "raw": "Apartment (Ross, rest of the Friends group) and New Mexico (Julie)"
+ },
+ "train:142": {
+  "scene": "Central Perk Coffeehouse. Phoebe, Chandler, and Rachel are present.",
+  "raw": "Central Perk Coffeehouse. Phoebe, Chandler, and Rachel are present."
+ },
+ "train:143": {
+  "scene": "Apartment (Joey, Tag)",
+  "raw": "Apartment (Joey, Tag)"
+ },
+ "train:144": {
+  "scene": "Apartment (Chandler)",
+  "raw": "Apartment (Chandler)"
+ },
+ "train:145": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "train:146": {
+  "scene": "Apartment (Ross, Rachel, Chandler)",
+  "raw": "Apartment (Ross, Rachel, Chandler)"
+ },
+ "train:147": {
+  "scene": "Apartment (Chandler, Joey)",
+  "raw": "Apartment (Chandler, Joey)"
+ },
+ "train:148": {
+  "scene": "Central Perk. Phoebe and Eric are present.",
+  "raw": "Central Perk. Phoebe and Eric are present."
+ },
+ "train:149": {
+  "scene": "Apartment (Ross, Mona, Dr. Green)",
+  "raw": "Apartment (Ross, Mona, Dr. Green)"
+ },
+ "train:150": {
+  "scene": "Apartment (Rachel, Ross)",
+  "raw": "Apartment (Rachel, Ross)"
+ },
+ "train:151": {
+  "scene": "Apartment (Monica, Paul)",
+  "raw": "Apartment (Monica, Paul)"
+ },
+ "train:152": {
+  "scene": "Apartment (Ross)",
+  "raw": "Apartment (Ross)"
+ },
+ "train:153": {
+  "scene": "Central Perk. Rachel, Mark, and Ross are present.",
+  "raw": "Central Perk. Rachel, Mark, and Ross are present."
+ },
+ "train:154": {
+  "scene": "Apartment (Ross, Mona)",
+  "raw": "Apartment (Ross, Mona)"
+ },
+ "train:155": {
+  "scene": "Central Perk Coffeehouse. Phoebe, Rachel, and the father are present.",
+  "raw": "Central Perk Coffeehouse. Phoebe, Rachel, and the father are present."
+ },
+ "train:156": {
+  "scene": "Apartment (Monica, Phoebe, Chandler)",
+  "raw": "Apartment (Monica, Phoebe, Chandler)"
+ },
+ "train:157": {
+  "scene": "Apartment (Monica, Chandler, Joey, Ross, Rachel)",
+  "raw": "Apartment (Monica, Chandler, Joey, Ross, Rachel)"
+ },
+ "train:158": {
+  "scene": "Apartment (Chandler, Joanna)",
+  "raw": "Apartment (Chandler, Joanna)"
+ },
+ "train:159": {
+  "scene": "Apartment (Ross, Rachel)",
+  "raw": "Apartment (Ross, Rachel)"
+ },
+ "train:160": {
+  "scene": "Central Perk. Ross and Chandler are present.",
+  "raw": "Central Perk. Ross and Chandler are present."
+ },
+ "train:161": {
+  "scene": "Central Perk Coffeehouse. Ross, Rachel present.",
+  "raw": "Central Perk Coffeehouse. Ross, Rachel present."
+ },
+ "train:162": {
+  "scene": "Apartment (Monica, Joey)",
+  "raw": "Apartment (Monica, Joey)"
+ },
+ "train:163": {
+  "scene": "Apartment (Ross, Rachel)",
+  "raw": "Apartment (Ross, Rachel)"
+ },
+ "train:164": {
+  "scene": "Central Perk Coffee Shop. Chandler, Joey present.",
+  "raw": "Central Perk Coffee Shop. Chandler, Joey present."
+ },
+ "train:165": {
+  "scene": "Apartment (Chandler, Monica)",
+  "raw": "Apartment (Chandler, Monica)"
+ },
+ "train:166": {
+  "scene": "Central Perk Coffeehouse. Joey, Phoebe, and a singer are present.",
+  "raw": "Central Perk Coffeehouse. Joey, Phoebe, and a singer are present."
+ },
+ "train:167": {
+  "scene": "Apartment (Ross)",
+  "raw": "Apartment (Ross)"
+ },
+ "train:168": {
+  "scene": "Central Perk. Ross and Rachel are present.",
+  "raw": "Central Perk. Ross and Rachel are present."
+ },
+ "train:169": {
+  "scene": "Apartment (Monica, Joey)",
+  "raw": "Apartment (Monica, Joey)"
+ },
+ "train:170": {
+  "scene": "Central Perk. Rachel and Ross present.",
+  "raw": "Central Perk. Rachel and Ross present."
+ },
+ "train:171": {
+  "scene": "Central Perk. David and Chandler are present.",
+  "raw": "Central Perk. David and Chandler are present."
+ },
+ "train:172": {
+  "scene": "Apartment (Monica, Chandler, Phoebe, Joey)",
+  "raw": "Apartment (Monica, Chandler, Phoebe, Joey)"
+ },
+ "train:173": {
+  "scene": "Monica's apartment: Two customers (1st and 2nd)",
+  "raw": "Monica's apartment: Two customers (1st and 2nd)"
+ },
+ "train:174": {
+  "scene": "Apartment (Monica, Joey, Rachel)",
+  "raw": "Apartment (Monica, Joey, Rachel)"
+ },
+ "train:175": {
+  "scene": "Apartment (Rachel, Ross)",
+  "raw": "Apartment (Rachel, Ross)"
+ },
+ "train:176": {
+  "scene": "Central Perk Coffeehouse. Tag, Rachel present.",
+  "raw": "Central Perk Coffeehouse. Tag, Rachel present."
+ },
+ "train:177": {
+  "scene": "Central Perk Coffee Shop. Joey and the Presenter are present.",
+  "raw": "Central Perk Coffee Shop. Joey and the Presenter are present."
+ },
+ "train:178": {
+  "scene": "Central Perk. Rachel and a policeman are present.",
+  "raw": "Central Perk. Rachel and a policeman are present."
+ },
+ "train:179": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "train:180": {
+  "scene": "Apartment (Joey, Ross)",
+  "raw": "Apartment (Joey, Ross)"
+ },
+ "train:181": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "train:182": {
+  "scene": "Central Perk Coffeehouse. Phoebe, Duncan present.",
+  "raw": "Central Perk Coffeehouse. Phoebe, Duncan present."
+ },
+ "train:183": {
+  "scene": "Apartment (Joey)",
+  "raw": "Apartment (Joey)"
+ },
+ "train:184": {
+  "scene": "Apartment (Monica, Chandler, Rachel, Ross)",
+  "raw": "Apartment (Monica, Chandler, Rachel, Ross)"
+ },
+ "train:185": {
+  "scene": "Apartment (Gary, Phoebe)",
+  "raw": "Apartment (Gary, Phoebe)"
+ },
+ "train:186": {
+  "scene": "Central Perk Coffee Shop. Rachel, Phoebe, and Bonnie are present.",
+  "raw": "Central Perk Coffee Shop. Rachel, Phoebe, and Bonnie are present."
+ },
+ "train:187": {
+  "scene": "Apartment (Rachel)",
+  "raw": "Apartment (Rachel)"
+ },
+ "train:188": {
+  "scene": "Apartment building, Monica, Joey, Rachel",
+  "raw": "Apartment building, Monica, Joey, Rachel"
+ },
+ "train:189": {
+  "scene": "Apartment (Chandler, Phoebe, Joey)",
+  "raw": "Apartment (Chandler, Phoebe, Joey)"
+ },
+ "train:190": {
+  "scene": "Apartment building parking lot. Joey and an unidentified woman.",
+  "raw": "Apartment building parking lot. Joey and an unidentified woman."
+ },
+ "train:191": {
+  "scene": "Apartment (Ross)",
+  "raw": "Apartment (Ross)"
+ },
+ "train:192": {
+  "scene": "Central Perk. Phoebe and Leslie are present.",
+  "raw": "Central Perk. Phoebe and Leslie are present."
+ },
+ "train:193": {
+  "scene": "Central Perk. Phoebe and Leslie are present.",
+  "raw": "Central Perk. Phoebe and Leslie are present."
+ },
+ "train:194": {
+  "scene": "Central Perk coffee shop. Rachel is present.",
+  "raw": "Central Perk coffee shop. Rachel is present."
+ },
+ "train:195": {
+  "scene": "Central Perk. Ross and (implied) Monica are present.",
+  "raw": "Central Perk. Ross and (implied) Monica are present."
+ },
+ "train:196": {
+  "scene": "Central Perk. Joey and his hand twin are present.",
+  "raw": "Central Perk. Joey and his hand twin are present."
+ },
+ "train:197": {
+  "scene": "Central Perk Coffee Shop. Phoebe and Rachel are present.",
+  "raw": "Central Perk Coffee Shop. Phoebe and Rachel are present."
+ },
+ "train:198": {
+  "scene": "Central Perk coffee shop. Phoebe and Rachel are present.",
+  "raw": "Central Perk coffee shop. Phoebe and Rachel are present."
+ },
+ "train:199": {
+  "scene": "Apartment (Ross, Joey)",
+  "raw": "Apartment (Ross, Joey)"
+ },
+ "train:200": {
+  "scene": "Apartment (Ross, Elizabeth)",
+  "raw": "Apartment (Ross, Elizabeth)"
+ },
+ "train:201": {
+  "scene": "Central Perk coffee shop. Chandler and Phoebe are present.",
+  "raw": "Central Perk coffee shop. Chandler and Phoebe are present."
+ },
+ "train:202": {
+  "scene": "Apartment (Ross, Joey, Rachel)",
+  "raw": "Apartment (Ross, Joey, Rachel)"
+ },
+ "train:203": {
+  "scene": "Central Perk Coffee Shop. Rachel, Kiki, and Joanne are present.",
+  "raw": "Central Perk Coffee Shop. Rachel, Kiki, and Joanne are present."
+ },
+ "train:204": {
+  "scene": "Central Perk. Rachel and Fireman No. 3 are present.",
+  "raw": "Central Perk. Rachel and Fireman No. 3 are present."
+ },
+ "train:205": {
+  "scene": "Central Perk Coffee Shop. Ross, Susan, and Carol are present.",
+  "raw": "Central Perk Coffee Shop. Ross, Susan, and Carol are present."
+ },
+ "train:206": {
+  "scene": "Cafe Maurice. Monica and Mischa present.",
+  "raw": "Cafe Maurice. Monica and Mischa present."
+ },
+ "train:207": {
+  "scene": "Outdoor mountain setting: Danny, Joey, and Chandler",
+  "raw": "Outdoor mountain setting: Danny, Joey, and Chandler"
+ },
+ "train:208": {
+  "scene": "Central Perk Coffee Shop. Ross, Rachel, Chandler, Monica, Joey, and Gunther are present.",
+  "raw": "Central Perk Coffee Shop. Ross, Rachel, Chandler, Monica, Joey, and Gunther are present."
+ },
+ "train:209": {
+  "scene": "Apartment (Joey, Richard)",
+  "raw": "Apartment (Joey, Richard)"
+ },
+ "train:210": {
+  "scene": "Apartment (Monica, Chandler, Mrs. Geller, Mr. Geller)",
+  "raw": "Apartment (Monica, Chandler, Mrs. Geller, Mr. Geller)"
+ },
+ "train:211": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "train:212": {
+  "scene": "Central Perk. Ross is present.",
+  "raw": "Central Perk. Ross is present."
+ },
+ "train:213": {
+  "scene": "Central Perk Coffeehouse. Phoebe, Monica present.",
+  "raw": "Central Perk Coffeehouse. Phoebe, Monica present."
+ },
+ "train:214": {
+  "scene": "Central Perk Coffee Shop. Ross, Chandler, Monica, Rachel, Phoebe, and Joey are present.",
+  "raw": "Central Perk Coffee Shop. Ross, Chandler, Monica, Rachel, Phoebe, and Joey are present."
+ },
+ "train:215": {
+  "scene": "Central Perk coffee shop. Ross and Joey are present.",
+  "raw": "Central Perk coffee shop. Ross and Joey are present."
+ },
+ "train:216": {
+  "scene": "Apartment (Joey, Chandler)",
+  "raw": "Apartment (Joey, Chandler)"
+ },
+ "train:217": {
+  "scene": "Central Perk Cafe. Ross, Monica present.",
+  "raw": "Central Perk Cafe. Ross, Monica present."
+ },
+ "train:218": {
+  "scene": "Central Perk. Chandler, Joey present.",
+  "raw": "Central Perk. Chandler, Joey present."
+ },
+ "train:219": {
+  "scene": "Central Perk. Phoebe, Rachel, and Monica are present.",
+  "raw": "Central Perk. Phoebe, Rachel, and Monica are present."
+ },
+ "train:220": {
+  "scene": "Apartment (Rachel, Joshua)",
+  "raw": "Apartment (Rachel, Joshua)"
+ },
+ "train:221": {
+  "scene": "Apartment (Monica, Chandler, Doug)",
+  "raw": "Apartment (Monica, Chandler, Doug)"
+ },
+ "train:222": {
+  "scene": "Apartment kitchen. Chandler, Monica, and unspecified others.",
+  "raw": "Apartment kitchen. Chandler, Monica, and unspecified others."
+ },
+ "train:223": {
+  "scene": "Apartment (Joey, Jake)",
+  "raw": "Apartment (Joey, Jake)"
+ },
+ "train:224": {
+  "scene": "Apartment (Ross, Carol)",
+  "raw": "Apartment (Ross, Carol)"
+ },
+ "train:225": {
+  "scene": "Apartment (Rachel, Danny)",
+  "raw": "Apartment (Rachel, Danny)"
+ },
+ "train:226": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "train:227": {
+  "scene": "Central Perk. Phoebe, Joey present.",
+  "raw": "Central Perk. Phoebe, Joey present."
+ },
+ "train:228": {
+  "scene": "Apartment (Jill, Chandler)",
+  "raw": "Apartment (Jill, Chandler)"
+ },
+ "train:229": {
+  "scene": "Central Perk Coffee Shop. Ross, Lecturer present.",
+  "raw": "Central Perk Coffee Shop. Ross, Lecturer present."
+ },
+ "train:230": {
+  "scene": "Central Perk Coffee Shop. Ross, Rachel present.",
+  "raw": "Central Perk Coffee Shop. Ross, Rachel present."
+ },
+ "train:231": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:232": {
+  "scene": "Living room. Ross, Monica present. (Holiday Armadillo is a costume character.)",
+  "raw": "Living room. Ross, Monica present. (Holiday Armadillo is a costume character.)"
+ },
+ "train:233": {
+  "scene": "Central Perk Coffee Shop. Chandler and unnamed woman present.",
+  "raw": "Central Perk Coffee Shop. Chandler and unnamed woman present."
+ },
+ "train:234": {
+  "scene": "Subway station, Monica, Rachel, and unspecified crew present.",
+  "raw": "Subway station, Monica, Rachel, and unspecified crew present."
+ },
+ "train:235": {
+  "scene": "Central Perk Coffee Shop. Joey and unnamed vendor present.",
+  "raw": "Central Perk Coffee Shop. Joey and unnamed vendor present."
+ },
+ "train:236": {
+  "scene": "Apartment (Monica, Julio)",
+  "raw": "Apartment (Monica, Julio)"
+ },
+ "train:237": {
+  "scene": "Central Perk Coffee Shop. Ross, Phoebe present.",
+  "raw": "Central Perk Coffee Shop. Ross, Phoebe present."
+ },
+ "train:238": {
+  "scene": "Apartment (Ross)",
+  "raw": "Apartment (Ross)"
+ },
+ "train:239": {
+  "scene": "Apartment (Monica, Chandler, David)",
+  "raw": "Apartment (Monica, Chandler, David)"
+ },
+ "train:240": {
+  "scene": "Central Perk coffee shop. Phoebe is present. (Mike is implied to be present later.)",
+  "raw": "Central Perk coffee shop. Phoebe is present. (Mike is implied to be present later.)"
+ },
+ "train:241": {
+  "scene": "Central Perk coffee shop. Chandler Bing and Julie are present.",
+  "raw": "Central Perk coffee shop. Chandler Bing and Julie are present."
+ },
+ "train:242": {
+  "scene": "Central Perk Coffee Shop. Ross, Rachel present.",
+  "raw": "Central Perk Coffee Shop. Ross, Rachel present."
+ },
+ "train:243": {
+  "scene": "Apartment (Ross, Joey)",
+  "raw": "Apartment (Ross, Joey)"
+ },
+ "train:244": {
+  "scene": "Central Perk coffee shop. Phoebe, Monica present.",
+  "raw": "Central Perk coffee shop. Phoebe, Monica present."
+ },
+ "train:245": {
+  "scene": "Apartment (Ross, Rachel, Mona)",
+  "raw": "Apartment (Ross, Rachel, Mona)"
+ },
+ "train:246": {
+  "scene": "Apartment (Joey, Phoebe)",
+  "raw": "Apartment (Joey, Phoebe)"
+ },
+ "train:247": {
+  "scene": "Central Perk Coffee Shop. Phoebe and Monica are present.",
+  "raw": "Central Perk Coffee Shop. Phoebe and Monica are present."
+ },
+ "train:248": {
+  "scene": "Apartment kitchen. Rachel, Joey, and Monica present.",
+  "raw": "Apartment kitchen. Rachel, Joey, and Monica present."
+ },
+ "train:249": {
+  "scene": "Office (Phoebe, Chandler)",
+  "raw": "Office (Phoebe, Chandler)"
+ },
+ "train:250": {
+  "scene": "Apartment (Rachel, Ross)",
+  "raw": "Apartment (Rachel, Ross)"
+ },
+ "train:251": {
+  "scene": "Outdoor wildlife experience. Ross, Dr. Baldhara (implied: unnamed monkey Marcel)",
+  "raw": "Outdoor wildlife experience. Ross, Dr. Baldhara (implied: unnamed monkey Marcel)"
+ },
+ "train:252": {
+  "scene": "Chandler's apartment. Chandler and Janice are present.",
+  "raw": "Chandler's apartment. Chandler and Janice are present."
+ },
+ "train:253": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "train:254": {
+  "scene": "Apartment (Monica, Young Ethan)",
+  "raw": "Apartment (Monica, Young Ethan)"
+ },
+ "train:255": {
+  "scene": "Central Perk. Rachel, Ross present.",
+  "raw": "Central Perk. Rachel, Ross present."
+ },
+ "train:256": {
+  "scene": "Apartment (Joey, Rachel)",
+  "raw": "Apartment (Joey, Rachel)"
+ },
+ "train:257": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:258": {
+  "scene": "Central Perk Cafe. Ross and Dr. Leedbetter present.",
+  "raw": "Central Perk Cafe. Ross and Dr. Leedbetter present."
+ },
+ "train:259": {
+  "scene": "Central Perk Coffee Shop. Joey and Phoebe are present.",
+  "raw": "Central Perk Coffee Shop. Joey and Phoebe are present."
+ },
+ "train:260": {
+  "scene": "Central Perk. Phoebe, Phoebe Sr. present.",
+  "raw": "Central Perk. Phoebe, Phoebe Sr. present."
+ },
+ "train:261": {
+  "scene": "Central Perk Coffeehouse. Phoebe is present.",
+  "raw": "Central Perk Coffeehouse. Phoebe is present."
+ },
+ "train:262": {
+  "scene": "Central Perk Coffee Shop. Phoebe and Monica present.",
+  "raw": "Central Perk Coffee Shop. Phoebe and Monica present."
+ },
+ "train:263": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:264": {
+  "scene": "Central Perk. Janice and Monica present.",
+  "raw": "Central Perk. Janice and Monica present."
+ },
+ "train:265": {
+  "scene": "Apartment (Monica, Chandler, Ross, Rachel, Phoebe, Joey)",
+  "raw": "Apartment (Monica, Chandler, Ross, Rachel, Phoebe, Joey)"
+ },
+ "train:266": {
+  "scene": "Central Perk Coffee Shop. Chandler, Joey, Ross, Monica, Rachel, and Gunther are present.",
+  "raw": "Central Perk Coffee Shop. Chandler, Joey, Ross, Monica, Rachel, and Gunther are present."
+ },
+ "train:267": {
+  "scene": "Apartment (Chandler present)",
+  "raw": "Apartment (Chandler present)"
+ },
+ "train:268": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:269": {
+  "scene": "Apartment (Ross, Rachel, Joey)",
+  "raw": "Apartment (Ross, Rachel, Joey)"
+ },
+ "train:270": {
+  "scene": "Apartment (Rachel, Katie)",
+  "raw": "Apartment (Rachel, Katie)"
+ },
+ "train:271": {
+  "scene": "Central Perk Cafe. Phoebe, Joey present.",
+  "raw": "Central Perk Cafe. Phoebe, Joey present."
+ },
+ "train:272": {
+  "scene": "Apartment (Chandler, Phoebe)",
+  "raw": "Apartment (Chandler, Phoebe)"
+ },
+ "train:273": {
+  "scene": "Strip club. Joey and Chandler present.",
+  "raw": "Strip club. Joey and Chandler present."
+ },
+ "train:274": {
+  "scene": "Apartment (Ross, Joey, Rachel)",
+  "raw": "Apartment (Ross, Joey, Rachel)"
+ },
+ "train:275": {
+  "scene": "Apartment (Rachel, Joey)",
+  "raw": "Apartment (Rachel, Joey)"
+ },
+ "train:276": {
+  "scene": "Apartment (Joey)",
+  "raw": "Apartment (Joey)"
+ },
+ "train:277": {
+  "scene": "Central Perk Coffeehouse. Rachel, Phoebe present.",
+  "raw": "Central Perk Coffeehouse. Rachel, Phoebe present."
+ },
+ "train:278": {
+  "scene": "Apartment building, Joey and Rachel present",
+  "raw": "Apartment building, Joey and Rachel present"
+ },
+ "train:279": {
+  "scene": "Central Perk Coffeehouse. Rachel, Phoebe, and Joey are present.",
+  "raw": "Central Perk Coffeehouse. Rachel, Phoebe, and Joey are present."
+ },
+ "train:280": {
+  "scene": "Apartment (Joey, Phoebe)",
+  "raw": "Apartment (Joey, Phoebe)"
+ },
+ "train:281": {
+  "scene": "Central Perk Coffeehouse. Phoebe and Joey are present.",
+  "raw": "Central Perk Coffeehouse. Phoebe and Joey are present."
+ },
+ "train:282": {
+  "scene": "Central Perk. Joey, Phoebe present.",
+  "raw": "Central Perk. Joey, Phoebe present."
+ },
+ "train:283": {
+  "scene": "Central Perk Coffee Shop. Phoebe, Rachel present.",
+  "raw": "Central Perk Coffee Shop. Phoebe, Rachel present."
+ },
+ "train:284": {
+  "scene": "Apartment (Joey, Rachel)",
+  "raw": "Apartment (Joey, Rachel)"
+ },
+ "train:285": {
+  "scene": "Central Perk. Chandler, Rachel, Phoebe present.",
+  "raw": "Central Perk. Chandler, Rachel, Phoebe present."
+ },
+ "train:286": {
+  "scene": "Central Perk. Joey and Chandler are present.",
+  "raw": "Central Perk. Joey and Chandler are present."
+ },
+ "train:287": {
+  "scene": "Central Perk coffee shop. Joey and Gunther are present.",
+  "raw": "Central Perk coffee shop. Joey and Gunther are present."
+ },
+ "train:288": {
+  "scene": "Central Perk Coffee Shop. Phoebe and Earl are present.",
+  "raw": "Central Perk Coffee Shop. Phoebe and Earl are present."
+ },
+ "train:289": {
+  "scene": "Central Perk Coffee Shop. Chandler, Monica, Ross, Rachel, Phoebe, and Joey are present.",
+  "raw": "Central Perk Coffee Shop. Chandler, Monica, Ross, Rachel, Phoebe, and Joey are present."
+ },
+ "train:290": {
+  "scene": "Central Perk Coffeehouse. Phoebe, Earl.",
+  "raw": "Central Perk Coffeehouse. Phoebe, Earl."
+ },
+ "train:291": {
+  "scene": "Office cubicle. Earl is present.",
+  "raw": "Office cubicle. Earl is present."
+ },
+ "train:292": {
+  "scene": "Central Perk. Joey is present.",
+  "raw": "Central Perk. Joey is present."
+ },
+ "train:293": {
+  "scene": "Apartment (Monica, Rachel, Paul)",
+  "raw": "Apartment (Monica, Rachel, Paul)"
+ },
+ "train:294": {
+  "scene": "Apartment (Joey, Phoebe)",
+  "raw": "Apartment (Joey, Phoebe)"
+ },
+ "train:295": {
+  "scene": "Apartment (Ross, Susan, Carol)",
+  "raw": "Apartment (Ross, Susan, Carol)"
+ },
+ "train:296": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "train:297": {
+  "scene": "Central Perk Coffee Shop. Ross and Monica are present.",
+  "raw": "Central Perk Coffee Shop. Ross and Monica are present."
+ },
+ "train:298": {
+  "scene": "Apartment (Joey, Chandler)",
+  "raw": "Apartment (Joey, Chandler)"
+ },
+ "train:299": {
+  "scene": "Apartment (Joey, Lydia)",
+  "raw": "Apartment (Joey, Lydia)"
+ },
+ "train:300": {
+  "scene": "Central Perk Coffee Shop. Barry, Bernice, and Jason Costalano are present.",
+  "raw": "Central Perk Coffee Shop. Barry, Bernice, and Jason Costalano are present."
+ },
+ "train:301": {
+  "scene": "Central Perk Coffeehouse. Phoebe, Ross present.",
+  "raw": "Central Perk Coffeehouse. Phoebe, Ross present."
+ },
+ "train:302": {
+  "scene": "Central Perk Coffeehouse. Phoebe, Monica present.",
+  "raw": "Central Perk Coffeehouse. Phoebe, Monica present."
+ },
+ "train:303": {
+  "scene": "Apartment (Monica, Chandler, Phoebe)",
+  "raw": "Apartment (Monica, Chandler, Phoebe)"
+ },
+ "train:304": {
+  "scene": "Coffee Shop. Chandler, Chloe, and Isaac are present.",
+  "raw": "Coffee Shop. Chandler, Chloe, and Isaac are present."
+ },
+ "train:305": {
+  "scene": "Apartment (Monica, Chandler, Ross)",
+  "raw": "Apartment (Monica, Chandler, Ross)"
+ },
+ "train:306": {
+  "scene": "Apartment (Ross, Monica)",
+  "raw": "Apartment (Ross, Monica)"
+ },
+ "train:307": {
+  "scene": "Sales office. Phoebe and Supervisor present.",
+  "raw": "Sales office. Phoebe and Supervisor present."
+ },
+ "train:308": {
+  "scene": "Central Perk coffee shop. Chandler and Kathy are present.",
+  "raw": "Central Perk coffee shop. Chandler and Kathy are present."
+ },
+ "train:309": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "train:310": {
+  "scene": "Apartment (Monica, Phoebe, Chandler)",
+  "raw": "Apartment (Monica, Phoebe, Chandler)"
+ },
+ "train:311": {
+  "scene": "Apartment (Ross, Rachel)",
+  "raw": "Apartment (Ross, Rachel)"
+ },
+ "train:312": {
+  "scene": "Apartment (Joey, Chandler)",
+  "raw": "Apartment (Joey, Chandler)"
+ },
+ "train:313": {
+  "scene": "Apartment (Monica, Chandler, Rachel, Phoebe)",
+  "raw": "Apartment (Monica, Chandler, Rachel, Phoebe)"
+ },
+ "train:314": {
+  "scene": "Kitchen (Monica, Phoebe)",
+  "raw": "Kitchen (Monica, Phoebe)"
+ },
+ "train:315": {
+  "scene": "Apartment (Joey, Chandler)",
+  "raw": "Apartment (Joey, Chandler)"
+ },
+ "train:316": {
+  "scene": "Apartment (Phoebe, Rachel)",
+  "raw": "Apartment (Phoebe, Rachel)"
+ },
+ "train:317": {
+  "scene": "Apartment (Rachel, Monica, Chandler)",
+  "raw": "Apartment (Rachel, Monica, Chandler)"
+ },
+ "train:318": {
+  "scene": "Apartment (Monica, Pete)",
+  "raw": "Apartment (Monica, Pete)"
+ },
+ "train:319": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:320": {
+  "scene": "Central Perk coffee shop. Phoebe and Eric are present.",
+  "raw": "Central Perk coffee shop. Phoebe and Eric are present."
+ },
+ "train:321": {
+  "scene": "Apartment (Monica, Stu)",
+  "raw": "Apartment (Monica, Stu)"
+ },
+ "train:322": {
+  "scene": "Apartment (Monica present)",
+  "raw": "Apartment (Monica present)"
+ },
+ "train:323": {
+  "scene": "Apartment (Monica, Chandler, Joey, Phoebe, Phoebe Sr.)",
+  "raw": "Apartment (Monica, Chandler, Joey, Phoebe, Phoebe Sr.)"
+ },
+ "train:324": {
+  "scene": "Apartment building lobby, Ross and Mr. Morse present.",
+  "raw": "Apartment building lobby, Ross and Mr. Morse present."
+ },
+ "train:325": {
+  "scene": "Apartment (Monica, Phoebe, Rachel)",
+  "raw": "Apartment (Monica, Phoebe, Rachel)"
+ },
+ "train:326": {
+  "scene": "Apartment (Monica, Chandler, Ross, Phoebe)",
+  "raw": "Apartment (Monica, Chandler, Ross, Phoebe)"
+ },
+ "train:327": {
+  "scene": "Apartment (Rachel, Jill)",
+  "raw": "Apartment (Rachel, Jill)"
+ },
+ "train:328": {
+  "scene": "Apartment (Monica, Rachel, Phoebe)",
+  "raw": "Apartment (Monica, Rachel, Phoebe)"
+ },
+ "train:329": {
+  "scene": "Central Perk Coffee Shop. Joshua and Rachel present.",
+  "raw": "Central Perk Coffee Shop. Joshua and Rachel present."
+ },
+ "train:330": {
+  "scene": "Central Perk Coffee Shop. Phoebe and Chandler are present.",
+  "raw": "Central Perk Coffee Shop. Phoebe and Chandler are present."
+ },
+ "train:331": {
+  "scene": "Central Perk. Ross, Joey present.",
+  "raw": "Central Perk. Ross, Joey present."
+ },
+ "train:332": {
+  "scene": "Central Perk. Joey and Tour Guide (Ross off-screen)",
+  "raw": "Central Perk. Joey and Tour Guide (Ross off-screen)"
+ },
+ "train:333": {
+  "scene": "Apartment (Joey, Chandler)",
+  "raw": "Apartment (Joey, Chandler)"
+ },
+ "train:334": {
+  "scene": "Apartment (Ross, unspecified guests from work)",
+  "raw": "Apartment (Ross, unspecified guests from work)"
+ },
+ "train:335": {
+  "scene": "Kitchen. Ross, Chandler, and Monica are present.",
+  "raw": "Kitchen. Ross, Chandler, and Monica are present."
+ },
+ "train:336": {
+  "scene": "Apartment (Ross, Chandler)",
+  "raw": "Apartment (Ross, Chandler)"
+ },
+ "train:337": {
+  "scene": "Central Perk. Rachel, Joshua, and Mrs. Burgin are present.",
+  "raw": "Central Perk. Rachel, Joshua, and Mrs. Burgin are present."
+ },
+ "train:338": {
+  "scene": "Apartment (Monica, Joey)",
+  "raw": "Apartment (Monica, Joey)"
+ },
+ "train:339": {
+  "scene": "Apartment (Monica, Chandler, Joey)",
+  "raw": "Apartment (Monica, Chandler, Joey)"
+ },
+ "train:340": {
+  "scene": "Apartment (Joey, Chandler)",
+  "raw": "Apartment (Joey, Chandler)"
+ },
+ "train:341": {
+  "scene": "Apartment (Monica, Chandler, Ross, Joey)",
+  "raw": "Apartment (Monica, Chandler, Ross, Joey)"
+ },
+ "train:342": {
+  "scene": "Apartment (Monica, Ross)",
+  "raw": "Apartment (Monica, Ross)"
+ },
+ "train:343": {
+  "scene": "Apartment (Joey, Ross)",
+  "raw": "Apartment (Joey, Ross)"
+ },
+ "train:344": {
+  "scene": "Central Perk Coffee Shop. Rachel and Phoebe are present.",
+  "raw": "Central Perk Coffee Shop. Rachel and Phoebe are present."
+ },
+ "train:345": {
+  "scene": "Apartment (Chandler, Monica)",
+  "raw": "Apartment (Chandler, Monica)"
+ },
+ "train:346": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:347": {
+  "scene": "Apartment (Rachel, Ross, and an unspecified man)",
+  "raw": "Apartment (Rachel, Ross, and an unspecified man)"
+ },
+ "train:348": {
+  "scene": "Apartment (Monica, Phoebe, Ross)",
+  "raw": "Apartment (Monica, Phoebe, Ross)"
+ },
+ "train:349": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:350": {
+  "scene": "Monica, Chandler, Joey, Rachel's apartment (Rachel, Ross, Mona present)",
+  "raw": "Monica, Chandler, Joey, Rachel's apartment (Rachel, Ross, Mona present)"
+ },
+ "train:351": {
+  "scene": "Apartment (Chandler)",
+  "raw": "Apartment (Chandler)"
+ },
+ "train:352": {
+  "scene": "Central Perk coffee shop. Joey and an unnamed character are present.",
+  "raw": "Central Perk coffee shop. Joey and an unnamed character are present."
+ },
+ "train:353": {
+  "scene": "Apartment building, Monica and Mr. Heckles present",
+  "raw": "Apartment building, Monica and Mr. Heckles present"
+ },
+ "train:354": {
+  "scene": "Apartment (Monica, Rachel, Phoebe)",
+  "raw": "Apartment (Monica, Rachel, Phoebe)"
+ },
+ "train:355": {
+  "scene": "Apartment kitchen (Monica, Ross present)",
+  "raw": "Apartment kitchen (Monica, Ross present)"
+ },
+ "train:356": {
+  "scene": "Apartment (Monica, Chandler, Joey)",
+  "raw": "Apartment (Monica, Chandler, Joey)"
+ },
+ "train:357": {
+  "scene": "Central Perk. Rachel, Chandler present.",
+  "raw": "Central Perk. Rachel, Chandler present."
+ },
+ "train:358": {
+  "scene": "Apartment (Monica, Chandler, Ross)",
+  "raw": "Apartment (Monica, Chandler, Ross)"
+ },
+ "train:359": {
+  "scene": "Apartment (Monica, Ross, Chandler present)",
+  "raw": "Apartment (Monica, Ross, Chandler present)"
+ },
+ "train:360": {
+  "scene": "Central Perk. Ross, Rachel present.",
+  "raw": "Central Perk. Ross, Rachel present."
+ },
+ "train:361": {
+  "scene": "Monica and Ross's apartment (Rachel, Monica, Ross present)",
+  "raw": "Monica and Ross's apartment (Rachel, Monica, Ross present)"
+ },
+ "train:362": {
+  "scene": "Central Perk. Carol and Rachel are present.",
+  "raw": "Central Perk. Carol and Rachel are present."
+ },
+ "train:363": {
+  "scene": "Apartment (Monica, Chandler, Joey, Ross, Rachel, Phoebe)",
+  "raw": "Apartment (Monica, Chandler, Joey, Ross, Rachel, Phoebe)"
+ },
+ "train:364": {
+  "scene": "Airplane, Rachel and Flight Attendant present.",
+  "raw": "Airplane, Rachel and Flight Attendant present."
+ },
+ "train:365": {
+  "scene": "Central Perk Coffee Shop. Chandler is present. (Janice is implied but not explicitly stated.)",
+  "raw": "Central Perk Coffee Shop. Chandler is present. (Janice is implied but not explicitly stated.)"
+ },
+ "train:366": {
+  "scene": "Central Perk. Chandler and Joey are present.",
+  "raw": "Central Perk. Chandler and Joey are present."
+ },
+ "train:367": {
+  "scene": "Central Perk coffee shop. Ross is present.",
+  "raw": "Central Perk coffee shop. Ross is present."
+ },
+ "train:368": {
+  "scene": "Central Perk Coffee House. Ross, Rachel, Monica, Chandler, Joey, and Gunther are present.",
+  "raw": "Central Perk Coffee House. Ross, Rachel, Monica, Chandler, Joey, and Gunther are present."
+ },
+ "train:369": {
+  "scene": "Apartment (Ross, Sarah, Chandler)",
+  "raw": "Apartment (Ross, Sarah, Chandler)"
+ },
+ "train:370": {
+  "scene": "Apartment (Monica, Joey)",
+  "raw": "Apartment (Monica, Joey)"
+ },
+ "train:371": {
+  "scene": "Central Perk Coffee Shop. Phoebe and Roger present.",
+  "raw": "Central Perk Coffee Shop. Phoebe and Roger present."
+ },
+ "train:372": {
+  "scene": "Central Perk Coffeehouse. Chandler, Joey present.",
+  "raw": "Central Perk Coffeehouse. Chandler, Joey present."
+ },
+ "train:373": {
+  "scene": "Central Perk coffee shop. Monica and Chandler are present.",
+  "raw": "Central Perk coffee shop. Monica and Chandler are present."
+ },
+ "train:374": {
+  "scene": "Central Perk Coffee Shop. Rachel and Mr. Zelner present.",
+  "raw": "Central Perk Coffee Shop. Rachel and Mr. Zelner present."
+ },
+ "train:375": {
+  "scene": "Apartment (Joey, Phoebe)",
+  "raw": "Apartment (Joey, Phoebe)"
+ },
+ "train:376": {
+  "scene": "Central Perk Coffee Shop. Ross is present.",
+  "raw": "Central Perk Coffee Shop. Ross is present."
+ },
+ "train:377": {
+  "scene": "Apartment (Monica, Chandler, Ross, Rachel, Phoebe, Joey)",
+  "raw": "Apartment (Monica, Chandler, Ross, Rachel, Phoebe, Joey)"
+ },
+ "train:378": {
+  "scene": "Central Perk. Mark and Rachel are present.",
+  "raw": "Central Perk. Mark and Rachel are present."
+ },
+ "train:379": {
+  "scene": "Apartment (Monica, Rachel, Mark)",
+  "raw": "Apartment (Monica, Rachel, Mark)"
+ },
+ "train:380": {
+  "scene": "Apartment (Monica, Chandler, Joey)",
+  "raw": "Apartment (Monica, Chandler, Joey)"
+ },
+ "train:381": {
+  "scene": "Apartment (Joey, Dina)",
+  "raw": "Apartment (Joey, Dina)"
+ },
+ "train:382": {
+  "scene": "Apartment (Chandler, Joey)",
+  "raw": "Apartment (Chandler, Joey)"
+ },
+ "train:383": {
+  "scene": "Central Perk coffee shop. Phoebe Buffay and Jim Nelson are present.",
+  "raw": "Central Perk coffee shop. Phoebe Buffay and Jim Nelson are present."
+ },
+ "train:384": {
+  "scene": "Central Perk coffee shop. Phoebe, Ross present.",
+  "raw": "Central Perk coffee shop. Phoebe, Ross present."
+ },
+ "train:385": {
+  "scene": "Central Perk Coffeehouse. Ross, Rachel, Monica, Chandler, Joey, and Gunther are present.",
+  "raw": "Central Perk Coffeehouse. Ross, Rachel, Monica, Chandler, Joey, and Gunther are present."
+ },
+ "train:386": {
+  "scene": "Central Perk. Phoebe, Monica, and Ross are present.",
+  "raw": "Central Perk. Phoebe, Monica, and Ross are present."
+ },
+ "train:387": {
+  "scene": "Kitchen (Monica, Joey)",
+  "raw": "Kitchen (Monica, Joey)"
+ },
+ "train:388": {
+  "scene": "Apartment (Monica, Phoebe, Ross, Chandler, Joey, Rachel)",
+  "raw": "Apartment (Monica, Phoebe, Ross, Chandler, Joey, Rachel)"
+ },
+ "train:389": {
+  "scene": "Central Perk Coffee Shop. Rachel and Joey are present.",
+  "raw": "Central Perk Coffee Shop. Rachel and Joey are present."
+ },
+ "train:390": {
+  "scene": "Central Perk Coffeehouse. Joey, Chandler, Ross, Rachel, Phoebe, and Gunther are present.",
+  "raw": "Central Perk Coffeehouse. Joey, Chandler, Ross, Rachel, Phoebe, and Gunther are present."
+ },
+ "train:391": {
+  "scene": "Central Perk coffee shop. Joey and Phoebe are present.",
+  "raw": "Central Perk coffee shop. Joey and Phoebe are present."
+ },
+ "train:392": {
+  "scene": "Central Perk Coffee Shop. Joey, Ross, and Emily are present.",
+  "raw": "Central Perk Coffee Shop. Joey, Ross, and Emily are present."
+ },
+ "train:393": {
+  "scene": "Living room (Monica, Chandler, Joey, Ross, Rachel, Mrs. Geller)",
+  "raw": "Living room (Monica, Chandler, Joey, Ross, Rachel, Mrs. Geller)"
+ },
+ "train:394": {
+  "scene": "Apartment (Joey, Ross)",
+  "raw": "Apartment (Joey, Ross)"
+ },
+ "train:395": {
+  "scene": "Central Perk Coffee Shop. Ross, Rachel, Monica, Chandler, Joey, and Gunther are present.",
+  "raw": "Central Perk Coffee Shop. Ross, Rachel, Monica, Chandler, Joey, and Gunther are present."
+ },
+ "train:396": {
+  "scene": "Apartment kitchen. Joey and Ross present.",
+  "raw": "Apartment kitchen. Joey and Ross present."
+ },
+ "train:397": {
+  "scene": "Central Perk Coffeehouse. Phoebe, Rachel present.",
+  "raw": "Central Perk Coffeehouse. Phoebe, Rachel present."
+ },
+ "train:398": {
+  "scene": "Central Perk Coffee Shop. Rachel, Ross, and other Friends characters are present.",
+  "raw": "Central Perk Coffee Shop. Rachel, Ross, and other Friends characters are present."
+ },
+ "train:399": {
+  "scene": "Central Perk Coffeehouse. Rachel, Phoebe present.",
+  "raw": "Central Perk Coffeehouse. Rachel, Phoebe present."
+ },
+ "train:400": {
+  "scene": "A three-bedroom house by the ocean, with Phoebe Sr present.",
+  "raw": "A three-bedroom house by the ocean, with Phoebe Sr present."
+ },
+ "train:401": {
+  "scene": "Apartment (Chandler, Joey)",
+  "raw": "Apartment (Chandler, Joey)"
+ },
+ "train:402": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:403": {
+  "scene": "Apartment (Joey, Chandler)",
+  "raw": "Apartment (Joey, Chandler)"
+ },
+ "train:404": {
+  "scene": "Central Perk. Chandler is present.",
+  "raw": "Central Perk. Chandler is present."
+ },
+ "train:405": {
+  "scene": "Apartment (Monica, Rachel, Ross, Joey, Chandler)",
+  "raw": "Apartment (Monica, Rachel, Ross, Joey, Chandler)"
+ },
+ "train:406": {
+  "scene": "Apartment (Joey, Phoebe)",
+  "raw": "Apartment (Joey, Phoebe)"
+ },
+ "train:407": {
+  "scene": "Apartment (Rachel, Phoebe)",
+  "raw": "Apartment (Rachel, Phoebe)"
+ },
+ "train:408": {
+  "scene": "Central Perk. Rachel and Chandler are present.",
+  "raw": "Central Perk. Rachel and Chandler are present."
+ },
+ "train:409": {
+  "scene": "Apartment (Ross, Carl, Rachel)",
+  "raw": "Apartment (Ross, Carl, Rachel)"
+ },
+ "train:410": {
+  "scene": "Apartment (Ross, Phoebe)",
+  "raw": "Apartment (Ross, Phoebe)"
+ },
+ "train:411": {
+  "scene": "The scene takes place at Joey and Chandler's apartment, with Phoebe, Joey, Chandler, and Ross present.",
+  "raw": "The scene takes place at Joey and Chandler's apartment, with Phoebe, Joey, Chandler, and Ross present."
+ },
+ "train:412": {
+  "scene": "Ross's new apartment. Joey is present.",
+  "raw": "Ross's new apartment. Joey is present."
+ },
+ "train:413": {
+  "scene": "Apartment (Joey, Chandler, Monica)",
+  "raw": "Apartment (Joey, Chandler, Monica)"
+ },
+ "train:414": {
+  "scene": "Central Perk. Ross, Joey present.",
+  "raw": "Central Perk. Ross, Joey present."
+ },
+ "train:415": {
+  "scene": "Central Perk Coffeehouse. Rachel, Phoebe, and Chandler are present.",
+  "raw": "Central Perk Coffeehouse. Rachel, Phoebe, and Chandler are present."
+ },
+ "train:416": {
+  "scene": "Monica and Chandler's apartment",
+  "raw": "Monica and Chandler's apartment"
+ },
+ "train:417": {
+  "scene": "Apartment (Joey, Unnamed Man)",
+  "raw": "Apartment (Joey, Unnamed Man)"
+ },
+ "train:418": {
+  "scene": "Apartment (Monica, Chandler, Ross)",
+  "raw": "Apartment (Monica, Chandler, Ross)"
+ },
+ "train:419": {
+  "scene": "Central Perk Coffeehouse. Phoebe, Rachel present.",
+  "raw": "Central Perk Coffeehouse. Phoebe, Rachel present."
+ },
+ "train:420": {
+  "scene": "Apartment (Joey)",
+  "raw": "Apartment (Joey)"
+ },
+ "train:421": {
+  "scene": "Central Perk Coffee Shop. Chandler, Phoebe present.",
+  "raw": "Central Perk Coffee Shop. Chandler, Phoebe present."
+ },
+ "train:422": {
+  "scene": "Monica's apartment (Monica present)",
+  "raw": "Monica's apartment (Monica present)"
+ },
+ "train:423": {
+  "scene": "Apartment (Ross, Chandler present)",
+  "raw": "Apartment (Ross, Chandler present)"
+ },
+ "train:424": {
+  "scene": "Apartment (Rachel, Phoebe)",
+  "raw": "Apartment (Rachel, Phoebe)"
+ },
+ "train:425": {
+  "scene": "Central Perk coffee shop. Phoebe is present.",
+  "raw": "Central Perk coffee shop. Phoebe is present."
+ },
+ "train:426": {
+  "scene": "Apartment (Monica, Joey)",
+  "raw": "Apartment (Monica, Joey)"
+ },
+ "train:427": {
+  "scene": "Apartment (Chandler, Phoebe)",
+  "raw": "Apartment (Chandler, Phoebe)"
+ },
+ "train:428": {
+  "scene": "Central Perk. Joey and Chandler are present.",
+  "raw": "Central Perk. Joey and Chandler are present."
+ },
+ "train:429": {
+  "scene": "Apartment (Ross, Rachel, Phoebe)",
+  "raw": "Apartment (Ross, Rachel, Phoebe)"
+ },
+ "train:430": {
+  "scene": "Central Perk coffee shop. Joey, Phoebe, and other Friends are present.",
+  "raw": "Central Perk coffee shop. Joey, Phoebe, and other Friends are present."
+ },
+ "train:431": {
+  "scene": "Central Perk Coffeehouse. Phoebe, Chandler, Monica, Rachel, Ross, and Joey are present.",
+  "raw": "Central Perk Coffeehouse. Phoebe, Chandler, Monica, Rachel, Ross, and Joey are present."
+ },
+ "train:432": {
+  "scene": "Central Perk. Ross, Rachel present.",
+  "raw": "Central Perk. Ross, Rachel present."
+ },
+ "train:433": {
+  "scene": "Central Perk Coffeehouse. Rachel is present.",
+  "raw": "Central Perk Coffeehouse. Rachel is present."
+ },
+ "train:434": {
+  "scene": "Apartment (Ross, Rachel, Mrs. Geller)",
+  "raw": "Apartment (Ross, Rachel, Mrs. Geller)"
+ },
+ "train:435": {
+  "scene": "On a river, Joey is present.",
+  "raw": "On a river, Joey is present."
+ },
+ "train:436": {
+  "scene": "Apartment (Chandler, Phoebe, Joey)",
+  "raw": "Apartment (Chandler, Phoebe, Joey)"
+ },
+ "train:437": {
+  "scene": "Richard's apartment. Richard and Richard's Date present.",
+  "raw": "Richard's apartment. Richard and Richard's Date present."
+ },
+ "train:438": {
+  "scene": "Central Perk Coffeehouse. Phoebe, Frank present.",
+  "raw": "Central Perk Coffeehouse. Phoebe, Frank present."
+ },
+ "train:439": {
+  "scene": "Apartment (Phoebe, Monica)",
+  "raw": "Apartment (Phoebe, Monica)"
+ },
+ "train:440": {
+  "scene": "Central Perk Coffee Shop. Ross, Mona, and Mona's Date are present.",
+  "raw": "Central Perk Coffee Shop. Ross, Mona, and Mona's Date are present."
+ },
+ "train:441": {
+  "scene": "Apartment kitchen (Joey, Ross, Chandler present)",
+  "raw": "Apartment kitchen (Joey, Ross, Chandler present)"
+ },
+ "train:442": {
+  "scene": "Central Perk coffee shop. Monica and Rachel are present.",
+  "raw": "Central Perk coffee shop. Monica and Rachel are present."
+ },
+ "train:443": {
+  "scene": "Apartment (Ross, Lydia, Guy)",
+  "raw": "Apartment (Ross, Lydia, Guy)"
+ },
+ "train:444": {
+  "scene": "Central Perk Coffee Shop. Phoebe and Rachel present.",
+  "raw": "Central Perk Coffee Shop. Phoebe and Rachel present."
+ },
+ "train:445": {
+  "scene": "Central Perk Coffeehouse. Phoebe and Chandler are present.",
+  "raw": "Central Perk Coffeehouse. Phoebe and Chandler are present."
+ },
+ "train:446": {
+  "scene": "Apartment (Joey, Phoebe)",
+  "raw": "Apartment (Joey, Phoebe)"
+ },
+ "train:447": {
+  "scene": "Central Perk coffee shop. Phoebe, Rachel, and (implied) other Friends are present.",
+  "raw": "Central Perk coffee shop. Phoebe, Rachel, and (implied) other Friends are present."
+ },
+ "train:448": {
+  "scene": "Central Perk. Ross is present.",
+  "raw": "Central Perk. Ross is present."
+ },
+ "train:449": {
+  "scene": "Apartment (Phoebe, Ross, Monica)",
+  "raw": "Apartment (Phoebe, Ross, Monica)"
+ },
+ "train:450": {
+  "scene": "Apartment (Monica, Chandler, Mike)",
+  "raw": "Apartment (Monica, Chandler, Mike)"
+ },
+ "train:451": {
+  "scene": "Apartment (Joey, Rachel)",
+  "raw": "Apartment (Joey, Rachel)"
+ },
+ "train:452": {
+  "scene": "Apartment (Chandler, Joey)",
+  "raw": "Apartment (Chandler, Joey)"
+ },
+ "train:453": {
+  "scene": "Central Perk. Phoebe, Rachel, and (implied) Roger are present.",
+  "raw": "Central Perk. Phoebe, Rachel, and (implied) Roger are present."
+ },
+ "train:454": {
+  "scene": "Central Perk Coffee Shop. Rachel and Julie present.",
+  "raw": "Central Perk Coffee Shop. Rachel and Julie present."
+ },
+ "train:455": {
+  "scene": "Central Perk Coffeehouse. Phoebe, Chandler present.",
+  "raw": "Central Perk Coffeehouse. Phoebe, Chandler present."
+ },
+ "train:456": {
+  "scene": "Apartment (Rachel, Barry)",
+  "raw": "Apartment (Rachel, Barry)"
+ },
+ "train:457": {
+  "scene": "Apartment (Monica, Chandler, Joey, Ross, Rachel)",
+  "raw": "Apartment (Monica, Chandler, Joey, Ross, Rachel)"
+ },
+ "train:458": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "train:459": {
+  "scene": "Central Perk. Joey and Phoebe are present.",
+  "raw": "Central Perk. Joey and Phoebe are present."
+ },
+ "train:460": {
+  "scene": "Central Perk. Phoebe, Chandler, and Ross are present.",
+  "raw": "Central Perk. Phoebe, Chandler, and Ross are present."
+ },
+ "train:461": {
+  "scene": "Apartment (Chandler, Joey)",
+  "raw": "Apartment (Chandler, Joey)"
+ },
+ "train:462": {
+  "scene": "Apartment (Rachel, Chandler)",
+  "raw": "Apartment (Rachel, Chandler)"
+ },
+ "train:463": {
+  "scene": "Central Perk. Tag, Rachel present.",
+  "raw": "Central Perk. Tag, Rachel present."
+ },
+ "train:464": {
+  "scene": "Apartment (Monica, Phoebe, Joey)",
+  "raw": "Apartment (Monica, Phoebe, Joey)"
+ },
+ "train:465": {
+  "scene": "Apartment (Joey, Chandler)",
+  "raw": "Apartment (Joey, Chandler)"
+ },
+ "train:466": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "train:467": {
+  "scene": "Apartment (Monica, Phoebe, and an unspecified stripper)",
+  "raw": "Apartment (Monica, Phoebe, and an unspecified stripper)"
+ },
+ "train:468": {
+  "scene": "Hospital examination room. Rachel, Marc, and unnamed doctor are present.",
+  "raw": "Hospital examination room. Rachel, Marc, and unnamed doctor are present."
+ },
+ "train:469": {
+  "scene": "Central Perk - Ross, Julie, Rachel (implied)",
+  "raw": "Central Perk - Ross, Julie, Rachel (implied)"
+ },
+ "train:470": {
+  "scene": "Central Perk. Rachel, Ross, and Julie are present.",
+  "raw": "Central Perk. Rachel, Ross, and Julie are present."
+ },
+ "train:471": {
+  "scene": "Apartment (Ross, Rachel)",
+  "raw": "Apartment (Ross, Rachel)"
+ },
+ "train:472": {
+  "scene": "Monica and Rachel's apartment (living room)",
+  "raw": "Monica and Rachel's apartment (living room)"
+ },
+ "train:473": {
+  "scene": "Apartment (Monica, Phoebe, Rachel)",
+  "raw": "Apartment (Monica, Phoebe, Rachel)"
+ },
+ "train:474": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "train:475": {
+  "scene": "Apartment bathroom. Ross, Monica present.",
+  "raw": "Apartment bathroom. Ross, Monica present."
+ },
+ "train:476": {
+  "scene": "Central Perk. Ross and Monica present.",
+  "raw": "Central Perk. Ross and Monica present."
+ },
+ "train:477": {
+  "scene": "Apartment (Chandler, Joey, Monica)",
+  "raw": "Apartment (Chandler, Joey, Monica)"
+ },
+ "train:478": {
+  "scene": "Apartment (Chandler, Joey not present) and Central Perk (Dana)",
+  "raw": "Apartment (Chandler, Joey not present) and Central Perk (Dana)"
+ },
+ "train:479": {
+  "scene": "Apartment (Ross, Tag)",
+  "raw": "Apartment (Ross, Tag)"
+ },
+ "train:480": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "train:481": {
+  "scene": "Apartment building, Phoebe and a fireman (or fireman-officer) present.",
+  "raw": "Apartment building, Phoebe and a fireman (or fireman-officer) present."
+ },
+ "train:482": {
+  "scene": "Apartment (Monica, Chandler, Ross)",
+  "raw": "Apartment (Monica, Chandler, Ross)"
+ },
+ "train:483": {
+  "scene": "Central Perk Coffee Shop. Joey and unnamed receptionist present.",
+  "raw": "Central Perk Coffee Shop. Joey and unnamed receptionist present."
+ },
+ "train:484": {
+  "scene": "Central Perk Coffee Shop. Ross, Rachel, Monica, Chandler, Joey, and Gunther are present.",
+  "raw": "Central Perk Coffee Shop. Ross, Rachel, Monica, Chandler, Joey, and Gunther are present."
+ },
+ "train:485": {
+  "scene": "Apartment (Chandler, Joey)",
+  "raw": "Apartment (Chandler, Joey)"
+ },
+ "train:486": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "train:487": {
+  "scene": "Apartment (Monica, Chandler, Phoebe, Rachel)",
+  "raw": "Apartment (Monica, Chandler, Phoebe, Rachel)"
+ },
+ "train:488": {
+  "scene": "Central Park. Rachel, Ross, and (implied) Monica are present.",
+  "raw": "Central Park. Rachel, Ross, and (implied) Monica are present."
+ },
+ "train:489": {
+  "scene": "Apartment (Monica, Chandler, Joey)",
+  "raw": "Apartment (Monica, Chandler, Joey)"
+ },
+ "train:490": {
+  "scene": "Central Perk Coffeehouse. Phoebe, Monica, and Ross are present.",
+  "raw": "Central Perk Coffeehouse. Phoebe, Monica, and Ross are present."
+ },
+ "train:491": {
+  "scene": "Apartment (Monica, Ross, Joey)",
+  "raw": "Apartment (Monica, Ross, Joey)"
+ },
+ "train:492": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "train:493": {
+  "scene": "Central Perk Coffeehouse. Joey, Chandler, Ross, Rachel, Phoebe are present.",
+  "raw": "Central Perk Coffeehouse. Joey, Chandler, Ross, Rachel, Phoebe are present."
+ },
+ "train:494": {
+  "scene": "Roadside, Phoebe and Monica",
+  "raw": "Roadside, Phoebe and Monica"
+ },
+ "train:495": {
+  "scene": "Roadside rest stop on an unspecified highway (Rachel, Phoebe)",
+  "raw": "Roadside rest stop on an unspecified highway (Rachel, Phoebe)"
+ },
+ "train:496": {
+  "scene": "Central Perk Coffee Shop. Joey and Chandler are present.",
+  "raw": "Central Perk Coffee Shop. Joey and Chandler are present."
+ },
+ "train:497": {
+  "scene": "Apartment (Monica)",
+  "raw": "Apartment (Monica)"
+ },
+ "train:498": {
+  "scene": "Central Perk coffee shop. Rachel and Phoebe are present.",
+  "raw": "Central Perk coffee shop. Rachel and Phoebe are present."
+ },
+ "train:499": {
+  "scene": "Apartment (Chandler, Joey)",
+  "raw": "Apartment (Chandler, Joey)"
+ },
+ "train:500": {
+  "scene": "Gym (Tag, Joey)",
+  "raw": "Gym (Tag, Joey)"
+ },
+ "train:501": {
+  "scene": "Apartment (Monica, Phoebe, Rachel) - Phoebe has a tattoo.",
+  "raw": "Apartment (Monica, Phoebe, Rachel) - Phoebe has a tattoo."
+ },
+ "train:502": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:503": {
+  "scene": "Apartment (Joey, Monica, Chandler)",
+  "raw": "Apartment (Joey, Monica, Chandler)"
+ },
+ "train:504": {
+  "scene": "Central Perk coffee shop. Ross and Phoebe are present.",
+  "raw": "Central Perk coffee shop. Ross and Phoebe are present."
+ },
+ "train:505": {
+  "scene": "Central Perk. Ross is present.",
+  "raw": "Central Perk. Ross is present."
+ },
+ "train:506": {
+  "scene": "Apartment (Monica)",
+  "raw": "Apartment (Monica)"
+ },
+ "train:507": {
+  "scene": "Apartment (Joey, Ross, Casting Director)",
+  "raw": "Apartment (Joey, Ross, Casting Director)"
+ },
+ "train:508": {
+  "scene": "Apartment (Rachel, Ross)",
+  "raw": "Apartment (Rachel, Ross)"
+ },
+ "train:509": {
+  "scene": "Apartment (Ross, Ross' ex-wife, and her friend)",
+  "raw": "Apartment (Ross, Ross' ex-wife, and her friend)"
+ },
+ "train:510": {
+  "scene": "Apartment (Rachel, Ross)",
+  "raw": "Apartment (Rachel, Ross)"
+ },
+ "train:511": {
+  "scene": "Central Perk Coffeehouse. Rachel and Phoebe are present.",
+  "raw": "Central Perk Coffeehouse. Rachel and Phoebe are present."
+ },
+ "train:512": {
+  "scene": "Central Perk. Tag and Rachel present.",
+  "raw": "Central Perk. Tag and Rachel present."
+ },
+ "train:513": {
+  "scene": "Central Perk Coffee Shop. Joey and Stage Director are present.",
+  "raw": "Central Perk Coffee Shop. Joey and Stage Director are present."
+ },
+ "train:514": {
+  "scene": "Central Perk. Gunther, Monica, Phoebe present.",
+  "raw": "Central Perk. Gunther, Monica, Phoebe present."
+ },
+ "train:515": {
+  "scene": "Central Perk. Chandler, Monica present.",
+  "raw": "Central Perk. Chandler, Monica present."
+ },
+ "train:516": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "train:517": {
+  "scene": "Central Perk Coffee Shop. Joey and Kate are present.",
+  "raw": "Central Perk Coffee Shop. Joey and Kate are present."
+ },
+ "train:518": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:519": {
+  "scene": "Central Perk. Joey, Chandler, Phoebe, and Ross are present.",
+  "raw": "Central Perk. Joey, Chandler, Phoebe, and Ross are present."
+ },
+ "train:520": {
+  "scene": "Central Perk coffee shop. Joey and Chandler are present.",
+  "raw": "Central Perk coffee shop. Joey and Chandler are present."
+ },
+ "train:521": {
+  "scene": "Apartment (Phoebe, Rachel)",
+  "raw": "Apartment (Phoebe, Rachel)"
+ },
+ "train:522": {
+  "scene": "Apartment (Rachel, Unspecified Character)",
+  "raw": "Apartment (Rachel, Unspecified Character)"
+ },
+ "train:523": {
+  "scene": "Central Perk Coffeehouse. Phoebe and Joey are present.",
+  "raw": "Central Perk Coffeehouse. Phoebe and Joey are present."
+ },
+ "train:524": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "train:525": {
+  "scene": "Central Perk coffee shop. Ross and an unnamed woman (Isabella) are present.",
+  "raw": "Central Perk coffee shop. Ross and an unnamed woman (Isabella) are present."
+ },
+ "train:526": {
+  "scene": "Apartment (Monica, Chandler, Phoebe)",
+  "raw": "Apartment (Monica, Chandler, Phoebe)"
+ },
+ "train:527": {
+  "scene": "Apartment (Joey Tribbiani, Rachel Green, Monica Geller)",
+  "raw": "Apartment (Joey Tribbiani, Rachel Green, Monica Geller)"
+ },
+ "train:528": {
+  "scene": "Central Perk Coffee Shop. Rachel and Ross are present.",
+  "raw": "Central Perk Coffee Shop. Rachel and Ross are present."
+ },
+ "train:529": {
+  "scene": "Central Perk. Phoebe, Phoebe Sr.",
+  "raw": "Central Perk. Phoebe, Phoebe Sr."
+ },
+ "train:530": {
+  "scene": "Central Perk coffee shop. Ross and a student are present.",
+  "raw": "Central Perk coffee shop. Ross and a student are present."
+ },
+ "train:531": {
+  "scene": "Central Perk. Chandler and Joey are present.",
+  "raw": "Central Perk. Chandler and Joey are present."
+ },
+ "train:532": {
+  "scene": "Mr. Zelner's office, Rachel, Ross (implied), and Betty (character) present.",
+  "raw": "Mr. Zelner's office, Rachel, Ross (implied), and Betty (character) present."
+ },
+ "train:533": {
+  "scene": "Apartment (Phoebe, Cassie)",
+  "raw": "Apartment (Phoebe, Cassie)"
+ },
+ "train:534": {
+  "scene": "Apartment (Monica, Chandler, Joey)",
+  "raw": "Apartment (Monica, Chandler, Joey)"
+ },
+ "train:535": {
+  "scene": "Apartment (Rachel, Monica)",
+  "raw": "Apartment (Rachel, Monica)"
+ },
+ "train:536": {
+  "scene": "Nightclub, Joey and unnamed tall man present",
+  "raw": "Nightclub, Joey and unnamed tall man present"
+ },
+ "train:537": {
+  "scene": "Monica and Rachel's apartment (Rachel, Ross)",
+  "raw": "Monica and Rachel's apartment (Rachel, Ross)"
+ },
+ "train:538": {
+  "scene": "Central Perk. Rachel, Joey, and Ross are present.",
+  "raw": "Central Perk. Rachel, Joey, and Ross are present."
+ },
+ "train:539": {
+  "scene": "Apartment building, Monica and Joey present",
+  "raw": "Apartment building, Monica and Joey present"
+ },
+ "train:540": {
+  "scene": "Apartment (Ross, Carol)",
+  "raw": "Apartment (Ross, Carol)"
+ },
+ "train:541": {
+  "scene": "The physical setting is Central Perk coffee shop. Rachel, Monica, Phoebe, and an unspecified number of customers are present.",
+  "raw": "The physical setting is Central Perk coffee shop. Rachel, Monica, Phoebe, and an unspecified number of customers are present."
+ },
+ "train:542": {
+  "scene": "Apartment (Rachel, Joshua)",
+  "raw": "Apartment (Rachel, Joshua)"
+ },
+ "train:543": {
+  "scene": "Central Perk coffee shop. Joshua and Rachel present.",
+  "raw": "Central Perk coffee shop. Joshua and Rachel present."
+ },
+ "train:544": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "train:545": {
+  "scene": "Apartment (Monica, Joey, Rachel)",
+  "raw": "Apartment (Monica, Joey, Rachel)"
+ },
+ "train:546": {
+  "scene": "Central Perk. Rachel and Barry are present.",
+  "raw": "Central Perk. Rachel and Barry are present."
+ },
+ "train:547": {
+  "scene": "Apartment (Chandler, Monica, Rachel)",
+  "raw": "Apartment (Chandler, Monica, Rachel)"
+ },
+ "train:548": {
+  "scene": "Hospital (Joey Tribbiani, Receptionist)",
+  "raw": "Hospital (Joey Tribbiani, Receptionist)"
+ },
+ "train:549": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:550": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "train:551": {
+  "scene": "Apartment (Monica, Julie, Chandler)",
+  "raw": "Apartment (Monica, Julie, Chandler)"
+ },
+ "train:552": {
+  "scene": "Apartment (Monica, Ross)",
+  "raw": "Apartment (Monica, Ross)"
+ },
+ "train:553": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "train:554": {
+  "scene": "Central Perk Coffee Shop. Ross, Elizabeth present.",
+  "raw": "Central Perk Coffee Shop. Ross, Elizabeth present."
+ },
+ "train:555": {
+  "scene": "Apartment (Joey, Ross)",
+  "raw": "Apartment (Joey, Ross)"
+ },
+ "train:556": {
+  "scene": "Apartment (Ross, Katie)",
+  "raw": "Apartment (Ross, Katie)"
+ },
+ "train:557": {
+  "scene": "Apartment (Rachel, Chandler)",
+  "raw": "Apartment (Rachel, Chandler)"
+ },
+ "train:558": {
+  "scene": "High school cafeteria (Chandler, Friends group)",
+  "raw": "High school cafeteria (Chandler, Friends group)"
+ },
+ "train:559": {
+  "scene": "Apartment (Monica, Joey)",
+  "raw": "Apartment (Monica, Joey)"
+ },
+ "train:560": {
+  "scene": "Central Perk (Joey is present)",
+  "raw": "Central Perk (Joey is present)"
+ },
+ "train:561": {
+  "scene": "Apartment (Chandler, Monica)",
+  "raw": "Apartment (Chandler, Monica)"
+ },
+ "train:562": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "train:563": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "train:564": {
+  "scene": "Central Perk. Janice, Chandler, Rachel are present.",
+  "raw": "Central Perk. Janice, Chandler, Rachel are present."
+ },
+ "train:565": {
+  "scene": "Central Perk. Ross is present.",
+  "raw": "Central Perk. Ross is present."
+ },
+ "train:566": {
+  "scene": "Central Perk Coffee Shop. Ross is present.",
+  "raw": "Central Perk Coffee Shop. Ross is present."
+ },
+ "train:567": {
+  "scene": "Central Perk. Ross, Rachel, and (implied) Monica are present.",
+  "raw": "Central Perk. Ross, Rachel, and (implied) Monica are present."
+ },
+ "train:568": {
+  "scene": "Apartment (Ross, Elizabeth)",
+  "raw": "Apartment (Ross, Elizabeth)"
+ },
+ "train:569": {
+  "scene": "Apartment (Monica, Ross)",
+  "raw": "Apartment (Monica, Ross)"
+ },
+ "train:570": {
+  "scene": "Central Perk Coffee Shop. Joey, Ross, and Phoebe are present.",
+  "raw": "Central Perk Coffee Shop. Joey, Ross, and Phoebe are present."
+ },
+ "train:571": {
+  "scene": "Apartment (Rachel, Ross)",
+  "raw": "Apartment (Rachel, Ross)"
+ },
+ "train:572": {
+  "scene": "Apartment (Monica, Chandler, Ross, Rachel, Phoebe)",
+  "raw": "Apartment (Monica, Chandler, Ross, Rachel, Phoebe)"
+ },
+ "train:573": {
+  "scene": "Apartment (Monica, Rachel, Joey)",
+  "raw": "Apartment (Monica, Rachel, Joey)"
+ },
+ "train:574": {
+  "scene": "A kitchen. Rachel and Julie are present.",
+  "raw": "A kitchen. Rachel and Julie are present."
+ },
+ "train:575": {
+  "scene": "Apartment (Chandler, Joey)",
+  "raw": "Apartment (Chandler, Joey)"
+ },
+ "train:576": {
+  "scene": "Apartment (Joey)",
+  "raw": "Apartment (Joey)"
+ },
+ "train:577": {
+  "scene": "Apartment building, Phoebe, Mr. Heckles, Eric, Chandler (implied)",
+  "raw": "Apartment building, Phoebe, Mr. Heckles, Eric, Chandler (implied)"
+ },
+ "train:578": {
+  "scene": "Apartment (Monica, Chandler, Phoebe)",
+  "raw": "Apartment (Monica, Chandler, Phoebe)"
+ },
+ "train:579": {
+  "scene": "Central Perk Coffee Shop. Phoebe, Chandler present.",
+  "raw": "Central Perk Coffee Shop. Phoebe, Chandler present."
+ },
+ "train:580": {
+  "scene": "Central Perk Coffee Shop. Phoebe, Ross, Chandler, Monica, Rachel, and Gunther are present.",
+  "raw": "Central Perk Coffee Shop. Phoebe, Ross, Chandler, Monica, Rachel, and Gunther are present."
+ },
+ "train:581": {
+  "scene": "Central Perk Coffee Shop. Phoebe, Joey, Chandler, Ross, and Gunther are present.",
+  "raw": "Central Perk Coffee Shop. Phoebe, Joey, Chandler, Ross, and Gunther are present."
+ },
+ "train:582": {
+  "scene": "Apartment (Monica, Chandler, Phoebe)",
+  "raw": "Apartment (Monica, Chandler, Phoebe)"
+ },
+ "train:583": {
+  "scene": "Central Perk Coffeehouse. Ross and Mrs. Geller present.",
+  "raw": "Central Perk Coffeehouse. Ross and Mrs. Geller present."
+ },
+ "train:584": {
+  "scene": "Apartment (Ross, Phoebe)",
+  "raw": "Apartment (Ross, Phoebe)"
+ },
+ "train:585": {
+  "scene": "Apartment (Monica, Chandler, Joey, Ross, Rachel)",
+  "raw": "Apartment (Monica, Chandler, Joey, Ross, Rachel)"
+ },
+ "train:586": {
+  "scene": "Central Perk. Rachel, Mark present.",
+  "raw": "Central Perk. Rachel, Mark present."
+ },
+ "train:587": {
+  "scene": "Apartment (Chandler, Monica)",
+  "raw": "Apartment (Chandler, Monica)"
+ },
+ "train:588": {
+  "scene": "Central Perk, Phoebe and Earl present",
+  "raw": "Central Perk, Phoebe and Earl present"
+ },
+ "train:589": {
+  "scene": "Apartment (Ross, Monica, Chandler)",
+  "raw": "Apartment (Ross, Monica, Chandler)"
+ },
+ "train:590": {
+  "scene": "Apartment (Monica, Chandler, Ross, Joey)",
+  "raw": "Apartment (Monica, Chandler, Ross, Joey)"
+ },
+ "train:591": {
+  "scene": "Apartment (Ross, Phoebe)",
+  "raw": "Apartment (Ross, Phoebe)"
+ },
+ "train:592": {
+  "scene": "Central Perk Coffee Shop. Ross, Chandler, and Phoebe are present.",
+  "raw": "Central Perk Coffee Shop. Ross, Chandler, and Phoebe are present."
+ },
+ "train:593": {
+  "scene": "Apartment (Joey)",
+  "raw": "Apartment (Joey)"
+ },
+ "train:594": {
+  "scene": "Airplane - Monica, Chandler",
+  "raw": "Airplane - Monica, Chandler"
+ },
+ "train:595": {
+  "scene": "Apartment (Joey, Chandler, Phoebe)",
+  "raw": "Apartment (Joey, Chandler, Phoebe)"
+ },
+ "train:596": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:597": {
+  "scene": "Apartment (Ross)",
+  "raw": "Apartment (Ross)"
+ },
+ "train:598": {
+  "scene": "Apartment (Monica, Chandler, Joey)",
+  "raw": "Apartment (Monica, Chandler, Joey)"
+ },
+ "train:599": {
+  "scene": "Central Perk Coffee Shop. Helena, Chandler present.",
+  "raw": "Central Perk Coffee Shop. Helena, Chandler present."
+ },
+ "train:600": {
+  "scene": "Central Perk. Phoebe and Monica present.",
+  "raw": "Central Perk. Phoebe and Monica present."
+ },
+ "train:601": {
+  "scene": "Apartment (Monica, Angela)",
+  "raw": "Apartment (Monica, Angela)"
+ },
+ "train:602": {
+  "scene": "Living room. Ross, Ben (implied)",
+  "raw": "Living room. Ross, Ben (implied)"
+ },
+ "train:603": {
+  "scene": "Central Perk Coffee Shop. Monica, Phoebe present.",
+  "raw": "Central Perk Coffee Shop. Monica, Phoebe present."
+ },
+ "train:604": {
+  "scene": "Central Perk. Ross, Rachel (off-screen), unidentified man.",
+  "raw": "Central Perk. Ross, Rachel (off-screen), unidentified man."
+ },
+ "train:605": {
+  "scene": "Apartment (Monica, Steve)",
+  "raw": "Apartment (Monica, Steve)"
+ },
+ "train:606": {
+  "scene": "Central Perk. Joey, Ross, and Chandler are present.",
+  "raw": "Central Perk. Joey, Ross, and Chandler are present."
+ },
+ "train:607": {
+  "scene": "Apartment (Monica, Chandler, Joey, Ross, Rachel, Phoebe)",
+  "raw": "Apartment (Monica, Chandler, Joey, Ross, Rachel, Phoebe)"
+ },
+ "train:608": {
+  "scene": "Apartment (Monica, Chandler, Rachel)",
+  "raw": "Apartment (Monica, Chandler, Rachel)"
+ },
+ "train:609": {
+  "scene": "Central Perk coffee shop. Ross and Charlie are present.",
+  "raw": "Central Perk coffee shop. Ross and Charlie are present."
+ },
+ "train:610": {
+  "scene": "Apartment (Monica, Ross, Chandler)",
+  "raw": "Apartment (Monica, Ross, Chandler)"
+ },
+ "train:611": {
+  "scene": "Apartment (Joey, Chandler)",
+  "raw": "Apartment (Joey, Chandler)"
+ },
+ "train:612": {
+  "scene": "Central Perk Cafe. Ross, Phoebe, and Monica are present.",
+  "raw": "Central Perk Cafe. Ross, Phoebe, and Monica are present."
+ },
+ "train:613": {
+  "scene": "Central Perk. Kim, Nancy, and Rachel are present.",
+  "raw": "Central Perk. Kim, Nancy, and Rachel are present."
+ },
+ "train:614": {
+  "scene": "Apartment (Monica, Chandler, Phoebe, Ross, Rachel, Joey)",
+  "raw": "Apartment (Monica, Chandler, Phoebe, Ross, Rachel, Joey)"
+ },
+ "train:615": {
+  "scene": "Apartment (Joey, Monica)",
+  "raw": "Apartment (Joey, Monica)"
+ },
+ "train:616": {
+  "scene": "Central Perk Coffeehouse. Phoebe and Monica present.",
+  "raw": "Central Perk Coffeehouse. Phoebe and Monica present."
+ },
+ "train:617": {
+  "scene": "Apartment (Monica, Rachel, Janice, Aaron Litman)",
+  "raw": "Apartment (Monica, Rachel, Janice, Aaron Litman)"
+ },
+ "train:618": {
+  "scene": "Central Perk. Janice and Rachel are present.",
+  "raw": "Central Perk. Janice and Rachel are present."
+ },
+ "train:619": {
+  "scene": "Central Perk Coffeehouse. Phoebe, Joey, Chandler, Ross, and Gunther are present.",
+  "raw": "Central Perk Coffeehouse. Phoebe, Joey, Chandler, Ross, and Gunther are present."
+ },
+ "train:620": {
+  "scene": "Central Perk. Ross, Rachel, and new people are present.",
+  "raw": "Central Perk. Ross, Rachel, and new people are present."
+ },
+ "train:621": {
+  "scene": "Central Perk Coffee Shop. Rachel and Phoebe are present.",
+  "raw": "Central Perk Coffee Shop. Rachel and Phoebe are present."
+ },
+ "train:622": {
+  "scene": "Apartment (Joey)",
+  "raw": "Apartment (Joey)"
+ },
+ "train:623": {
+  "scene": "Central Perk Coffee Shop. Ross, Chandler, Monica, Rachel, Phoebe, and Joey are present.",
+  "raw": "Central Perk Coffee Shop. Ross, Chandler, Monica, Rachel, Phoebe, and Joey are present."
+ },
+ "train:624": {
+  "scene": "Apartment (Ross, Joey)",
+  "raw": "Apartment (Ross, Joey)"
+ },
+ "train:625": {
+  "scene": "Apartment (Monica, Joey, Chandler)",
+  "raw": "Apartment (Monica, Joey, Chandler)"
+ },
+ "train:626": {
+  "scene": "Central Perk Coffee Shop. Phoebe, Ross, Chandler, Monica, Rachel, and Gunther are present.",
+  "raw": "Central Perk Coffee Shop. Phoebe, Ross, Chandler, Monica, Rachel, and Gunther are present."
+ },
+ "train:627": {
+  "scene": "Apartment (Joey)",
+  "raw": "Apartment (Joey)"
+ },
+ "train:628": {
+  "scene": "Apartment (Ross, Carol)",
+  "raw": "Apartment (Ross, Carol)"
+ },
+ "train:629": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "train:630": {
+  "scene": "Apartment (Monica, Chandler, Joey, Rachel)",
+  "raw": "Apartment (Monica, Chandler, Joey, Rachel)"
+ },
+ "train:631": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "train:632": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "train:633": {
+  "scene": "Apartment (Ross, Rachel)",
+  "raw": "Apartment (Ross, Rachel)"
+ },
+ "train:634": {
+  "scene": "First Class Lounge. Monica and Chandler present.",
+  "raw": "First Class Lounge. Monica and Chandler present."
+ },
+ "train:635": {
+  "scene": "Apartment (Monica, Chandler, Joey, Ross, Rachel)",
+  "raw": "Apartment (Monica, Chandler, Joey, Ross, Rachel)"
+ },
+ "train:636": {
+  "scene": "Apartment (Joey, Ross)",
+  "raw": "Apartment (Joey, Ross)"
+ },
+ "train:637": {
+  "scene": "Ross's apartment (Ross, Mr. Geller)",
+  "raw": "Ross's apartment (Ross, Mr. Geller)"
+ },
+ "train:638": {
+  "scene": "Hospital room. Ross, Phoebe, and Ben are present.",
+  "raw": "Hospital room. Ross, Phoebe, and Ben are present."
+ },
+ "train:639": {
+  "scene": "Apartment (Rachel, Joanna)",
+  "raw": "Apartment (Rachel, Joanna)"
+ },
+ "train:640": {
+  "scene": "Apartment (Rachel, Chandler)",
+  "raw": "Apartment (Rachel, Chandler)"
+ },
+ "train:641": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:642": {
+  "scene": "Apartment (Monica, Chandler, Phoebe)",
+  "raw": "Apartment (Monica, Chandler, Phoebe)"
+ },
+ "train:643": {
+  "scene": "A bar in Atlantic City. Ross, Chandler, and (implied) Monica are present.",
+  "raw": "A bar in Atlantic City. Ross, Chandler, and (implied) Monica are present."
+ },
+ "train:644": {
+  "scene": "Apartment (Rachel, Mrs. Green)",
+  "raw": "Apartment (Rachel, Mrs. Green)"
+ },
+ "train:645": {
+  "scene": "The scene takes place at a restaurant, with Monica, Rachel, and Phoebe present.",
+  "raw": "The scene takes place at a restaurant, with Monica, Rachel, and Phoebe present."
+ },
+ "train:646": {
+  "scene": "Apartment building. Chandler, Joey (implied)",
+  "raw": "Apartment building. Chandler, Joey (implied)"
+ },
+ "train:647": {
+  "scene": "Apartment (Monica, Joey)",
+  "raw": "Apartment (Monica, Joey)"
+ },
+ "train:648": {
+  "scene": "Apartment (Rachel, Joey)",
+  "raw": "Apartment (Rachel, Joey)"
+ },
+ "train:649": {
+  "scene": "Apartment (Rachel, Monica, Phoebe)",
+  "raw": "Apartment (Rachel, Monica, Phoebe)"
+ },
+ "train:650": {
+  "scene": "Gym (Ross, Joey)",
+  "raw": "Gym (Ross, Joey)"
+ },
+ "train:651": {
+  "scene": "Apartment (Monica, Chandler, Rachel, Ross)",
+  "raw": "Apartment (Monica, Chandler, Rachel, Ross)"
+ },
+ "train:652": {
+  "scene": "Apartment (Chandler, Phoebe, and Helen)",
+  "raw": "Apartment (Chandler, Phoebe, and Helen)"
+ },
+ "train:653": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:654": {
+  "scene": "Ross's Office (Ross present)",
+  "raw": "Ross's Office (Ross present)"
+ },
+ "train:655": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "train:656": {
+  "scene": "Apartment (Monica, Megan, Rachel)",
+  "raw": "Apartment (Monica, Megan, Rachel)"
+ },
+ "train:657": {
+  "scene": "Central Perk Coffee Shop. Chandler is present.",
+  "raw": "Central Perk Coffee Shop. Chandler is present."
+ },
+ "train:658": {
+  "scene": "Central Perk Coffeehouse. Ross, Kristin, and unspecified Friends character (off-screen)",
+  "raw": "Central Perk Coffeehouse. Ross, Kristin, and unspecified Friends character (off-screen)"
+ },
+ "train:659": {
+  "scene": "Apartment (Monica, Chandler, Ross, Rachel, Joey, and Phoebe)",
+  "raw": "Apartment (Monica, Chandler, Ross, Rachel, Joey, and Phoebe)"
+ },
+ "train:660": {
+  "scene": "Apartment (Joey, Chandler)",
+  "raw": "Apartment (Joey, Chandler)"
+ },
+ "train:661": {
+  "scene": "Coffee shop. Joey and Annabelle are present.",
+  "raw": "Coffee shop. Joey and Annabelle are present."
+ },
+ "train:662": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:663": {
+  "scene": "Apartment (Joey, Ross, Chandler)",
+  "raw": "Apartment (Joey, Ross, Chandler)"
+ },
+ "train:664": {
+  "scene": "Apartment (Monica, Chandler, Phoebe, Dr. Zane, Frank)",
+  "raw": "Apartment (Monica, Chandler, Phoebe, Dr. Zane, Frank)"
+ },
+ "train:665": {
+  "scene": "Apartment (Monica, Joey)",
+  "raw": "Apartment (Monica, Joey)"
+ },
+ "train:666": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:667": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:668": {
+  "scene": "Apartment (Rachel, Barry)",
+  "raw": "Apartment (Rachel, Barry)"
+ },
+ "train:669": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "train:670": {
+  "scene": "Art gallery. Joey, Ross present.",
+  "raw": "Art gallery. Joey, Ross present."
+ },
+ "train:671": {
+  "scene": "Apartment (Ross, Rachel)",
+  "raw": "Apartment (Ross, Rachel)"
+ },
+ "train:672": {
+  "scene": "Apartment (Ross, Russell)",
+  "raw": "Apartment (Ross, Russell)"
+ },
+ "train:673": {
+  "scene": "Apartment (Monica, Rachel, Phoebe, Ross, Joey)",
+  "raw": "Apartment (Monica, Rachel, Phoebe, Ross, Joey)"
+ },
+ "train:674": {
+  "scene": "Central Perk Coffee Shop. Phoebe, Julie are present. Andie McDowell is not explicitly present.",
+  "raw": "Central Perk Coffee Shop. Phoebe, Julie are present. Andie McDowell is not explicitly present."
+ },
+ "train:675": {
+  "scene": "Central Perk. Ross, Rachel present.",
+  "raw": "Central Perk. Ross, Rachel present."
+ },
+ "train:676": {
+  "scene": "Apartment (Joey, Chandler, Amy)",
+  "raw": "Apartment (Joey, Chandler, Amy)"
+ },
+ "train:677": {
+  "scene": "Apartment (Monica, Chandler, Phoebe)",
+  "raw": "Apartment (Monica, Chandler, Phoebe)"
+ },
+ "train:678": {
+  "scene": "Apartment (Rachel, Chandler)",
+  "raw": "Apartment (Rachel, Chandler)"
+ },
+ "train:679": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "train:680": {
+  "scene": "Apartment (Monica, Joey, Phoebe)",
+  "raw": "Apartment (Monica, Joey, Phoebe)"
+ },
+ "train:681": {
+  "scene": "Apartment (Ross, Ben)",
+  "raw": "Apartment (Ross, Ben)"
+ },
+ "train:682": {
+  "scene": "Central Perk Coffee Shop. Ross, Chandler, Monica, Rachel, Phoebe, and Joey are present.",
+  "raw": "Central Perk Coffee Shop. Ross, Chandler, Monica, Rachel, Phoebe, and Joey are present."
+ },
+ "train:683": {
+  "scene": "Central Perk. Chandler and Rachel are present.",
+  "raw": "Central Perk. Chandler and Rachel are present."
+ },
+ "train:684": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:685": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "train:686": {
+  "scene": "Apartment (Rachel, Tag)",
+  "raw": "Apartment (Rachel, Tag)"
+ },
+ "train:687": {
+  "scene": "Apartment (Joey, Chandler)",
+  "raw": "Apartment (Joey, Chandler)"
+ },
+ "train:688": {
+  "scene": "Apartment (Monica, Ross)",
+  "raw": "Apartment (Monica, Ross)"
+ },
+ "train:689": {
+  "scene": "Apartment (Monica, Phoebe, Rachel)",
+  "raw": "Apartment (Monica, Phoebe, Rachel)"
+ },
+ "train:690": {
+  "scene": "Apartment (Monica, Chandler, Joey, Rachel, Ross, Phoebe)",
+  "raw": "Apartment (Monica, Chandler, Joey, Rachel, Ross, Phoebe)"
+ },
+ "train:691": {
+  "scene": "Central Perk. Ross and Rachel are present.",
+  "raw": "Central Perk. Ross and Rachel are present."
+ },
+ "train:692": {
+  "scene": "Apartment building lobby. Joey and Mr. Treeger present.",
+  "raw": "Apartment building lobby. Joey and Mr. Treeger present."
+ },
+ "train:693": {
+  "scene": "Apartment (Chandler, Rachel)",
+  "raw": "Apartment (Chandler, Rachel)"
+ },
+ "train:694": {
+  "scene": "Central Perk. Ben and Rachel present.",
+  "raw": "Central Perk. Ben and Rachel present."
+ },
+ "train:695": {
+  "scene": "Apartment (Joey, Rachel, Chandler, Monica)",
+  "raw": "Apartment (Joey, Rachel, Chandler, Monica)"
+ },
+ "train:696": {
+  "scene": "Apartment (Monica, Chandler, Phoebe)",
+  "raw": "Apartment (Monica, Chandler, Phoebe)"
+ },
+ "train:697": {
+  "scene": "Apartment (Monica, Chandler, Ross, Rachel)",
+  "raw": "Apartment (Monica, Chandler, Ross, Rachel)"
+ },
+ "train:698": {
+  "scene": "Central Perk Coffee Shop. Phoebe and The Lurker (unidentified character) are present.",
+  "raw": "Central Perk Coffee Shop. Phoebe and The Lurker (unidentified character) are present."
+ },
+ "train:699": {
+  "scene": "Apartment (Ross, Rachel)",
+  "raw": "Apartment (Ross, Rachel)"
+ },
+ "train:700": {
+  "scene": "Kitchen. Chandler, Monica, and unspecified others.",
+  "raw": "Kitchen. Chandler, Monica, and unspecified others."
+ },
+ "train:701": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:702": {
+  "scene": "Apartment (Monica, Angela, Bob)",
+  "raw": "Apartment (Monica, Angela, Bob)"
+ },
+ "train:703": {
+  "scene": "Apartment (Chandler, Joey)",
+  "raw": "Apartment (Chandler, Joey)"
+ },
+ "train:704": {
+  "scene": "Central Perk coffee shop. Phoebe, Chandler present.",
+  "raw": "Central Perk coffee shop. Phoebe, Chandler present."
+ },
+ "train:705": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:706": {
+  "scene": "Central Perk Coffee Shop. Phoebe is present.",
+  "raw": "Central Perk Coffee Shop. Phoebe is present."
+ },
+ "train:707": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "train:708": {
+  "scene": "Central Perk. Chandler, Joey (and possibly other Friends) are present.",
+  "raw": "Central Perk. Chandler, Joey (and possibly other Friends) are present."
+ },
+ "train:709": {
+  "scene": "Central Perk Coffeehouse. Ross, Rachel, Monica, Chandler, Joey, and Gunther are present.",
+  "raw": "Central Perk Coffeehouse. Ross, Rachel, Monica, Chandler, Joey, and Gunther are present."
+ },
+ "train:710": {
+  "scene": "Central Perk Coffee Shop. Characters: Chandler, Joey, Ross, Rachel, Monica, Phoebe.",
+  "raw": "Central Perk Coffee Shop. Characters: Chandler, Joey, Ross, Rachel, Monica, Phoebe."
+ },
+ "train:711": {
+  "scene": "Apartment (Joey, Chandler)",
+  "raw": "Apartment (Joey, Chandler)"
+ },
+ "train:712": {
+  "scene": "Apartment (Ross, Julie, Marc)",
+  "raw": "Apartment (Ross, Julie, Marc)"
+ },
+ "train:713": {
+  "scene": "Library, Ross and the Librarian are present.",
+  "raw": "Library, Ross and the Librarian are present."
+ },
+ "train:714": {
+  "scene": "Library. Ross, Chandler, Joey, and Monica are present.",
+  "raw": "Library. Ross, Chandler, Joey, and Monica are present."
+ },
+ "train:715": {
+  "scene": "Library. The Head Librarian and Ross are present.",
+  "raw": "Library. The Head Librarian and Ross are present."
+ },
+ "train:716": {
+  "scene": "Central Perk. Phoebe, Rachel, Ross, and unnamed woman are present.",
+  "raw": "Central Perk. Phoebe, Rachel, Ross, and unnamed woman are present."
+ },
+ "train:717": {
+  "scene": "Movie theatre. Chip and Monica are present.",
+  "raw": "Movie theatre. Chip and Monica are present."
+ },
+ "train:718": {
+  "scene": "Apartment (Joey, unspecified woman)",
+  "raw": "Apartment (Joey, unspecified woman)"
+ },
+ "train:719": {
+  "scene": "Apartment (Ross, Joey)",
+  "raw": "Apartment (Ross, Joey)"
+ },
+ "train:720": {
+  "scene": "Apartment (Chandler, Monica, Joey)",
+  "raw": "Apartment (Chandler, Monica, Joey)"
+ },
+ "train:721": {
+  "scene": "Central Perk. Joey and Chandler are present.",
+  "raw": "Central Perk. Joey and Chandler are present."
+ },
+ "train:722": {
+  "scene": "Apartment (Chandler, Rachel, Phoebe)",
+  "raw": "Apartment (Chandler, Rachel, Phoebe)"
+ },
+ "train:723": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "train:724": {
+  "scene": "Apartment (Joey, Phoebe)",
+  "raw": "Apartment (Joey, Phoebe)"
+ },
+ "train:725": {
+  "scene": "Monica's apartment (Monica, Cassie)",
+  "raw": "Monica's apartment (Monica, Cassie)"
+ },
+ "train:726": {
+  "scene": "Apartment (Joey, Chandler, Ross)",
+  "raw": "Apartment (Joey, Chandler, Ross)"
+ },
+ "train:727": {
+  "scene": "Bathroom (Chandler, Kathy)",
+  "raw": "Bathroom (Chandler, Kathy)"
+ },
+ "train:728": {
+  "scene": "Apartment (Joey, Bob)",
+  "raw": "Apartment (Joey, Bob)"
+ },
+ "train:729": {
+  "scene": "Central Perk. Joey is present.",
+  "raw": "Central Perk. Joey is present."
+ },
+ "train:730": {
+  "scene": "Museum (Ross)",
+  "raw": "Museum (Ross)"
+ },
+ "train:731": {
+  "scene": "Museum (Ross, Joey)",
+  "raw": "Museum (Ross, Joey)"
+ },
+ "train:732": {
+  "scene": "Apartment (Ross, Rachel)",
+  "raw": "Apartment (Ross, Rachel)"
+ },
+ "train:733": {
+  "scene": "Central Perk Coffee Shop. Joey and Kate are present.",
+  "raw": "Central Perk Coffee Shop. Joey and Kate are present."
+ },
+ "train:734": {
+  "scene": "Central Perk coffee shop. Ross, Chloe, and (off-screen) Isaac are present.",
+  "raw": "Central Perk coffee shop. Ross, Chloe, and (off-screen) Isaac are present."
+ },
+ "train:735": {
+  "scene": "Central Perk. Ross, Emily present.",
+  "raw": "Central Perk. Ross, Emily present."
+ },
+ "train:736": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:737": {
+  "scene": "Apartment (Monica, Ross)",
+  "raw": "Apartment (Monica, Ross)"
+ },
+ "train:738": {
+  "scene": "Apartment (Joey, his hand twin)",
+  "raw": "Apartment (Joey, his hand twin)"
+ },
+ "train:739": {
+  "scene": "Central Perk. Ross and Mr. Geller present.",
+  "raw": "Central Perk. Ross and Mr. Geller present."
+ },
+ "train:740": {
+  "scene": "Outdoor marina, Rachel and Joey present.",
+  "raw": "Outdoor marina, Rachel and Joey present."
+ },
+ "train:741": {
+  "scene": "Monica and Ross's apartment (Ross, Monica)",
+  "raw": "Monica and Ross's apartment (Ross, Monica)"
+ },
+ "train:742": {
+  "scene": "Apartment (Monica, Joey, Chandler)",
+  "raw": "Apartment (Monica, Joey, Chandler)"
+ },
+ "train:743": {
+  "scene": "Office break room. Chandler, Shelley present.",
+  "raw": "Office break room. Chandler, Shelley present."
+ },
+ "train:744": {
+  "scene": "Central Perk. Chandler, Janice, and Monica are present.",
+  "raw": "Central Perk. Chandler, Janice, and Monica are present."
+ },
+ "train:745": {
+  "scene": "Apartment (Chandler, Joey)",
+  "raw": "Apartment (Chandler, Joey)"
+ },
+ "train:746": {
+  "scene": "Apartment (Ross, Joey)",
+  "raw": "Apartment (Ross, Joey)"
+ },
+ "train:747": {
+  "scene": "Central Perk Coffee Shop. Rachel, Monica, Chandler, Joey, Ross, and Phoebe are present.",
+  "raw": "Central Perk Coffee Shop. Rachel, Monica, Chandler, Joey, Ross, and Phoebe are present."
+ },
+ "train:748": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:749": {
+  "scene": "Central Perk Coffee Shop. Richard is present.",
+  "raw": "Central Perk Coffee Shop. Richard is present."
+ },
+ "train:750": {
+  "scene": "Central Perk Coffee Shop. Ross, Rachel, Monica, Chandler, Joey, and Gunther are present.",
+  "raw": "Central Perk Coffee Shop. Ross, Rachel, Monica, Chandler, Joey, and Gunther are present."
+ },
+ "train:751": {
+  "scene": "Apartment (Ross, Carol)",
+  "raw": "Apartment (Ross, Carol)"
+ },
+ "train:752": {
+  "scene": "Apartment (Ross, Rachel, Ben)",
+  "raw": "Apartment (Ross, Rachel, Ben)"
+ },
+ "train:753": {
+  "scene": "Monica's apartment (Monica, Chandler present)",
+  "raw": "Monica's apartment (Monica, Chandler present)"
+ },
+ "train:754": {
+  "scene": "Central Perk. Ross and an unnamed woman are present.",
+  "raw": "Central Perk. Ross and an unnamed woman are present."
+ },
+ "train:755": {
+  "scene": "Apartment (Monica)",
+  "raw": "Apartment (Monica)"
+ },
+ "train:756": {
+  "scene": "Central Perk. Chandler and Monica are present.",
+  "raw": "Central Perk. Chandler and Monica are present."
+ },
+ "train:757": {
+  "scene": "Apartment (Ross, Phoebe, Frank)",
+  "raw": "Apartment (Ross, Phoebe, Frank)"
+ },
+ "train:758": {
+  "scene": "Central Perk. Janice, Chandler present.",
+  "raw": "Central Perk. Janice, Chandler present."
+ },
+ "train:759": {
+  "scene": "Central Perk Coffeehouse. Chandler and Dana are present.",
+  "raw": "Central Perk Coffeehouse. Chandler and Dana are present."
+ },
+ "train:760": {
+  "scene": "Apartment (Monica, Rachel, Phoebe)",
+  "raw": "Apartment (Monica, Rachel, Phoebe)"
+ },
+ "train:761": {
+  "scene": "Apartment (Joey, Chandler)",
+  "raw": "Apartment (Joey, Chandler)"
+ },
+ "train:762": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:763": {
+  "scene": "Apartment (Monica, Chandler, Joey)",
+  "raw": "Apartment (Monica, Chandler, Joey)"
+ },
+ "train:764": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:765": {
+  "scene": "Apartment (Rachel, Phoebe, Monica)",
+  "raw": "Apartment (Rachel, Phoebe, Monica)"
+ },
+ "train:766": {
+  "scene": "Apartment (Rachel, Ross)",
+  "raw": "Apartment (Rachel, Ross)"
+ },
+ "train:767": {
+  "scene": "Central Perk - Chandler, Janice (implied)",
+  "raw": "Central Perk - Chandler, Janice (implied)"
+ },
+ "train:768": {
+  "scene": "Apartment (Ross, Chandler, Monica, Rachel)",
+  "raw": "Apartment (Ross, Chandler, Monica, Rachel)"
+ },
+ "train:769": {
+  "scene": "Central Perk. Chandler, Monica present.",
+  "raw": "Central Perk. Chandler, Monica present."
+ },
+ "train:770": {
+  "scene": "Apartment (Monica, Chandler present)",
+  "raw": "Apartment (Monica, Chandler present)"
+ },
+ "train:771": {
+  "scene": "Hospital - Dr. Wesley, Dr. Drake Remoray, Hope Brady",
+  "raw": "Hospital - Dr. Wesley, Dr. Drake Remoray, Hope Brady"
+ },
+ "train:772": {
+  "scene": "Apartment kitchen. Monica, Phoebe, and Chandler present.",
+  "raw": "Apartment kitchen. Monica, Phoebe, and Chandler present."
+ },
+ "train:773": {
+  "scene": "Apartment (Rachel, her mother)",
+  "raw": "Apartment (Rachel, her mother)"
+ },
+ "train:774": {
+  "scene": "College dormitory, Rachel, Monica, and unspecified others (on a pool table)",
+  "raw": "College dormitory, Rachel, Monica, and unspecified others (on a pool table)"
+ },
+ "train:775": {
+  "scene": "Apartment (Monica, Rachel, Phoebe)",
+  "raw": "Apartment (Monica, Rachel, Phoebe)"
+ },
+ "train:776": {
+  "scene": "Central Perk. Rachel, Phoebe, and (implied) Ross are present.",
+  "raw": "Central Perk. Rachel, Phoebe, and (implied) Ross are present."
+ },
+ "train:777": {
+  "scene": "Apartment (Rick, Phoebe)",
+  "raw": "Apartment (Rick, Phoebe)"
+ },
+ "train:778": {
+  "scene": "Central Perk Coffee Shop. Phoebe is present.",
+  "raw": "Central Perk Coffee Shop. Phoebe is present."
+ },
+ "train:779": {
+  "scene": "Central Perk Coffee Shop. Phoebe and a Crew Member are present.",
+  "raw": "Central Perk Coffee Shop. Phoebe and a Crew Member are present."
+ },
+ "train:780": {
+  "scene": "Coffee house. Phoebe present.",
+  "raw": "Coffee house. Phoebe present."
+ },
+ "train:781": {
+  "scene": "Central Perk Coffee Shop. Gunther, Rachel, and (implied) Mark are present.",
+  "raw": "Central Perk Coffee Shop. Gunther, Rachel, and (implied) Mark are present."
+ },
+ "train:782": {
+  "scene": "Central Perk. Phoebe Buffay is present.",
+  "raw": "Central Perk. Phoebe Buffay is present."
+ },
+ "train:783": {
+  "scene": "Outdoor setting by the pool: Ross, Rachel, (implied: unnamed woman)",
+  "raw": "Outdoor setting by the pool: Ross, Rachel, (implied: unnamed woman)"
+ },
+ "train:784": {
+  "scene": "Central Perk Coffeehouse. Phoebe and an unidentified man (possibly Drake Ramsay, Phoebe's brother) are present.",
+  "raw": "Central Perk Coffeehouse. Phoebe and an unidentified man (possibly Drake Ramsay, Phoebe's brother) are present."
+ },
+ "train:785": {
+  "scene": "Hospital break room. Nurse, Joey, and Rachel are present.",
+  "raw": "Hospital break room. Nurse, Joey, and Rachel are present."
+ },
+ "train:786": {
+  "scene": "Apartment (Joey, Janine)",
+  "raw": "Apartment (Joey, Janine)"
+ },
+ "train:787": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:788": {
+  "scene": "Central Perk Cafe. Katie and Joey are present.",
+  "raw": "Central Perk Cafe. Katie and Joey are present."
+ },
+ "train:789": {
+  "scene": "Apartment (Monica, Chandler, Joey, Rachel)",
+  "raw": "Apartment (Monica, Chandler, Joey, Rachel)"
+ },
+ "train:790": {
+  "scene": "Museum (Rachel, Ross, Joey)",
+  "raw": "Museum (Rachel, Ross, Joey)"
+ },
+ "train:791": {
+  "scene": "Apartment (Rachel, Joey)",
+  "raw": "Apartment (Rachel, Joey)"
+ },
+ "train:792": {
+  "scene": "Apartment (Monica, Chandler, Joey, Phoebe)",
+  "raw": "Apartment (Monica, Chandler, Joey, Phoebe)"
+ },
+ "train:793": {
+  "scene": "Apartment (Ross, Ben, and Emily)",
+  "raw": "Apartment (Ross, Ben, and Emily)"
+ },
+ "train:794": {
+  "scene": "Apartment (Ross, Joey)",
+  "raw": "Apartment (Ross, Joey)"
+ },
+ "train:795": {
+  "scene": "Central Perk coffee shop. Chandler and Ms. McKenna are present.",
+  "raw": "Central Perk coffee shop. Chandler and Ms. McKenna are present."
+ },
+ "train:796": {
+  "scene": "Apartment (Monica, Fake Monica)",
+  "raw": "Apartment (Monica, Fake Monica)"
+ },
+ "train:797": {
+  "scene": "Central Perk. Rachel and Mindy (Monica's friend) are present.",
+  "raw": "Central Perk. Rachel and Mindy (Monica's friend) are present."
+ },
+ "train:798": {
+  "scene": "Apartment (Ross, Monica)",
+  "raw": "Apartment (Ross, Monica)"
+ },
+ "train:799": {
+  "scene": "Apartment (Monica, Ross)",
+  "raw": "Apartment (Monica, Ross)"
+ },
+ "train:800": {
+  "scene": "Medical office. Monica and unspecified doctor are present.",
+  "raw": "Medical office. Monica and unspecified doctor are present."
+ },
+ "train:801": {
+  "scene": "Central Perk Coffee Shop. Ross and Phoebe are present.",
+  "raw": "Central Perk Coffee Shop. Ross and Phoebe are present."
+ },
+ "train:802": {
+  "scene": "Central Perk Cafe. Rachel, Monica, and an unidentified man are present.",
+  "raw": "Central Perk Cafe. Rachel, Monica, and an unidentified man are present."
+ },
+ "train:803": {
+  "scene": "Apartment building, Rachel and Mr. Treeger (building superintendent)",
+  "raw": "Apartment building, Rachel and Mr. Treeger (building superintendent)"
+ },
+ "train:804": {
+  "scene": "Central Perk Coffee Shop. Ross is present.",
+  "raw": "Central Perk Coffee Shop. Ross is present."
+ },
+ "train:805": {
+  "scene": "Apartment (Monica, Joey)",
+  "raw": "Apartment (Monica, Joey)"
+ },
+ "train:806": {
+  "scene": "Apartment (Rachel, Joey)",
+  "raw": "Apartment (Rachel, Joey)"
+ },
+ "train:807": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:808": {
+  "scene": "Apartment (Joey)",
+  "raw": "Apartment (Joey)"
+ },
+ "train:809": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:810": {
+  "scene": "Set: Film set, Joey, The Director, and Richard are present.",
+  "raw": "Set: Film set, Joey, The Director, and Richard are present."
+ },
+ "train:811": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "train:812": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "train:813": {
+  "scene": "Apartment living room. Ross, Rachel, Monica, Chandler, Joey, and Phoebe are present.",
+  "raw": "Apartment living room. Ross, Rachel, Monica, Chandler, Joey, and Phoebe are present."
+ },
+ "train:814": {
+  "scene": "Apartment (Joey, Carl)",
+  "raw": "Apartment (Joey, Carl)"
+ },
+ "train:815": {
+  "scene": "Apartment (Monica, Janice)",
+  "raw": "Apartment (Monica, Janice)"
+ },
+ "train:816": {
+  "scene": "Apartment (Joey, Chandler)",
+  "raw": "Apartment (Joey, Chandler)"
+ },
+ "train:817": {
+  "scene": "Apartment (Monica, Chandler, Joey, Ross, Rachel)",
+  "raw": "Apartment (Monica, Chandler, Joey, Ross, Rachel)"
+ },
+ "train:818": {
+  "scene": "Apartment (Monica, Chandler, Phoebe)",
+  "raw": "Apartment (Monica, Chandler, Phoebe)"
+ },
+ "train:819": {
+  "scene": "Central Perk Coffeehouse. Phoebe and Joey are present.",
+  "raw": "Central Perk Coffeehouse. Phoebe and Joey are present."
+ },
+ "train:820": {
+  "scene": "College classroom. Elizabeth, Ross. (Sleepy Sleeperson is not specified as a character present.)",
+  "raw": "College classroom. Elizabeth, Ross. (Sleepy Sleeperson is not specified as a character present.)"
+ },
+ "train:821": {
+  "scene": "Central Perk Coffeehouse. Phoebe, Joey present.",
+  "raw": "Central Perk Coffeehouse. Phoebe, Joey present."
+ },
+ "train:822": {
+  "scene": "Central Perk. Ross, Phoebe, and other Friends are present.",
+  "raw": "Central Perk. Ross, Phoebe, and other Friends are present."
+ },
+ "train:823": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "train:824": {
+  "scene": "Apartment (Monica, Joey)",
+  "raw": "Apartment (Monica, Joey)"
+ },
+ "train:825": {
+  "scene": "Apartment (Monica, Chandler, Joey)",
+  "raw": "Apartment (Monica, Chandler, Joey)"
+ },
+ "train:826": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "train:827": {
+  "scene": "Central Perk. Rachel and an unidentified woman are present.",
+  "raw": "Central Perk. Rachel and an unidentified woman are present."
+ },
+ "train:828": {
+  "scene": "Central Perk Coffeehouse. Phoebe, Receptionist present.",
+  "raw": "Central Perk Coffeehouse. Phoebe, Receptionist present."
+ },
+ "train:829": {
+  "scene": "Apartment (Chandler)",
+  "raw": "Apartment (Chandler)"
+ },
+ "train:830": {
+  "scene": "Central Perk Coffee Shop. Rachel is present.",
+  "raw": "Central Perk Coffee Shop. Rachel is present."
+ },
+ "train:831": {
+  "scene": "Apartment (Ross, Phoebe)",
+  "raw": "Apartment (Ross, Phoebe)"
+ },
+ "train:832": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:833": {
+  "scene": "Apartment (Monica, Phoebe, Rachel)",
+  "raw": "Apartment (Monica, Phoebe, Rachel)"
+ },
+ "train:834": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:835": {
+  "scene": "Staten Island apartment (Joey, Ross)",
+  "raw": "Staten Island apartment (Joey, Ross)"
+ },
+ "train:836": {
+  "scene": "Apartment (Monica, Chandler, Joey, Ross, Rachel, Phoebe, Ursula)",
+  "raw": "Apartment (Monica, Chandler, Joey, Ross, Rachel, Phoebe, Ursula)"
+ },
+ "train:837": {
+  "scene": "Central Perk Coffeehouse. Phoebe, Ross, Chandler, Monica, Rachel, and Joey are present.",
+  "raw": "Central Perk Coffeehouse. Phoebe, Ross, Chandler, Monica, Rachel, and Joey are present."
+ },
+ "train:838": {
+  "scene": "Central Perk Coffee Shop. Phoebe and Ursula are present.",
+  "raw": "Central Perk Coffee Shop. Phoebe and Ursula are present."
+ },
+ "train:839": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "train:840": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:841": {
+  "scene": "Apartment (Rachel)",
+  "raw": "Apartment (Rachel)"
+ },
+ "train:842": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:843": {
+  "scene": "Museum Cafeteria: Ross, Older Scientist, Joey",
+  "raw": "Museum Cafeteria: Ross, Older Scientist, Joey"
+ },
+ "train:844": {
+  "scene": "Gym (Doug, Joey, Chandler, Ross)",
+  "raw": "Gym (Doug, Joey, Chandler, Ross)"
+ },
+ "train:845": {
+  "scene": "Central Perk Coffeehouse. Phoebe, Chandler present.",
+  "raw": "Central Perk Coffeehouse. Phoebe, Chandler present."
+ },
+ "train:846": {
+  "scene": "Apartment (Monica, Chandler, Joey, Ross)",
+  "raw": "Apartment (Monica, Chandler, Joey, Ross)"
+ },
+ "train:847": {
+  "scene": "Apartment (Rachel, Ross)",
+  "raw": "Apartment (Rachel, Ross)"
+ },
+ "train:848": {
+  "scene": "Apartment (Joey, Ross)",
+  "raw": "Apartment (Joey, Ross)"
+ },
+ "train:849": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:850": {
+  "scene": "Apartment (Chandler, Joey, Kristen)",
+  "raw": "Apartment (Chandler, Joey, Kristen)"
+ },
+ "train:851": {
+  "scene": "Central Perk Coffeehouse. Phoebe is present.",
+  "raw": "Central Perk Coffeehouse. Phoebe is present."
+ },
+ "train:852": {
+  "scene": "Apartment (Ross, Phoebe)",
+  "raw": "Apartment (Ross, Phoebe)"
+ },
+ "train:853": {
+  "scene": "Central Perk Coffee Shop. Mona, Ross present.",
+  "raw": "Central Perk Coffee Shop. Mona, Ross present."
+ },
+ "train:854": {
+  "scene": "Apartment (Joey, The Potential Roommate)",
+  "raw": "Apartment (Joey, The Potential Roommate)"
+ },
+ "train:855": {
+  "scene": "Apartment (Joey, Chandler)",
+  "raw": "Apartment (Joey, Chandler)"
+ },
+ "train:856": {
+  "scene": "Apartment (Ross)",
+  "raw": "Apartment (Ross)"
+ },
+ "train:857": {
+  "scene": "Central Perk (Monica, Chandler, Joey, Ross, Phoebe)",
+  "raw": "Central Perk (Monica, Chandler, Joey, Ross, Phoebe)"
+ },
+ "train:858": {
+  "scene": "Apartment (Monica, Chandler, Joey, Ross, Rachel, Phoebe, Ursula)",
+  "raw": "Apartment (Monica, Chandler, Joey, Ross, Rachel, Phoebe, Ursula)"
+ },
+ "train:859": {
+  "scene": "Central Perk Coffee Shop. Jim, Phoebe present.",
+  "raw": "Central Perk Coffee Shop. Jim, Phoebe present."
+ },
+ "train:860": {
+  "scene": "Apartment (Monica, Ross, Aunt Lillian)",
+  "raw": "Apartment (Monica, Ross, Aunt Lillian)"
+ },
+ "train:861": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "train:862": {
+  "scene": "Living room. Ronni is present. (Pets are implied but not physically present.)",
+  "raw": "Living room. Ronni is present. (Pets are implied but not physically present.)"
+ },
+ "train:863": {
+  "scene": "Central Perk coffee shop. Rachel and (implied) Monica are present.",
+  "raw": "Central Perk coffee shop. Rachel and (implied) Monica are present."
+ },
+ "train:864": {
+  "scene": "Central Perk. Ross, Monica, and unspecified others are present.",
+  "raw": "Central Perk. Ross, Monica, and unspecified others are present."
+ },
+ "train:865": {
+  "scene": "Apartment (Monica, Emily)",
+  "raw": "Apartment (Monica, Emily)"
+ },
+ "train:866": {
+  "scene": "Apartment (Ross, Rachel)",
+  "raw": "Apartment (Ross, Rachel)"
+ },
+ "train:867": {
+  "scene": "Apartment (Monica, Chandler, Joey)",
+  "raw": "Apartment (Monica, Chandler, Joey)"
+ },
+ "train:868": {
+  "scene": "Apartment (Joey, Ross, Chandler)",
+  "raw": "Apartment (Joey, Ross, Chandler)"
+ },
+ "train:869": {
+  "scene": "Apartment (Joey, Ross, Chandler, and Gunther)",
+  "raw": "Apartment (Joey, Ross, Chandler, and Gunther)"
+ },
+ "train:870": {
+  "scene": "Central Perk coffee shop. Chandler, Joey present.",
+  "raw": "Central Perk coffee shop. Chandler, Joey present."
+ },
+ "train:871": {
+  "scene": "Country club. Ross, Rachel's parents present.",
+  "raw": "Country club. Ross, Rachel's parents present."
+ },
+ "train:872": {
+  "scene": "PBS Telethon. Joey and Phoebe present.",
+  "raw": "PBS Telethon. Joey and Phoebe present."
+ },
+ "train:873": {
+  "scene": "Apartment (Ross, Joey, Chandler)",
+  "raw": "Apartment (Ross, Joey, Chandler)"
+ },
+ "train:874": {
+  "scene": "Hotel lobby (Hotel Clerk, Chandler)",
+  "raw": "Hotel lobby (Hotel Clerk, Chandler)"
+ },
+ "train:875": {
+  "scene": "Apartment (Chandler, Joey)",
+  "raw": "Apartment (Chandler, Joey)"
+ },
+ "train:876": {
+  "scene": "Central Perk Coffee Shop. Phoebe and David are present.",
+  "raw": "Central Perk Coffee Shop. Phoebe and David are present."
+ },
+ "train:877": {
+  "scene": "Apartment (Monica, Joey)",
+  "raw": "Apartment (Monica, Joey)"
+ },
+ "train:878": {
+  "scene": "Central Perk. Tag and Rachel are present.",
+  "raw": "Central Perk. Tag and Rachel are present."
+ },
+ "train:879": {
+  "scene": "Apartment (Rachel, Tag)",
+  "raw": "Apartment (Rachel, Tag)"
+ },
+ "train:880": {
+  "scene": "Central Perk Coffee Shop. Characters: Chandler, Joey, and Tag.",
+  "raw": "Central Perk Coffee Shop. Characters: Chandler, Joey, and Tag."
+ },
+ "train:881": {
+  "scene": "Central Perk Coffee Shop. Rachel, Ross, Chandler, Monica, Joey, and Phoebe are present.",
+  "raw": "Central Perk Coffee Shop. Rachel, Ross, Chandler, Monica, Joey, and Phoebe are present."
+ },
+ "train:882": {
+  "scene": "Apartment (Rachel, Tag)",
+  "raw": "Apartment (Rachel, Tag)"
+ },
+ "train:883": {
+  "scene": "Apartment (Joey, Casey)",
+  "raw": "Apartment (Joey, Casey)"
+ },
+ "train:884": {
+  "scene": "Apartment (Chandler, Rachel, Joey)",
+  "raw": "Apartment (Chandler, Rachel, Joey)"
+ },
+ "train:885": {
+  "scene": "Apartment (Rachel, Chandler)",
+  "raw": "Apartment (Rachel, Chandler)"
+ },
+ "train:886": {
+  "scene": "Central Perk Coffee Shop. Ross, Rachel, and the instructor are present.",
+  "raw": "Central Perk Coffee Shop. Ross, Rachel, and the instructor are present."
+ },
+ "train:887": {
+  "scene": "Central Perk. Ross, Joey present.",
+  "raw": "Central Perk. Ross, Joey present."
+ },
+ "train:888": {
+  "scene": "Central Perk. Rachel and Phoebe are present.",
+  "raw": "Central Perk. Rachel and Phoebe are present."
+ },
+ "train:889": {
+  "scene": "Apartment (Rachel, off-screen)",
+  "raw": "Apartment (Rachel, off-screen)"
+ },
+ "train:890": {
+  "scene": "Apartment (Rachel, Chandler)",
+  "raw": "Apartment (Rachel, Chandler)"
+ },
+ "train:891": {
+  "scene": "Apartment (Joey, Chandler)",
+  "raw": "Apartment (Joey, Chandler)"
+ },
+ "train:892": {
+  "scene": "Central Perk. Joey, Chandler, and Monica present.",
+  "raw": "Central Perk. Joey, Chandler, and Monica present."
+ },
+ "train:893": {
+  "scene": "Central Perk Coffee Shop. Phoebe, Ross, Chandler, Monica, Rachel, and Gunther are present.",
+  "raw": "Central Perk Coffee Shop. Phoebe, Ross, Chandler, Monica, Rachel, and Gunther are present."
+ },
+ "train:894": {
+  "scene": "Apartment (Joey, Phoebe)",
+  "raw": "Apartment (Joey, Phoebe)"
+ },
+ "train:895": {
+  "scene": "Central Perk Coffee Shop. Chandler, Phoebe present.",
+  "raw": "Central Perk Coffee Shop. Chandler, Phoebe present."
+ },
+ "train:896": {
+  "scene": "Apartment (Monica, Ross)",
+  "raw": "Apartment (Monica, Ross)"
+ },
+ "train:897": {
+  "scene": "Apartment (Joey, Chandler)",
+  "raw": "Apartment (Joey, Chandler)"
+ },
+ "train:898": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "train:899": {
+  "scene": "Central Perk Coffee Shop. Phoebe is present.",
+  "raw": "Central Perk Coffee Shop. Phoebe is present."
+ },
+ "train:900": {
+  "scene": "Central Perk. Chandler, Joey present.",
+  "raw": "Central Perk. Chandler, Joey present."
+ },
+ "train:901": {
+  "scene": "Central Perk. Rachel, Ross, and Joey are present.",
+  "raw": "Central Perk. Rachel, Ross, and Joey are present."
+ },
+ "train:902": {
+  "scene": "Central Perk. Rachel, Chandler, and Monica are present.",
+  "raw": "Central Perk. Rachel, Chandler, and Monica are present."
+ },
+ "train:903": {
+  "scene": "Apartment (Monica)",
+  "raw": "Apartment (Monica)"
+ },
+ "train:904": {
+  "scene": "Apartment (Monica, Chandler, Phoebe)",
+  "raw": "Apartment (Monica, Chandler, Phoebe)"
+ },
+ "train:905": {
+  "scene": "Apartment kitchen. Joey, Rachel, and Monica present.",
+  "raw": "Apartment kitchen. Joey, Rachel, and Monica present."
+ },
+ "train:906": {
+  "scene": "Central Perk Coffeehouse. Phoebe, The Smoking Woman present.",
+  "raw": "Central Perk Coffeehouse. Phoebe, The Smoking Woman present."
+ },
+ "train:907": {
+  "scene": "Apartment (Monica, Chandler, Ross, Rachel, Phoebe, Joey)",
+  "raw": "Apartment (Monica, Chandler, Ross, Rachel, Phoebe, Joey)"
+ },
+ "train:908": {
+  "scene": "Sting and Trudie Styler's residence (Phoebe and Trudie present)",
+  "raw": "Sting and Trudie Styler's residence (Phoebe and Trudie present)"
+ },
+ "train:909": {
+  "scene": "Apartment (Monica, Ross, and the rest of the Friends group)",
+  "raw": "Apartment (Monica, Ross, and the rest of the Friends group)"
+ },
+ "train:910": {
+  "scene": "Apartment (Monica, Joey)",
+  "raw": "Apartment (Monica, Joey)"
+ },
+ "train:911": {
+  "scene": "Central Perk. Ross is present.",
+  "raw": "Central Perk. Ross is present."
+ },
+ "train:912": {
+  "scene": "Apartment (Joey, Chandler)",
+  "raw": "Apartment (Joey, Chandler)"
+ },
+ "train:913": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "train:914": {
+  "scene": "Apartment (Monica, Rachel, Joey)",
+  "raw": "Apartment (Monica, Rachel, Joey)"
+ },
+ "train:915": {
+  "scene": "Apartment (Ross, Mona)",
+  "raw": "Apartment (Ross, Mona)"
+ },
+ "train:916": {
+  "scene": "Apartment (Monica, Chandler) or Restaurant (Chandler)",
+  "raw": "Apartment (Monica, Chandler) or Restaurant (Chandler)"
+ },
+ "train:917": {
+  "scene": "Central Perk. Phoebe, Chandler, and Joey are present.",
+  "raw": "Central Perk. Phoebe, Chandler, and Joey are present."
+ },
+ "train:918": {
+  "scene": "Apartment (Ross, Emily)",
+  "raw": "Apartment (Ross, Emily)"
+ },
+ "train:919": {
+  "scene": "Art school studio. Student, Joey.",
+  "raw": "Art school studio. Student, Joey."
+ },
+ "train:920": {
+  "scene": "Apartment (Monica, Phoebe, Eric)",
+  "raw": "Apartment (Monica, Phoebe, Eric)"
+ },
+ "train:921": {
+  "scene": "Central Perk Coffeehouse. Phoebe and Rachel present.",
+  "raw": "Central Perk Coffeehouse. Phoebe and Rachel present."
+ },
+ "train:922": {
+  "scene": "Central Perk. Rachel, Chandler, and (implied) Janice are present.",
+  "raw": "Central Perk. Rachel, Chandler, and (implied) Janice are present."
+ },
+ "train:923": {
+  "scene": "Central Perk. Phoebe and Joey are present.",
+  "raw": "Central Perk. Phoebe and Joey are present."
+ },
+ "train:924": {
+  "scene": "Office (Chandler, Mrs. Tedlock)",
+  "raw": "Office (Chandler, Mrs. Tedlock)"
+ },
+ "train:925": {
+  "scene": "Apartment (Chandler, Monica)",
+  "raw": "Apartment (Chandler, Monica)"
+ },
+ "train:926": {
+  "scene": "Central Perk Coffee Shop. Phoebe, Monica present.",
+  "raw": "Central Perk Coffee Shop. Phoebe, Monica present."
+ },
+ "train:927": {
+  "scene": "Central Perk Coffee Shop. Monica and Richard present.",
+  "raw": "Central Perk Coffee Shop. Monica and Richard present."
+ },
+ "train:928": {
+  "scene": "Apartment (Monica, Chandler, Ross, Joey, Phoebe)",
+  "raw": "Apartment (Monica, Chandler, Ross, Joey, Phoebe)"
+ },
+ "train:929": {
+  "scene": "Apartment (Monica, Chandler, Joey, Phoebe, Ross)",
+  "raw": "Apartment (Monica, Chandler, Joey, Phoebe, Ross)"
+ },
+ "train:930": {
+  "scene": "Hospital - Joey/Drake (implied: doctor)",
+  "raw": "Hospital - Joey/Drake (implied: doctor)"
+ },
+ "train:931": {
+  "scene": "Apartment (Ross, Phoebe, Rachel)",
+  "raw": "Apartment (Ross, Phoebe, Rachel)"
+ },
+ "train:932": {
+  "scene": "Central Perk. Ross, Gunther, and Joey are present.",
+  "raw": "Central Perk. Ross, Gunther, and Joey are present."
+ },
+ "train:933": {
+  "scene": "Museum - Monica Geller, Chandler Bing (on phone)",
+  "raw": "Museum - Monica Geller, Chandler Bing (on phone)"
+ },
+ "train:934": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "train:935": {
+  "scene": "The scene takes place in the \"Guys' Apartment\". Rachel and Phoebe are present.",
+  "raw": "The scene takes place in the \"Guys' Apartment\". Rachel and Phoebe are present."
+ },
+ "train:936": {
+  "scene": "Central Perk Coffee Shop. Ross is present.",
+  "raw": "Central Perk Coffee Shop. Ross is present."
+ },
+ "train:937": {
+  "scene": "Apartment (Joey, Beth)",
+  "raw": "Apartment (Joey, Beth)"
+ },
+ "train:938": {
+  "scene": "Central Perk Coffeehouse. Phoebe and Rachel are present.",
+  "raw": "Central Perk Coffeehouse. Phoebe and Rachel are present."
+ },
+ "train:939": {
+  "scene": "Central Perk Coffeehouse. Phoebe, Ross present.",
+  "raw": "Central Perk Coffeehouse. Phoebe, Ross present."
+ },
+ "train:940": {
+  "scene": "Apartment (Monica, Julio)",
+  "raw": "Apartment (Monica, Julio)"
+ },
+ "train:941": {
+  "scene": "Train, Ross and Woman On Train present.",
+  "raw": "Train, Ross and Woman On Train present."
+ },
+ "train:942": {
+  "scene": "Apartment (Monica)",
+  "raw": "Apartment (Monica)"
+ },
+ "train:943": {
+  "scene": "Apartment (Monica, Chandler, Joey, Phoebe)",
+  "raw": "Apartment (Monica, Chandler, Joey, Phoebe)"
+ },
+ "train:944": {
+  "scene": "Central Perk coffee shop. Rachel and Monica are present.",
+  "raw": "Central Perk coffee shop. Rachel and Monica are present."
+ },
+ "train:945": {
+  "scene": "Central Perk Coffeehouse. Phoebe, Monica present.",
+  "raw": "Central Perk Coffeehouse. Phoebe, Monica present."
+ },
+ "train:946": {
+  "scene": "Kitchen at Alessandro's restaurant. Monica Geller and a Food Critic are present.",
+  "raw": "Kitchen at Alessandro's restaurant. Monica Geller and a Food Critic are present."
+ },
+ "train:947": {
+  "scene": "Central Perk Coffee Shop. Phoebe is present.",
+  "raw": "Central Perk Coffee Shop. Phoebe is present."
+ },
+ "train:948": {
+  "scene": "Central Perk. Joey and Rachel present.",
+  "raw": "Central Perk. Joey and Rachel present."
+ },
+ "train:949": {
+  "scene": "Apartment (Monica, Chandler, Ross)",
+  "raw": "Apartment (Monica, Chandler, Ross)"
+ },
+ "train:950": {
+  "scene": "Central Perk. Ross, Chandler present.",
+  "raw": "Central Perk. Ross, Chandler present."
+ },
+ "train:951": {
+  "scene": "Apartment (Joey, Ross)",
+  "raw": "Apartment (Joey, Ross)"
+ },
+ "train:952": {
+  "scene": "Central Perk Coffee Shop. Phoebe and Mike are present.",
+  "raw": "Central Perk Coffee Shop. Phoebe and Mike are present."
+ },
+ "train:953": {
+  "scene": "Apartment (Joey, Carol)",
+  "raw": "Apartment (Joey, Carol)"
+ },
+ "train:954": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "train:955": {
+  "scene": "Apartment (Rachel, Danny)",
+  "raw": "Apartment (Rachel, Danny)"
+ },
+ "train:956": {
+  "scene": "Central Perk. Ross, Rachel present.",
+  "raw": "Central Perk. Ross, Rachel present."
+ },
+ "train:957": {
+  "scene": "Central Perk Coffee Shop. Ross, Rachel, Monica, Chandler, Joey, and Gunther are present.",
+  "raw": "Central Perk Coffee Shop. Ross, Rachel, Monica, Chandler, Joey, and Gunther are present."
+ },
+ "train:958": {
+  "scene": "Apartment (Ross)",
+  "raw": "Apartment (Ross)"
+ },
+ "train:959": {
+  "scene": "Central Perk Cafe. Monica, Chandler, Joey, Ross, Rachel, and Allesandro are present.",
+  "raw": "Central Perk Cafe. Monica, Chandler, Joey, Ross, Rachel, and Allesandro are present."
+ },
+ "train:960": {
+  "scene": "Central Perk Coffeehouse. Phoebe and Ross are present.",
+  "raw": "Central Perk Coffeehouse. Phoebe and Ross are present."
+ },
+ "train:961": {
+  "scene": "Apartment (Chandler, Monica)",
+  "raw": "Apartment (Chandler, Monica)"
+ },
+ "train:962": {
+  "scene": "Apartment: Ross, Chandler (2)",
+  "raw": "Apartment: Ross, Chandler (2)"
+ },
+ "train:963": {
+  "scene": "Central Perk. Ross and Rachel are present.",
+  "raw": "Central Perk. Ross and Rachel are present."
+ },
+ "train:964": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "train:965": {
+  "scene": "Apartment (Ross, Phoebe, Rachel)",
+  "raw": "Apartment (Ross, Phoebe, Rachel)"
+ },
+ "train:966": {
+  "scene": "Central Perk Coffee Shop. Joey and Rachel are present.",
+  "raw": "Central Perk Coffee Shop. Joey and Rachel are present."
+ },
+ "train:967": {
+  "scene": "Apartment (Chandler, Ross, Joey)",
+  "raw": "Apartment (Chandler, Ross, Joey)"
+ },
+ "train:968": {
+  "scene": "Apartment (Ross)",
+  "raw": "Apartment (Ross)"
+ },
+ "train:969": {
+  "scene": "Central Perk coffee shop. Joey, Chandler, Ross, Rachel, Monica, and Gunther are present.",
+  "raw": "Central Perk coffee shop. Joey, Chandler, Ross, Rachel, Monica, and Gunther are present."
+ },
+ "train:970": {
+  "scene": "Apartment (Joey, Ross)",
+  "raw": "Apartment (Joey, Ross)"
+ },
+ "train:971": {
+  "scene": "Central Perk. Ross and Cassie are present.",
+  "raw": "Central Perk. Ross and Cassie are present."
+ },
+ "train:972": {
+  "scene": "Central Perk. Phoebe is present.",
+  "raw": "Central Perk. Phoebe is present."
+ },
+ "train:973": {
+  "scene": "Monica and Rachel's apartment (Ross, Monica, Rachel)",
+  "raw": "Monica and Rachel's apartment (Ross, Monica, Rachel)"
+ },
+ "train:974": {
+  "scene": "Apartment (Rachel, Ross)",
+  "raw": "Apartment (Rachel, Ross)"
+ },
+ "train:975": {
+  "scene": "Apartment (Monica, Chandler, Phoebe, Rachel, and Terry)",
+  "raw": "Apartment (Monica, Chandler, Phoebe, Rachel, and Terry)"
+ },
+ "train:976": {
+  "scene": "Apartment (Monica, Chandler, Ross, Rachel)",
+  "raw": "Apartment (Monica, Chandler, Ross, Rachel)"
+ },
+ "train:977": {
+  "scene": "Apartment (Monica, Chandler, Rachel)",
+  "raw": "Apartment (Monica, Chandler, Rachel)"
+ },
+ "train:978": {
+  "scene": "Apartment (Monica, Chandler, Joey, Phoebe)",
+  "raw": "Apartment (Monica, Chandler, Joey, Phoebe)"
+ },
+ "train:979": {
+  "scene": "Apartment (Monica, Chandler, Ross)",
+  "raw": "Apartment (Monica, Chandler, Ross)"
+ },
+ "train:980": {
+  "scene": "Apartment (Monica, Chandler, Ross, Rachel)",
+  "raw": "Apartment (Monica, Chandler, Ross, Rachel)"
+ },
+ "train:981": {
+  "scene": "Apartment (Joey, Chandler)",
+  "raw": "Apartment (Joey, Chandler)"
+ },
+ "train:982": {
+  "scene": "TV set. Rachel, Joey present.",
+  "raw": "TV set. Rachel, Joey present."
+ },
+ "train:983": {
+  "scene": "Central Perk Coffee Shop. Phoebe and Joey are present.",
+  "raw": "Central Perk Coffee Shop. Phoebe and Joey are present."
+ },
+ "train:984": {
+  "scene": "Apartment (Joey, Estelle)",
+  "raw": "Apartment (Joey, Estelle)"
+ },
+ "train:985": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:986": {
+  "scene": "Central Perk Coffee Shop. Chandler, Joey, Ross, Monica, Rachel, and Gunther are present.",
+  "raw": "Central Perk Coffee Shop. Chandler, Joey, Ross, Monica, Rachel, and Gunther are present."
+ },
+ "train:987": {
+  "scene": "Central Perk Coffeehouse. Phoebe and Rachel present.",
+  "raw": "Central Perk Coffeehouse. Phoebe and Rachel present."
+ },
+ "train:988": {
+  "scene": "Apartment (Rachel, Chandler)",
+  "raw": "Apartment (Rachel, Chandler)"
+ },
+ "train:989": {
+  "scene": "Apartment (Chandler, Joey)",
+  "raw": "Apartment (Chandler, Joey)"
+ },
+ "train:990": {
+  "scene": "Kitchen. Joey and The Cooking Teacher are present.",
+  "raw": "Kitchen. Joey and The Cooking Teacher are present."
+ },
+ "train:991": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "train:992": {
+  "scene": "Apartment (Ross, Joey)",
+  "raw": "Apartment (Ross, Joey)"
+ },
+ "train:993": {
+  "scene": "Apartment (Chandler, Joey)",
+  "raw": "Apartment (Chandler, Joey)"
+ },
+ "train:994": {
+  "scene": "Apartment (Chandler, Ross)",
+  "raw": "Apartment (Chandler, Ross)"
+ },
+ "train:995": {
+  "scene": "Central Perk Coffee Shop. Ross and Emily are present.",
+  "raw": "Central Perk Coffee Shop. Ross and Emily are present."
+ },
+ "train:996": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:997": {
+  "scene": "Apartment (Joey, Mrs. Tribbiani)",
+  "raw": "Apartment (Joey, Mrs. Tribbiani)"
+ },
+ "train:998": {
+  "scene": "Apartment (Ross, Susan)",
+  "raw": "Apartment (Ross, Susan)"
+ },
+ "train:999": {
+  "scene": "Apartment (Monica, Rachel, Chandler)",
+  "raw": "Apartment (Monica, Rachel, Chandler)"
+ },
+ "train:1000": {
+  "scene": "Kitchen at Monica's apartment. Monica, Leon (the manager) present.",
+  "raw": "Kitchen at Monica's apartment. Monica, Leon (the manager) present."
+ },
+ "train:1001": {
+  "scene": "Central Perk Coffee Shop. Ross and Chandler are present.",
+  "raw": "Central Perk Coffee Shop. Ross and Chandler are present."
+ },
+ "train:1002": {
+  "scene": "Monica's Grandmother's Living Room (Monica, Joey present)",
+  "raw": "Monica's Grandmother's Living Room (Monica, Joey present)"
+ },
+ "train:1003": {
+  "scene": "Ross, Rachel, and Paul are in Paul's mom's kitchen.",
+  "raw": "Ross, Rachel, and Paul are in Paul's mom's kitchen."
+ },
+ "train:1004": {
+  "scene": "Apartment (Monica, Chandler, Joey, Ross, Rachel, Phoebe, Larry) or Bleaker Street Italian Restaurant (Larry, Phoebe)",
+  "raw": "Apartment (Monica, Chandler, Joey, Ross, Rachel, Phoebe, Larry) or Bleaker Street Italian Restaurant (Larry, Phoebe)"
+ },
+ "train:1005": {
+  "scene": "Apartment (Monica, Rachel, Phoebe)",
+  "raw": "Apartment (Monica, Rachel, Phoebe)"
+ },
+ "train:1006": {
+  "scene": "U.S.S. (Ross, Chandler)",
+  "raw": "U.S.S. (Ross, Chandler)"
+ },
+ "train:1007": {
+  "scene": "Apartment (Monica, unspecified firemen)",
+  "raw": "Apartment (Monica, unspecified firemen)"
+ },
+ "train:1008": {
+  "scene": "Apartment (Rachel, Monica)",
+  "raw": "Apartment (Rachel, Monica)"
+ },
+ "train:1009": {
+  "scene": "Apartment (Joey, Monica)",
+  "raw": "Apartment (Joey, Monica)"
+ },
+ "train:1010": {
+  "scene": "Apartment (Monica, Chandler, Ross)",
+  "raw": "Apartment (Monica, Chandler, Ross)"
+ },
+ "train:1011": {
+  "scene": "Hospital - Ross, Phoebe, and Dr. Oberman",
+  "raw": "Hospital - Ross, Phoebe, and Dr. Oberman"
+ },
+ "train:1012": {
+  "scene": "Apartment (Ross, Monica)",
+  "raw": "Apartment (Ross, Monica)"
+ },
+ "train:1013": {
+  "scene": "Street; Ross, Policeman (Petty)",
+  "raw": "Street; Ross, Policeman (Petty)"
+ },
+ "train:1014": {
+  "scene": "Apartment (Monica, Chandler, Joey, Ross, Rachel, and guest characters Gerston and Santos)",
+  "raw": "Apartment (Monica, Chandler, Joey, Ross, Rachel, and guest characters Gerston and Santos)"
+ },
+ "train:1015": {
+  "scene": "Apartment (Monica, Chandler, Joey, Ross)",
+  "raw": "Apartment (Monica, Chandler, Joey, Ross)"
+ },
+ "train:1016": {
+  "scene": "Apartment (Monica, Phoebe, Joey)",
+  "raw": "Apartment (Monica, Phoebe, Joey)"
+ },
+ "train:1017": {
+  "scene": "Central Perk. Ross, Rachel, and Phoebe are present.",
+  "raw": "Central Perk. Ross, Rachel, and Phoebe are present."
+ },
+ "train:1018": {
+  "scene": "Central Perk Cafe. Chandler and Monica are present.",
+  "raw": "Central Perk Cafe. Chandler and Monica are present."
+ },
+ "train:1019": {
+  "scene": "Central Perk. Rachel, Tag present.",
+  "raw": "Central Perk. Rachel, Tag present."
+ },
+ "train:1020": {
+  "scene": "Apartment (Chandler)",
+  "raw": "Apartment (Chandler)"
+ },
+ "train:1021": {
+  "scene": "Apartment (Rachel, Joey)",
+  "raw": "Apartment (Rachel, Joey)"
+ },
+ "train:1022": {
+  "scene": "Apartment kitchen. Chandler, Monica present.",
+  "raw": "Apartment kitchen. Chandler, Monica present."
+ },
+ "train:1023": {
+  "scene": "Apartment (Joey, Potential Roommate)",
+  "raw": "Apartment (Joey, Potential Roommate)"
+ },
+ "train:1024": {
+  "scene": "Apartment (Monica, Chandler, Joey, Ross, Rachel, and Jack Geller)",
+  "raw": "Apartment (Monica, Chandler, Joey, Ross, Rachel, and Jack Geller)"
+ },
+ "train:1025": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:1026": {
+  "scene": "Central Perk Coffeehouse. Phoebe is present.",
+  "raw": "Central Perk Coffeehouse. Phoebe is present."
+ },
+ "train:1027": {
+  "scene": "Living room. Melissa is present. (Inference: Rachel, Monica, Phoebe, Chandler, Ross, and Joey are also present, as they are regular characters in the show.)",
+  "raw": "Living room. Melissa is present. (Inference: Rachel, Monica, Phoebe, Chandler, Ross, and Joey are also present, as they are regular characters in the show.)"
+ },
+ "train:1028": {
+  "scene": "Apartment (Rachel, Ben)",
+  "raw": "Apartment (Rachel, Ben)"
+ },
+ "train:1029": {
+  "scene": "Apartment (Ross, Chloe)",
+  "raw": "Apartment (Ross, Chloe)"
+ },
+ "train:1030": {
+  "scene": "Gym (Monica, Pete, Hoshi, Chandler)",
+  "raw": "Gym (Monica, Pete, Hoshi, Chandler)"
+ },
+ "train:1031": {
+  "scene": "Apartment (Monica, Chip)",
+  "raw": "Apartment (Monica, Chip)"
+ },
+ "train:1032": {
+  "scene": "Apartment (Joey, Chandler)",
+  "raw": "Apartment (Joey, Chandler)"
+ },
+ "train:1033": {
+  "scene": "Apartment kitchen. Rachel, Ross present.",
+  "raw": "Apartment kitchen. Rachel, Ross present."
+ },
+ "train:1034": {
+  "scene": "Apartment (Joey, Chandler)",
+  "raw": "Apartment (Joey, Chandler)"
+ },
+ "train:1035": {
+  "scene": "Apartment building set (Joey, Stanley)",
+  "raw": "Apartment building set (Joey, Stanley)"
+ },
+ "train:1036": {
+  "scene": "Central Perk. Rachel and Julie are present.",
+  "raw": "Central Perk. Rachel and Julie are present."
+ },
+ "train:1037": {
+  "scene": "Apartment (Chandler, Monica, Joey, Ross, Rachel, Phoebe)",
+  "raw": "Apartment (Chandler, Monica, Joey, Ross, Rachel, Phoebe)"
+ },
+ "dev:0": {
+  "scene": "Central Perk Coffeehouse. Phoebe and Unspecified Character present.",
+  "raw": "Central Perk Coffeehouse. Phoebe and Unspecified Character present."
+ },
+ "dev:1": {
+  "scene": "Central Perk Coffee Shop. Ross, Chandler, and Joey are present.",
+  "raw": "Central Perk Coffee Shop. Ross, Chandler, and Joey are present."
+ },
+ "dev:2": {
+  "scene": "Central Perk coffee shop. Joey Tribbiani and Estelle are present.",
+  "raw": "Central Perk coffee shop. Joey Tribbiani and Estelle are present."
+ },
+ "dev:3": {
+  "scene": "Apartment (Ross, Chandler, Gary)",
+  "raw": "Apartment (Ross, Chandler, Gary)"
+ },
+ "dev:4": {
+  "scene": "Museum, Ross and Unknown Guy (implied to be scholars)",
+  "raw": "Museum, Ross and Unknown Guy (implied to be scholars)"
+ },
+ "dev:5": {
+  "scene": "Apartment (Ross, Rachel)",
+  "raw": "Apartment (Ross, Rachel)"
+ },
+ "dev:6": {
+  "scene": "Central Perk coffee shop. Phoebe and Joey are present.",
+  "raw": "Central Perk coffee shop. Phoebe and Joey are present."
+ },
+ "dev:7": {
+  "scene": "Apartment (Ross, Rachel)",
+  "raw": "Apartment (Ross, Rachel)"
+ },
+ "dev:8": {
+  "scene": "Apartment (Monica, Joey)",
+  "raw": "Apartment (Monica, Joey)"
+ },
+ "dev:9": {
+  "scene": "Apartment (Joey, Chandler)",
+  "raw": "Apartment (Joey, Chandler)"
+ },
+ "dev:10": {
+  "scene": "Apartment building (Ross, Gary, Chandler)",
+  "raw": "Apartment building (Ross, Gary, Chandler)"
+ },
+ "dev:11": {
+  "scene": "Central Perk. Phoebe and Rachel are present.",
+  "raw": "Central Perk. Phoebe and Rachel are present."
+ },
+ "dev:12": {
+  "scene": "Central Perk. Ross and Phoebe are present.",
+  "raw": "Central Perk. Ross and Phoebe are present."
+ },
+ "dev:13": {
+  "scene": "Hospital room. Dr. Harad, Phoebe, and Frank are present.",
+  "raw": "Hospital room. Dr. Harad, Phoebe, and Frank are present."
+ },
+ "dev:14": {
+  "scene": "Office (Chandler, Bob)",
+  "raw": "Office (Chandler, Bob)"
+ },
+ "dev:15": {
+  "scene": "Apartment (Rachel, Joey)",
+  "raw": "Apartment (Rachel, Joey)"
+ },
+ "dev:16": {
+  "scene": "Ross's apartment (Ross, Kyle, and Whitney present)",
+  "raw": "Ross's apartment (Ross, Kyle, and Whitney present)"
+ },
+ "dev:17": {
+  "scene": "Central Perk Coffee Shop. Joey, Rachel, and passerby are present.",
+  "raw": "Central Perk Coffee Shop. Joey, Rachel, and passerby are present."
+ },
+ "dev:18": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "dev:19": {
+  "scene": "Apartment (Ross)",
+  "raw": "Apartment (Ross)"
+ },
+ "dev:20": {
+  "scene": "A typical New York City apartment. Monica, Rachel, and Kelly are present.",
+  "raw": "A typical New York City apartment. Monica, Rachel, and Kelly are present."
+ },
+ "dev:21": {
+  "scene": "Central Perk Coffee Shop. Joey, Phoebe present.",
+  "raw": "Central Perk Coffee Shop. Joey, Phoebe present."
+ },
+ "dev:22": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "dev:23": {
+  "scene": "Central Perk. Ross, Phoebe present.",
+  "raw": "Central Perk. Ross, Phoebe present."
+ },
+ "dev:24": {
+  "scene": "Apartment (Monica, Chandler, Joey, Cookie)",
+  "raw": "Apartment (Monica, Chandler, Joey, Cookie)"
+ },
+ "dev:25": {
+  "scene": "Central Perk Coffeehouse. Phoebe and Monica present.",
+  "raw": "Central Perk Coffeehouse. Phoebe and Monica present."
+ },
+ "dev:26": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "dev:27": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "dev:28": {
+  "scene": "Central Perk. Ross, Phoebe, Joey present.",
+  "raw": "Central Perk. Ross, Phoebe, Joey present."
+ },
+ "dev:29": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "dev:30": {
+  "scene": "A nuclear power plant control room. Joey and an unspecified character are present.",
+  "raw": "A nuclear power plant control room. Joey and an unspecified character are present."
+ },
+ "dev:31": {
+  "scene": "Apartment (Monica, Chandler, Kori) - Discussing Ross (implied)",
+  "raw": "Apartment (Monica, Chandler, Kori) - Discussing Ross (implied)"
+ },
+ "dev:32": {
+  "scene": "Hospital examination room. Dr. Long and Rachel are present.",
+  "raw": "Hospital examination room. Dr. Long and Rachel are present."
+ },
+ "dev:33": {
+  "scene": "Apartment (Chandler, Monica)",
+  "raw": "Apartment (Chandler, Monica)"
+ },
+ "dev:34": {
+  "scene": "Central Perk. Ross and Carol are present.",
+  "raw": "Central Perk. Ross and Carol are present."
+ },
+ "dev:35": {
+  "scene": "Central Perk Coffee Shop. Mark and Ross are present.",
+  "raw": "Central Perk Coffee Shop. Mark and Ross are present."
+ },
+ "dev:36": {
+  "scene": "Hospital - Ross, Rachel",
+  "raw": "Hospital - Ross, Rachel"
+ },
+ "dev:37": {
+  "scene": "Central Perk. Chandler, Rachel present.",
+  "raw": "Central Perk. Chandler, Rachel present."
+ },
+ "dev:38": {
+  "scene": "Apartment (Joey, Chandler)",
+  "raw": "Apartment (Joey, Chandler)"
+ },
+ "dev:39": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "dev:40": {
+  "scene": "Central Perk. Rachel and Joey are present.",
+  "raw": "Central Perk. Rachel and Joey are present."
+ },
+ "dev:41": {
+  "scene": "Central Perk. Rachel, Ross, and Emily are present.",
+  "raw": "Central Perk. Rachel, Ross, and Emily are present."
+ },
+ "dev:42": {
+  "scene": "Central Perk. Ross, Rachel present.",
+  "raw": "Central Perk. Ross, Rachel present."
+ },
+ "dev:43": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "dev:44": {
+  "scene": "Apartment (Ross, The Hot Girl)",
+  "raw": "Apartment (Ross, The Hot Girl)"
+ },
+ "dev:45": {
+  "scene": "Apartment (Chandler, Monica, Rachel)",
+  "raw": "Apartment (Chandler, Monica, Rachel)"
+ },
+ "dev:46": {
+  "scene": "Central Perk. Rachel, Phoebe, and Joey are present.",
+  "raw": "Central Perk. Rachel, Phoebe, and Joey are present."
+ },
+ "dev:47": {
+  "scene": "Apartment (Ross, Carol)",
+  "raw": "Apartment (Ross, Carol)"
+ },
+ "dev:48": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "dev:49": {
+  "scene": "Apartment (Ross, Susan)",
+  "raw": "Apartment (Ross, Susan)"
+ },
+ "dev:50": {
+  "scene": "Apartment (Joey, Phoebe)",
+  "raw": "Apartment (Joey, Phoebe)"
+ },
+ "dev:51": {
+  "scene": "Apartment (Joey, Chandler)",
+  "raw": "Apartment (Joey, Chandler)"
+ },
+ "dev:52": {
+  "scene": "Restaurant kitchen. Monica and waitress present.",
+  "raw": "Restaurant kitchen. Monica and waitress present."
+ },
+ "dev:53": {
+  "scene": "Apartment (Joey, Janine)",
+  "raw": "Apartment (Joey, Janine)"
+ },
+ "dev:54": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "dev:55": {
+  "scene": "Central Perk Coffee Shop. Ross, Rachel, Chandler, Monica, Joey, and Gunther are present.",
+  "raw": "Central Perk Coffee Shop. Ross, Rachel, Chandler, Monica, Joey, and Gunther are present."
+ },
+ "dev:56": {
+  "scene": "Central Perk Cafe. Joey, Ross, and Chandler present.",
+  "raw": "Central Perk Cafe. Joey, Ross, and Chandler present."
+ },
+ "dev:57": {
+  "scene": "Central Perk Coffeehouse. Rachel and Phoebe are present.",
+  "raw": "Central Perk Coffeehouse. Rachel and Phoebe are present."
+ },
+ "dev:58": {
+  "scene": "Central Perk Coffee Shop. Chandler and Ross are present.",
+  "raw": "Central Perk Coffee Shop. Chandler and Ross are present."
+ },
+ "dev:59": {
+  "scene": "Central Perk. Chandler, Joey, and Phoebe are present.",
+  "raw": "Central Perk. Chandler, Joey, and Phoebe are present."
+ },
+ "dev:60": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "dev:61": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "dev:62": {
+  "scene": "Central Perk. Ross and Carol are present.",
+  "raw": "Central Perk. Ross and Carol are present."
+ },
+ "dev:63": {
+  "scene": "Central Perk Coffee Shop. Ross and Rachel present.",
+  "raw": "Central Perk Coffee Shop. Ross and Rachel present."
+ },
+ "dev:64": {
+  "scene": "Apartment kitchen. Rachel, Monica, and Joey are present.",
+  "raw": "Apartment kitchen. Rachel, Monica, and Joey are present."
+ },
+ "dev:65": {
+  "scene": "Central Perk coffee shop. Rachel and Joanna are present.",
+  "raw": "Central Perk coffee shop. Rachel and Joanna are present."
+ },
+ "dev:66": {
+  "scene": "Apartment (Monica, Phoebe, Rachel)",
+  "raw": "Apartment (Monica, Phoebe, Rachel)"
+ },
+ "dev:67": {
+  "scene": "Apartment (Monica, Chandler, Ross, Rachel, Joey, Phoebe)",
+  "raw": "Apartment (Monica, Chandler, Ross, Rachel, Joey, Phoebe)"
+ },
+ "dev:68": {
+  "scene": "Apartment (Rachel, Phoebe)",
+  "raw": "Apartment (Rachel, Phoebe)"
+ },
+ "dev:69": {
+  "scene": "Apartment (Rachel, Tag)",
+  "raw": "Apartment (Rachel, Tag)"
+ },
+ "dev:70": {
+  "scene": "Central Perk Coffee Shop. Ross and Chandler present.",
+  "raw": "Central Perk Coffee Shop. Ross and Chandler present."
+ },
+ "dev:71": {
+  "scene": "Apartment (Rachel, Joey)",
+  "raw": "Apartment (Rachel, Joey)"
+ },
+ "dev:72": {
+  "scene": "Apartment (Joey, Phoebe)",
+  "raw": "Apartment (Joey, Phoebe)"
+ },
+ "dev:73": {
+  "scene": "Apartment (Ross, Joey)",
+  "raw": "Apartment (Ross, Joey)"
+ },
+ "dev:74": {
+  "scene": "Apartment (Monica, Rachel, Ross)",
+  "raw": "Apartment (Monica, Rachel, Ross)"
+ },
+ "dev:75": {
+  "scene": "Central Perk Coffee Shop. Rachel, Ross, Chandler, Monica, Joey, and Gunther are present.",
+  "raw": "Central Perk Coffee Shop. Rachel, Ross, Chandler, Monica, Joey, and Gunther are present."
+ },
+ "dev:76": {
+  "scene": "Central Perk. Chandler and Ross are present.",
+  "raw": "Central Perk. Chandler and Ross are present."
+ },
+ "dev:77": {
+  "scene": "Central Perk. Phoebe, Ross, and (implied) Emma are present.",
+  "raw": "Central Perk. Phoebe, Ross, and (implied) Emma are present."
+ },
+ "dev:78": {
+  "scene": "Central Perk. Rachel and Ross are present.",
+  "raw": "Central Perk. Rachel and Ross are present."
+ },
+ "dev:79": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "dev:80": {
+  "scene": "Central Perk Coffee Shop. Phoebe and Max are present.",
+  "raw": "Central Perk Coffee Shop. Phoebe and Max are present."
+ },
+ "dev:81": {
+  "scene": "College office. Ross and Elizabeth (Emily) are present.",
+  "raw": "College office. Ross and Elizabeth (Emily) are present."
+ },
+ "dev:82": {
+  "scene": "Factory setting. Joey and Chandler are present.",
+  "raw": "Factory setting. Joey and Chandler are present."
+ },
+ "dev:83": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "dev:84": {
+  "scene": "Apartment (Monica, Ross, Phoebe)",
+  "raw": "Apartment (Monica, Ross, Phoebe)"
+ },
+ "dev:85": {
+  "scene": "Central Perk. Rachel, Ross present.",
+  "raw": "Central Perk. Rachel, Ross present."
+ },
+ "dev:86": {
+  "scene": "Apartment (Monica, Ross)",
+  "raw": "Apartment (Monica, Ross)"
+ },
+ "dev:87": {
+  "scene": "Apartment (Monica, Chandler, Joey)",
+  "raw": "Apartment (Monica, Chandler, Joey)"
+ },
+ "dev:88": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "dev:89": {
+  "scene": "Apartment (Monica, Chandler, Joey)",
+  "raw": "Apartment (Monica, Chandler, Joey)"
+ },
+ "dev:90": {
+  "scene": "Apartment (Rachel, Monica)",
+  "raw": "Apartment (Rachel, Monica)"
+ },
+ "dev:91": {
+  "scene": "Central Perk Coffeehouse. Phoebe, Ross present.",
+  "raw": "Central Perk Coffeehouse. Phoebe, Ross present."
+ },
+ "dev:92": {
+  "scene": "Apartment (Monica, Chandler, Ross, Phoebe)",
+  "raw": "Apartment (Monica, Chandler, Ross, Phoebe)"
+ },
+ "dev:93": {
+  "scene": "Monica and Chandler's apartment. Rachel, Phoebe, and Ross are present.",
+  "raw": "Monica and Chandler's apartment. Rachel, Phoebe, and Ross are present."
+ },
+ "dev:94": {
+  "scene": "Central Perk Coffee Shop. Ross, Chandler, and Carol are present.",
+  "raw": "Central Perk Coffee Shop. Ross, Chandler, and Carol are present."
+ },
+ "dev:95": {
+  "scene": "Apartment (Monica, Joey)",
+  "raw": "Apartment (Monica, Joey)"
+ },
+ "dev:96": {
+  "scene": "Apartment (Monica, Chandler, Phoebe, Joey)",
+  "raw": "Apartment (Monica, Chandler, Phoebe, Joey)"
+ },
+ "dev:97": {
+  "scene": "Apartment (Monica, Phoebe, Chandler)",
+  "raw": "Apartment (Monica, Phoebe, Chandler)"
+ },
+ "dev:98": {
+  "scene": "Apartment (Monica, Jeannine)",
+  "raw": "Apartment (Monica, Jeannine)"
+ },
+ "dev:99": {
+  "scene": "Monica's apartment (Monica, Ross, Rachel, Phoebe present)",
+  "raw": "Monica's apartment (Monica, Ross, Rachel, Phoebe present)"
+ },
+ "dev:100": {
+  "scene": "Monica's apartment (Monica, Chandler, Joey, Ross, Rachel, and Phoebe present)",
+  "raw": "Monica's apartment (Monica, Chandler, Joey, Ross, Rachel, and Phoebe present)"
+ },
+ "dev:101": {
+  "scene": "Central Perk. Rachel and Emma are present.",
+  "raw": "Central Perk. Rachel and Emma are present."
+ },
+ "dev:102": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "dev:103": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "dev:104": {
+  "scene": "Apartment (Chandler, Monica)",
+  "raw": "Apartment (Chandler, Monica)"
+ },
+ "dev:105": {
+  "scene": "Airplane, Monica (character) present.",
+  "raw": "Airplane, Monica (character) present."
+ },
+ "dev:106": {
+  "scene": "Apartment (Joey, Chandler) - Living Room",
+  "raw": "Apartment (Joey, Chandler) - Living Room"
+ },
+ "dev:107": {
+  "scene": "Apartment (Monica, Chandler, Ross, Rachel, Phoebe, Joey)",
+  "raw": "Apartment (Monica, Chandler, Ross, Rachel, Phoebe, Joey)"
+ },
+ "dev:108": {
+  "scene": "Central Perk Coffee Shop. Joey and Phoebe are present.",
+  "raw": "Central Perk Coffee Shop. Joey and Phoebe are present."
+ },
+ "dev:109": {
+  "scene": "Apartment (Monica, Joey, Ross)",
+  "raw": "Apartment (Monica, Joey, Ross)"
+ },
+ "dev:110": {
+  "scene": "Central Perk Coffee Shop. Phoebe, Rachel present.",
+  "raw": "Central Perk Coffee Shop. Phoebe, Rachel present."
+ },
+ "dev:111": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "dev:112": {
+  "scene": "Central Perk Coffee Shop. Phoebe and Ursula are present.",
+  "raw": "Central Perk Coffee Shop. Phoebe and Ursula are present."
+ },
+ "dev:113": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "test:0": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "test:1": {
+  "scene": "Hospital delivery room. Joey and Lydia (presumably a nurse) present.",
+  "raw": "Hospital delivery room. Joey and Lydia (presumably a nurse) present."
+ },
+ "test:2": {
+  "scene": "Apartment building, Ross and Rachel present.",
+  "raw": "Apartment building, Ross and Rachel present."
+ },
+ "test:3": {
+  "scene": "Central Perk. Steve and Ross are present.",
+  "raw": "Central Perk. Steve and Ross are present."
+ },
+ "test:4": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "test:5": {
+  "scene": "Central Perk. Chandler, Marjorie present.",
+  "raw": "Central Perk. Chandler, Marjorie present."
+ },
+ "test:6": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "test:7": {
+  "scene": "Apartment (Monica, Phoebe, Joey)",
+  "raw": "Apartment (Monica, Phoebe, Joey)"
+ },
+ "test:8": {
+  "scene": "Apartment (Chandler, Jade)",
+  "raw": "Apartment (Chandler, Jade)"
+ },
+ "test:9": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "test:10": {
+  "scene": "Central Perk coffee shop. Joey is present. (Monica, Chandler, Ross, Rachel, and Gunther are also usually present.)",
+  "raw": "Central Perk coffee shop. Joey is present. (Monica, Chandler, Ross, Rachel, and Gunther are also usually present.)"
+ },
+ "test:11": {
+  "scene": "Hotel lobby. Rachel and Phoebe are present.",
+  "raw": "Hotel lobby. Rachel and Phoebe are present."
+ },
+ "test:12": {
+  "scene": "Apartment (Ross, Monica, and another unspecified character)",
+  "raw": "Apartment (Ross, Monica, and another unspecified character)"
+ },
+ "test:13": {
+  "scene": "Central Perk Coffeehouse. Phoebe and Roger present.",
+  "raw": "Central Perk Coffeehouse. Phoebe and Roger present."
+ },
+ "test:14": {
+  "scene": "Apartment (Joey, Phoebe)",
+  "raw": "Apartment (Joey, Phoebe)"
+ },
+ "test:15": {
+  "scene": "Central Perk Coffee Shop. Phoebe and Gary are present.",
+  "raw": "Central Perk Coffee Shop. Phoebe and Gary are present."
+ },
+ "test:16": {
+  "scene": "Apartment (Monica, Joey)",
+  "raw": "Apartment (Monica, Joey)"
+ },
+ "test:17": {
+  "scene": "Apartment (Ross, Monica, Joey)",
+  "raw": "Apartment (Ross, Monica, Joey)"
+ },
+ "test:18": {
+  "scene": "Apartment (Rachel, Joey)",
+  "raw": "Apartment (Rachel, Joey)"
+ },
+ "test:19": {
+  "scene": "Central Perk Coffee Shop. Joey, Chandler, Ross, Rachel, Monica, and Phoebe are present.",
+  "raw": "Central Perk Coffee Shop. Joey, Chandler, Ross, Rachel, Monica, and Phoebe are present."
+ },
+ "test:20": {
+  "scene": "Central Perk Coffee Shop. Rachel and Joey present.",
+  "raw": "Central Perk Coffee Shop. Rachel and Joey present."
+ },
+ "test:21": {
+  "scene": "Central Perk Coffeehouse. Phoebe, Duncan present.",
+  "raw": "Central Perk Coffeehouse. Phoebe, Duncan present."
+ },
+ "test:22": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "test:23": {
+  "scene": "Central Perk. Rachel and Danny are present.",
+  "raw": "Central Perk. Rachel and Danny are present."
+ },
+ "test:24": {
+  "scene": "Central Perk Coffeehouse. Phoebe, Rachel present.",
+  "raw": "Central Perk Coffeehouse. Phoebe, Rachel present."
+ },
+ "test:25": {
+  "scene": "Monica and Rachel's apartment (living room)",
+  "raw": "Monica and Rachel's apartment (living room)"
+ },
+ "test:26": {
+  "scene": "Apartment (Joey, Chandler)",
+  "raw": "Apartment (Joey, Chandler)"
+ },
+ "test:27": {
+  "scene": "Central Perk Coffee Shop. Phoebe and (unspecified) character present.",
+  "raw": "Central Perk Coffee Shop. Phoebe and (unspecified) character present."
+ },
+ "test:28": {
+  "scene": "Apartment (Monica, Chandler, Joey, Phoebe)",
+  "raw": "Apartment (Monica, Chandler, Joey, Phoebe)"
+ },
+ "test:29": {
+  "scene": "Apartment (Chandler, Ross)",
+  "raw": "Apartment (Chandler, Ross)"
+ },
+ "test:30": {
+  "scene": "Apartment (Rachel, Janice, Chandler)",
+  "raw": "Apartment (Rachel, Janice, Chandler)"
+ },
+ "test:31": {
+  "scene": "Apartment (Monica, Chandler, Joey)",
+  "raw": "Apartment (Monica, Chandler, Joey)"
+ },
+ "test:32": {
+  "scene": "Central Perk coffee shop. Phoebe and Phoebe Sr are present.",
+  "raw": "Central Perk coffee shop. Phoebe and Phoebe Sr are present."
+ },
+ "test:33": {
+  "scene": "Apartment (Monica, Phoebe) - Phoebe's baby",
+  "raw": "Apartment (Monica, Phoebe) - Phoebe's baby"
+ },
+ "test:34": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "test:35": {
+  "scene": "Apartment (Ross, Carol)",
+  "raw": "Apartment (Ross, Carol)"
+ },
+ "test:36": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "test:37": {
+  "scene": "Apartment (Joey, Janice)",
+  "raw": "Apartment (Joey, Janice)"
+ },
+ "test:38": {
+  "scene": "Apartment (Joey, Student)",
+  "raw": "Apartment (Joey, Student)"
+ },
+ "test:39": {
+  "scene": "Apartment (Ross, Chandler, and Mr. Geller)",
+  "raw": "Apartment (Ross, Chandler, and Mr. Geller)"
+ },
+ "test:40": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "test:41": {
+  "scene": "Central Perk Coffeehouse. Monica, Chandler, and Rachel are present.",
+  "raw": "Central Perk Coffeehouse. Monica, Chandler, and Rachel are present."
+ },
+ "test:42": {
+  "scene": "Central Perk. Ross is present.",
+  "raw": "Central Perk. Ross is present."
+ },
+ "test:43": {
+  "scene": "Apartment (Monica, Joey)",
+  "raw": "Apartment (Monica, Joey)"
+ },
+ "test:44": {
+  "scene": "Apartment (Chandler, Rachel)",
+  "raw": "Apartment (Chandler, Rachel)"
+ },
+ "test:45": {
+  "scene": "Central Perk. Phoebe and Monica are present.",
+  "raw": "Central Perk. Phoebe and Monica are present."
+ },
+ "test:46": {
+  "scene": "Apartment (Monica, Chandler, Joey)",
+  "raw": "Apartment (Monica, Chandler, Joey)"
+ },
+ "test:47": {
+  "scene": "Apartment (Joey)",
+  "raw": "Apartment (Joey)"
+ },
+ "test:48": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "test:49": {
+  "scene": "Apartment (Monica, Chandler, Joey)",
+  "raw": "Apartment (Monica, Chandler, Joey)"
+ },
+ "test:50": {
+  "scene": "University library. Ross, Chandler, and a female student are present.",
+  "raw": "University library. Ross, Chandler, and a female student are present."
+ },
+ "test:51": {
+  "scene": "Apartment (Joey, Rachel)",
+  "raw": "Apartment (Joey, Rachel)"
+ },
+ "test:52": {
+  "scene": "Apartment (Ross, Joey)",
+  "raw": "Apartment (Ross, Joey)"
+ },
+ "test:53": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "test:54": {
+  "scene": "Courtroom. Judge, Rachel, and Ross (implied) are present.",
+  "raw": "Courtroom. Judge, Rachel, and Ross (implied) are present."
+ },
+ "test:55": {
+  "scene": "Apartment (Rachel, Phoebe)",
+  "raw": "Apartment (Rachel, Phoebe)"
+ },
+ "test:56": {
+  "scene": "Monica and Chandler's apartment (Rachel, Ross present)",
+  "raw": "Monica and Chandler's apartment (Rachel, Ross present)"
+ },
+ "test:57": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "test:58": {
+  "scene": "Apartment (Monica and Chandler)",
+  "raw": "Apartment (Monica and Chandler)"
+ },
+ "test:59": {
+  "scene": "Apartment (Ross, Rachel)",
+  "raw": "Apartment (Ross, Rachel)"
+ },
+ "test:60": {
+  "scene": "Apartment (Chandler, Monica)",
+  "raw": "Apartment (Chandler, Monica)"
+ },
+ "test:61": {
+  "scene": "Apartment (Monica, Chip)",
+  "raw": "Apartment (Monica, Chip)"
+ },
+ "test:62": {
+  "scene": "Apartment (Monica, Chandler, Kathy)",
+  "raw": "Apartment (Monica, Chandler, Kathy)"
+ },
+ "test:63": {
+  "scene": "Central Perk Coffee Shop. Phoebe and Ross are present.",
+  "raw": "Central Perk Coffee Shop. Phoebe and Ross are present."
+ },
+ "test:64": {
+  "scene": "Central Perk Coffee Shop. Chandler and Ross are present.",
+  "raw": "Central Perk Coffee Shop. Chandler and Ross are present."
+ },
+ "test:65": {
+  "scene": "Apartment (Chandler, Phoebe)",
+  "raw": "Apartment (Chandler, Phoebe)"
+ },
+ "test:66": {
+  "scene": "Las Vegas Airport. Rachel, Flight Attendant present.",
+  "raw": "Las Vegas Airport. Rachel, Flight Attendant present."
+ },
+ "test:67": {
+  "scene": "Apartment (Monica, Phoebe, Larry)",
+  "raw": "Apartment (Monica, Phoebe, Larry)"
+ },
+ "test:68": {
+  "scene": "Apartment (Rachel, Joey, Monica, Chandler)",
+  "raw": "Apartment (Rachel, Joey, Monica, Chandler)"
+ },
+ "test:69": {
+  "scene": "Hospital waiting room. Chandler and unspecified friend are present.",
+  "raw": "Hospital waiting room. Chandler and unspecified friend are present."
+ },
+ "test:70": {
+  "scene": "Apartment (Joey, Molly)",
+  "raw": "Apartment (Joey, Molly)"
+ },
+ "test:71": {
+  "scene": "Apartment (Joey, Director)",
+  "raw": "Apartment (Joey, Director)"
+ },
+ "test:72": {
+  "scene": "Hospital room. Rachel and Nurse present.",
+  "raw": "Hospital room. Rachel and Nurse present."
+ },
+ "test:73": {
+  "scene": "Central Perk (Joey, Ross present)",
+  "raw": "Central Perk (Joey, Ross present)"
+ },
+ "test:74": {
+  "scene": "Apartment (Monica, Phoebe, Joey)",
+  "raw": "Apartment (Monica, Phoebe, Joey)"
+ },
+ "test:75": {
+  "scene": "Central Perk Coffeehouse. Phoebe and Frank Sr. are present.",
+  "raw": "Central Perk Coffeehouse. Phoebe and Frank Sr. are present."
+ },
+ "test:76": {
+  "scene": "Apartment (Rachel, Ross, Monica, and Paolo)",
+  "raw": "Apartment (Rachel, Ross, Monica, and Paolo)"
+ },
+ "test:77": {
+  "scene": "Central Perk. Ross, Monica present.",
+  "raw": "Central Perk. Ross, Monica present."
+ },
+ "test:78": {
+  "scene": "Apartment (Rachel, Monica)",
+  "raw": "Apartment (Rachel, Monica)"
+ },
+ "test:79": {
+  "scene": "High School, Monica, Rachel (implied)",
+  "raw": "High School, Monica, Rachel (implied)"
+ },
+ "test:80": {
+  "scene": "Apartment (Rachel, Monica, Joey)",
+  "raw": "Apartment (Rachel, Monica, Joey)"
+ },
+ "test:81": {
+  "scene": "Central Perk. Ross, Rachel present.",
+  "raw": "Central Perk. Ross, Rachel present."
+ },
+ "test:82": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "test:83": {
+  "scene": "Apartment (Chandler, Phoebe, Ross)",
+  "raw": "Apartment (Chandler, Phoebe, Ross)"
+ },
+ "test:84": {
+  "scene": "Apartment (Chandler, Joey)",
+  "raw": "Apartment (Chandler, Joey)"
+ },
+ "test:85": {
+  "scene": "Apartment (Joey, Chandler)",
+  "raw": "Apartment (Joey, Chandler)"
+ },
+ "test:86": {
+  "scene": "Central Perk Coffee Shop. Rachel is present.",
+  "raw": "Central Perk Coffee Shop. Rachel is present."
+ },
+ "test:87": {
+  "scene": "Apartment (Chandler, Monica)",
+  "raw": "Apartment (Chandler, Monica)"
+ },
+ "test:88": {
+  "scene": "Apartment (Joey, Phoebe)",
+  "raw": "Apartment (Joey, Phoebe)"
+ },
+ "test:89": {
+  "scene": "Apartment kitchen. Mike and Joey present.",
+  "raw": "Apartment kitchen. Mike and Joey present."
+ },
+ "test:90": {
+  "scene": "Apartment (Rachel, Ross)",
+  "raw": "Apartment (Rachel, Ross)"
+ },
+ "test:91": {
+  "scene": "Apartment kitchen. Joey and Ross present.",
+  "raw": "Apartment kitchen. Joey and Ross present."
+ },
+ "test:92": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "test:93": {
+  "scene": "Apartment building lobby, Joey and Chandler present.",
+  "raw": "Apartment building lobby, Joey and Chandler present."
+ },
+ "test:94": {
+  "scene": "Apartment (Ross, Paul)",
+  "raw": "Apartment (Ross, Paul)"
+ },
+ "test:95": {
+  "scene": "Living Room, Phoebe, Guest #1, Ross (implied)",
+  "raw": "Living Room, Phoebe, Guest #1, Ross (implied)"
+ },
+ "test:96": {
+  "scene": "Monica and Joey's apartment (living room)",
+  "raw": "Monica and Joey's apartment (living room)"
+ },
+ "test:97": {
+  "scene": "Apartment (Monica, Joey)",
+  "raw": "Apartment (Monica, Joey)"
+ },
+ "test:98": {
+  "scene": "Apartment (Rachel, Monica)",
+  "raw": "Apartment (Rachel, Monica)"
+ },
+ "test:99": {
+  "scene": "Apartment (Joey, Chandler)",
+  "raw": "Apartment (Joey, Chandler)"
+ },
+ "test:100": {
+  "scene": "Central Perk Coffee Shop. Phoebe, Ross, and (implied) other characters are present.",
+  "raw": "Central Perk Coffee Shop. Phoebe, Ross, and (implied) other characters are present."
+ },
+ "test:101": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "test:102": {
+  "scene": "Apartment (Rachel, Phoebe)",
+  "raw": "Apartment (Rachel, Phoebe)"
+ },
+ "test:103": {
+  "scene": "Central Perk. Ross and Joey are present.",
+  "raw": "Central Perk. Ross and Joey are present."
+ },
+ "test:104": {
+  "scene": "Apartment (Joey, Cliff)",
+  "raw": "Apartment (Joey, Cliff)"
+ },
+ "test:105": {
+  "scene": "Central Perk. Phoebe, Phoebe Sr. (intruder implied)",
+  "raw": "Central Perk. Phoebe, Phoebe Sr. (intruder implied)"
+ },
+ "test:106": {
+  "scene": "Apartment (Joey, Chandler)",
+  "raw": "Apartment (Joey, Chandler)"
+ },
+ "test:107": {
+  "scene": "Apartment (Rachel, Ross)",
+  "raw": "Apartment (Rachel, Ross)"
+ },
+ "test:108": {
+  "scene": "Apartment (Monica, Phoebe, Chandler)",
+  "raw": "Apartment (Monica, Phoebe, Chandler)"
+ },
+ "test:109": {
+  "scene": "Apartment (Joey, Lorraine, Janice)",
+  "raw": "Apartment (Joey, Lorraine, Janice)"
+ },
+ "test:110": {
+  "scene": "Central Perk. Joey and Ross are present.",
+  "raw": "Central Perk. Joey and Ross are present."
+ },
+ "test:111": {
+  "scene": "Central Perk coffee shop. Mrs. Bing and Chandler present.",
+  "raw": "Central Perk coffee shop. Mrs. Bing and Chandler present."
+ },
+ "test:112": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "test:113": {
+  "scene": "Central Perk. Ross, Monica, Chandler, Joey present.",
+  "raw": "Central Perk. Ross, Monica, Chandler, Joey present."
+ },
+ "test:114": {
+  "scene": "Apartment (Rachel, Joey, Ross)",
+  "raw": "Apartment (Rachel, Joey, Ross)"
+ },
+ "test:115": {
+  "scene": "Apartment (Ross, Chandler, Sarah)",
+  "raw": "Apartment (Ross, Chandler, Sarah)"
+ },
+ "test:116": {
+  "scene": "Central Perk. Lydia and Joey are present.",
+  "raw": "Central Perk. Lydia and Joey are present."
+ },
+ "test:117": {
+  "scene": "Gym (Ross, unspecified women)",
+  "raw": "Gym (Ross, unspecified women)"
+ },
+ "test:118": {
+  "scene": "Central Perk Coffee Shop. Dana and Chandler are present.",
+  "raw": "Central Perk Coffee Shop. Dana and Chandler are present."
+ },
+ "test:119": {
+  "scene": "Apartment (Monica, Phoebe, Chandler)",
+  "raw": "Apartment (Monica, Phoebe, Chandler)"
+ },
+ "test:120": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "test:121": {
+  "scene": "Apartment (Monica, Joey)",
+  "raw": "Apartment (Monica, Joey)"
+ },
+ "test:122": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "test:123": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "test:124": {
+  "scene": "Airport. Present: Ticket Counter Attendant, Chandler, Janice.",
+  "raw": "Airport. Present: Ticket Counter Attendant, Chandler, Janice."
+ },
+ "test:125": {
+  "scene": "Apartment (Rachel, Joey, Phoebe)",
+  "raw": "Apartment (Rachel, Joey, Phoebe)"
+ },
+ "test:126": {
+  "scene": "Rooftop. Rachel and Paul are present.",
+  "raw": "Rooftop. Rachel and Paul are present."
+ },
+ "test:127": {
+  "scene": "Apartment (Rachel, Ross, Phoebe)",
+  "raw": "Apartment (Rachel, Ross, Phoebe)"
+ },
+ "test:128": {
+  "scene": "Living Room (Brenda, Chandler)",
+  "raw": "Living Room (Brenda, Chandler)"
+ },
+ "test:129": {
+  "scene": "Apartment (Joey, Chandler, Ross)",
+  "raw": "Apartment (Joey, Chandler, Ross)"
+ },
+ "test:130": {
+  "scene": "Living Room (Ross, Emily)",
+  "raw": "Living Room (Ross, Emily)"
+ },
+ "test:131": {
+  "scene": "Apartment (Rachel, Joey, Phoebe present)",
+  "raw": "Apartment (Rachel, Joey, Phoebe present)"
+ },
+ "test:132": {
+  "scene": "Central Perk coffee shop. Phoebe is present. A third person (the attractive, injured man in a wheelchair) is implied.",
+  "raw": "Central Perk coffee shop. Phoebe is present. A third person (the attractive, injured man in a wheelchair) is implied."
+ },
+ "test:133": {
+  "scene": "Apartment (Ross, Rachel, Bonnie)",
+  "raw": "Apartment (Ross, Rachel, Bonnie)"
+ },
+ "test:134": {
+  "scene": "Central Perk coffee shop. Ross, Chandler present.",
+  "raw": "Central Perk coffee shop. Ross, Chandler present."
+ },
+ "test:135": {
+  "scene": "Central Perk. Rachel and Mr. Waltham present.",
+  "raw": "Central Perk. Rachel and Mr. Waltham present."
+ },
+ "test:136": {
+  "scene": "Central Perk Coffee Shop. Rachel, Ross, Monica, Chandler, Joey, and Phoebe are present.",
+  "raw": "Central Perk Coffee Shop. Rachel, Ross, Monica, Chandler, Joey, and Phoebe are present."
+ },
+ "test:137": {
+  "scene": "Apartment (Chandler, Joey, Rachel)",
+  "raw": "Apartment (Chandler, Joey, Rachel)"
+ },
+ "test:138": {
+  "scene": "Apartment (Chandler, Ross)",
+  "raw": "Apartment (Chandler, Ross)"
+ },
+ "test:139": {
+  "scene": "Central Perk. Jill and Rachel are present.",
+  "raw": "Central Perk. Jill and Rachel are present."
+ },
+ "test:140": {
+  "scene": "Central Perk Coffee Shop. Joey, Ross present.",
+  "raw": "Central Perk Coffee Shop. Joey, Ross present."
+ },
+ "test:141": {
+  "scene": "Apartment (Chandler, Eric)",
+  "raw": "Apartment (Chandler, Eric)"
+ },
+ "test:142": {
+  "scene": "Apartment (Chandler, Monica)",
+  "raw": "Apartment (Chandler, Monica)"
+ },
+ "test:143": {
+  "scene": "Apartment (Chandler, Monica)",
+  "raw": "Apartment (Chandler, Monica)"
+ },
+ "test:144": {
+  "scene": "Apartment (Ross, Monica, Frannie)",
+  "raw": "Apartment (Ross, Monica, Frannie)"
+ },
+ "test:145": {
+  "scene": "Central Perk. Chandler and Gary are present.",
+  "raw": "Central Perk. Chandler and Gary are present."
+ },
+ "test:146": {
+  "scene": "Apartment (Ross, Rachel)",
+  "raw": "Apartment (Ross, Rachel)"
+ },
+ "test:147": {
+  "scene": "Apartment (Monica, Chandler, Joey)",
+  "raw": "Apartment (Monica, Chandler, Joey)"
+ },
+ "test:148": {
+  "scene": "Central Perk Coffee Shop. Chandler, Joey, Monica, Rachel, Ross, and Janice are present.",
+  "raw": "Central Perk Coffee Shop. Chandler, Joey, Monica, Rachel, Ross, and Janice are present."
+ },
+ "test:149": {
+  "scene": "Central Perk. Chandler and Janice are present.",
+  "raw": "Central Perk. Chandler and Janice are present."
+ },
+ "test:150": {
+  "scene": "Central Perk. Janice and Chandler are present.",
+  "raw": "Central Perk. Janice and Chandler are present."
+ },
+ "test:151": {
+  "scene": "Central Perk. Phoebe, Frank present.",
+  "raw": "Central Perk. Phoebe, Frank present."
+ },
+ "test:152": {
+  "scene": "Central Perk Coffeehouse. Phoebe and Frank are present.",
+  "raw": "Central Perk Coffeehouse. Phoebe and Frank are present."
+ },
+ "test:153": {
+  "scene": "Central Perk Coffee Shop. Ross, Chandler, and Joey are present.",
+  "raw": "Central Perk Coffee Shop. Ross, Chandler, and Joey are present."
+ },
+ "test:154": {
+  "scene": "Apartment (Ross, Mona)",
+  "raw": "Apartment (Ross, Mona)"
+ },
+ "test:155": {
+  "scene": "Apartment (Ross, Rachel)",
+  "raw": "Apartment (Ross, Rachel)"
+ },
+ "test:156": {
+  "scene": "Apartment (Monica, Chandler, Doug)",
+  "raw": "Apartment (Monica, Chandler, Doug)"
+ },
+ "test:157": {
+  "scene": "Apartment (Joey, Emma, Rachel)",
+  "raw": "Apartment (Joey, Emma, Rachel)"
+ },
+ "test:158": {
+  "scene": "Central Perk. Joanna and Rachel present.",
+  "raw": "Central Perk. Joanna and Rachel present."
+ },
+ "test:159": {
+  "scene": "Apartment (Joanna, Ross, Rachel)",
+  "raw": "Apartment (Joanna, Ross, Rachel)"
+ },
+ "test:160": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "test:161": {
+  "scene": "Central Perk Coffee Shop. Ross and Chloe are present.",
+  "raw": "Central Perk Coffee Shop. Ross and Chloe are present."
+ },
+ "test:162": {
+  "scene": "Apartment kitchen, Monica and Mike present.",
+  "raw": "Apartment kitchen, Monica and Mike present."
+ },
+ "test:163": {
+  "scene": "Central Perk Coffee Shop. Ross, Monica present.",
+  "raw": "Central Perk Coffee Shop. Ross, Monica present."
+ },
+ "test:164": {
+  "scene": "Apartment (Monica, Chandler, Joey, Ross)",
+  "raw": "Apartment (Monica, Chandler, Joey, Ross)"
+ },
+ "test:165": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "test:166": {
+  "scene": "Central Perk coffee shop. Chandler, Joey present.",
+  "raw": "Central Perk coffee shop. Chandler, Joey present."
+ },
+ "test:167": {
+  "scene": "England: Moors (Phoebe, Unspecified)",
+  "raw": "England: Moors (Phoebe, Unspecified)"
+ },
+ "test:168": {
+  "scene": "Central Perk. Joey, Chandler present.",
+  "raw": "Central Perk. Joey, Chandler present."
+ },
+ "test:169": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "test:170": {
+  "scene": "Apartment (Joey, Phoebe, Monica)",
+  "raw": "Apartment (Joey, Phoebe, Monica)"
+ },
+ "test:171": {
+  "scene": "Apartment (Ross, Monica)",
+  "raw": "Apartment (Ross, Monica)"
+ },
+ "test:172": {
+  "scene": "Apartment (Paul, Elizabeth)",
+  "raw": "Apartment (Paul, Elizabeth)"
+ },
+ "test:173": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "test:174": {
+  "scene": "Apartment (Rachel, Mark)",
+  "raw": "Apartment (Rachel, Mark)"
+ },
+ "test:175": {
+  "scene": "Apartment (Rachel, Tag)",
+  "raw": "Apartment (Rachel, Tag)"
+ },
+ "test:176": {
+  "scene": "Apartment (Monica, Chandler, Ross, Joey)",
+  "raw": "Apartment (Monica, Chandler, Ross, Joey)"
+ },
+ "test:177": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "test:178": {
+  "scene": "Apartment (Monica, Phoebe, Chandler)",
+  "raw": "Apartment (Monica, Phoebe, Chandler)"
+ },
+ "test:179": {
+  "scene": "Central Perk Coffee Shop. Chandler and Joey are present.",
+  "raw": "Central Perk Coffee Shop. Chandler and Joey are present."
+ },
+ "test:180": {
+  "scene": "Central Perk. Chandler is present.",
+  "raw": "Central Perk. Chandler is present."
+ },
+ "test:181": {
+  "scene": "Apartment (Joey, Rachel, Phoebe)",
+  "raw": "Apartment (Joey, Rachel, Phoebe)"
+ },
+ "test:182": {
+  "scene": "Central Perk. Phoebe is present, along with an unidentified young lady.",
+  "raw": "Central Perk. Phoebe is present, along with an unidentified young lady."
+ },
+ "test:183": {
+  "scene": "Central Perk coffee shop. Joey and Female Clerk present.",
+  "raw": "Central Perk coffee shop. Joey and Female Clerk present."
+ },
+ "test:184": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "test:185": {
+  "scene": "Apartment (Ross, Gunter)",
+  "raw": "Apartment (Ross, Gunter)"
+ },
+ "test:186": {
+  "scene": "Apartment (Chandler, Ross)",
+  "raw": "Apartment (Chandler, Ross)"
+ },
+ "test:187": {
+  "scene": "The setting is a clothing store, with Kim, Rachel, and Nancy present.",
+  "raw": "The setting is a clothing store, with Kim, Rachel, and Nancy present."
+ },
+ "test:188": {
+  "scene": "Central Perk. Joey, Ross, Chandler present.",
+  "raw": "Central Perk. Joey, Ross, Chandler present."
+ },
+ "test:189": {
+  "scene": "Central Perk Coffee Shop. Joey is present.",
+  "raw": "Central Perk Coffee Shop. Joey is present."
+ },
+ "test:190": {
+  "scene": "Women's nail salon. Chandler and unspecified man (mailman).",
+  "raw": "Women's nail salon. Chandler and unspecified man (mailman)."
+ },
+ "test:191": {
+  "scene": "Apartment (Chandler, Rachel)",
+  "raw": "Apartment (Chandler, Rachel)"
+ },
+ "test:192": {
+  "scene": "Apartment (Chandler, Monica)",
+  "raw": "Apartment (Chandler, Monica)"
+ },
+ "test:193": {
+  "scene": "Central Perk coffee shop. Ross, Monica, Chandler, Joey, Rachel, and Phoebe are present.",
+  "raw": "Central Perk coffee shop. Ross, Monica, Chandler, Joey, Rachel, and Phoebe are present."
+ },
+ "test:194": {
+  "scene": "Central Perk. Rachel and Ross are present.",
+  "raw": "Central Perk. Rachel and Ross are present."
+ },
+ "test:195": {
+  "scene": "Apartment (Chandler present)",
+  "raw": "Apartment (Chandler present)"
+ },
+ "test:196": {
+  "scene": "Apartment (Ross, Monica, Phoebe)",
+  "raw": "Apartment (Ross, Monica, Phoebe)"
+ },
+ "test:197": {
+  "scene": "Central Perk Coffee Shop. Phoebe Buffay and unnamed fan are present.",
+  "raw": "Central Perk Coffee Shop. Phoebe Buffay and unnamed fan are present."
+ },
+ "test:198": {
+  "scene": "Central Perk Coffeehouse. Phoebe, Ross, and Joey are present.",
+  "raw": "Central Perk Coffeehouse. Phoebe, Ross, and Joey are present."
+ },
+ "test:199": {
+  "scene": "Apartment (Rachel, Phoebe)",
+  "raw": "Apartment (Rachel, Phoebe)"
+ },
+ "test:200": {
+  "scene": "Monica and Joey's apartment (Joey, Monica present)",
+  "raw": "Monica and Joey's apartment (Joey, Monica present)"
+ },
+ "test:201": {
+  "scene": "Apartment (Joey, potential buyer)",
+  "raw": "Apartment (Joey, potential buyer)"
+ },
+ "test:202": {
+  "scene": "Apartment (Joey, Rachel, and an unidentified third person)",
+  "raw": "Apartment (Joey, Rachel, and an unidentified third person)"
+ },
+ "test:203": {
+  "scene": "Beach, Bonnie and Rachel present.",
+  "raw": "Beach, Bonnie and Rachel present."
+ },
+ "test:204": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "test:205": {
+  "scene": "Apartment (Chandler, Joey, Ross)",
+  "raw": "Apartment (Chandler, Joey, Ross)"
+ },
+ "test:206": {
+  "scene": "Apartment (Joey, Rachel, Ross)",
+  "raw": "Apartment (Joey, Rachel, Ross)"
+ },
+ "test:207": {
+  "scene": "Apartment (Rachel, Ross)",
+  "raw": "Apartment (Rachel, Ross)"
+ },
+ "test:208": {
+  "scene": "Central Perk Coffee Shop. Joey is present.",
+  "raw": "Central Perk Coffee Shop. Joey is present."
+ },
+ "test:209": {
+  "scene": "Chandler's office. Chandler and Bob are present.",
+  "raw": "Chandler's office. Chandler and Bob are present."
+ },
+ "test:210": {
+  "scene": "Coffeehouse. Monica and Chandler are present.",
+  "raw": "Coffeehouse. Monica and Chandler are present."
+ },
+ "test:211": {
+  "scene": "The scene takes place in a dry cleaner's shop. Characters present are The Dry Cleaner, Phoebe, and the man who went out with the dry cleaner's wife.",
+  "raw": "The scene takes place in a dry cleaner's shop. Characters present are The Dry Cleaner, Phoebe, and the man who went out with the dry cleaner's wife."
+ },
+ "test:212": {
+  "scene": "Airport - Chandler, Janice",
+  "raw": "Airport - Chandler, Janice"
+ },
+ "test:213": {
+  "scene": "Central Perk. Chandler, Ross present.",
+  "raw": "Central Perk. Chandler, Ross present."
+ },
+ "test:214": {
+  "scene": "Apartment building, Joey and Mr. Treeger (doorman) present.",
+  "raw": "Apartment building, Joey and Mr. Treeger (doorman) present."
+ },
+ "test:215": {
+  "scene": "Central Perk Coffee Shop. Phoebe, David present.",
+  "raw": "Central Perk Coffee Shop. Phoebe, David present."
+ },
+ "test:216": {
+  "scene": "Central Perk coffee shop. Rachel, Monica, and Ross are present.",
+  "raw": "Central Perk coffee shop. Rachel, Monica, and Ross are present."
+ },
+ "test:217": {
+  "scene": "Apartment bedroom. Ross and Rachel present.",
+  "raw": "Apartment bedroom. Ross and Rachel present."
+ },
+ "test:218": {
+  "scene": "Apartment (Monica, Chandler, Janice)",
+  "raw": "Apartment (Monica, Chandler, Janice)"
+ },
+ "test:219": {
+  "scene": "Apartment (Chandler, Monica, Janice)",
+  "raw": "Apartment (Chandler, Monica, Janice)"
+ },
+ "test:220": {
+  "scene": "Central Perk Coffeehouse. Phoebe, Joey present.",
+  "raw": "Central Perk Coffeehouse. Phoebe, Joey present."
+ },
+ "test:221": {
+  "scene": "Apartment (Monica present)",
+  "raw": "Apartment (Monica present)"
+ },
+ "test:222": {
+  "scene": "Apartment (Rachel, Monica)",
+  "raw": "Apartment (Rachel, Monica)"
+ },
+ "test:223": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "test:224": {
+  "scene": "Virtual Room (Voice of Hypnosis Tape)",
+  "raw": "Virtual Room (Voice of Hypnosis Tape)"
+ },
+ "test:225": {
+  "scene": "Central Perk Coffee Shop. Phoebe, Chandler (present).",
+  "raw": "Central Perk Coffee Shop. Phoebe, Chandler (present)."
+ },
+ "test:226": {
+  "scene": "Apartment (Monica, Chandler, Ross, Rachel, Phoebe)",
+  "raw": "Apartment (Monica, Chandler, Ross, Rachel, Phoebe)"
+ },
+ "test:227": {
+  "scene": "Apartment (Monica, Ben)",
+  "raw": "Apartment (Monica, Ben)"
+ },
+ "test:228": {
+  "scene": "Central Perk Coffee Shop. Gunther and Rachel present.",
+  "raw": "Central Perk Coffee Shop. Gunther and Rachel present."
+ },
+ "test:229": {
+  "scene": "Apartment (Rachel, Joey)",
+  "raw": "Apartment (Rachel, Joey)"
+ },
+ "test:230": {
+  "scene": "Central Perk. Joey, Monica, and Phoebe are present.",
+  "raw": "Central Perk. Joey, Monica, and Phoebe are present."
+ },
+ "test:231": {
+  "scene": "Apartment (Chandler, Unspecified Character)",
+  "raw": "Apartment (Chandler, Unspecified Character)"
+ },
+ "test:232": {
+  "scene": "Apartment (Monica, Rachel, Chandler)",
+  "raw": "Apartment (Monica, Rachel, Chandler)"
+ },
+ "test:233": {
+  "scene": "Apartment (Rachel, Joey)",
+  "raw": "Apartment (Rachel, Joey)"
+ },
+ "test:234": {
+  "scene": "Central Perk. Ross and Tommy (child) are present.",
+  "raw": "Central Perk. Ross and Tommy (child) are present."
+ },
+ "test:235": {
+  "scene": "Monica's Apartment (Monica, Chandler, Joey)",
+  "raw": "Monica's Apartment (Monica, Chandler, Joey)"
+ },
+ "test:236": {
+  "scene": "Apartment (Monica, Chandler, Joey)",
+  "raw": "Apartment (Monica, Chandler, Joey)"
+ },
+ "test:237": {
+  "scene": "Apartment kitchen (Monica, Joey)",
+  "raw": "Apartment kitchen (Monica, Joey)"
+ },
+ "test:238": {
+  "scene": "Ross and Mrs. Geller's home (living room)",
+  "raw": "Ross and Mrs. Geller's home (living room)"
+ },
+ "test:239": {
+  "scene": "Coffee Shop. Gunther, Chandler present.",
+  "raw": "Coffee Shop. Gunther, Chandler present."
+ },
+ "test:240": {
+  "scene": "Apartment (Monica, Chandler, Ross, Rachel, Phoebe, Joey)",
+  "raw": "Apartment (Monica, Chandler, Ross, Rachel, Phoebe, Joey)"
+ },
+ "test:241": {
+  "scene": "Apartment (Joey, Phoebe)",
+  "raw": "Apartment (Joey, Phoebe)"
+ },
+ "test:242": {
+  "scene": "Central Perk Coffeehouse. Chandler is present. (Monica, Rachel, Ross, Joey, and Gunther are also typically present.)",
+  "raw": "Central Perk Coffeehouse. Chandler is present. (Monica, Rachel, Ross, Joey, and Gunther are also typically present.)"
+ },
+ "test:243": {
+  "scene": "Central Perk. Tag and Rachel are present.",
+  "raw": "Central Perk. Tag and Rachel are present."
+ },
+ "test:244": {
+  "scene": "Apartment (Ross, Phoebe, Chandler)",
+  "raw": "Apartment (Ross, Phoebe, Chandler)"
+ },
+ "test:245": {
+  "scene": "Monica's apartment. Rachel and Monica present.",
+  "raw": "Monica's apartment. Rachel and Monica present."
+ },
+ "test:246": {
+  "scene": "Central Perk coffee shop. Joey and Tour Guide present.",
+  "raw": "Central Perk coffee shop. Joey and Tour Guide present."
+ },
+ "test:247": {
+  "scene": "Central Perk. Rachel and Mr. Kaplan are present.",
+  "raw": "Central Perk. Rachel and Mr. Kaplan are present."
+ },
+ "test:248": {
+  "scene": "Central Perk Coffee Shop. Rachel, Ross, Monica, Chandler, Joey, and Phoebe are present.",
+  "raw": "Central Perk Coffee Shop. Rachel, Ross, Monica, Chandler, Joey, and Phoebe are present."
+ },
+ "test:249": {
+  "scene": "Central Perk coffee shop. Mr. Kaplan and Rachel are present.",
+  "raw": "Central Perk coffee shop. Mr. Kaplan and Rachel are present."
+ },
+ "test:250": {
+  "scene": "Apartment (Ross, Phoebe)",
+  "raw": "Apartment (Ross, Phoebe)"
+ },
+ "test:251": {
+  "scene": "Apartment (Monica, Alan)",
+  "raw": "Apartment (Monica, Alan)"
+ },
+ "test:252": {
+  "scene": "Apartment (Monica, Chandler, Ross)",
+  "raw": "Apartment (Monica, Chandler, Ross)"
+ },
+ "test:253": {
+  "scene": "Central Perk. Drew, Chandler, and Rachel are present.",
+  "raw": "Central Perk. Drew, Chandler, and Rachel are present."
+ },
+ "test:254": {
+  "scene": "Apartment (Monica, Ross, Chandler)",
+  "raw": "Apartment (Monica, Ross, Chandler)"
+ },
+ "test:255": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "test:256": {
+  "scene": "Apartment (Monica, Chandler, Joey, Ross, Rachel, Phoebe, Duncan)",
+  "raw": "Apartment (Monica, Chandler, Joey, Ross, Rachel, Phoebe, Duncan)"
+ },
+ "test:257": {
+  "scene": "Apartment building, Joey and Chandler present",
+  "raw": "Apartment building, Joey and Chandler present"
+ },
+ "test:258": {
+  "scene": "Apartment (Chandler, Joey)",
+  "raw": "Apartment (Chandler, Joey)"
+ },
+ "test:259": {
+  "scene": "Apartment (Ross)",
+  "raw": "Apartment (Ross)"
+ },
+ "test:260": {
+  "scene": "Central Perk Coffeehouse. Phoebe, Rachel present.",
+  "raw": "Central Perk Coffeehouse. Phoebe, Rachel present."
+ },
+ "test:261": {
+  "scene": "Apartment (Joey, Ross)",
+  "raw": "Apartment (Joey, Ross)"
+ },
+ "test:262": {
+  "scene": "Apartment (Monica, Pete)",
+  "raw": "Apartment (Monica, Pete)"
+ },
+ "test:263": {
+  "scene": "Apartment (Ross, Joey)",
+  "raw": "Apartment (Ross, Joey)"
+ },
+ "test:264": {
+  "scene": "Apartment (Joey, Chandler)",
+  "raw": "Apartment (Joey, Chandler)"
+ },
+ "test:265": {
+  "scene": "Archaeological site in China, Ross, Julie present.",
+  "raw": "Archaeological site in China, Ross, Julie present."
+ },
+ "test:266": {
+  "scene": "Apartment (Ross, Rachel)",
+  "raw": "Apartment (Ross, Rachel)"
+ },
+ "test:267": {
+  "scene": "Central Perk Cafe. Joey Tribbiani, Director present.",
+  "raw": "Central Perk Cafe. Joey Tribbiani, Director present."
+ },
+ "test:268": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "test:269": {
+  "scene": "Apartment (Ross, Monica)",
+  "raw": "Apartment (Ross, Monica)"
+ },
+ "test:270": {
+  "scene": "University office - Ross, Susan (Carol's partner)",
+  "raw": "University office - Ross, Susan (Carol's partner)"
+ },
+ "test:271": {
+  "scene": "Apartment (Monica, Chandler, Joey)",
+  "raw": "Apartment (Monica, Chandler, Joey)"
+ },
+ "test:272": {
+  "scene": "Living Room. Emily is present.",
+  "raw": "Living Room. Emily is present."
+ },
+ "test:273": {
+  "scene": "Apartment (Monica, Phoebe, Joey)",
+  "raw": "Apartment (Monica, Phoebe, Joey)"
+ },
+ "test:274": {
+  "scene": "Apartment (Chandler, Monica, Joey)",
+  "raw": "Apartment (Chandler, Monica, Joey)"
+ },
+ "test:275": {
+  "scene": "Apartment (Ross, Joey, Rachel)",
+  "raw": "Apartment (Ross, Joey, Rachel)"
+ },
+ "test:276": {
+  "scene": "Central Perk Coffeehouse. (Chandler, Joey, Ross, Monica, Rachel, Gunther)",
+  "raw": "Central Perk Coffeehouse. (Chandler, Joey, Ross, Monica, Rachel, Gunther)"
+ },
+ "test:277": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "test:278": {
+  "scene": "Subway, Chandler, Phoebe (implied: other subway passengers)",
+  "raw": "Subway, Chandler, Phoebe (implied: other subway passengers)"
+ },
+ "test:279": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ }
+}

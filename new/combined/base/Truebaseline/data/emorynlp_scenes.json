@@ -1,0 +1,3590 @@
+{
+ "train:0": {
+  "scene": "Apartment (Monica, Joey, Phoebe)",
+  "raw": "Apartment (Monica, Joey, Phoebe)"
+ },
+ "train:1": {
+  "scene": "Apartment (Ross Geller, Marsha)",
+  "raw": "Apartment (Ross Geller, Marsha)"
+ },
+ "train:2": {
+  "scene": "Apartment (Ross, Susan)",
+  "raw": "Apartment (Ross, Susan)"
+ },
+ "train:3": {
+  "scene": "Apartment (Rachel Green, Barry Farber)",
+  "raw": "Apartment (Rachel Green, Barry Farber)"
+ },
+ "train:4": {
+  "scene": "Apartment (Ross Geller, Carol Willick)",
+  "raw": "Apartment (Ross Geller, Carol Willick)"
+ },
+ "train:5": {
+  "scene": "Apartment (Rachel Green, Barry Farber)",
+  "raw": "Apartment (Rachel Green, Barry Farber)"
+ },
+ "train:6": {
+  "scene": "Central Perk. Ross Geller, Susan Bunch, and Carol Willick are present.",
+  "raw": "Central Perk. Ross Geller, Susan Bunch, and Carol Willick are present."
+ },
+ "train:7": {
+  "scene": "Central Perk coffee shop. Ross, Joey, and Chandler are present.",
+  "raw": "Central Perk coffee shop. Ross, Joey, and Chandler are present."
+ },
+ "train:8": {
+  "scene": "Central Perk Coffeehouse. Phoebe Buffay, Ross Geller, and the rest of the Friends group are present.",
+  "raw": "Central Perk Coffeehouse. Phoebe Buffay, Ross Geller, and the rest of the Friends group are present."
+ },
+ "train:9": {
+  "scene": "Prison cell. Chandler Bing, Joey Tribbiani present.",
+  "raw": "Prison cell. Chandler Bing, Joey Tribbiani present."
+ },
+ "train:10": {
+  "scene": "Apartment (Monica Geller, Ross Geller, and the rest of the Friends group)",
+  "raw": "Apartment (Monica Geller, Ross Geller, and the rest of the Friends group)"
+ },
+ "train:11": {
+  "scene": "Central Perk Coffeehouse. Phoebe Buffay and Lizzy are present.",
+  "raw": "Central Perk Coffeehouse. Phoebe Buffay and Lizzy are present."
+ },
+ "train:12": {
+  "scene": "Apartment (Ross Geller, Phoebe Buffay, Monica Geller, Chandler Bing, Joey Tribbiani, Rachel Green)",
+  "raw": "Apartment (Ross Geller, Phoebe Buffay, Monica Geller, Chandler Bing, Joey Tribbiani, Rachel Green)"
+ },
+ "train:13": {
+  "scene": "Apartment (Monica, Paula)",
+  "raw": "Apartment (Monica, Paula)"
+ },
+ "train:14": {
+  "scene": "Central Perk Coffee Shop. Joey Tribbiani, Ross Geller, and Chandler Bing are present.",
+  "raw": "Central Perk Coffee Shop. Joey Tribbiani, Ross Geller, and Chandler Bing are present."
+ },
+ "train:15": {
+  "scene": "Apartment (Monica Geller, Alan)",
+  "raw": "Apartment (Monica Geller, Alan)"
+ },
+ "train:16": {
+  "scene": "Central Park. Rachel Green, Ross Geller, and (implied) Monica Geller are present.",
+  "raw": "Central Park. Rachel Green, Ross Geller, and (implied) Monica Geller are present."
+ },
+ "train:17": {
+  "scene": "Apartment (Monica, Phoebe, Ross, Chandler)",
+  "raw": "Apartment (Monica, Phoebe, Ross, Chandler)"
+ },
+ "train:18": {
+  "scene": "Hockey rink. Chandler Bing, Joey Tribbiani, Marty Leetch, and Mario Lemieux (implied)",
+  "raw": "Hockey rink. Chandler Bing, Joey Tribbiani, Marty Leetch, and Mario Lemieux (implied)"
+ },
+ "train:19": {
+  "scene": "Central Perk Coffeehouse. Rachel Green, Kiki, Joanne present.",
+  "raw": "Central Perk Coffeehouse. Rachel Green, Kiki, Joanne present."
+ },
+ "train:20": {
+  "scene": "Central Perk Coffeehouse. Monica Geller and Rachel Green are present.",
+  "raw": "Central Perk Coffeehouse. Monica Geller and Rachel Green are present."
+ },
+ "train:21": {
+  "scene": "Apartment (Monica, Rachel, Phoebe)",
+  "raw": "Apartment (Monica, Rachel, Phoebe)"
+ },
+ "train:22": {
+  "scene": "Central Perk Coffee Shop. Ross Geller, Chandler Bing present.",
+  "raw": "Central Perk Coffee Shop. Ross Geller, Chandler Bing present."
+ },
+ "train:23": {
+  "scene": "Office setting. Chandler Bing and Receptionist are present.",
+  "raw": "Office setting. Chandler Bing and Receptionist are present."
+ },
+ "train:24": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "train:25": {
+  "scene": "Apartment (Ross, Chandler, Joey)",
+  "raw": "Apartment (Ross, Chandler, Joey)"
+ },
+ "train:26": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "train:27": {
+  "scene": "Apartment (Joey Tribbiani, Chandler Bing)",
+  "raw": "Apartment (Joey Tribbiani, Chandler Bing)"
+ },
+ "train:28": {
+  "scene": "Apartment (Monica, Ross, Chandler)",
+  "raw": "Apartment (Monica, Ross, Chandler)"
+ },
+ "train:29": {
+  "scene": "Apartment (Monica, Ross, Rachel)",
+  "raw": "Apartment (Monica, Ross, Rachel)"
+ },
+ "train:30": {
+  "scene": "Apartment (Monica, Joey)",
+  "raw": "Apartment (Monica, Joey)"
+ },
+ "train:31": {
+  "scene": "Apartment (Ross, Rachel, Chandler)",
+  "raw": "Apartment (Ross, Rachel, Chandler)"
+ },
+ "train:32": {
+  "scene": "Apartment (Monica, Joey)",
+  "raw": "Apartment (Monica, Joey)"
+ },
+ "train:33": {
+  "scene": "Central Perk Coffeehouse. Chandler Bing and Phoebe Buffay are present.",
+  "raw": "Central Perk Coffeehouse. Chandler Bing and Phoebe Buffay are present."
+ },
+ "train:34": {
+  "scene": "Brooklyn Heights (Angela Delveccio, Bob)",
+  "raw": "Brooklyn Heights (Angela Delveccio, Bob)"
+ },
+ "train:35": {
+  "scene": "Central Perk Coffeehouse. Joey Tribbiani, Bob (Angela's boyfriend) present.",
+  "raw": "Central Perk Coffeehouse. Joey Tribbiani, Bob (Angela's boyfriend) present."
+ },
+ "train:36": {
+  "scene": "Apartment (Monica Geller, Angela Delveccio)",
+  "raw": "Apartment (Monica Geller, Angela Delveccio)"
+ },
+ "train:37": {
+  "scene": "Apartment (Rachel Green, Ross Geller)",
+  "raw": "Apartment (Rachel Green, Ross Geller)"
+ },
+ "train:38": {
+  "scene": "Apartment (Monica Geller, Joey Tribbiani)",
+  "raw": "Apartment (Monica Geller, Joey Tribbiani)"
+ },
+ "train:39": {
+  "scene": "Central Perk. Chandler Bing and Janice Litman Goralnik are present.",
+  "raw": "Central Perk. Chandler Bing and Janice Litman Goralnik are present."
+ },
+ "train:40": {
+  "scene": "Apartment (Ross Geller, Rachel Green)",
+  "raw": "Apartment (Ross Geller, Rachel Green)"
+ },
+ "train:41": {
+  "scene": "Apartment (Rachel Green, Ross Geller)",
+  "raw": "Apartment (Rachel Green, Ross Geller)"
+ },
+ "train:42": {
+  "scene": "Central Perk. Rachel Green, Chandler Bing, and Phoebe Buffay are present.",
+  "raw": "Central Perk. Rachel Green, Chandler Bing, and Phoebe Buffay are present."
+ },
+ "train:43": {
+  "scene": "Apartment (Monica, Joey)",
+  "raw": "Apartment (Monica, Joey)"
+ },
+ "train:44": {
+  "scene": "Soundstage set, Director and Joey Tribbiani present.",
+  "raw": "Soundstage set, Director and Joey Tribbiani present."
+ },
+ "train:45": {
+  "scene": "Apartment (Rachel Green, Monica Geller)",
+  "raw": "Apartment (Rachel Green, Monica Geller)"
+ },
+ "train:46": {
+  "scene": "Atrium (Chandler Bing, Jill Goodacre)",
+  "raw": "Atrium (Chandler Bing, Jill Goodacre)"
+ },
+ "train:47": {
+  "scene": "Apartment (Joey, Ross, and others)",
+  "raw": "Apartment (Joey, Ross, and others)"
+ },
+ "train:48": {
+  "scene": "Central Perk Coffee Shop. Chandler Bing, unnamed character.",
+  "raw": "Central Perk Coffee Shop. Chandler Bing, unnamed character."
+ },
+ "train:49": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:50": {
+  "scene": "Central Perk Coffeehouse. Rachel Green, Ross Geller present.",
+  "raw": "Central Perk Coffeehouse. Rachel Green, Ross Geller present."
+ },
+ "train:51": {
+  "scene": "Apartment (Monica, Joey, Phoebe)",
+  "raw": "Apartment (Monica, Joey, Phoebe)"
+ },
+ "train:52": {
+  "scene": "Apartment 5A, Phoebe Buffay, Rachel Green, and Mr. Heckles present.",
+  "raw": "Apartment 5A, Phoebe Buffay, Rachel Green, and Mr. Heckles present."
+ },
+ "train:53": {
+  "scene": "Apartment (Rachel, Monica, Ross, Paolo)",
+  "raw": "Apartment (Rachel, Monica, Ross, Paolo)"
+ },
+ "train:54": {
+  "scene": "Central Perk Coffee Shop. Chandler Bing, unidentified character.",
+  "raw": "Central Perk Coffee Shop. Chandler Bing, unidentified character."
+ },
+ "train:55": {
+  "scene": "Apartment (Monica, Chandler, Joey, Ross, Phoebe)",
+  "raw": "Apartment (Monica, Chandler, Joey, Ross, Phoebe)"
+ },
+ "train:56": {
+  "scene": "Office break room. Chandler Bing, Shelley.",
+  "raw": "Office break room. Chandler Bing, Shelley."
+ },
+ "train:57": {
+  "scene": "Central Perk coffee shop. Chandler Bing and Rachel Green present.",
+  "raw": "Central Perk coffee shop. Chandler Bing and Rachel Green present."
+ },
+ "train:58": {
+  "scene": "Central Perk Coffeehouse. Chandler Bing, Rachel Green, and Phoebe Buffay are present.",
+  "raw": "Central Perk Coffeehouse. Chandler Bing, Rachel Green, and Phoebe Buffay are present."
+ },
+ "train:59": {
+  "scene": "The scene takes place at a funeral home, with Ross Geller and Judy Geller present.",
+  "raw": "The scene takes place at a funeral home, with Ross Geller and Judy Geller present."
+ },
+ "train:60": {
+  "scene": "Apartment (Monica, Ross)",
+  "raw": "Apartment (Monica, Ross)"
+ },
+ "train:61": {
+  "scene": "Central Perk Coffee Shop. Chandler Bing and Shelley are present.",
+  "raw": "Central Perk Coffee Shop. Chandler Bing and Shelley are present."
+ },
+ "train:62": {
+  "scene": "Apartment (Ross Geller, Aunt Lillian)",
+  "raw": "Apartment (Ross Geller, Aunt Lillian)"
+ },
+ "train:63": {
+  "scene": "Apartment (Monica, Ross)",
+  "raw": "Apartment (Monica, Ross)"
+ },
+ "train:64": {
+  "scene": "Apartment (Monica, Judy, Joey)",
+  "raw": "Apartment (Monica, Judy, Joey)"
+ },
+ "train:65": {
+  "scene": "Apartment (Rachel Green, Ross Geller)",
+  "raw": "Apartment (Rachel Green, Ross Geller)"
+ },
+ "train:66": {
+  "scene": "Central Perk coffee shop. Chandler Bing and Lowell are present.",
+  "raw": "Central Perk coffee shop. Chandler Bing and Lowell are present."
+ },
+ "train:67": {
+  "scene": "Central Perk coffee shop. Rachel Green and Terry are present.",
+  "raw": "Central Perk coffee shop. Rachel Green and Terry are present."
+ },
+ "train:68": {
+  "scene": "University office, Ross Geller and Susan Bunch present.",
+  "raw": "University office, Ross Geller and Susan Bunch present."
+ },
+ "train:69": {
+  "scene": "Central Perk Cafe. Ross, Phoebe, and Chandler are present.",
+  "raw": "Central Perk Cafe. Ross, Phoebe, and Chandler are present."
+ },
+ "train:70": {
+  "scene": "Central Perk coffee shop. Joey Tribbiani and an unnamed woman are present.",
+  "raw": "Central Perk coffee shop. Joey Tribbiani and an unnamed woman are present."
+ },
+ "train:71": {
+  "scene": "Central Perk. Ross and Carol present.",
+  "raw": "Central Perk. Ross and Carol present."
+ },
+ "train:72": {
+  "scene": "Central Park (Rachel Green, Phoebe Buffay) and Monica Geller's apartment (implied)",
+  "raw": "Central Park (Rachel Green, Phoebe Buffay) and Monica Geller's apartment (implied)"
+ },
+ "train:73": {
+  "scene": "College dorm room. Ross Geller, Carol Willick, and an unborn baby.",
+  "raw": "College dorm room. Ross Geller, Carol Willick, and an unborn baby."
+ },
+ "train:74": {
+  "scene": "Central Perk Coffeehouse. Phoebe Buffay, Monica Geller present.",
+  "raw": "Central Perk Coffeehouse. Phoebe Buffay, Monica Geller present."
+ },
+ "train:75": {
+  "scene": "Apartment (Monica Geller, Phoebe Buffay)",
+  "raw": "Apartment (Monica Geller, Phoebe Buffay)"
+ },
+ "train:76": {
+  "scene": "Apartment (Monica Geller, Phoebe Buffay)",
+  "raw": "Apartment (Monica Geller, Phoebe Buffay)"
+ },
+ "train:77": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "train:78": {
+  "scene": "Central Perk Coffee Shop. Chandler Bing, Ross Geller present.",
+  "raw": "Central Perk Coffee Shop. Chandler Bing, Ross Geller present."
+ },
+ "train:79": {
+  "scene": "Apartment (Rachel Green, Monica Geller, Joey Tribbiani)",
+  "raw": "Apartment (Rachel Green, Monica Geller, Joey Tribbiani)"
+ },
+ "train:80": {
+  "scene": "Apartment (Monica Geller, Aunt Syl, Joey Tribbiani, Ross Geller)",
+  "raw": "Apartment (Monica Geller, Aunt Syl, Joey Tribbiani, Ross Geller)"
+ },
+ "train:81": {
+  "scene": "Apartment (Chandler Bing, Joey Tribbiani)",
+  "raw": "Apartment (Chandler Bing, Joey Tribbiani)"
+ },
+ "train:82": {
+  "scene": "Phoebe Buffay's massage studio, Phoebe Buffay and her assistant present",
+  "raw": "Phoebe Buffay's massage studio, Phoebe Buffay and her assistant present"
+ },
+ "train:83": {
+  "scene": "Apartment (Rachel Green, Monica Geller, Ross Geller)",
+  "raw": "Apartment (Rachel Green, Monica Geller, Ross Geller)"
+ },
+ "train:84": {
+  "scene": "Apartment (Monica, Phoebe, Chandler)",
+  "raw": "Apartment (Monica, Phoebe, Chandler)"
+ },
+ "train:85": {
+  "scene": "Apartment (Joey Tribbiani, Chandler Bing)",
+  "raw": "Apartment (Joey Tribbiani, Chandler Bing)"
+ },
+ "train:86": {
+  "scene": "Apartment (Monica Geller, Rachel Green)",
+  "raw": "Apartment (Monica Geller, Rachel Green)"
+ },
+ "train:87": {
+  "scene": "Central Perk coffee shop. Chandler Bing and Ross Geller are present.",
+  "raw": "Central Perk coffee shop. Chandler Bing and Ross Geller are present."
+ },
+ "train:88": {
+  "scene": "Apartment (Phoebe Buffay, Rachel Green)",
+  "raw": "Apartment (Phoebe Buffay, Rachel Green)"
+ },
+ "train:89": {
+  "scene": "Central Perk coffee shop. Phoebe Buffay, Monica Geller, Ross Geller, and unspecified others (Paolo mentioned) are present.",
+  "raw": "Central Perk coffee shop. Phoebe Buffay, Monica Geller, Ross Geller, and unspecified others (Paolo mentioned) are present."
+ },
+ "train:90": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:91": {
+  "scene": "Apartment (Rachel Green, Chandler Bing)",
+  "raw": "Apartment (Rachel Green, Chandler Bing)"
+ },
+ "train:92": {
+  "scene": "Living room, Joey Tribbiani Sr., Joey Tribbiani, Ronni (pet mortician)",
+  "raw": "Living room, Joey Tribbiani Sr., Joey Tribbiani, Ronni (pet mortician)"
+ },
+ "train:93": {
+  "scene": "Apartment (Joey Tribbiani, Chandler Bing)",
+  "raw": "Apartment (Joey Tribbiani, Chandler Bing)"
+ },
+ "train:94": {
+  "scene": "Apartment (Chandler Bing, Joey Tribbiani)",
+  "raw": "Apartment (Chandler Bing, Joey Tribbiani)"
+ },
+ "train:95": {
+  "scene": "Apartment (Monica, Ronni Rapalono)",
+  "raw": "Apartment (Monica, Ronni Rapalono)"
+ },
+ "train:96": {
+  "scene": "Apartment (Monica, Phoebe, and all other characters)",
+  "raw": "Apartment (Monica, Phoebe, and all other characters)"
+ },
+ "train:97": {
+  "scene": "Apartment (Joey Tribbiani, Gloria Tribbiani)",
+  "raw": "Apartment (Joey Tribbiani, Gloria Tribbiani)"
+ },
+ "train:98": {
+  "scene": "Central Perk Coffeehouse. Roger and Phoebe Buffay present.",
+  "raw": "Central Perk Coffeehouse. Roger and Phoebe Buffay present."
+ },
+ "train:99": {
+  "scene": "Apartment (Monica Geller, Joey Tribbiani, Rachel Green)",
+  "raw": "Apartment (Monica Geller, Joey Tribbiani, Rachel Green)"
+ },
+ "train:100": {
+  "scene": "Apartment (Joey, Phoebe, Monica)",
+  "raw": "Apartment (Joey, Phoebe, Monica)"
+ },
+ "train:101": {
+  "scene": "Apartment building, Joey Tribbiani, Ross Geller, Chandler Bing present.",
+  "raw": "Apartment building, Joey Tribbiani, Ross Geller, Chandler Bing present."
+ },
+ "train:102": {
+  "scene": "Apartment (Monica Geller, Rachel Green)",
+  "raw": "Apartment (Monica Geller, Rachel Green)"
+ },
+ "train:103": {
+  "scene": "Apartment (Joey Tribbiani, Chandler Bing, Lorraine)",
+  "raw": "Apartment (Joey Tribbiani, Chandler Bing, Lorraine)"
+ },
+ "train:104": {
+  "scene": "Apartment (Chandler Bing, Joey Tribbiani)",
+  "raw": "Apartment (Chandler Bing, Joey Tribbiani)"
+ },
+ "train:105": {
+  "scene": "Apartment (Rachel Green, Monica Geller)",
+  "raw": "Apartment (Rachel Green, Monica Geller)"
+ },
+ "train:106": {
+  "scene": "Central Perk. Chandler Bing, Janice Litman Goralnik present.",
+  "raw": "Central Perk. Chandler Bing, Janice Litman Goralnik present."
+ },
+ "train:107": {
+  "scene": "Apartment (Ross, his ex-wife, and her friend)",
+  "raw": "Apartment (Ross, his ex-wife, and her friend)"
+ },
+ "train:108": {
+  "scene": "Apartment (Phoebe Buffay, Monica Geller)",
+  "raw": "Apartment (Phoebe Buffay, Monica Geller)"
+ },
+ "train:109": {
+  "scene": "Apartment (Chandler Bing, Joey Tribbiani)",
+  "raw": "Apartment (Chandler Bing, Joey Tribbiani)"
+ },
+ "train:110": {
+  "scene": "Central Perk Coffeehouse. Ross Geller, Kristin, and Carol Willick are present.",
+  "raw": "Central Perk Coffeehouse. Ross Geller, Kristin, and Carol Willick are present."
+ },
+ "train:111": {
+  "scene": "Apartment (Monica Geller, unspecified firemen)",
+  "raw": "Apartment (Monica Geller, unspecified firemen)"
+ },
+ "train:112": {
+  "scene": "Central Perk. Janice and Chandler are present.",
+  "raw": "Central Perk. Janice and Chandler are present."
+ },
+ "train:113": {
+  "scene": "Apartment (Ross, Carol)",
+  "raw": "Apartment (Ross, Carol)"
+ },
+ "train:114": {
+  "scene": "Central Perk. Rachel Green and Fireman No. 3 are present.",
+  "raw": "Central Perk. Rachel Green and Fireman No. 3 are present."
+ },
+ "train:115": {
+  "scene": "Central Perk Cafe. Chandler Bing, Joey Tribbiani, and Phoebe Buffay are present.",
+  "raw": "Central Perk Cafe. Chandler Bing, Joey Tribbiani, and Phoebe Buffay are present."
+ },
+ "train:116": {
+  "scene": "High school, Ross Geller, Carol Willick, Susan Bunch (and unborn children)",
+  "raw": "High school, Ross Geller, Carol Willick, Susan Bunch (and unborn children)"
+ },
+ "train:117": {
+  "scene": "Central Perk coffee shop. Chandler Bing and Helen (receptionist) are present.",
+  "raw": "Central Perk coffee shop. Chandler Bing and Helen (receptionist) are present."
+ },
+ "train:118": {
+  "scene": "Apartment (Ross Geller, Susan Bunch)",
+  "raw": "Apartment (Ross Geller, Susan Bunch)"
+ },
+ "train:119": {
+  "scene": "Office (Chandler Bing, Mr. Douglas)",
+  "raw": "Office (Chandler Bing, Mr. Douglas)"
+ },
+ "train:120": {
+  "scene": "Central Perk Coffee Shop. Chandler Bing and Nina Bookbinder present.",
+  "raw": "Central Perk Coffee Shop. Chandler Bing and Nina Bookbinder present."
+ },
+ "train:121": {
+  "scene": "The scene takes place at the Chrysler Building, with Chandler Bing and Nina Bookbinder present.",
+  "raw": "The scene takes place at the Chrysler Building, with Chandler Bing and Nina Bookbinder present."
+ },
+ "train:122": {
+  "scene": "Hospital delivery room. Ross Geller, Susan (Ross's wife), and unspecified medical staff are present.",
+  "raw": "Hospital delivery room. Ross Geller, Susan (Ross's wife), and unspecified medical staff are present."
+ },
+ "train:123": {
+  "scene": "Apartment (Ross Geller, Rachel Green)",
+  "raw": "Apartment (Ross Geller, Rachel Green)"
+ },
+ "train:124": {
+  "scene": "Central Perk Coffee Shop. Nina Bookbinder and Chandler Bing present.",
+  "raw": "Central Perk Coffee Shop. Nina Bookbinder and Chandler Bing present."
+ },
+ "train:125": {
+  "scene": "Apartment (Chandler Bing, Rachel Green)",
+  "raw": "Apartment (Chandler Bing, Rachel Green)"
+ },
+ "train:126": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "train:127": {
+  "scene": "Central Perk Coffee Shop. Ross Geller, Chandler Bing present.",
+  "raw": "Central Perk Coffee Shop. Ross Geller, Chandler Bing present."
+ },
+ "train:128": {
+  "scene": "Monica Geller's Kitchen (Dr. Mitchell, Monica Geller present)",
+  "raw": "Monica Geller's Kitchen (Dr. Mitchell, Monica Geller present)"
+ },
+ "train:129": {
+  "scene": "Apartment (Rachel Green, Monica Geller)",
+  "raw": "Apartment (Rachel Green, Monica Geller)"
+ },
+ "train:130": {
+  "scene": "Coffee Shop. Ross Geller is present.",
+  "raw": "Coffee Shop. Ross Geller is present."
+ },
+ "train:131": {
+  "scene": "Apartment (Rachel Green, Monica Geller, Ross Geller)",
+  "raw": "Apartment (Rachel Green, Monica Geller, Ross Geller)"
+ },
+ "train:132": {
+  "scene": "Hospital waiting room. Rachel Green, Monica Geller, and Nurse Sizemore are present.",
+  "raw": "Hospital waiting room. Rachel Green, Monica Geller, and Nurse Sizemore are present."
+ },
+ "train:133": {
+  "scene": "Apartment (Chandler Bing, Ross Geller)",
+  "raw": "Apartment (Chandler Bing, Ross Geller)"
+ },
+ "train:134": {
+  "scene": "Animal Hospital. Ross Geller, Nurse Sizemore present.",
+  "raw": "Animal Hospital. Ross Geller, Nurse Sizemore present."
+ },
+ "train:135": {
+  "scene": "Central Perk Coffeehouse. Phoebe Buffay and Joey Tribbiani present.",
+  "raw": "Central Perk Coffeehouse. Phoebe Buffay and Joey Tribbiani present."
+ },
+ "train:136": {
+  "scene": "Apartment (Ross Geller, Joey Tribbiani, Phoebe Buffay)",
+  "raw": "Apartment (Ross Geller, Joey Tribbiani, Phoebe Buffay)"
+ },
+ "train:137": {
+  "scene": "Apartment (Monica, Ross, Chandler)",
+  "raw": "Apartment (Monica, Ross, Chandler)"
+ },
+ "train:138": {
+  "scene": "Apartment (Ross Geller, Chandler Bing)",
+  "raw": "Apartment (Ross Geller, Chandler Bing)"
+ },
+ "train:139": {
+  "scene": "Apartment (Monica, Chandler, Ross, Phoebe)",
+  "raw": "Apartment (Monica, Chandler, Ross, Phoebe)"
+ },
+ "train:140": {
+  "scene": "Apartment (Monica, Rachel, Phoebe, Ross, Joey)",
+  "raw": "Apartment (Monica, Rachel, Phoebe, Ross, Joey)"
+ },
+ "train:141": {
+  "scene": "Airport. Chandler Bing, Rachel Green, and (implied) Monica Geller are present.",
+  "raw": "Airport. Chandler Bing, Rachel Green, and (implied) Monica Geller are present."
+ },
+ "train:142": {
+  "scene": "Apartment (Monica Geller, Rachel Green)",
+  "raw": "Apartment (Monica Geller, Rachel Green)"
+ },
+ "train:143": {
+  "scene": "Central Perk Coffeehouse. Chandler Bing and Joey Tribbiani present.",
+  "raw": "Central Perk Coffeehouse. Chandler Bing and Joey Tribbiani present."
+ },
+ "train:144": {
+  "scene": "Apartment (Ross Geller, Rachel Green)",
+  "raw": "Apartment (Ross Geller, Rachel Green)"
+ },
+ "train:145": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "train:146": {
+  "scene": "Apartment (Joey Tribbiani, Monica Geller, Rachel Green)",
+  "raw": "Apartment (Joey Tribbiani, Monica Geller, Rachel Green)"
+ },
+ "train:147": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "train:148": {
+  "scene": "Apartment (Monica, Chandler, Joey)",
+  "raw": "Apartment (Monica, Chandler, Joey)"
+ },
+ "train:149": {
+  "scene": "Apartment (Rachel Green, Phoebe Buffay, Monica Geller)",
+  "raw": "Apartment (Rachel Green, Phoebe Buffay, Monica Geller)"
+ },
+ "train:150": {
+  "scene": "Apartment (Ross Geller, Chandler Bing, Joey Tribbiani)",
+  "raw": "Apartment (Ross Geller, Chandler Bing, Joey Tribbiani)"
+ },
+ "train:151": {
+  "scene": "Apartment (Joey Tribbiani, Ross Geller, Chandler Bing)",
+  "raw": "Apartment (Joey Tribbiani, Ross Geller, Chandler Bing)"
+ },
+ "train:152": {
+  "scene": "Hospital room 15, Rachel Green, Fake Monica (Monica Geller not present)",
+  "raw": "Hospital room 15, Rachel Green, Fake Monica (Monica Geller not present)"
+ },
+ "train:153": {
+  "scene": "Central Perk Coffeehouse. Ross Geller, Phoebe Buffay, and Marcel (Monkey) are present.",
+  "raw": "Central Perk Coffeehouse. Ross Geller, Phoebe Buffay, and Marcel (Monkey) are present."
+ },
+ "train:154": {
+  "scene": "Ross Geller and Dr. Baldhara are at an interactive wildlife experience, discussing Ross's albino monkey, Marcel.",
+  "raw": "Ross Geller and Dr. Baldhara are at an interactive wildlife experience, discussing Ross's albino monkey, Marcel."
+ },
+ "train:155": {
+  "scene": "Embassy party. Monica Geller and Rachel Green present.",
+  "raw": "Embassy party. Monica Geller and Rachel Green present."
+ },
+ "train:156": {
+  "scene": "Apartment (Monica Geller, Fake Monica)",
+  "raw": "Apartment (Monica Geller, Fake Monica)"
+ },
+ "train:157": {
+  "scene": "Gate 42A at an airport. Phoebe Buffay and Ross Geller present.",
+  "raw": "Gate 42A at an airport. Phoebe Buffay and Ross Geller present."
+ },
+ "train:158": {
+  "scene": "Central Perk coffee shop. Ross, Casting Director No. 1, and Casting Director No. 2 are present.",
+  "raw": "Central Perk coffee shop. Ross, Casting Director No. 1, and Casting Director No. 2 are present."
+ },
+ "train:159": {
+  "scene": "Apartment (Monica Geller, Rachel Green, Phoebe Buffay)",
+  "raw": "Apartment (Monica Geller, Rachel Green, Phoebe Buffay)"
+ },
+ "train:160": {
+  "scene": "Apartment (Chandler Bing, Phoebe Buffay)",
+  "raw": "Apartment (Chandler Bing, Phoebe Buffay)"
+ },
+ "train:161": {
+  "scene": "Apartment (Monica Geller, Rachel Green)",
+  "raw": "Apartment (Monica Geller, Rachel Green)"
+ },
+ "train:162": {
+  "scene": "Apartment (Monica Geller, Ethan)",
+  "raw": "Apartment (Monica Geller, Ethan)"
+ },
+ "train:163": {
+  "scene": "Apartment (Chandler Bing, Phoebe Buffay)",
+  "raw": "Apartment (Chandler Bing, Phoebe Buffay)"
+ },
+ "train:164": {
+  "scene": "Apartment (Monica, Ross, Joey) and possibly Carol, Andre (off-screen)",
+  "raw": "Apartment (Monica, Ross, Joey) and possibly Carol, Andre (off-screen)"
+ },
+ "train:165": {
+  "scene": "Apartment (Chandler, Gersten, Santos)",
+  "raw": "Apartment (Chandler, Gersten, Santos)"
+ },
+ "train:166": {
+  "scene": "Central Perk coffee shop. Rachel and Ross are present.",
+  "raw": "Central Perk coffee shop. Rachel and Ross are present."
+ },
+ "train:167": {
+  "scene": "Apartment (Monica, Ross, Chandler)",
+  "raw": "Apartment (Monica, Ross, Chandler)"
+ },
+ "train:168": {
+  "scene": "Apartment (Ross Geller, Monica Geller)",
+  "raw": "Apartment (Ross Geller, Monica Geller)"
+ },
+ "train:169": {
+  "scene": "Coffee Shop. Ross, Carol, Susan.",
+  "raw": "Coffee Shop. Ross, Carol, Susan."
+ },
+ "train:170": {
+  "scene": "Apartment (Monica Geller, Chandler Bing)",
+  "raw": "Apartment (Monica Geller, Chandler Bing)"
+ },
+ "train:171": {
+  "scene": "Apartment (Joey Tribbiani, Lydia)",
+  "raw": "Apartment (Joey Tribbiani, Lydia)"
+ },
+ "train:172": {
+  "scene": "Hospital - Nurse Sizemore, Lydia, Joey Tribbiani (implied)",
+  "raw": "Hospital - Nurse Sizemore, Lydia, Joey Tribbiani (implied)"
+ },
+ "train:173": {
+  "scene": "Apartment (Ross Geller, Susan Bunch)",
+  "raw": "Apartment (Ross Geller, Susan Bunch)"
+ },
+ "train:174": {
+  "scene": "Apartment (Rachel Green, Carol Willick)",
+  "raw": "Apartment (Rachel Green, Carol Willick)"
+ },
+ "train:175": {
+  "scene": "Hospital - Dr. Franzblau, Rachel Green",
+  "raw": "Hospital - Dr. Franzblau, Rachel Green"
+ },
+ "train:176": {
+  "scene": "Apartment (Ross, Lydia, Guy)",
+  "raw": "Apartment (Ross, Lydia, Guy)"
+ },
+ "train:177": {
+  "scene": "Hospital closet. Ross Geller and Susan Bunch are present.",
+  "raw": "Hospital closet. Ross Geller and Susan Bunch are present."
+ },
+ "train:178": {
+  "scene": "Monica, Rachel, and an unspecified third party are in Carol's apartment.",
+  "raw": "Monica, Rachel, and an unspecified third party are in Carol's apartment."
+ },
+ "train:179": {
+  "scene": "Hospital room. Ross Geller, Phoebe Buffay, and Ben (hospital worker) are present.",
+  "raw": "Hospital room. Ross Geller, Phoebe Buffay, and Ben (hospital worker) are present."
+ },
+ "train:180": {
+  "scene": "Apartment (Ross Geller, Carol Willick, and all other characters)",
+  "raw": "Apartment (Ross Geller, Carol Willick, and all other characters)"
+ },
+ "train:181": {
+  "scene": "Apartment (Ross Geller, Susan Bunch)",
+  "raw": "Apartment (Ross Geller, Susan Bunch)"
+ },
+ "train:182": {
+  "scene": "Apartment (Ross, Chandler, Monica)",
+  "raw": "Apartment (Ross, Chandler, Monica)"
+ },
+ "train:183": {
+  "scene": "Geller-Buffay apartment (Ross, Monica, Phoebe, Ben)",
+  "raw": "Geller-Buffay apartment (Ross, Monica, Phoebe, Ben)"
+ },
+ "train:184": {
+  "scene": "Central Perk Coffeehouse. Rachel Green, Phoebe Buffay, and Chandler Bing are present.",
+  "raw": "Central Perk Coffeehouse. Rachel Green, Phoebe Buffay, and Chandler Bing are present."
+ },
+ "train:185": {
+  "scene": "Airplane, Ross Geller, Rachel Green",
+  "raw": "Airplane, Ross Geller, Rachel Green"
+ },
+ "train:186": {
+  "scene": "Apartment (Joey Tribbiani, Melanie)",
+  "raw": "Apartment (Joey Tribbiani, Melanie)"
+ },
+ "train:187": {
+  "scene": "Apartment (Monica and Rachel)",
+  "raw": "Apartment (Monica and Rachel)"
+ },
+ "train:188": {
+  "scene": "Apartment (Chandler Bing, Joey Tribbiani)",
+  "raw": "Apartment (Chandler Bing, Joey Tribbiani)"
+ },
+ "train:189": {
+  "scene": "Apartment (Monica Geller, Rachel Green)",
+  "raw": "Apartment (Monica Geller, Rachel Green)"
+ },
+ "train:190": {
+  "scene": "Apartment (Joey Tribbiani, Chandler Bing)",
+  "raw": "Apartment (Joey Tribbiani, Chandler Bing)"
+ },
+ "train:191": {
+  "scene": "Central Perk Coffee Shop. Ross Geller, Rachel Green, and an unidentified man are present.",
+  "raw": "Central Perk Coffee Shop. Ross Geller, Rachel Green, and an unidentified man are present."
+ },
+ "train:192": {
+  "scene": "Central Perk coffee shop. Rachel Green and Ross Geller present.",
+  "raw": "Central Perk coffee shop. Rachel Green and Ross Geller present."
+ },
+ "train:193": {
+  "scene": "Apartment kitchen (Ross, Rachel)",
+  "raw": "Apartment kitchen (Ross, Rachel)"
+ },
+ "train:194": {
+  "scene": "Apartment (Joey Tribbiani, Monica Geller, Phoebe Buffay)",
+  "raw": "Apartment (Joey Tribbiani, Monica Geller, Phoebe Buffay)"
+ },
+ "train:195": {
+  "scene": "Central Perk Coffeehouse. Phoebe Buffay and Monica Geller present.",
+  "raw": "Central Perk Coffeehouse. Phoebe Buffay and Monica Geller present."
+ },
+ "train:196": {
+  "scene": "Apartment (Monica, Ross)",
+  "raw": "Apartment (Monica, Ross)"
+ },
+ "train:197": {
+  "scene": "Central Perk Coffeehouse. Julie and Phoebe Buffay present.",
+  "raw": "Central Perk Coffeehouse. Julie and Phoebe Buffay present."
+ },
+ "train:198": {
+  "scene": "Apartment (Monica, Phoebe, Ben, Susan)",
+  "raw": "Apartment (Monica, Phoebe, Ben, Susan)"
+ },
+ "train:199": {
+  "scene": "Central Perk. Rachel Green, Julie (not a main character).",
+  "raw": "Central Perk. Rachel Green, Julie (not a main character)."
+ },
+ "train:200": {
+  "scene": "Central Perk coffee shop. Joey Tribbiani and Annabelle are present.",
+  "raw": "Central Perk coffee shop. Joey Tribbiani and Annabelle are present."
+ },
+ "train:201": {
+  "scene": "Apartment (Monica, Phoebe) or Shopping Mall (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe) or Shopping Mall (Monica, Phoebe)"
+ },
+ "train:202": {
+  "scene": "Central Perk Coffee Shop. Joey Tribbiani and Annabelle are present.",
+  "raw": "Central Perk Coffee Shop. Joey Tribbiani and Annabelle are present."
+ },
+ "train:203": {
+  "scene": "Ross Geller, Carol Willick, and Susan Bunch are present in Ross's apartment.",
+  "raw": "Ross Geller, Carol Willick, and Susan Bunch are present in Ross's apartment."
+ },
+ "train:204": {
+  "scene": "Apartment (Monica, Chandler, Ross, Phoebe)",
+  "raw": "Apartment (Monica, Chandler, Ross, Phoebe)"
+ },
+ "train:205": {
+  "scene": "Apartment (Monica Geller, Joanne, Steve, and Carol Willick)",
+  "raw": "Apartment (Monica Geller, Joanne, Steve, and Carol Willick)"
+ },
+ "train:206": {
+  "scene": "Central Perk Coffeehouse. Chandler Bing and Joey Tribbiani are present.",
+  "raw": "Central Perk Coffeehouse. Chandler Bing and Joey Tribbiani are present."
+ },
+ "train:207": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "train:208": {
+  "scene": "Central Perk coffee shop. Joey Tribbiani, Hombre Man, and Store Guy are present.",
+  "raw": "Central Perk coffee shop. Joey Tribbiani, Hombre Man, and Store Guy are present."
+ },
+ "train:209": {
+  "scene": "Central Perk Coffee Shop. Julie and Rachel Green are present.",
+  "raw": "Central Perk Coffee Shop. Julie and Rachel Green are present."
+ },
+ "train:210": {
+  "scene": "Apartment building, Monica Geller, Rachel Green, Mr. Heckles (implied)",
+  "raw": "Apartment building, Monica Geller, Rachel Green, Mr. Heckles (implied)"
+ },
+ "train:211": {
+  "scene": "Apartment above Monica Geller's (Monica Geller, Mr. Buddy Boyle present)",
+  "raw": "Apartment above Monica Geller's (Monica Geller, Mr. Buddy Boyle present)"
+ },
+ "train:212": {
+  "scene": "Apartment (Ross Geller, Phoebe Buffay)",
+  "raw": "Apartment (Ross Geller, Phoebe Buffay)"
+ },
+ "train:213": {
+  "scene": "Apartment (Chandler Bing, Joey Tribbiani)",
+  "raw": "Apartment (Chandler Bing, Joey Tribbiani)"
+ },
+ "train:214": {
+  "scene": "Living room. Ross Geller and Phoebe Buffay present.",
+  "raw": "Living room. Ross Geller and Phoebe Buffay present."
+ },
+ "train:215": {
+  "scene": "Apartment (Monica and Rachel)",
+  "raw": "Apartment (Monica and Rachel)"
+ },
+ "train:216": {
+  "scene": "Central Perk Coffee Shop. Phoebe Buffay, Ross Geller present.",
+  "raw": "Central Perk Coffee Shop. Phoebe Buffay, Ross Geller present."
+ },
+ "train:217": {
+  "scene": "Apartment building, Rachel Green and an unknown stranger present.",
+  "raw": "Apartment building, Rachel Green and an unknown stranger present."
+ },
+ "train:218": {
+  "scene": "Apartment (Ross Geller, Chandler Bing)",
+  "raw": "Apartment (Ross Geller, Chandler Bing)"
+ },
+ "train:219": {
+  "scene": "Central Perk Coffeehouse. Phoebe Buffay, Duncan.",
+  "raw": "Central Perk Coffeehouse. Phoebe Buffay, Duncan."
+ },
+ "train:220": {
+  "scene": "Apartment (Ross, Julie, Chandler)",
+  "raw": "Apartment (Ross, Julie, Chandler)"
+ },
+ "train:221": {
+  "scene": "Apartment (Chandler, Ross, Joey)",
+  "raw": "Apartment (Chandler, Ross, Joey)"
+ },
+ "train:222": {
+  "scene": "Central Perk Coffeehouse. Phoebe Buffay, Duncan.",
+  "raw": "Central Perk Coffeehouse. Phoebe Buffay, Duncan."
+ },
+ "train:223": {
+  "scene": "Apartment (Monica Geller, Julie, Chandler Bing)",
+  "raw": "Apartment (Monica Geller, Julie, Chandler Bing)"
+ },
+ "train:224": {
+  "scene": "Central Perk Coffeehouse. Phoebe Buffay and Duncan are present.",
+  "raw": "Central Perk Coffeehouse. Phoebe Buffay and Duncan are present."
+ },
+ "train:225": {
+  "scene": "Apartment (Ross Geller, Chandler Bing)",
+  "raw": "Apartment (Ross Geller, Chandler Bing)"
+ },
+ "train:226": {
+  "scene": "Apartment (Monica, Ross, Chandler)",
+  "raw": "Apartment (Monica, Ross, Chandler)"
+ },
+ "train:227": {
+  "scene": "Apartment (Joey, Phoebe)",
+  "raw": "Apartment (Joey, Phoebe)"
+ },
+ "train:228": {
+  "scene": "Apartment bathroom. Phoebe Buffay and Rachel Green present.",
+  "raw": "Apartment bathroom. Phoebe Buffay and Rachel Green present."
+ },
+ "train:229": {
+  "scene": "Central Perk. Chandler Bing and Joey Tribbiani are present.",
+  "raw": "Central Perk. Chandler Bing and Joey Tribbiani are present."
+ },
+ "train:230": {
+  "scene": "Apartment (Rachel Green, Phoebe Buffay)",
+  "raw": "Apartment (Rachel Green, Phoebe Buffay)"
+ },
+ "train:231": {
+  "scene": "Central Perk Coffeehouse. Chandler Bing, Rachel Green present.",
+  "raw": "Central Perk Coffeehouse. Chandler Bing, Rachel Green present."
+ },
+ "train:232": {
+  "scene": "Central Perk Coffee Shop. Michael, Rachel Green present.",
+  "raw": "Central Perk Coffee Shop. Michael, Rachel Green present."
+ },
+ "train:233": {
+  "scene": "Central Perk Coffeehouse. Phoebe Buffay, Joey Tribbiani present.",
+  "raw": "Central Perk Coffeehouse. Phoebe Buffay, Joey Tribbiani present."
+ },
+ "train:234": {
+  "scene": "Apartment (Rachel Green, Michael)",
+  "raw": "Apartment (Rachel Green, Michael)"
+ },
+ "train:235": {
+  "scene": "Apartment (Chandler Bing, Monica Geller)",
+  "raw": "Apartment (Chandler Bing, Monica Geller)"
+ },
+ "train:236": {
+  "scene": "Central Perk. Phoebe Buffay and Joey Tribbiani are present.",
+  "raw": "Central Perk. Phoebe Buffay and Joey Tribbiani are present."
+ },
+ "train:237": {
+  "scene": "Apartment (Rachel Green, Ross Geller)",
+  "raw": "Apartment (Rachel Green, Ross Geller)"
+ },
+ "train:238": {
+  "scene": "Apartment Gym (Chandler Bing, Monica Geller)",
+  "raw": "Apartment Gym (Chandler Bing, Monica Geller)"
+ },
+ "train:239": {
+  "scene": "Apartment building, Phoebe Buffay, Joey Tribbiani, Chandler Bing (Ugly Naked Guy not explicitly present)",
+  "raw": "Apartment building, Phoebe Buffay, Joey Tribbiani, Chandler Bing (Ugly Naked Guy not explicitly present)"
+ },
+ "train:240": {
+  "scene": "Apartment (Monica, Chandler, Joey, Ross, Rachel, Phoebe)",
+  "raw": "Apartment (Monica, Chandler, Joey, Ross, Rachel, Phoebe)"
+ },
+ "train:241": {
+  "scene": "Living room. Chandler Bing, Rachel Green. (No specific holiday mentioned)",
+  "raw": "Living room. Chandler Bing, Rachel Green. (No specific holiday mentioned)"
+ },
+ "train:242": {
+  "scene": "Central Perk Coffee Shop. Phoebe Buffay and Grandmother present.",
+  "raw": "Central Perk Coffee Shop. Phoebe Buffay and Grandmother present."
+ },
+ "train:243": {
+  "scene": "Apartment building lobby, Joey Tribbiani and Chandler Bing present.",
+  "raw": "Apartment building lobby, Joey Tribbiani and Chandler Bing present."
+ },
+ "train:244": {
+  "scene": "Apartment (Monica, Ross, Rachel)",
+  "raw": "Apartment (Monica, Ross, Rachel)"
+ },
+ "train:245": {
+  "scene": "Apartment (Phoebe Buffay, Chandler Bing)",
+  "raw": "Apartment (Phoebe Buffay, Chandler Bing)"
+ },
+ "train:246": {
+  "scene": "Apartment (Monica, Chandler, Ross, Rachel, Phoebe, Joey)",
+  "raw": "Apartment (Monica, Chandler, Ross, Rachel, Phoebe, Joey)"
+ },
+ "train:247": {
+  "scene": "Apartment (Chandler Bing, Joey Tribbiani, Monica Geller)",
+  "raw": "Apartment (Chandler Bing, Joey Tribbiani, Monica Geller)"
+ },
+ "train:248": {
+  "scene": "Apartment (Joey Tribbiani, Rachel Green)",
+  "raw": "Apartment (Joey Tribbiani, Rachel Green)"
+ },
+ "train:249": {
+  "scene": "Apartment (Ross Geller, Carol Willick, Ben Geller)",
+  "raw": "Apartment (Ross Geller, Carol Willick, Ben Geller)"
+ },
+ "train:250": {
+  "scene": "Apartment (Ross, Joey, Chandler)",
+  "raw": "Apartment (Ross, Joey, Chandler)"
+ },
+ "train:251": {
+  "scene": "Apartment kitchen. Monica and Carol present.",
+  "raw": "Apartment kitchen. Monica and Carol present."
+ },
+ "train:252": {
+  "scene": "Apartment (Joey Tribbiani, Chandler Bing, Phoebe Buffay)",
+  "raw": "Apartment (Joey Tribbiani, Chandler Bing, Phoebe Buffay)"
+ },
+ "train:253": {
+  "scene": "Apartment (Monica, Ross, Joey)",
+  "raw": "Apartment (Monica, Ross, Joey)"
+ },
+ "train:254": {
+  "scene": "Central Perk coffee shop. Susan Bunch and Ross Geller are present.",
+  "raw": "Central Perk coffee shop. Susan Bunch and Ross Geller are present."
+ },
+ "train:255": {
+  "scene": "Apartment (Monica, Ross, Phoebe)",
+  "raw": "Apartment (Monica, Ross, Phoebe)"
+ },
+ "train:256": {
+  "scene": "Apartment (Ross Geller, Joey Tribbiani)",
+  "raw": "Apartment (Ross Geller, Joey Tribbiani)"
+ },
+ "train:257": {
+  "scene": "Apartment (Joey Tribbiani, Chandler Bing)",
+  "raw": "Apartment (Joey Tribbiani, Chandler Bing)"
+ },
+ "train:258": {
+  "scene": "Apartment (Joey Tribbiani, Chandler Bing)",
+  "raw": "Apartment (Joey Tribbiani, Chandler Bing)"
+ },
+ "train:259": {
+  "scene": "Zoo, Dean Lipson and Ross Geller present.",
+  "raw": "Zoo, Dean Lipson and Ross Geller present."
+ },
+ "train:260": {
+  "scene": "Apartment (Monica, Phoebe, and unspecified characters)",
+  "raw": "Apartment (Monica, Phoebe, and unspecified characters)"
+ },
+ "train:261": {
+  "scene": "Central Perk Coffee House. Erica Ford and Joey Tribbiani are present.",
+  "raw": "Central Perk Coffee House. Erica Ford and Joey Tribbiani are present."
+ },
+ "train:262": {
+  "scene": "Central Perk coffee shop. Joey Tribbiani and Erica Ford are present.",
+  "raw": "Central Perk coffee shop. Joey Tribbiani and Erica Ford are present."
+ },
+ "train:263": {
+  "scene": "Central Perk coffee shop. Phoebe Buffay, Monica Geller, and Chandler Bing are present.",
+  "raw": "Central Perk coffee shop. Phoebe Buffay, Monica Geller, and Chandler Bing are present."
+ },
+ "train:264": {
+  "scene": "Gym locker room. Janitor, Ross Geller.",
+  "raw": "Gym locker room. Janitor, Ross Geller."
+ },
+ "train:265": {
+  "scene": "Central Perk coffee shop. Ross and Rachel are present.",
+  "raw": "Central Perk coffee shop. Ross and Rachel are present."
+ },
+ "train:266": {
+  "scene": "Central Perk. Phoebe Buffay, Ross Geller (implied)",
+  "raw": "Central Perk. Phoebe Buffay, Ross Geller (implied)"
+ },
+ "train:267": {
+  "scene": "Apartment (Ross, Rachel, Joey)",
+  "raw": "Apartment (Ross, Rachel, Joey)"
+ },
+ "train:268": {
+  "scene": "Zoo (Ross Geller, Chandler Bing, Security Guard)",
+  "raw": "Zoo (Ross Geller, Chandler Bing, Security Guard)"
+ },
+ "train:269": {
+  "scene": "Central Perk coffee shop. Rachel Green, Joey Tribbiani, and Drew Barrymore are present.",
+  "raw": "Central Perk coffee shop. Rachel Green, Joey Tribbiani, and Drew Barrymore are present."
+ },
+ "train:270": {
+  "scene": "Central Perk Coffee Shop. Susie Moss and Chandler Bing are present.",
+  "raw": "Central Perk Coffee Shop. Susie Moss and Chandler Bing are present."
+ },
+ "train:271": {
+  "scene": "Apartment (Ross, Joey)",
+  "raw": "Apartment (Ross, Joey)"
+ },
+ "train:272": {
+  "scene": "Apartment (Monica Geller, Jean-Claude Van Damme)",
+  "raw": "Apartment (Monica Geller, Jean-Claude Van Damme)"
+ },
+ "train:273": {
+  "scene": "Apartment (Monica Geller, Rachel Green)",
+  "raw": "Apartment (Monica Geller, Rachel Green)"
+ },
+ "train:274": {
+  "scene": "Apartment (Chandler Bing, Joey Tribbiani)",
+  "raw": "Apartment (Chandler Bing, Joey Tribbiani)"
+ },
+ "train:275": {
+  "scene": "Apartment (Chandler Bing, Phoebe Buffay, Joey Tribbiani)",
+  "raw": "Apartment (Chandler Bing, Phoebe Buffay, Joey Tribbiani)"
+ },
+ "train:276": {
+  "scene": "Central Perk coffee shop. Jean-Claude Van Damme and Rachel Green present.",
+  "raw": "Central Perk coffee shop. Jean-Claude Van Damme and Rachel Green present."
+ },
+ "train:277": {
+  "scene": "Central Perk. Ross, Phoebe, and Rachel are present.",
+  "raw": "Central Perk. Ross, Phoebe, and Rachel are present."
+ },
+ "train:278": {
+  "scene": "Central Perk Coffee Shop. Joey Tribbiani, Jean-Claude Van Damme, and an unnamed director are present.",
+  "raw": "Central Perk Coffee Shop. Joey Tribbiani, Jean-Claude Van Damme, and an unnamed director are present."
+ },
+ "train:279": {
+  "scene": "Apartment (Joey Tribbiani, Chandler Bing)",
+  "raw": "Apartment (Joey Tribbiani, Chandler Bing)"
+ },
+ "train:280": {
+  "scene": "Office (Interviewer, Monica Geller)",
+  "raw": "Office (Interviewer, Monica Geller)"
+ },
+ "train:281": {
+  "scene": "Apartment (Ross Geller, Phoebe Buffay)",
+  "raw": "Apartment (Ross Geller, Phoebe Buffay)"
+ },
+ "train:282": {
+  "scene": "Kitchen. Monica, Ross, and Judy (Geller family)",
+  "raw": "Kitchen. Monica, Ross, and Judy (Geller family)"
+ },
+ "train:283": {
+  "scene": "Central Perk. Phoebe Buffay and Chandler Bing are present.",
+  "raw": "Central Perk. Phoebe Buffay and Chandler Bing are present."
+ },
+ "train:284": {
+  "scene": "Central Perk. Chandler Bing and Joey Tribbiani are present.",
+  "raw": "Central Perk. Chandler Bing and Joey Tribbiani are present."
+ },
+ "train:285": {
+  "scene": "Central Perk. Ross Geller, Judy Geller (off-screen).",
+  "raw": "Central Perk. Ross Geller, Judy Geller (off-screen)."
+ },
+ "train:286": {
+  "scene": "Central Perk Coffee Shop. Chandler Bing and Phoebe Buffay are present.",
+  "raw": "Central Perk Coffee Shop. Chandler Bing and Phoebe Buffay are present."
+ },
+ "train:287": {
+  "scene": "Living room. Judy Geller, Monica Geller, and Ross Geller are present.",
+  "raw": "Living room. Judy Geller, Monica Geller, and Ross Geller are present."
+ },
+ "train:288": {
+  "scene": "Apartment (Joey Tribbiani, Chandler Bing)",
+  "raw": "Apartment (Joey Tribbiani, Chandler Bing)"
+ },
+ "train:289": {
+  "scene": "Apartment (Monica, Phoebe, Richard Burke)",
+  "raw": "Apartment (Monica, Phoebe, Richard Burke)"
+ },
+ "train:290": {
+  "scene": "Apartment (Monica, Richard Burke)",
+  "raw": "Apartment (Monica, Richard Burke)"
+ },
+ "train:291": {
+  "scene": "Parking lot. Joey Tribbiani and Chandler Bing present.",
+  "raw": "Parking lot. Joey Tribbiani and Chandler Bing present."
+ },
+ "train:292": {
+  "scene": "Central Perk Coffee Shop. Richard Burke and Monica Geller present.",
+  "raw": "Central Perk Coffee Shop. Richard Burke and Monica Geller present."
+ },
+ "train:293": {
+  "scene": "High school reunion. Monica Geller, Michelle, and Richard Burke present.",
+  "raw": "High school reunion. Monica Geller, Michelle, and Richard Burke present."
+ },
+ "train:294": {
+  "scene": "Apartment (Ross, Rachel)",
+  "raw": "Apartment (Ross, Rachel)"
+ },
+ "train:295": {
+  "scene": "Apartment (Ross, Rachel)",
+  "raw": "Apartment (Ross, Rachel)"
+ },
+ "train:296": {
+  "scene": "Apartment (Ross Geller, Rachel Green)",
+  "raw": "Apartment (Ross Geller, Rachel Green)"
+ },
+ "train:297": {
+  "scene": "Apartment (Joey Tribbiani, Chandler Bing)",
+  "raw": "Apartment (Joey Tribbiani, Chandler Bing)"
+ },
+ "train:298": {
+  "scene": "Kitchen. Ross Geller and Monica Geller are present.",
+  "raw": "Kitchen. Ross Geller and Monica Geller are present."
+ },
+ "train:299": {
+  "scene": "Apartment (Monica, Chandler, Ross, Rachel, Joey, Judy Geller)",
+  "raw": "Apartment (Monica, Chandler, Ross, Rachel, Joey, Judy Geller)"
+ },
+ "train:300": {
+  "scene": "Apartment. Joey Tribbiani and Chandler Bing are present.",
+  "raw": "Apartment. Joey Tribbiani and Chandler Bing are present."
+ },
+ "train:301": {
+  "scene": "Apartment (Ross Geller, Friend, Richard Burke)",
+  "raw": "Apartment (Ross Geller, Friend, Richard Burke)"
+ },
+ "train:302": {
+  "scene": "Central Perk. Phoebe Buffay and Rachel Green are present.",
+  "raw": "Central Perk. Phoebe Buffay and Rachel Green are present."
+ },
+ "train:303": {
+  "scene": "Monica Geller's apartment (Monica, Richard Burke present)",
+  "raw": "Monica Geller's apartment (Monica, Richard Burke present)"
+ },
+ "train:304": {
+  "scene": "Central Perk. Joey Tribbiani, Chandler Bing present.",
+  "raw": "Central Perk. Joey Tribbiani, Chandler Bing present."
+ },
+ "train:305": {
+  "scene": "Kitchen. Ross Geller, Monica Geller, and Judy Geller are present.",
+  "raw": "Kitchen. Ross Geller, Monica Geller, and Judy Geller are present."
+ },
+ "train:306": {
+  "scene": "Central Perk Coffeehouse. Phoebe Buffay and Rachel Green present.",
+  "raw": "Central Perk Coffeehouse. Phoebe Buffay and Rachel Green present."
+ },
+ "train:307": {
+  "scene": "Apartment (Joey, Chandler, Phoebe)",
+  "raw": "Apartment (Joey, Chandler, Phoebe)"
+ },
+ "train:308": {
+  "scene": "Apartment of Joey Tribbiani (Joey, Ross, and rest of the group)",
+  "raw": "Apartment of Joey Tribbiani (Joey, Ross, and rest of the group)"
+ },
+ "train:309": {
+  "scene": "Central Perk. Rachel Green, Phoebe Buffay, and Chandler Bing are present.",
+  "raw": "Central Perk. Rachel Green, Phoebe Buffay, and Chandler Bing are present."
+ },
+ "train:310": {
+  "scene": "Apartment bathroom (Monica, Ross)",
+  "raw": "Apartment bathroom (Monica, Ross)"
+ },
+ "train:311": {
+  "scene": "Apartment (Chandler Bing, Joey Tribbiani)",
+  "raw": "Apartment (Chandler Bing, Joey Tribbiani)"
+ },
+ "train:312": {
+  "scene": "Apartment (Monica, Joey, Phoebe)",
+  "raw": "Apartment (Monica, Joey, Phoebe)"
+ },
+ "train:313": {
+  "scene": "Apartment (Ross Geller, Chandler Bing)",
+  "raw": "Apartment (Ross Geller, Chandler Bing)"
+ },
+ "train:314": {
+  "scene": "Central Perk Coffeehouse. Phoebe Buffay and unnamed backup singers present.",
+  "raw": "Central Perk Coffeehouse. Phoebe Buffay and unnamed backup singers present."
+ },
+ "train:315": {
+  "scene": "Apartment (Monica and Ross)",
+  "raw": "Apartment (Monica and Ross)"
+ },
+ "train:316": {
+  "scene": "Apartment (Joey Tribbiani, Chandler Bing)",
+  "raw": "Apartment (Joey Tribbiani, Chandler Bing)"
+ },
+ "train:317": {
+  "scene": "Apartment (Monica Geller, Ross Geller, Rachel Green)",
+  "raw": "Apartment (Monica Geller, Ross Geller, Rachel Green)"
+ },
+ "train:318": {
+  "scene": "Central Perk coffee shop. Eddie Menuek, Joey Tribbiani, and Chandler Bing are present.",
+  "raw": "Central Perk coffee shop. Eddie Menuek, Joey Tribbiani, and Chandler Bing are present."
+ },
+ "train:319": {
+  "scene": "Central Perk Coffeehouse. Phoebe Buffay, Ross Geller, Chandler Bing, Monica Geller, Rachel Green, and Joey Tribbiani are present.",
+  "raw": "Central Perk Coffeehouse. Phoebe Buffay, Ross Geller, Chandler Bing, Monica Geller, Rachel Green, and Joey Tribbiani are present."
+ },
+ "train:320": {
+  "scene": "The setting is a game room, with Chandler Bing and Eddie Menuek present.",
+  "raw": "The setting is a game room, with Chandler Bing and Eddie Menuek present."
+ },
+ "train:321": {
+  "scene": "Central Perk coffee shop. Phoebe Buffay and the group are present.",
+  "raw": "Central Perk coffee shop. Phoebe Buffay and the group are present."
+ },
+ "train:322": {
+  "scene": "Central Perk Coffee Shop. Amber, Dr. Drake Ramoray, and Ross Geller are present.",
+  "raw": "Central Perk Coffee Shop. Amber, Dr. Drake Ramoray, and Ross Geller are present."
+ },
+ "train:323": {
+  "scene": "Apartment (Chandler Bing, Phoebe Buffay)",
+  "raw": "Apartment (Chandler Bing, Phoebe Buffay)"
+ },
+ "train:324": {
+  "scene": "Central Perk Coffee Shop. Eddie Menuek and Chandler Bing are present.",
+  "raw": "Central Perk Coffee Shop. Eddie Menuek and Chandler Bing are present."
+ },
+ "train:325": {
+  "scene": "Central Perk Coffeehouse. Phoebe Buffay, Richard Burke, and Rachel Green are present.",
+  "raw": "Central Perk Coffeehouse. Phoebe Buffay, Richard Burke, and Rachel Green are present."
+ },
+ "train:326": {
+  "scene": "Apartment (Chandler Bing, Tilly)",
+  "raw": "Apartment (Chandler Bing, Tilly)"
+ },
+ "train:327": {
+  "scene": "Central Perk Coffee Shop. Joey Tribbiani and Phoebe Buffay are present.",
+  "raw": "Central Perk Coffee Shop. Joey Tribbiani and Phoebe Buffay are present."
+ },
+ "train:328": {
+  "scene": "Apartment building, Joey Tribbiani and Delivery Guy present",
+  "raw": "Apartment building, Joey Tribbiani and Delivery Guy present"
+ },
+ "train:329": {
+  "scene": "Apartment (Monica, Rachel, Ross)",
+  "raw": "Apartment (Monica, Rachel, Ross)"
+ },
+ "train:330": {
+  "scene": "Central Perk Coffee Shop. Chandler Bing and Eddie Menuek present.",
+  "raw": "Central Perk Coffee Shop. Chandler Bing and Eddie Menuek present."
+ },
+ "train:331": {
+  "scene": "Apartment (Ross Geller, Rachel Green, Joey Tribbiani)",
+  "raw": "Apartment (Ross Geller, Rachel Green, Joey Tribbiani)"
+ },
+ "train:332": {
+  "scene": "Central Perk Coffee Shop. Chandler Bing, Eddie Menuek present.",
+  "raw": "Central Perk Coffee Shop. Chandler Bing, Eddie Menuek present."
+ },
+ "train:333": {
+  "scene": "Apartment (Ross Geller, Richard Burke)",
+  "raw": "Apartment (Ross Geller, Richard Burke)"
+ },
+ "train:334": {
+  "scene": "Apartment (Chandler Bing, Eddie Menuek)",
+  "raw": "Apartment (Chandler Bing, Eddie Menuek)"
+ },
+ "train:335": {
+  "scene": "Central Perk. Estelle Leonard and Joey Tribbiani are present.",
+  "raw": "Central Perk. Estelle Leonard and Joey Tribbiani are present."
+ },
+ "train:336": {
+  "scene": "Central Perk coffee shop. Rachel Green and Monica Geller present.",
+  "raw": "Central Perk coffee shop. Rachel Green and Monica Geller present."
+ },
+ "train:337": {
+  "scene": "Central Perk coffee shop. Eddie Menuek and Chandler Bing are present.",
+  "raw": "Central Perk coffee shop. Eddie Menuek and Chandler Bing are present."
+ },
+ "train:338": {
+  "scene": "Central Perk coffee shop. Joey Tribbiani and Gunther are present.",
+  "raw": "Central Perk coffee shop. Joey Tribbiani and Gunther are present."
+ },
+ "train:339": {
+  "scene": "Apartment (Chandler Bing, Monica Geller)",
+  "raw": "Apartment (Chandler Bing, Monica Geller)"
+ },
+ "train:340": {
+  "scene": "Apartment (Chandler Bing, Eddie Menuek)",
+  "raw": "Apartment (Chandler Bing, Eddie Menuek)"
+ },
+ "train:341": {
+  "scene": "Central Perk coffee shop. Joey Tribbiani and Casting Guy present.",
+  "raw": "Central Perk coffee shop. Joey Tribbiani and Casting Guy present."
+ },
+ "train:342": {
+  "scene": "Central Perk Coffeehouse. Phoebe Buffay and Monica Geller present.",
+  "raw": "Central Perk Coffeehouse. Phoebe Buffay and Monica Geller present."
+ },
+ "train:343": {
+  "scene": "Apartment building lobby, Chandler Bing and Eddie Menuek present.",
+  "raw": "Apartment building lobby, Chandler Bing and Eddie Menuek present."
+ },
+ "train:344": {
+  "scene": "Apartment (Chandler Bing, Joey Tribbiani)",
+  "raw": "Apartment (Chandler Bing, Joey Tribbiani)"
+ },
+ "train:345": {
+  "scene": "Apartment kitchen. Joey Tribbiani, Monica Geller, Rachel Green present.",
+  "raw": "Apartment kitchen. Joey Tribbiani, Monica Geller, Rachel Green present."
+ },
+ "train:346": {
+  "scene": "Apartment (Chandler Bing, Ross Geller)",
+  "raw": "Apartment (Chandler Bing, Ross Geller)"
+ },
+ "train:347": {
+  "scene": "Central Perk Coffeehouse. Joey Tribbiani, Phoebe Buffay, Rachel Green present.",
+  "raw": "Central Perk Coffeehouse. Joey Tribbiani, Phoebe Buffay, Rachel Green present."
+ },
+ "train:348": {
+  "scene": "Central Perk Coffee Shop. Phoebe Buffay, Joey Tribbiani, and Rachel Green are present.",
+  "raw": "Central Perk Coffee Shop. Phoebe Buffay, Joey Tribbiani, and Rachel Green are present."
+ },
+ "train:349": {
+  "scene": "Central Perk. Chandler Bing and Ross Geller present.",
+  "raw": "Central Perk. Chandler Bing and Ross Geller present."
+ },
+ "train:350": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "train:351": {
+  "scene": "High school gym, Ross Geller, Little Bully, and unspecified team members are present.",
+  "raw": "High school gym, Ross Geller, Little Bully, and unspecified team members are present."
+ },
+ "train:352": {
+  "scene": "Apartment (Monica, Chandler, Rachel, Joey)",
+  "raw": "Apartment (Monica, Chandler, Rachel, Joey)"
+ },
+ "train:353": {
+  "scene": "Apartment (Monica, Rachel, and the rest of the group)",
+  "raw": "Apartment (Monica, Rachel, and the rest of the group)"
+ },
+ "train:354": {
+  "scene": "Wedding venue, Ross, Monica, Joey",
+  "raw": "Wedding venue, Ross, Monica, Joey"
+ },
+ "train:355": {
+  "scene": "Central Perk. Chandler Bing and Rachel Green present.",
+  "raw": "Central Perk. Chandler Bing and Rachel Green present."
+ },
+ "train:356": {
+  "scene": "Apartment (Monica Geller, Sandra Green)",
+  "raw": "Apartment (Monica Geller, Sandra Green)"
+ },
+ "train:357": {
+  "scene": "Apartment (Monica, Chandler, Joey)",
+  "raw": "Apartment (Monica, Chandler, Joey)"
+ },
+ "train:358": {
+  "scene": "Apartment (Rachel Green, Joey Tribbiani)",
+  "raw": "Apartment (Rachel Green, Joey Tribbiani)"
+ },
+ "train:359": {
+  "scene": "Apartment (Chandler Bing, Joey Tribbiani, Monica Geller)",
+  "raw": "Apartment (Chandler Bing, Joey Tribbiani, Monica Geller)"
+ },
+ "train:360": {
+  "scene": "Central Perk. Monica Geller, Richard Burke present.",
+  "raw": "Central Perk. Monica Geller, Richard Burke present."
+ },
+ "train:361": {
+  "scene": "Apartment (Ross Geller, Rachel Green)",
+  "raw": "Apartment (Ross Geller, Rachel Green)"
+ },
+ "train:362": {
+  "scene": "Apartment (Joey Tribbiani, Phoebe Buffay, Chandler Bing)",
+  "raw": "Apartment (Joey Tribbiani, Phoebe Buffay, Chandler Bing)"
+ },
+ "train:363": {
+  "scene": "Apartment (Monica Geller, Richard Burke)",
+  "raw": "Apartment (Monica Geller, Richard Burke)"
+ },
+ "train:364": {
+  "scene": "Apartment (Monica Geller, Richard Burke)",
+  "raw": "Apartment (Monica Geller, Richard Burke)"
+ },
+ "train:365": {
+  "scene": "Central Perk Coffeehouse. Chandler Bing, Rachel Green present.",
+  "raw": "Central Perk Coffeehouse. Chandler Bing, Rachel Green present."
+ },
+ "train:366": {
+  "scene": "Coffee Shop (Joey Tribbiani, Chandler Bing)",
+  "raw": "Coffee Shop (Joey Tribbiani, Chandler Bing)"
+ },
+ "train:367": {
+  "scene": "London Institute - Dr. Geller, Sherman Whitfield (implied: Ross Geller)",
+  "raw": "London Institute - Dr. Geller, Sherman Whitfield (implied: Ross Geller)"
+ },
+ "train:368": {
+  "scene": "Monica's apartment kitchen (Monica, Ross)",
+  "raw": "Monica's apartment kitchen (Monica, Ross)"
+ },
+ "train:369": {
+  "scene": "Central Perk coffee shop. Phoebe Buffay and J. Crew guy are present.",
+  "raw": "Central Perk coffee shop. Phoebe Buffay and J. Crew guy are present."
+ },
+ "train:370": {
+  "scene": "Central Park, Malcom and Phoebe Buffay present",
+  "raw": "Central Park, Malcom and Phoebe Buffay present"
+ },
+ "train:371": {
+  "scene": "Apartment (Rachel Green, Janice Litman Goralnik, Chandler Bing)",
+  "raw": "Apartment (Rachel Green, Janice Litman Goralnik, Chandler Bing)"
+ },
+ "train:372": {
+  "scene": "Central Perk Coffeehouse. Phoebe Buffay and Malcolm are present.",
+  "raw": "Central Perk Coffeehouse. Phoebe Buffay and Malcolm are present."
+ },
+ "train:373": {
+  "scene": "Apartment (Joey Tribbiani, Rachel Green)",
+  "raw": "Apartment (Joey Tribbiani, Rachel Green)"
+ },
+ "train:374": {
+  "scene": "Apartment (Joey Tribbiani, Phoebe Buffay)",
+  "raw": "Apartment (Joey Tribbiani, Phoebe Buffay)"
+ },
+ "train:375": {
+  "scene": "Apartment (Phoebe Buffay, Rachel Green, Joey Tribbiani)",
+  "raw": "Apartment (Phoebe Buffay, Rachel Green, Joey Tribbiani)"
+ },
+ "train:376": {
+  "scene": "Apartment (Chandler Bing, Janice Litman Goralnik)",
+  "raw": "Apartment (Chandler Bing, Janice Litman Goralnik)"
+ },
+ "train:377": {
+  "scene": "Apartment (Rachel Green, Chandler Bing)",
+  "raw": "Apartment (Rachel Green, Chandler Bing)"
+ },
+ "train:378": {
+  "scene": "Apartment (Ross Geller, Rachel Green, Joey Tribbiani)",
+  "raw": "Apartment (Ross Geller, Rachel Green, Joey Tribbiani)"
+ },
+ "train:379": {
+  "scene": "Central Perk. Janice and Chandler are present.",
+  "raw": "Central Perk. Janice and Chandler are present."
+ },
+ "train:380": {
+  "scene": "Central Perk Coffeehouse. Phoebe Buffay, Joey Tribbiani present.",
+  "raw": "Central Perk Coffeehouse. Phoebe Buffay, Joey Tribbiani present."
+ },
+ "train:381": {
+  "scene": "Grocery store. Chandler Bing, Monica Geller present.",
+  "raw": "Grocery store. Chandler Bing, Monica Geller present."
+ },
+ "train:382": {
+  "scene": "Apartment (Ross, Carol, Susan)",
+  "raw": "Apartment (Ross, Carol, Susan)"
+ },
+ "train:383": {
+  "scene": "Apartment (Chandler Bing, Joey Tribbiani)",
+  "raw": "Apartment (Chandler Bing, Joey Tribbiani)"
+ },
+ "train:384": {
+  "scene": "Central Perk Coffeehouse. Rachel Green and Phoebe Buffay present.",
+  "raw": "Central Perk Coffeehouse. Rachel Green and Phoebe Buffay present."
+ },
+ "train:385": {
+  "scene": "Central Perk Coffee Shop. Joey Tribbiani and Chandler Bing are present.",
+  "raw": "Central Perk Coffee Shop. Joey Tribbiani and Chandler Bing are present."
+ },
+ "train:386": {
+  "scene": "Kitchen. Monica Geller and Joey Tribbiani are present.",
+  "raw": "Kitchen. Monica Geller and Joey Tribbiani are present."
+ },
+ "train:387": {
+  "scene": "Central Perk coffee shop. Phoebe Buffay and Frank Buffay Jr. are present.",
+  "raw": "Central Perk coffee shop. Phoebe Buffay and Frank Buffay Jr. are present."
+ },
+ "train:388": {
+  "scene": "Central Perk (Ross Geller, Rachel Green)",
+  "raw": "Central Perk (Ross Geller, Rachel Green)"
+ },
+ "train:389": {
+  "scene": "Central Perk Coffeehouse. Phoebe Buffay, Frank Buffay Jr. present.",
+  "raw": "Central Perk Coffeehouse. Phoebe Buffay, Frank Buffay Jr. present."
+ },
+ "train:390": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "train:391": {
+  "scene": "Central Perk Coffee Shop. Phoebe Buffay and Frank Buffay Jr. are present.",
+  "raw": "Central Perk Coffee Shop. Phoebe Buffay and Frank Buffay Jr. are present."
+ },
+ "train:392": {
+  "scene": "Apartment kitchen, Monica Geller, Chandler Bing, and Ross Geller present.",
+  "raw": "Apartment kitchen, Monica Geller, Chandler Bing, and Ross Geller present."
+ },
+ "train:393": {
+  "scene": "Apartment (Chandler Bing, Joey Tribbiani)",
+  "raw": "Apartment (Chandler Bing, Joey Tribbiani)"
+ },
+ "train:394": {
+  "scene": "Apartment (Joey Tribbiani, Chandler Bing)",
+  "raw": "Apartment (Joey Tribbiani, Chandler Bing)"
+ },
+ "train:395": {
+  "scene": "Central Perk Coffeehouse. Janice, Phoebe, and Ross are present.",
+  "raw": "Central Perk Coffeehouse. Janice, Phoebe, and Ross are present."
+ },
+ "train:396": {
+  "scene": "Apartment (Chandler Bing)",
+  "raw": "Apartment (Chandler Bing)"
+ },
+ "train:397": {
+  "scene": "Kitchen. Chandler Bing, Joey Tribbiani present.",
+  "raw": "Kitchen. Chandler Bing, Joey Tribbiani present."
+ },
+ "train:398": {
+  "scene": "Apartment (Ross Geller, Phoebe Buffay)",
+  "raw": "Apartment (Ross Geller, Phoebe Buffay)"
+ },
+ "train:399": {
+  "scene": "Apartment (Monica, Joey, Chandler)",
+  "raw": "Apartment (Monica, Joey, Chandler)"
+ },
+ "train:400": {
+  "scene": "Apartment (Monica, Joey)",
+  "raw": "Apartment (Monica, Joey)"
+ },
+ "train:401": {
+  "scene": "Apartment (Monica and Phoebe)",
+  "raw": "Apartment (Monica and Phoebe)"
+ },
+ "train:402": {
+  "scene": "Apartment (Chandler Bing, Joey Tribbiani)",
+  "raw": "Apartment (Chandler Bing, Joey Tribbiani)"
+ },
+ "train:403": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:404": {
+  "scene": "Central Perk. Ross and Phoebe present.",
+  "raw": "Central Perk. Ross and Phoebe present."
+ },
+ "train:405": {
+  "scene": "Apartment (Chandler Bing, Monica Geller)",
+  "raw": "Apartment (Chandler Bing, Monica Geller)"
+ },
+ "train:406": {
+  "scene": "Apartment (Chandler Bing, Rachel Green)",
+  "raw": "Apartment (Chandler Bing, Rachel Green)"
+ },
+ "train:407": {
+  "scene": "Apartment (Ross, Rachel, Monica)",
+  "raw": "Apartment (Ross, Rachel, Monica)"
+ },
+ "train:408": {
+  "scene": "Apartment (Ross, Monica, Joey)",
+  "raw": "Apartment (Ross, Monica, Joey)"
+ },
+ "train:409": {
+  "scene": "Apartment (Monica Geller, Phoebe Buffay)",
+  "raw": "Apartment (Monica Geller, Phoebe Buffay)"
+ },
+ "train:410": {
+  "scene": "Kitchen. Rachel Green, Leonard Green, and Ross Geller are present.",
+  "raw": "Kitchen. Rachel Green, Leonard Green, and Ross Geller are present."
+ },
+ "train:411": {
+  "scene": "Central Perk Coffee Shop. Joey Tribbiani and a student are present.",
+  "raw": "Central Perk Coffee Shop. Joey Tribbiani and a student are present."
+ },
+ "train:412": {
+  "scene": "Apartment (Rachel Green, Ross Geller)",
+  "raw": "Apartment (Rachel Green, Ross Geller)"
+ },
+ "train:413": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "train:414": {
+  "scene": "Art school studio. Student and Joey Tribbiani present.",
+  "raw": "Art school studio. Student and Joey Tribbiani present."
+ },
+ "train:415": {
+  "scene": "Apartment (Chandler Bing, Joey Tribbiani)",
+  "raw": "Apartment (Chandler Bing, Joey Tribbiani)"
+ },
+ "train:416": {
+  "scene": "Central Perk coffee shop. Monica Geller and a store representative (Jester) are present.",
+  "raw": "Central Perk coffee shop. Monica Geller and a store representative (Jester) are present."
+ },
+ "train:417": {
+  "scene": "Apartment (Chandler Bing, Rachel Green)",
+  "raw": "Apartment (Chandler Bing, Rachel Green)"
+ },
+ "train:418": {
+  "scene": "Central Perk. Ross Geller, Chandler Bing, and Sarah Tuttle are present.",
+  "raw": "Central Perk. Ross Geller, Chandler Bing, and Sarah Tuttle are present."
+ },
+ "train:419": {
+  "scene": "Apartment (Monica, Ross, Chandler)",
+  "raw": "Apartment (Monica, Ross, Chandler)"
+ },
+ "train:420": {
+  "scene": "A suburban kitchen, Ross Geller and Sarah Tuttle are present.",
+  "raw": "A suburban kitchen, Ross Geller and Sarah Tuttle are present."
+ },
+ "train:421": {
+  "scene": "Apartment building lobby, Ross Geller and an unidentified woman",
+  "raw": "Apartment building lobby, Ross Geller and an unidentified woman"
+ },
+ "train:422": {
+  "scene": "Central Perk Coffeehouse. Phoebe Buffay and Joey Tribbiani present.",
+  "raw": "Central Perk Coffeehouse. Phoebe Buffay and Joey Tribbiani present."
+ },
+ "train:423": {
+  "scene": "Central Perk. Joey Tribbiani, Guy, and Phoebe Buffay are present.",
+  "raw": "Central Perk. Joey Tribbiani, Guy, and Phoebe Buffay are present."
+ },
+ "train:424": {
+  "scene": "Central Perk. Ross Geller and an unnamed woman are present.",
+  "raw": "Central Perk. Ross Geller and an unnamed woman are present."
+ },
+ "train:425": {
+  "scene": "U.S.S. Nimitz (Ross Geller, Chandler Bing)",
+  "raw": "U.S.S. Nimitz (Ross Geller, Chandler Bing)"
+ },
+ "train:426": {
+  "scene": "Apartment (Chandler Bing, Phoebe Buffay, Joey Tribbiani)",
+  "raw": "Apartment (Chandler Bing, Phoebe Buffay, Joey Tribbiani)"
+ },
+ "train:427": {
+  "scene": "Monica and Chandler's apartment (Ross Geller, Sarah Tuttle)",
+  "raw": "Monica and Chandler's apartment (Ross Geller, Sarah Tuttle)"
+ },
+ "train:428": {
+  "scene": "Apartment (Joey Tribbiani, Monica Geller)",
+  "raw": "Apartment (Joey Tribbiani, Monica Geller)"
+ },
+ "train:429": {
+  "scene": "Apartment (Chandler, Monica)",
+  "raw": "Apartment (Chandler, Monica)"
+ },
+ "train:430": {
+  "scene": "Central Perk. Rachel Green and Mr. Kaplan are present.",
+  "raw": "Central Perk. Rachel Green and Mr. Kaplan are present."
+ },
+ "train:431": {
+  "scene": "Central Perk coffee shop. Rachel Green and Monica Geller present.",
+  "raw": "Central Perk coffee shop. Rachel Green and Monica Geller present."
+ },
+ "train:432": {
+  "scene": "Apartment (Ross Geller, Rachel Green, Monica Geller)",
+  "raw": "Apartment (Ross Geller, Rachel Green, Monica Geller)"
+ },
+ "train:433": {
+  "scene": "Central Perk. Rachel Green, Monica Geller, and (implied) Phoebe Buffay are present.",
+  "raw": "Central Perk. Rachel Green, Monica Geller, and (implied) Phoebe Buffay are present."
+ },
+ "train:434": {
+  "scene": "Apartment (Ross Geller, Chandler Bing)",
+  "raw": "Apartment (Ross Geller, Chandler Bing)"
+ },
+ "train:435": {
+  "scene": "Apartment (Chandler Bing, Joey Tribbiani)",
+  "raw": "Apartment (Chandler Bing, Joey Tribbiani)"
+ },
+ "train:436": {
+  "scene": "Apartment (Monica, Rachel, Ross)",
+  "raw": "Apartment (Monica, Rachel, Ross)"
+ },
+ "train:437": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "train:438": {
+  "scene": "Central Perk Cafe. Ross, Chandler, and Joey are present.",
+  "raw": "Central Perk Cafe. Ross, Chandler, and Joey are present."
+ },
+ "train:439": {
+  "scene": "Apartment (Monica Geller, Jeannine)",
+  "raw": "Apartment (Monica Geller, Jeannine)"
+ },
+ "train:440": {
+  "scene": "Central Perk Cafe. Joey Tribbiani, Director present.",
+  "raw": "Central Perk Cafe. Joey Tribbiani, Director present."
+ },
+ "train:441": {
+  "scene": "Central Perk Coffeehouse. Mark Robinson and Rachel Green present.",
+  "raw": "Central Perk Coffeehouse. Mark Robinson and Rachel Green present."
+ },
+ "train:442": {
+  "scene": "Apartment (Ross Geller, Rachel Green)",
+  "raw": "Apartment (Ross Geller, Rachel Green)"
+ },
+ "train:443": {
+  "scene": "Central Perk coffee shop. Joey Tribbiani, Ross Geller, and Chandler Bing are present.",
+  "raw": "Central Perk coffee shop. Joey Tribbiani, Ross Geller, and Chandler Bing are present."
+ },
+ "train:444": {
+  "scene": "Apartment (Monica, Mark Robinson)",
+  "raw": "Apartment (Monica, Mark Robinson)"
+ },
+ "train:445": {
+  "scene": "Apartment/Joey Tribbiani, Director",
+  "raw": "Apartment/Joey Tribbiani, Director"
+ },
+ "train:446": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "train:447": {
+  "scene": "Apartment (Monica Geller, Julio)",
+  "raw": "Apartment (Monica Geller, Julio)"
+ },
+ "train:448": {
+  "scene": "Central Perk Coffee Shop. Joey Tribbiani, Director present.",
+  "raw": "Central Perk Coffee Shop. Joey Tribbiani, Director present."
+ },
+ "train:449": {
+  "scene": "Diner. Man and Julio (poet) are present.",
+  "raw": "Diner. Man and Julio (poet) are present."
+ },
+ "train:450": {
+  "scene": "Grocery store. Monica Geller and Clerk present.",
+  "raw": "Grocery store. Monica Geller and Clerk present."
+ },
+ "train:451": {
+  "scene": "Bookstore. Monica Geller, Richard Burke present.",
+  "raw": "Bookstore. Monica Geller, Richard Burke present."
+ },
+ "train:452": {
+  "scene": "Apartment (Rachel Green, Joey Tribbiani)",
+  "raw": "Apartment (Rachel Green, Joey Tribbiani)"
+ },
+ "train:453": {
+  "scene": "Central Perk Cafe. Richard Burke and Monica Geller present.",
+  "raw": "Central Perk Cafe. Richard Burke and Monica Geller present."
+ },
+ "train:454": {
+  "scene": "Apartment (Monica Geller, Richard Burke)",
+  "raw": "Apartment (Monica Geller, Richard Burke)"
+ },
+ "train:455": {
+  "scene": "Apartment (Monica Geller, Rachel Green)",
+  "raw": "Apartment (Monica Geller, Rachel Green)"
+ },
+ "train:456": {
+  "scene": "Central Perk coffee shop. Phoebe Buffay, Ross Geller present.",
+  "raw": "Central Perk coffee shop. Phoebe Buffay, Ross Geller present."
+ },
+ "train:457": {
+  "scene": "Apartment (Rachel Green, Joey Tribbiani)",
+  "raw": "Apartment (Rachel Green, Joey Tribbiani)"
+ },
+ "train:458": {
+  "scene": "Central Perk Coffeehouse. Joey Tribbiani, Phoebe Buffay present.",
+  "raw": "Central Perk Coffeehouse. Joey Tribbiani, Phoebe Buffay present."
+ },
+ "train:459": {
+  "scene": "Central Perk. Phoebe Buffay and Leslie are present.",
+  "raw": "Central Perk. Phoebe Buffay and Leslie are present."
+ },
+ "train:460": {
+  "scene": "Central Perk Coffee Shop. Gunther, Chandler Bing present.",
+  "raw": "Central Perk Coffee Shop. Gunther, Chandler Bing present."
+ },
+ "train:461": {
+  "scene": "Central Perk. Phoebe Buffay, Joey Tribbiani, and Ginger (introduced character) are present.",
+  "raw": "Central Perk. Phoebe Buffay, Joey Tribbiani, and Ginger (introduced character) are present."
+ },
+ "train:462": {
+  "scene": "Apartment (Ross Geller, Rachel Green)",
+  "raw": "Apartment (Ross Geller, Rachel Green)"
+ },
+ "train:463": {
+  "scene": "Men's Room (Chandler Bing, Ginger)",
+  "raw": "Men's Room (Chandler Bing, Ginger)"
+ },
+ "train:464": {
+  "scene": "Apartment (Rachel Green, Ross Geller)",
+  "raw": "Apartment (Rachel Green, Ross Geller)"
+ },
+ "train:465": {
+  "scene": "Apartment (Monica Geller, Phoebe Buffay)",
+  "raw": "Apartment (Monica Geller, Phoebe Buffay)"
+ },
+ "train:466": {
+  "scene": "Central Perk Coffeehouse. Phoebe Buffay and Leslie (unspecified) present.",
+  "raw": "Central Perk Coffeehouse. Phoebe Buffay and Leslie (unspecified) present."
+ },
+ "train:467": {
+  "scene": "Apartment (Monica Geller, Chandler Bing)",
+  "raw": "Apartment (Monica Geller, Chandler Bing)"
+ },
+ "train:468": {
+  "scene": "Central Perk coffee shop. Ross Geller, Rachel Green present.",
+  "raw": "Central Perk coffee shop. Ross Geller, Rachel Green present."
+ },
+ "train:469": {
+  "scene": "Apartment (Chandler Bing, Ginger)",
+  "raw": "Apartment (Chandler Bing, Ginger)"
+ },
+ "train:470": {
+  "scene": "Central Perk Coffeehouse. Phoebe Buffay and Leslie (unspecified) are present.",
+  "raw": "Central Perk Coffeehouse. Phoebe Buffay and Leslie (unspecified) are present."
+ },
+ "train:471": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "train:472": {
+  "scene": "Apartment (Chandler Bing, Joey Tribbiani)",
+  "raw": "Apartment (Chandler Bing, Joey Tribbiani)"
+ },
+ "train:473": {
+  "scene": "Central Perk Coffee Shop. Chandler Bing, Chloe (customer), and Isaac are present.",
+  "raw": "Central Perk Coffee Shop. Chandler Bing, Chloe (customer), and Isaac are present."
+ },
+ "train:474": {
+  "scene": "Central Perk Coffee Shop. Mischa and Phoebe Buffay present.",
+  "raw": "Central Perk Coffee Shop. Mischa and Phoebe Buffay present."
+ },
+ "train:475": {
+  "scene": "Central Perk coffee shop. Phoebe Buffay and Monica Geller are present.",
+  "raw": "Central Perk coffee shop. Phoebe Buffay and Monica Geller are present."
+ },
+ "train:476": {
+  "scene": "Apartment (Chandler Bing, Joey Tribbiani)",
+  "raw": "Apartment (Chandler Bing, Joey Tribbiani)"
+ },
+ "train:477": {
+  "scene": "Apartment (Ross Geller, Rachel Green)",
+  "raw": "Apartment (Ross Geller, Rachel Green)"
+ },
+ "train:478": {
+  "scene": "Office setting. Chloe and Ross Geller are present.",
+  "raw": "Office setting. Chloe and Ross Geller are present."
+ },
+ "train:479": {
+  "scene": "Cafe Maurice. Monica Geller and Mischa are present.",
+  "raw": "Cafe Maurice. Monica Geller and Mischa are present."
+ },
+ "train:480": {
+  "scene": "Apartment (Rachel Green, Mark Robinson)",
+  "raw": "Apartment (Rachel Green, Mark Robinson)"
+ },
+ "train:481": {
+  "scene": "Apartment (Joey Tribbiani, Ross Geller, Chandler Bing)",
+  "raw": "Apartment (Joey Tribbiani, Ross Geller, Chandler Bing)"
+ },
+ "train:482": {
+  "scene": "Central Perk. Rachel Green, Mark Robinson present.",
+  "raw": "Central Perk. Rachel Green, Mark Robinson present."
+ },
+ "train:483": {
+  "scene": "Living room. Monica Geller, Phoebe Buffay present. (Mischa's dog is not physically present.)",
+  "raw": "Living room. Monica Geller, Phoebe Buffay present. (Mischa's dog is not physically present.)"
+ },
+ "train:484": {
+  "scene": "Central Perk Coffeehouse. Phoebe Buffay, Sergei.",
+  "raw": "Central Perk Coffeehouse. Phoebe Buffay, Sergei."
+ },
+ "train:485": {
+  "scene": "Apartment (Ross Geller, Rachel Green)",
+  "raw": "Apartment (Ross Geller, Rachel Green)"
+ },
+ "train:486": {
+  "scene": "Apartment (Rachel Green, Ross Geller)",
+  "raw": "Apartment (Rachel Green, Ross Geller)"
+ },
+ "train:487": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "train:488": {
+  "scene": "Apartment (Monica Geller)",
+  "raw": "Apartment (Monica Geller)"
+ },
+ "train:489": {
+  "scene": "Central Perk coffee shop. Chandler Bing, Joey Tribbiani, and Ross Geller are present.",
+  "raw": "Central Perk coffee shop. Chandler Bing, Joey Tribbiani, and Ross Geller are present."
+ },
+ "train:490": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "train:491": {
+  "scene": "Ross's and Jasmine's encounter takes place at Phoebe's birthday party.",
+  "raw": "Ross's and Jasmine's encounter takes place at Phoebe's birthday party."
+ },
+ "train:492": {
+  "scene": "Central Perk Coffeehouse. Phoebe Buffay, Joey Tribbiani, Chandler Bing present.",
+  "raw": "Central Perk Coffeehouse. Phoebe Buffay, Joey Tribbiani, Chandler Bing present."
+ },
+ "train:493": {
+  "scene": "Apartment (Joey, Chandler, Phoebe, Ross)",
+  "raw": "Apartment (Joey, Chandler, Phoebe, Ross)"
+ },
+ "train:494": {
+  "scene": "Apartment (Joey, Monica, Chandler)",
+  "raw": "Apartment (Joey, Monica, Chandler)"
+ },
+ "train:495": {
+  "scene": "Apartment (Chandler, Monica, Rachel)",
+  "raw": "Apartment (Chandler, Monica, Rachel)"
+ },
+ "train:496": {
+  "scene": "Apartment (Ross Geller, Carol Willick)",
+  "raw": "Apartment (Ross Geller, Carol Willick)"
+ },
+ "train:497": {
+  "scene": "Central Perk coffee shop. Phoebe Buffay and Rachel Green present.",
+  "raw": "Central Perk coffee shop. Phoebe Buffay and Rachel Green present."
+ },
+ "train:498": {
+  "scene": "Central Perk. Ross Geller, Carol Willick present.",
+  "raw": "Central Perk. Ross Geller, Carol Willick present."
+ },
+ "train:499": {
+  "scene": "Apartment (Ross Geller, Carol Willick)",
+  "raw": "Apartment (Ross Geller, Carol Willick)"
+ },
+ "train:500": {
+  "scene": "Apartment (Monica, Joey)",
+  "raw": "Apartment (Monica, Joey)"
+ },
+ "train:501": {
+  "scene": "Apartment (Monica Geller, Rachel Green)",
+  "raw": "Apartment (Monica Geller, Rachel Green)"
+ },
+ "train:502": {
+  "scene": "Central Perk. Phoebe Buffay, Ross Geller present.",
+  "raw": "Central Perk. Phoebe Buffay, Ross Geller present."
+ },
+ "train:503": {
+  "scene": "Apartment (Phoebe Buffay, Alice Knight)",
+  "raw": "Apartment (Phoebe Buffay, Alice Knight)"
+ },
+ "train:504": {
+  "scene": "Office (Peter Becker, Secretary, and the group #ALL#, including Monica Geller)",
+  "raw": "Office (Peter Becker, Secretary, and the group #ALL#, including Monica Geller)"
+ },
+ "train:505": {
+  "scene": "Apartment (Frank Buffay Jr., Phoebe Buffay)",
+  "raw": "Apartment (Frank Buffay Jr., Phoebe Buffay)"
+ },
+ "train:506": {
+  "scene": "Apartment (Rachel Green, Monica Geller, Chandler Bing)",
+  "raw": "Apartment (Rachel Green, Monica Geller, Chandler Bing)"
+ },
+ "train:507": {
+  "scene": "Central Perk coffee shop. Peter Becker and Monica Geller are present.",
+  "raw": "Central Perk coffee shop. Peter Becker and Monica Geller are present."
+ },
+ "train:508": {
+  "scene": "Central Perk Coffeehouse. Phoebe Buffay, Alice Knight, and Frank Buffay Jr. are present.",
+  "raw": "Central Perk Coffeehouse. Phoebe Buffay, Alice Knight, and Frank Buffay Jr. are present."
+ },
+ "train:509": {
+  "scene": "Central Perk coffee shop. Gunther and Rachel Green are present.",
+  "raw": "Central Perk coffee shop. Gunther and Rachel Green are present."
+ },
+ "train:510": {
+  "scene": "Central Perk Coffee Shop. Peter Becker and Monica Geller are present.",
+  "raw": "Central Perk Coffee Shop. Peter Becker and Monica Geller are present."
+ },
+ "train:511": {
+  "scene": "Central Perk Coffee Shop. Joey Tribbiani, The Director, and Kate Miller are present.",
+  "raw": "Central Perk Coffee Shop. Joey Tribbiani, The Director, and Kate Miller are present."
+ },
+ "train:512": {
+  "scene": "Central Perk Coffeehouse. Phoebe Buffay and Rachel Green present.",
+  "raw": "Central Perk Coffeehouse. Phoebe Buffay and Rachel Green present."
+ },
+ "train:513": {
+  "scene": "Apartment (Joey Tribbiani, Ross Geller, Chandler Bing)",
+  "raw": "Apartment (Joey Tribbiani, Ross Geller, Chandler Bing)"
+ },
+ "train:514": {
+  "scene": "Central Perk Coffeehouse. Phoebe Buffay and Chandler Bing present.",
+  "raw": "Central Perk Coffeehouse. Phoebe Buffay and Chandler Bing present."
+ },
+ "train:515": {
+  "scene": "Central Perk Coffee Shop. Kate Miller, Joey Tribbiani, and an unnamed director are present.",
+  "raw": "Central Perk Coffee Shop. Kate Miller, Joey Tribbiani, and an unnamed director are present."
+ },
+ "train:516": {
+  "scene": "Apartment (Chandler Bing, Ross Geller)",
+  "raw": "Apartment (Chandler Bing, Ross Geller)"
+ },
+ "train:517": {
+  "scene": "Central Perk Coffee Shop. Rachel Green, Mark Robinson present.",
+  "raw": "Central Perk Coffee Shop. Rachel Green, Mark Robinson present."
+ },
+ "train:518": {
+  "scene": "Hospital setting. Peter Becker and Monica Geller are present.",
+  "raw": "Hospital setting. Peter Becker and Monica Geller are present."
+ },
+ "train:519": {
+  "scene": "Central Perk coffee shop. Chandler Bing and Joey Tribbiani are present.",
+  "raw": "Central Perk coffee shop. Chandler Bing and Joey Tribbiani are present."
+ },
+ "train:520": {
+  "scene": "Central Perk Coffee Shop. Kate Miller, Joey Tribbiani, and an unnamed director are present.",
+  "raw": "Central Perk Coffee Shop. Kate Miller, Joey Tribbiani, and an unnamed director are present."
+ },
+ "train:521": {
+  "scene": "Central Perk Coffeehouse. Phoebe Buffay, Chandler Bing present.",
+  "raw": "Central Perk Coffeehouse. Phoebe Buffay, Chandler Bing present."
+ },
+ "train:522": {
+  "scene": "Apartment (Chandler Bing, Phoebe Buffay)",
+  "raw": "Apartment (Chandler Bing, Phoebe Buffay)"
+ },
+ "train:523": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "train:524": {
+  "scene": "Apartment (Monica, Rachel, Phoebe)",
+  "raw": "Apartment (Monica, Rachel, Phoebe)"
+ },
+ "train:525": {
+  "scene": "Central Perk Coffee Shop. Joey Tribbiani and Kate Miller are present.",
+  "raw": "Central Perk Coffee Shop. Joey Tribbiani and Kate Miller are present."
+ },
+ "train:526": {
+  "scene": "Central Perk Coffee Shop. Kate Miller and Joey Tribbiani present.",
+  "raw": "Central Perk Coffee Shop. Kate Miller and Joey Tribbiani present."
+ },
+ "train:527": {
+  "scene": "Apartment (Monica Geller, Phoebe Buffay)",
+  "raw": "Apartment (Monica Geller, Phoebe Buffay)"
+ },
+ "train:528": {
+  "scene": "Central Perk. Joey Tribbiani, Stage Manager, and Lauren are present.",
+  "raw": "Central Perk. Joey Tribbiani, Stage Manager, and Lauren are present."
+ },
+ "train:529": {
+  "scene": "Apartment across the hall (Chandler Bing, Phoebe Buffay)",
+  "raw": "Apartment across the hall (Chandler Bing, Phoebe Buffay)"
+ },
+ "train:530": {
+  "scene": "Apartment (Joey Tribbiani, Kate Miller)",
+  "raw": "Apartment (Joey Tribbiani, Kate Miller)"
+ },
+ "train:531": {
+  "scene": "Apartment (Monica, Phoebe, Ross)",
+  "raw": "Apartment (Monica, Phoebe, Ross)"
+ },
+ "train:532": {
+  "scene": "Apartment (Joey, Chandler, Ross)",
+  "raw": "Apartment (Joey, Chandler, Ross)"
+ },
+ "train:533": {
+  "scene": "Central Perk Coffeehouse. Jason and Phoebe Buffay present.",
+  "raw": "Central Perk Coffeehouse. Jason and Phoebe Buffay present."
+ },
+ "train:534": {
+  "scene": "Hospital examination room. Ross Geller and Dr. Rhodes present.",
+  "raw": "Hospital examination room. Ross Geller and Dr. Rhodes present."
+ },
+ "train:535": {
+  "scene": "Apartment (Monica, Chandler, Joey)",
+  "raw": "Apartment (Monica, Chandler, Joey)"
+ },
+ "train:536": {
+  "scene": "Central Perk Cafe. Rachel, Monica, and Chandler are present.",
+  "raw": "Central Perk Cafe. Rachel, Monica, and Chandler are present."
+ },
+ "train:537": {
+  "scene": "Apartment (Monica, Chandler, Phoebe, Vince)",
+  "raw": "Apartment (Monica, Chandler, Phoebe, Vince)"
+ },
+ "train:538": {
+  "scene": "Central Perk Coffee Shop. Phoebe Buffay, Ross Geller, and Monica Geller are present.",
+  "raw": "Central Perk Coffee Shop. Phoebe Buffay, Ross Geller, and Monica Geller are present."
+ },
+ "train:539": {
+  "scene": "A yoga studio. Ross Geller and Guru Saj are present.",
+  "raw": "A yoga studio. Ross Geller and Guru Saj are present."
+ },
+ "train:540": {
+  "scene": "Apartment (Monica Geller, Peter Becker)",
+  "raw": "Apartment (Monica Geller, Peter Becker)"
+ },
+ "train:541": {
+  "scene": "Central Perk. Phoebe Buffay and Jason are present.",
+  "raw": "Central Perk. Phoebe Buffay and Jason are present."
+ },
+ "train:542": {
+  "scene": "Apartment (Rachel Green, Monica Geller, Phoebe Buffay)",
+  "raw": "Apartment (Rachel Green, Monica Geller, Phoebe Buffay)"
+ },
+ "train:543": {
+  "scene": "Doug's office (Doug, Chandler Bing present)",
+  "raw": "Doug's office (Doug, Chandler Bing present)"
+ },
+ "train:544": {
+  "scene": "Coffee Shop. Hoshi, Peter Becker present.",
+  "raw": "Coffee Shop. Hoshi, Peter Becker present."
+ },
+ "train:545": {
+  "scene": "Movie theater. Rachel Green, Phoebe Buffay, and Bonnie are present.",
+  "raw": "Movie theater. Rachel Green, Phoebe Buffay, and Bonnie are present."
+ },
+ "train:546": {
+  "scene": "Office setting. Doug, Chandler Bing, and Phil are present.",
+  "raw": "Office setting. Doug, Chandler Bing, and Phil are present."
+ },
+ "train:547": {
+  "scene": "Apartment (Monica and Ross Geller)",
+  "raw": "Apartment (Monica and Ross Geller)"
+ },
+ "train:548": {
+  "scene": "Apartment (Monica Geller, Peter Becker)",
+  "raw": "Apartment (Monica Geller, Peter Becker)"
+ },
+ "train:549": {
+  "scene": "Boxing Gym. Monica and Ross are present.",
+  "raw": "Boxing Gym. Monica and Ross are present."
+ },
+ "train:550": {
+  "scene": "Central Perk Coffee Shop. Chandler Bing and Doug are present.",
+  "raw": "Central Perk Coffee Shop. Chandler Bing and Doug are present."
+ },
+ "train:551": {
+  "scene": "Central Perk coffee shop. Phoebe Buffay, Rachel Green present.",
+  "raw": "Central Perk coffee shop. Phoebe Buffay, Rachel Green present."
+ },
+ "train:552": {
+  "scene": "Apartment (Monica Geller, Peter Becker)",
+  "raw": "Apartment (Monica Geller, Peter Becker)"
+ },
+ "train:553": {
+  "scene": "Conference room. Chandler Bing, Doug, Phil, Stevens, Joel-burg, and Bing are present.",
+  "raw": "Conference room. Chandler Bing, Doug, Phil, Stevens, Joel-burg, and Bing are present."
+ },
+ "train:554": {
+  "scene": "Central Perk Coffeehouse. Chandler Bing, Rachel Green present.",
+  "raw": "Central Perk Coffeehouse. Chandler Bing, Rachel Green present."
+ },
+ "train:555": {
+  "scene": "Apartment (Chandler Bing, Bonnie)",
+  "raw": "Apartment (Chandler Bing, Bonnie)"
+ },
+ "train:556": {
+  "scene": "Central Perk. Ross, Rachel, Phoebe present.",
+  "raw": "Central Perk. Ross, Rachel, Phoebe present."
+ },
+ "train:557": {
+  "scene": "Beach house. Phoebe Buffay (and off-screen caller)",
+  "raw": "Beach house. Phoebe Buffay (and off-screen caller)"
+ },
+ "train:558": {
+  "scene": "Apartment (Chandler Bing, Monica Geller)",
+  "raw": "Apartment (Chandler Bing, Monica Geller)"
+ },
+ "train:559": {
+  "scene": "Outdoor setting by the pier: Bonnie and Rachel Green",
+  "raw": "Outdoor setting by the pier: Bonnie and Rachel Green"
+ },
+ "train:560": {
+  "scene": "Central Perk Coffeehouse. Joey Tribbiani and Phoebe Buffay present.",
+  "raw": "Central Perk Coffeehouse. Joey Tribbiani and Phoebe Buffay present."
+ },
+ "train:561": {
+  "scene": "Central Perk. Phoebe Buffay (alone)",
+  "raw": "Central Perk. Phoebe Buffay (alone)"
+ },
+ "train:562": {
+  "scene": "Central Perk. Joey Tribbiani, Ross Geller, and Chandler Bing are present.",
+  "raw": "Central Perk. Joey Tribbiani, Ross Geller, and Chandler Bing are present."
+ },
+ "train:563": {
+  "scene": "Apartment building basement. Joey Tribbiani, Chandler Bing present.",
+  "raw": "Apartment building basement. Joey Tribbiani, Chandler Bing present."
+ },
+ "train:564": {
+  "scene": "Apartment (Monica Geller, Rachel Green)",
+  "raw": "Apartment (Monica Geller, Rachel Green)"
+ },
+ "train:565": {
+  "scene": "Apartment (Rachel Green, Joey Tribbiani, Chandler Bing)",
+  "raw": "Apartment (Rachel Green, Joey Tribbiani, Chandler Bing)"
+ },
+ "train:566": {
+  "scene": "The Geller kitchen, Monica and Judy present.",
+  "raw": "The Geller kitchen, Monica and Judy present."
+ },
+ "train:567": {
+  "scene": "Living room, Joey Tribbiani and unnamed salesman present.",
+  "raw": "Living room, Joey Tribbiani and unnamed salesman present."
+ },
+ "train:568": {
+  "scene": "Central Perk Coffee Shop. Joey Tribbiani, The Salesman present.",
+  "raw": "Central Perk Coffee Shop. Joey Tribbiani, The Salesman present."
+ },
+ "train:569": {
+  "scene": "Apartment (Monica Geller, Phoebe Buffay)",
+  "raw": "Apartment (Monica Geller, Phoebe Buffay)"
+ },
+ "train:570": {
+  "scene": "Central Perk. Rachel Green, Chandler Bing present.",
+  "raw": "Central Perk. Rachel Green, Chandler Bing present."
+ },
+ "train:571": {
+  "scene": "Joey Tribbiani's apartment (Joey Tribbiani, The Salesman)",
+  "raw": "Joey Tribbiani's apartment (Joey Tribbiani, The Salesman)"
+ },
+ "train:572": {
+  "scene": "Apartment (Rachel Green, Chandler Bing)",
+  "raw": "Apartment (Rachel Green, Chandler Bing)"
+ },
+ "train:573": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "train:574": {
+  "scene": "Apartment (Chandler Bing, Joey Tribbiani, Monica Geller)",
+  "raw": "Apartment (Chandler Bing, Joey Tribbiani, Monica Geller)"
+ },
+ "train:575": {
+  "scene": "Apartment (Joanna, Rachel)",
+  "raw": "Apartment (Joanna, Rachel)"
+ },
+ "train:576": {
+  "scene": "Apartment (Phoebe Buffay, Chandler Bing, Monica Geller, Rachel Green)",
+  "raw": "Apartment (Phoebe Buffay, Chandler Bing, Monica Geller, Rachel Green)"
+ },
+ "train:577": {
+  "scene": "Apartment building, Rachel Green and Mr. Treeger (assumed to be a maintenance man) present.",
+  "raw": "Apartment building, Rachel Green and Mr. Treeger (assumed to be a maintenance man) present."
+ },
+ "train:578": {
+  "scene": "Apartment building, Joey Tribbiani and Rachel Green present",
+  "raw": "Apartment building, Joey Tribbiani and Rachel Green present"
+ },
+ "train:579": {
+  "scene": "Apartment building, Mr. Treeger, Joey Tribbiani, and Rachel are present.",
+  "raw": "Apartment building, Mr. Treeger, Joey Tribbiani, and Rachel are present."
+ },
+ "train:580": {
+  "scene": "Apartment (Ross Geller, Chandler Bing)",
+  "raw": "Apartment (Ross Geller, Chandler Bing)"
+ },
+ "train:581": {
+  "scene": "Central Perk Coffee Shop. Rick Sanoven and Phoebe Buffay are present.",
+  "raw": "Central Perk Coffee Shop. Rick Sanoven and Phoebe Buffay are present."
+ },
+ "train:582": {
+  "scene": "Apartment building lobby. Present: Mr. Treeger, Joey Tribbiani, Monica, Rachel.",
+  "raw": "Apartment building lobby. Present: Mr. Treeger, Joey Tribbiani, Monica, Rachel."
+ },
+ "train:583": {
+  "scene": "Apartment building, Joey Tribbiani and Mr. Treeger present.",
+  "raw": "Apartment building, Joey Tribbiani and Mr. Treeger present."
+ },
+ "train:584": {
+  "scene": "Apartment (Monica, Joey, Rachel)",
+  "raw": "Apartment (Monica, Joey, Rachel)"
+ },
+ "train:585": {
+  "scene": "Apartment (Ross Geller, Chandler Bing)",
+  "raw": "Apartment (Ross Geller, Chandler Bing)"
+ },
+ "train:586": {
+  "scene": "Chandler's apartment (Chandler, Phoebe)",
+  "raw": "Chandler's apartment (Chandler, Phoebe)"
+ },
+ "train:587": {
+  "scene": "Apartment (Chandler Bing, Kathy)",
+  "raw": "Apartment (Chandler Bing, Kathy)"
+ },
+ "train:588": {
+  "scene": "Apartment (Monica, Phoebe, Joey, Chandler, Ross, and Rachel)",
+  "raw": "Apartment (Monica, Phoebe, Joey, Chandler, Ross, and Rachel)"
+ },
+ "train:589": {
+  "scene": "Central Perk Coffeehouse. Ross Geller, Amanda (Ross' date) present.",
+  "raw": "Central Perk Coffeehouse. Ross Geller, Amanda (Ross' date) present."
+ },
+ "train:590": {
+  "scene": "Central Perk coffee shop. Chandler Bing and Kathy are present.",
+  "raw": "Central Perk coffee shop. Chandler Bing and Kathy are present."
+ },
+ "train:591": {
+  "scene": "Apartment (Monica Geller, Ross Geller)",
+  "raw": "Apartment (Monica Geller, Ross Geller)"
+ },
+ "train:592": {
+  "scene": "Apartment (Chandler Bing, Joey Tribbiani)",
+  "raw": "Apartment (Chandler Bing, Joey Tribbiani)"
+ },
+ "train:593": {
+  "scene": "Apartment (Monica Geller, Rachel Green) & Party (Joshua Burgin)",
+  "raw": "Apartment (Monica Geller, Rachel Green) & Party (Joshua Burgin)"
+ },
+ "train:594": {
+  "scene": "Central Perk Coffeehouse. Kathy and Joey Tribbiani present.",
+  "raw": "Central Perk Coffeehouse. Kathy and Joey Tribbiani present."
+ },
+ "train:595": {
+  "scene": "Central Perk. Ross, Monica, and Rachel are present. Amanda is not explicitly mentioned.",
+  "raw": "Central Perk. Ross, Monica, and Rachel are present. Amanda is not explicitly mentioned."
+ },
+ "train:596": {
+  "scene": "Central Perk Coffeehouse. Phoebe Buffay, Gunther, and Rachel Green are present.",
+  "raw": "Central Perk Coffeehouse. Phoebe Buffay, Gunther, and Rachel Green are present."
+ },
+ "train:597": {
+  "scene": "Apartment bathroom. Chandler Bing, Kathy (implied).",
+  "raw": "Apartment bathroom. Chandler Bing, Kathy (implied)."
+ },
+ "train:598": {
+  "scene": "Apartment (Joey Tribbiani, Casey)",
+  "raw": "Apartment (Joey Tribbiani, Casey)"
+ },
+ "train:599": {
+  "scene": "Central Perk. Chandler Bing, Kathy present.",
+  "raw": "Central Perk. Chandler Bing, Kathy present."
+ },
+ "train:600": {
+  "scene": "Apartment (Ross, Monica, Phoebe)",
+  "raw": "Apartment (Ross, Monica, Phoebe)"
+ },
+ "train:601": {
+  "scene": "Apartment (Joey, Chandler)",
+  "raw": "Apartment (Joey, Chandler)"
+ },
+ "train:602": {
+  "scene": "Apartment (Ross Geller, Phoebe Buffay)",
+  "raw": "Apartment (Ross Geller, Phoebe Buffay)"
+ },
+ "train:603": {
+  "scene": "Apartment (Monica, Chandler, Ross)",
+  "raw": "Apartment (Monica, Chandler, Ross)"
+ },
+ "train:604": {
+  "scene": "Central Perk Coffeehouse. Phoebe, Monica, and Rachel are present.",
+  "raw": "Central Perk Coffeehouse. Phoebe, Monica, and Rachel are present."
+ },
+ "train:605": {
+  "scene": "Apartment (Joey Tribbiani, Chandler Bing)",
+  "raw": "Apartment (Joey Tribbiani, Chandler Bing)"
+ },
+ "train:606": {
+  "scene": "Apartment (Ross Geller, Joey Tribbiani)",
+  "raw": "Apartment (Ross Geller, Joey Tribbiani)"
+ },
+ "train:607": {
+  "scene": "Coffee shop. Chandler Bing, Gunther (barista) present.",
+  "raw": "Coffee shop. Chandler Bing, Gunther (barista) present."
+ },
+ "train:608": {
+  "scene": "Hospital - Monica Geller, Rachel Green, On-call Doctor",
+  "raw": "Hospital - Monica Geller, Rachel Green, On-call Doctor"
+ },
+ "train:609": {
+  "scene": "Apartment (Chandler Bing, Joey Tribbiani)",
+  "raw": "Apartment (Chandler Bing, Joey Tribbiani)"
+ },
+ "train:610": {
+  "scene": "The scene takes place at Monica Geller's presence outside The Dairy Queen.",
+  "raw": "The scene takes place at Monica Geller's presence outside The Dairy Queen."
+ },
+ "train:611": {
+  "scene": "Central Perk Coffeehouse. Rachel Green, Monica Geller, Phoebe Buffay present.",
+  "raw": "Central Perk Coffeehouse. Rachel Green, Monica Geller, Phoebe Buffay present."
+ },
+ "train:612": {
+  "scene": "Apartment (Monica, Phoebe, Chandler)",
+  "raw": "Apartment (Monica, Phoebe, Chandler)"
+ },
+ "train:613": {
+  "scene": "Central Perk coffee shop. Rachel Green and Joanna are present.",
+  "raw": "Central Perk coffee shop. Rachel Green and Joanna are present."
+ },
+ "train:614": {
+  "scene": "Apartment (Chandler Bing, Joey Tribbiani)",
+  "raw": "Apartment (Chandler Bing, Joey Tribbiani)"
+ },
+ "train:615": {
+  "scene": "Office setting. Rachel Green, Joanna (unspecified) present.",
+  "raw": "Office setting. Rachel Green, Joanna (unspecified) present."
+ },
+ "train:616": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "train:617": {
+  "scene": "Restaurant. Allesandro and Monica Geller are present.",
+  "raw": "Restaurant. Allesandro and Monica Geller are present."
+ },
+ "train:618": {
+  "scene": "Apartment (Joey, Ross)",
+  "raw": "Apartment (Joey, Ross)"
+ },
+ "train:619": {
+  "scene": "Central Perk Coffee Shop. Joey, Chandler, and Ross are present.",
+  "raw": "Central Perk Coffee Shop. Joey, Chandler, and Ross are present."
+ },
+ "train:620": {
+  "scene": "Apartment (Monica Geller, Phoebe Buffay)",
+  "raw": "Apartment (Monica Geller, Phoebe Buffay)"
+ },
+ "train:621": {
+  "scene": "Apartment building lobby. Rachel Green and Mrs. Lynch present.",
+  "raw": "Apartment building lobby. Rachel Green and Mrs. Lynch present."
+ },
+ "train:622": {
+  "scene": "Central Perk. Phoebe Buffay, Frank Buffay Jr. present.",
+  "raw": "Central Perk. Phoebe Buffay, Frank Buffay Jr. present."
+ },
+ "train:623": {
+  "scene": "Central Perk Coffee Shop. Phoebe Abbott and Phoebe Buffay are present.",
+  "raw": "Central Perk Coffee Shop. Phoebe Abbott and Phoebe Buffay are present."
+ },
+ "train:624": {
+  "scene": "Central Perk. Joey Tribbiani and Tour Guide (Ross Geller mentioned)",
+  "raw": "Central Perk. Joey Tribbiani and Tour Guide (Ross Geller mentioned)"
+ },
+ "train:625": {
+  "scene": "Cafeteria (Ross Geller, Joey Tribbiani)",
+  "raw": "Cafeteria (Ross Geller, Joey Tribbiani)"
+ },
+ "train:626": {
+  "scene": "Conference Room. Ross Geller and Joey Tribbiani are present.",
+  "raw": "Conference Room. Ross Geller and Joey Tribbiani are present."
+ },
+ "train:627": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "train:628": {
+  "scene": "Kitchen. Rachel Green, Monica Geller present.",
+  "raw": "Kitchen. Rachel Green, Monica Geller present."
+ },
+ "train:629": {
+  "scene": "Gynecologist's office: Dr. Zane, Phoebe Buffay, Frank Buffay Jr.",
+  "raw": "Gynecologist's office: Dr. Zane, Phoebe Buffay, Frank Buffay Jr."
+ },
+ "train:630": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "train:631": {
+  "scene": "High school auditorium, Chandler Bing and Ross Geller present",
+  "raw": "High school auditorium, Chandler Bing and Ross Geller present"
+ },
+ "train:632": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "train:633": {
+  "scene": "Apartment (Ross, Phoebe, Joey)",
+  "raw": "Apartment (Ross, Phoebe, Joey)"
+ },
+ "train:634": {
+  "scene": "Apartment (Chandler Bing, Ross Geller)",
+  "raw": "Apartment (Chandler Bing, Ross Geller)"
+ },
+ "train:635": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "train:636": {
+  "scene": "Central Perk Coffee Shop. Chandler Bing and Ross Geller present.",
+  "raw": "Central Perk Coffee Shop. Chandler Bing and Ross Geller present."
+ },
+ "train:637": {
+  "scene": "Apartment (Chandler Bing, Phoebe Buffay)",
+  "raw": "Apartment (Chandler Bing, Phoebe Buffay)"
+ },
+ "train:638": {
+  "scene": "Apartment (Rachel Green, Joshua Burgin)",
+  "raw": "Apartment (Rachel Green, Joshua Burgin)"
+ },
+ "train:639": {
+  "scene": "Apartment (Chandler Bing, Kathy)",
+  "raw": "Apartment (Chandler Bing, Kathy)"
+ },
+ "train:640": {
+  "scene": "Central Perk Coffeehouse. Phoebe Buffay, Joey Tribbiani present.",
+  "raw": "Central Perk Coffeehouse. Phoebe Buffay, Joey Tribbiani present."
+ },
+ "train:641": {
+  "scene": "Apartment building lobby, Joey Tribbiani and The A.D. present.",
+  "raw": "Apartment building lobby, Joey Tribbiani and The A.D. present."
+ },
+ "train:642": {
+  "scene": "Apartment (Monica, Chandler, Phoebe)",
+  "raw": "Apartment (Monica, Chandler, Phoebe)"
+ },
+ "train:643": {
+  "scene": "Apartment (Joey Tribbiani)",
+  "raw": "Apartment (Joey Tribbiani)"
+ },
+ "train:644": {
+  "scene": "Apartment (Chandler Bing, Joey Tribbiani)",
+  "raw": "Apartment (Chandler Bing, Joey Tribbiani)"
+ },
+ "train:645": {
+  "scene": "Apartment (Chandler Bing, Phoebe Buffay)",
+  "raw": "Apartment (Chandler Bing, Phoebe Buffay)"
+ },
+ "train:646": {
+  "scene": "Nail salon. Chandler Bing, Rachel Green, and a mailman (off-screen)",
+  "raw": "Nail salon. Chandler Bing, Rachel Green, and a mailman (off-screen)"
+ },
+ "train:647": {
+  "scene": "Central Park, Emily Waltham and Ross Geller present",
+  "raw": "Central Park, Emily Waltham and Ross Geller present"
+ },
+ "train:648": {
+  "scene": "14th Street Nails - Janice Litman Goralnik, Chandler Bing present",
+  "raw": "14th Street Nails - Janice Litman Goralnik, Chandler Bing present"
+ },
+ "train:649": {
+  "scene": "Monica, Phoebe, and Rachel's apartment (living room)",
+  "raw": "Monica, Phoebe, and Rachel's apartment (living room)"
+ },
+ "train:650": {
+  "scene": "Gym (Joey Tribbiani, Ross Geller)",
+  "raw": "Gym (Joey Tribbiani, Ross Geller)"
+ },
+ "train:651": {
+  "scene": "Central Perk Coffeehouse. Rachel Green, Monica Geller present.",
+  "raw": "Central Perk Coffeehouse. Rachel Green, Monica Geller present."
+ },
+ "train:652": {
+  "scene": "Airport (Chandler Bing, Janice Litman Goralnik)",
+  "raw": "Airport (Chandler Bing, Janice Litman Goralnik)"
+ },
+ "train:653": {
+  "scene": "Monica's apartment. Rachel Green and Monica Geller are present.",
+  "raw": "Monica's apartment. Rachel Green and Monica Geller are present."
+ },
+ "train:654": {
+  "scene": "Central Perk Coffee Shop. Ross Geller, Phoebe Buffay, and Joey Tribbiani are present.",
+  "raw": "Central Perk Coffee Shop. Ross Geller, Phoebe Buffay, and Joey Tribbiani are present."
+ },
+ "train:655": {
+  "scene": "Airport. Chandler Bing and Janice Litman Goralnik are present.",
+  "raw": "Airport. Chandler Bing and Janice Litman Goralnik are present."
+ },
+ "train:656": {
+  "scene": "Apartment (Monica Geller, Phoebe Buffay)",
+  "raw": "Apartment (Monica Geller, Phoebe Buffay)"
+ },
+ "train:657": {
+  "scene": "Central Perk Coffee Shop. Joshua Burgin and Rachel Green present.",
+  "raw": "Central Perk Coffee Shop. Joshua Burgin and Rachel Green present."
+ },
+ "train:658": {
+  "scene": "Central Perk Cafe. Joey Tribbiani and Phoebe Buffay present.",
+  "raw": "Central Perk Cafe. Joey Tribbiani and Phoebe Buffay present."
+ },
+ "train:659": {
+  "scene": "Apartment (Monica, Chandler, Phoebe)",
+  "raw": "Apartment (Monica, Chandler, Phoebe)"
+ },
+ "train:660": {
+  "scene": "Central Perk Café: Emily Waltham, Ross Geller present.",
+  "raw": "Central Perk Café: Emily Waltham, Ross Geller present."
+ },
+ "train:661": {
+  "scene": "Apartment (Monica, Chandler, Joey, Phoebe)",
+  "raw": "Apartment (Monica, Chandler, Joey, Phoebe)"
+ },
+ "train:662": {
+  "scene": "Apartment (Rachel Green, Monica Geller)",
+  "raw": "Apartment (Rachel Green, Monica Geller)"
+ },
+ "train:663": {
+  "scene": "Apartment (Ross Geller, Carol Willick, Ben)",
+  "raw": "Apartment (Ross Geller, Carol Willick, Ben)"
+ },
+ "train:664": {
+  "scene": "Downstairs living room. Joshua Burgin and Rachel Green present.",
+  "raw": "Downstairs living room. Joshua Burgin and Rachel Green present."
+ },
+ "train:665": {
+  "scene": "Central Perk Coffee Shop. Rachel Green, Joshua Burgin, and Mr. Burgin are present.",
+  "raw": "Central Perk Coffee Shop. Rachel Green, Joshua Burgin, and Mr. Burgin are present."
+ },
+ "train:666": {
+  "scene": "Apartment (Joey Tribbiani, Chandler Bing)",
+  "raw": "Apartment (Joey Tribbiani, Chandler Bing)"
+ },
+ "train:667": {
+  "scene": "Central Perk Coffeehouse. Phoebe Buffay, Chandler Bing, Joey Tribbiani present.",
+  "raw": "Central Perk Coffeehouse. Phoebe Buffay, Chandler Bing, Joey Tribbiani present."
+ },
+ "train:668": {
+  "scene": "Central Perk. Ross Geller, Carol Willick, Susan Bunch present.",
+  "raw": "Central Perk. Ross Geller, Carol Willick, Susan Bunch present."
+ },
+ "train:669": {
+  "scene": "Central Perk coffee shop. Rachel Green and The Singing Man are present.",
+  "raw": "Central Perk coffee shop. Rachel Green and The Singing Man are present."
+ },
+ "train:670": {
+  "scene": "Central Perk Coffee Shop. Emily Waltham and Ross Geller are present.",
+  "raw": "Central Perk Coffee Shop. Emily Waltham and Ross Geller are present."
+ },
+ "train:671": {
+  "scene": "Central Perk Coffee Shop. Joey, Chandler, Ross, Rachel, and Monica are present.",
+  "raw": "Central Perk Coffee Shop. Joey, Chandler, Ross, Rachel, and Monica are present."
+ },
+ "train:672": {
+  "scene": "Central Perk Coffeehouse. Phoebe Buffay, Monica Geller present.",
+  "raw": "Central Perk Coffeehouse. Phoebe Buffay, Monica Geller present."
+ },
+ "train:673": {
+  "scene": "Apartment (Monica, Rachel, Ross, Chandler, Joey)",
+  "raw": "Apartment (Monica, Rachel, Ross, Chandler, Joey)"
+ },
+ "train:674": {
+  "scene": "Apartment (Joey, Ross, Chandler, and potential invitee Gunther)",
+  "raw": "Apartment (Joey, Ross, Chandler, and potential invitee Gunther)"
+ },
+ "train:675": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "train:676": {
+  "scene": "Strip club, Joey Tribbiani and Chandler Bing present.",
+  "raw": "Strip club, Joey Tribbiani and Chandler Bing present."
+ },
+ "train:677": {
+  "scene": "Central Perk. Phoebe, Rachel, and Monica are present.",
+  "raw": "Central Perk. Phoebe, Rachel, and Monica are present."
+ },
+ "train:678": {
+  "scene": "Apartment (Joey, Ross, Chandler)",
+  "raw": "Apartment (Joey, Ross, Chandler)"
+ },
+ "train:679": {
+  "scene": "Apartment (Monica, Phoebe, Rachel)",
+  "raw": "Apartment (Monica, Phoebe, Rachel)"
+ },
+ "train:680": {
+  "scene": "Strip club. Joey Tribbiani, Chandler Bing, and unnamed stripper (Ross Geller off-screen)",
+  "raw": "Strip club. Joey Tribbiani, Chandler Bing, and unnamed stripper (Ross Geller off-screen)"
+ },
+ "train:681": {
+  "scene": "Veterinary clinic. Joey Tribbiani and Ross Geller are present.",
+  "raw": "Veterinary clinic. Joey Tribbiani and Ross Geller are present."
+ },
+ "train:682": {
+  "scene": "Central Perk Cafe. Monica, Chandler, and Joey are present.",
+  "raw": "Central Perk Cafe. Monica, Chandler, and Joey are present."
+ },
+ "train:683": {
+  "scene": "Apartment (Joey Tribbiani, Chandler Bing)",
+  "raw": "Apartment (Joey Tribbiani, Chandler Bing)"
+ },
+ "train:684": {
+  "scene": "Wedding venue, Emily Waltham and Ross Geller present.",
+  "raw": "Wedding venue, Emily Waltham and Ross Geller present."
+ },
+ "train:685": {
+  "scene": "Westminster Abbey (Joey Tribbiani, Chandler Bing)",
+  "raw": "Westminster Abbey (Joey Tribbiani, Chandler Bing)"
+ },
+ "train:686": {
+  "scene": "Apartment (Monica Geller, Dressmaker)",
+  "raw": "Apartment (Monica Geller, Dressmaker)"
+ },
+ "train:687": {
+  "scene": "Central Perk Coffeehouse. Phoebe Buffay and Rachel Green present.",
+  "raw": "Central Perk Coffeehouse. Phoebe Buffay and Rachel Green present."
+ },
+ "train:688": {
+  "scene": "Central Perk Coffee Shop. Joey Tribbiani and Vendor present.",
+  "raw": "Central Perk Coffee Shop. Joey Tribbiani and Vendor present."
+ },
+ "train:689": {
+  "scene": "Ross Geller's apartment (Ross, Emily Waltham)",
+  "raw": "Ross Geller's apartment (Ross, Emily Waltham)"
+ },
+ "train:690": {
+  "scene": "Apartment (Monica, Chandler, Ross, Rachel, Phoebe)",
+  "raw": "Apartment (Monica, Chandler, Ross, Rachel, Phoebe)"
+ },
+ "train:691": {
+  "scene": "Apartment (Monica Geller, Emily Waltham)",
+  "raw": "Apartment (Monica Geller, Emily Waltham)"
+ },
+ "train:692": {
+  "scene": "Central Perk. Rachel and Phoebe are present.",
+  "raw": "Central Perk. Rachel and Phoebe are present."
+ },
+ "train:693": {
+  "scene": "The Waltham Residence. Phoebe Buffay, Housekeeper present.",
+  "raw": "The Waltham Residence. Phoebe Buffay, Housekeeper present."
+ },
+ "train:694": {
+  "scene": "Living room. Monica, Ross, and their parents Judy and Jack Geller are present.",
+  "raw": "Living room. Monica, Ross, and their parents Judy and Jack Geller are present."
+ },
+ "train:695": {
+  "scene": "Restaurant. Joey Tribbiani and Waiter present.",
+  "raw": "Restaurant. Joey Tribbiani and Waiter present."
+ },
+ "train:696": {
+  "scene": "Coffee Shop. Rachel Green, Ticket Agent present.",
+  "raw": "Coffee Shop. Rachel Green, Ticket Agent present."
+ },
+ "train:697": {
+  "scene": "Backyard, Ross Geller and Stephen Waltham present",
+  "raw": "Backyard, Ross Geller and Stephen Waltham present"
+ },
+ "train:698": {
+  "scene": "Living room. Chandler Bing, Ross Geller (implied), and Andrea Waltham (on phone) are present. Phoebe Buffay is calling.",
+  "raw": "Living room. Chandler Bing, Ross Geller (implied), and Andrea Waltham (on phone) are present. Phoebe Buffay is calling."
+ },
+ "train:699": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:700": {
+  "scene": "Central Perk Coffee Shop. Rachel Green, Ticket Agent present.",
+  "raw": "Central Perk Coffee Shop. Rachel Green, Ticket Agent present."
+ },
+ "train:701": {
+  "scene": "Central Perk coffee shop. Ross and Chandler present.",
+  "raw": "Central Perk coffee shop. Ross and Chandler present."
+ },
+ "train:702": {
+  "scene": "Apartment (Monica, Chandler, Joey, Rachel)",
+  "raw": "Apartment (Monica, Chandler, Joey, Rachel)"
+ },
+ "train:703": {
+  "scene": "Apartment (Chandler Bing, Monica Geller)",
+  "raw": "Apartment (Chandler Bing, Monica Geller)"
+ },
+ "train:704": {
+  "scene": "Apartment (Joey Tribbiani, Phoebe Buffay)",
+  "raw": "Apartment (Joey Tribbiani, Phoebe Buffay)"
+ },
+ "train:705": {
+  "scene": "Central Perk coffee shop. Rachel Green and an unidentified passenger are present.",
+  "raw": "Central Perk coffee shop. Rachel Green and an unidentified passenger are present."
+ },
+ "train:706": {
+  "scene": "Apartment (Joey Tribbiani, Chandler Bing)",
+  "raw": "Apartment (Joey Tribbiani, Chandler Bing)"
+ },
+ "train:707": {
+  "scene": "Central Perk Coffee Shop. Judy Geller, Andrea Waltham, and Monica Geller are present.",
+  "raw": "Central Perk Coffee Shop. Judy Geller, Andrea Waltham, and Monica Geller are present."
+ },
+ "train:708": {
+  "scene": "Central Perk. Felicity, Joey present.",
+  "raw": "Central Perk. Felicity, Joey present."
+ },
+ "train:709": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "train:710": {
+  "scene": "Apartment (Monica Geller, Chandler Bing)",
+  "raw": "Apartment (Monica Geller, Chandler Bing)"
+ },
+ "train:711": {
+  "scene": "On a cruise ship, Monica Geller and Chandler Bing are present.",
+  "raw": "On a cruise ship, Monica Geller and Chandler Bing are present."
+ },
+ "train:712": {
+  "scene": "Airplane cabin. Rachel Green and an air hostess.",
+  "raw": "Airplane cabin. Rachel Green and an air hostess."
+ },
+ "dev:0": {
+  "scene": "Central Perk Coffee Shop. Rachel Green and Joey Tribbiani present.",
+  "raw": "Central Perk Coffee Shop. Rachel Green and Joey Tribbiani present."
+ },
+ "dev:1": {
+  "scene": "Apartment - Monica Geller, Joey Tribbiani",
+  "raw": "Apartment - Monica Geller, Joey Tribbiani"
+ },
+ "dev:2": {
+  "scene": "Train (Ross Geller, Celia)",
+  "raw": "Train (Ross Geller, Celia)"
+ },
+ "dev:3": {
+  "scene": "Office (Chandler Bing, Phoebe Buffay)",
+  "raw": "Office (Chandler Bing, Phoebe Buffay)"
+ },
+ "dev:4": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "dev:5": {
+  "scene": "Apartment (Joey Tribbiani, Rachel Green, Ross Geller)",
+  "raw": "Apartment (Joey Tribbiani, Rachel Green, Ross Geller)"
+ },
+ "dev:6": {
+  "scene": "Central Perk Coffee Shop. Phoebe Buffay and Steve (drug addict) are present.",
+  "raw": "Central Perk Coffee Shop. Phoebe Buffay and Steve (drug addict) are present."
+ },
+ "dev:7": {
+  "scene": "Apartment (Chandler Bing, Joey Tribbiani, Ross Geller)",
+  "raw": "Apartment (Chandler Bing, Joey Tribbiani, Ross Geller)"
+ },
+ "dev:8": {
+  "scene": "Central Perk Coffeehouse. Rachel Green, Barry Farber present.",
+  "raw": "Central Perk Coffeehouse. Rachel Green, Barry Farber present."
+ },
+ "dev:9": {
+  "scene": "Monica Geller and Chandler Bing's apartment (Chandler's work area)",
+  "raw": "Monica Geller and Chandler Bing's apartment (Chandler's work area)"
+ },
+ "dev:10": {
+  "scene": "Central Perk coffee shop. Barry Farber and Rachel Green present.",
+  "raw": "Central Perk coffee shop. Barry Farber and Rachel Green present."
+ },
+ "dev:11": {
+  "scene": "Apartment (Monica, Chandler, Joey)",
+  "raw": "Apartment (Monica, Chandler, Joey)"
+ },
+ "dev:12": {
+  "scene": "Apartment (Monica, Chandler, Ross)",
+  "raw": "Apartment (Monica, Chandler, Ross)"
+ },
+ "dev:13": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "dev:14": {
+  "scene": "Central Perk. Joey Tribbiani, Phoebe Buffay, and Ross Geller are present.",
+  "raw": "Central Perk. Joey Tribbiani, Phoebe Buffay, and Ross Geller are present."
+ },
+ "dev:15": {
+  "scene": "Central Perk Coffee Shop. Estelle Leonard and Joey Tribbiani are present.",
+  "raw": "Central Perk Coffee Shop. Estelle Leonard and Joey Tribbiani are present."
+ },
+ "dev:16": {
+  "scene": "Apartment (Chandler Bing, Joey Tribbiani)",
+  "raw": "Apartment (Chandler Bing, Joey Tribbiani)"
+ },
+ "dev:17": {
+  "scene": "Central Perk Coffeehouse. Monica Geller, Bobby Rush present.",
+  "raw": "Central Perk Coffeehouse. Monica Geller, Bobby Rush present."
+ },
+ "dev:18": {
+  "scene": "Apartment (Monica, Chandler, Phoebe, Russ)",
+  "raw": "Apartment (Monica, Chandler, Phoebe, Russ)"
+ },
+ "dev:19": {
+  "scene": "Apartment (Monica, Richard Burke, Phoebe Buffay)",
+  "raw": "Apartment (Monica, Richard Burke, Phoebe Buffay)"
+ },
+ "dev:20": {
+  "scene": "Apartment (Monica, Joey)",
+  "raw": "Apartment (Monica, Joey)"
+ },
+ "dev:21": {
+  "scene": "Central Perk. Ross Geller and Carol Willick are present.",
+  "raw": "Central Perk. Ross Geller and Carol Willick are present."
+ },
+ "dev:22": {
+  "scene": "Central Perk Coffee Shop. Phoebe Buffay and Rachel Green are present.",
+  "raw": "Central Perk Coffee Shop. Phoebe Buffay and Rachel Green are present."
+ },
+ "dev:23": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "dev:24": {
+  "scene": "Apartment (Ross, Rachel, Phoebe)",
+  "raw": "Apartment (Ross, Rachel, Phoebe)"
+ },
+ "dev:25": {
+  "scene": "Apartment (Chandler Bing, Joey Tribbiani)",
+  "raw": "Apartment (Chandler Bing, Joey Tribbiani)"
+ },
+ "dev:26": {
+  "scene": "Apartment kitchen, Monica Geller and Rachel Green present.",
+  "raw": "Apartment kitchen, Monica Geller and Rachel Green present."
+ },
+ "dev:27": {
+  "scene": "Apartment (Monica, Rachel, Ross)",
+  "raw": "Apartment (Monica, Rachel, Ross)"
+ },
+ "dev:28": {
+  "scene": "Apartment (Chandler Bing, Joey Tribbiani)",
+  "raw": "Apartment (Chandler Bing, Joey Tribbiani)"
+ },
+ "dev:29": {
+  "scene": "Apartment (Ross Geller, Rachel Green)",
+  "raw": "Apartment (Ross Geller, Rachel Green)"
+ },
+ "dev:30": {
+  "scene": "Richard's Living Room (Monica Geller present)",
+  "raw": "Richard's Living Room (Monica Geller present)"
+ },
+ "dev:31": {
+  "scene": "Central Perk Coffeehouse. Janice Litman Goralnik, Joey Tribbiani present.",
+  "raw": "Central Perk Coffeehouse. Janice Litman Goralnik, Joey Tribbiani present."
+ },
+ "dev:32": {
+  "scene": "Apartment (Monica, Chandler, Joey, Janice)",
+  "raw": "Apartment (Monica, Chandler, Joey, Janice)"
+ },
+ "dev:33": {
+  "scene": "Apartment (Monica Geller, Jack Geller)",
+  "raw": "Apartment (Monica Geller, Jack Geller)"
+ },
+ "dev:34": {
+  "scene": "Apartment (Monica, Chandler, Ross, Joey, Phoebe)",
+  "raw": "Apartment (Monica, Chandler, Ross, Joey, Phoebe)"
+ },
+ "dev:35": {
+  "scene": "Central Perk coffee shop. Rachel Green, Phoebe Buffay, and Chandler Bing are present.",
+  "raw": "Central Perk coffee shop. Rachel Green, Phoebe Buffay, and Chandler Bing are present."
+ },
+ "dev:36": {
+  "scene": "Apartment (Monica and Ross)",
+  "raw": "Apartment (Monica and Ross)"
+ },
+ "dev:37": {
+  "scene": "The physical setting is Central Perk coffee shop. Rachel Green, Monica Geller, and Phoebe Buffay are present.",
+  "raw": "The physical setting is Central Perk coffee shop. Rachel Green, Monica Geller, and Phoebe Buffay are present."
+ },
+ "dev:38": {
+  "scene": "Apartment (Chandler Bing, Joey Tribbiani)",
+  "raw": "Apartment (Chandler Bing, Joey Tribbiani)"
+ },
+ "dev:39": {
+  "scene": "Apartment (Monica, Peter Becker)",
+  "raw": "Apartment (Monica, Peter Becker)"
+ },
+ "dev:40": {
+  "scene": "Restaurant; Monica Geller, Rachel Green",
+  "raw": "Restaurant; Monica Geller, Rachel Green"
+ },
+ "dev:41": {
+  "scene": "Apartment (Chandler Bing, Phoebe Buffay)",
+  "raw": "Apartment (Chandler Bing, Phoebe Buffay)"
+ },
+ "dev:42": {
+  "scene": "Apartment (Rachel Green, Ross Geller)",
+  "raw": "Apartment (Rachel Green, Ross Geller)"
+ },
+ "dev:43": {
+  "scene": "Apartment (Rachel Green, Ross Geller)",
+  "raw": "Apartment (Rachel Green, Ross Geller)"
+ },
+ "dev:44": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "dev:45": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "dev:46": {
+  "scene": "Central Perk. Chandler Bing and Joey Tribbiani are present.",
+  "raw": "Central Perk. Chandler Bing and Joey Tribbiani are present."
+ },
+ "dev:47": {
+  "scene": "Apartment kitchen. Monica Geller and Peter Becker are present.",
+  "raw": "Apartment kitchen. Monica Geller and Peter Becker are present."
+ },
+ "dev:48": {
+  "scene": "Apartment (Joey Tribbiani, Chandler Bing)",
+  "raw": "Apartment (Joey Tribbiani, Chandler Bing)"
+ },
+ "dev:49": {
+  "scene": "Ross Geller's apartment (Ross, Bonnie, Rachel)",
+  "raw": "Ross Geller's apartment (Ross, Bonnie, Rachel)"
+ },
+ "dev:50": {
+  "scene": "Central Perk Coffeehouse. Phoebe Buffay, Lily, and Frank are present.",
+  "raw": "Central Perk Coffeehouse. Phoebe Buffay, Lily, and Frank are present."
+ },
+ "dev:51": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "dev:52": {
+  "scene": "Central Perk. Ross Geller and Rachel Green present.",
+  "raw": "Central Perk. Ross Geller and Rachel Green present."
+ },
+ "dev:53": {
+  "scene": "Apartment (Ross Geller, Rachel Green)",
+  "raw": "Apartment (Ross Geller, Rachel Green)"
+ },
+ "dev:54": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "dev:55": {
+  "scene": "Central Perk Coffee Shop. Phoebe Buffay, Ross Geller, Rachel Green present.",
+  "raw": "Central Perk Coffee Shop. Phoebe Buffay, Ross Geller, Rachel Green present."
+ },
+ "dev:56": {
+  "scene": "Central Perk coffee shop. Ross Geller, Chandler Bing present.",
+  "raw": "Central Perk coffee shop. Ross Geller, Chandler Bing present."
+ },
+ "dev:57": {
+  "scene": "Central Perk coffee shop. Phoebe Buffay and Ursula Buffay are present.",
+  "raw": "Central Perk coffee shop. Phoebe Buffay and Ursula Buffay are present."
+ },
+ "dev:58": {
+  "scene": "Phoebe Buffay's bedroom. Phoebe Buffay and Phoebe Abbott are present.",
+  "raw": "Phoebe Buffay's bedroom. Phoebe Buffay and Phoebe Abbott are present."
+ },
+ "dev:59": {
+  "scene": "Central Perk coffee shop. Rachel Green and Ross Geller are present.",
+  "raw": "Central Perk coffee shop. Rachel Green and Ross Geller are present."
+ },
+ "dev:60": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "dev:61": {
+  "scene": "Apartment (Monica, Chandler)",
+  "raw": "Apartment (Monica, Chandler)"
+ },
+ "dev:62": {
+  "scene": "Apartment (Ross Geller, Cheryl, Phoebe Buffay)",
+  "raw": "Apartment (Ross Geller, Cheryl, Phoebe Buffay)"
+ },
+ "dev:63": {
+  "scene": "Apartment (Ross Geller, Cheryl)",
+  "raw": "Apartment (Ross Geller, Cheryl)"
+ },
+ "dev:64": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "dev:65": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "dev:66": {
+  "scene": "Apartment (Joey, Ross)",
+  "raw": "Apartment (Joey, Ross)"
+ },
+ "dev:67": {
+  "scene": "Apartment (Chandler Bing, Rachel Green)",
+  "raw": "Apartment (Chandler Bing, Rachel Green)"
+ },
+ "dev:68": {
+  "scene": "Central Perk Coffeehouse. Phoebe Buffay, Monica Geller, and an unidentified individual (Mrs. Burkart) are present.",
+  "raw": "Central Perk Coffeehouse. Phoebe Buffay, Monica Geller, and an unidentified individual (Mrs. Burkart) are present."
+ },
+ "dev:69": {
+  "scene": "Ross Geller's apartment (Cheryl present)",
+  "raw": "Ross Geller's apartment (Cheryl present)"
+ },
+ "dev:70": {
+  "scene": "Central Perk Coffee Shop. Rachel Green, Gunther present.",
+  "raw": "Central Perk Coffee Shop. Rachel Green, Gunther present."
+ },
+ "dev:71": {
+  "scene": "Apartment (Monica, Rachel, Ross, Chandler)",
+  "raw": "Apartment (Monica, Rachel, Ross, Chandler)"
+ },
+ "dev:72": {
+  "scene": "Central Perk Coffeehouse. Chandler Bing and Drew are present.",
+  "raw": "Central Perk Coffeehouse. Chandler Bing and Drew are present."
+ },
+ "dev:73": {
+  "scene": "Apartment (Monica, Chandler, Ross) - Poughkeepsie (implied, off-screen)",
+  "raw": "Apartment (Monica, Chandler, Ross) - Poughkeepsie (implied, off-screen)"
+ },
+ "dev:74": {
+  "scene": "Apartment kitchen (Joey Tribbiani, Monica Geller)",
+  "raw": "Apartment kitchen (Joey Tribbiani, Monica Geller)"
+ },
+ "dev:75": {
+  "scene": "Apartment (Rachel Green, Chandler Bing)",
+  "raw": "Apartment (Rachel Green, Chandler Bing)"
+ },
+ "dev:76": {
+  "scene": "Central Perk Cafe. Monica Geller, Joey Tribbiani, and an unnamed waiter are present.",
+  "raw": "Central Perk Cafe. Monica Geller, Joey Tribbiani, and an unnamed waiter are present."
+ },
+ "dev:77": {
+  "scene": "Apartment (Monica Geller, Joey Tribbiani)",
+  "raw": "Apartment (Monica Geller, Joey Tribbiani)"
+ },
+ "dev:78": {
+  "scene": "Apartment (Chandler, Monica, Phoebe)",
+  "raw": "Apartment (Chandler, Monica, Phoebe)"
+ },
+ "dev:79": {
+  "scene": "Apartment (Rachel Green, Chandler Bing)",
+  "raw": "Apartment (Rachel Green, Chandler Bing)"
+ },
+ "dev:80": {
+  "scene": "Kitchen (Monica Geller, Kitchen Worker)",
+  "raw": "Kitchen (Monica Geller, Kitchen Worker)"
+ },
+ "dev:81": {
+  "scene": "Train, Ross Geller, Woman on Train (Montreal implied)",
+  "raw": "Train, Ross Geller, Woman on Train (Montreal implied)"
+ },
+ "dev:82": {
+  "scene": "Apartment (Monica Geller, Joey Tribbiani)",
+  "raw": "Apartment (Monica Geller, Joey Tribbiani)"
+ },
+ "dev:83": {
+  "scene": "Living room. Emily Waltham, Ross Geller present.",
+  "raw": "Living room. Emily Waltham, Ross Geller present."
+ },
+ "dev:84": {
+  "scene": "Apartment (Ross, Chandler, Monica, Rachel)",
+  "raw": "Apartment (Ross, Chandler, Monica, Rachel)"
+ },
+ "dev:85": {
+  "scene": "Central Perk coffee shop. Ross Geller, Rachel Green present.",
+  "raw": "Central Perk coffee shop. Ross Geller, Rachel Green present."
+ },
+ "dev:86": {
+  "scene": "Central Perk. Ross Geller, Rachel Green present.",
+  "raw": "Central Perk. Ross Geller, Rachel Green present."
+ },
+ "dev:87": {
+  "scene": "Central Perk Coffeehouse. Ross and Rachel present.",
+  "raw": "Central Perk Coffeehouse. Ross and Rachel present."
+ },
+ "dev:88": {
+  "scene": "Central Perk. Rachel Green and (implied) Ross Geller are present.",
+  "raw": "Central Perk. Rachel Green and (implied) Ross Geller are present."
+ },
+ "dev:89": {
+  "scene": "Apartment (Ross Geller, Rachel Green)",
+  "raw": "Apartment (Ross Geller, Rachel Green)"
+ },
+ "dev:90": {
+  "scene": "Central Perk coffee shop. Rachel and Ross are present.",
+  "raw": "Central Perk coffee shop. Rachel and Ross are present."
+ },
+ "dev:91": {
+  "scene": "Central Perk Coffee Shop. Chloe and Ross Geller present.",
+  "raw": "Central Perk Coffee Shop. Chloe and Ross Geller present."
+ },
+ "dev:92": {
+  "scene": "Apartment (Rachel Green, Ross Geller)",
+  "raw": "Apartment (Rachel Green, Ross Geller)"
+ },
+ "dev:93": {
+  "scene": "Central Perk. Rachel Green, Ross Geller present.",
+  "raw": "Central Perk. Rachel Green, Ross Geller present."
+ },
+ "dev:94": {
+  "scene": "Apartment (Monica, Chandler, Rachel, Ross)",
+  "raw": "Apartment (Monica, Chandler, Rachel, Ross)"
+ },
+ "dev:95": {
+  "scene": "Apartment (Ross Geller, Rachel Green)",
+  "raw": "Apartment (Ross Geller, Rachel Green)"
+ },
+ "dev:96": {
+  "scene": "Apartment (Joey Tribbiani, Rachel Green, Ross Geller)",
+  "raw": "Apartment (Joey Tribbiani, Rachel Green, Ross Geller)"
+ },
+ "dev:97": {
+  "scene": "Apartment (Ross Geller, Rachel Green)",
+  "raw": "Apartment (Ross Geller, Rachel Green)"
+ },
+ "dev:98": {
+  "scene": "Living Room (Chandler Bing, Joey Tribbiani)",
+  "raw": "Living Room (Chandler Bing, Joey Tribbiani)"
+ },
+ "test:0": {
+  "scene": "Apartment (Ross, Joey, Chandler)",
+  "raw": "Apartment (Ross, Joey, Chandler)"
+ },
+ "test:1": {
+  "scene": "Apartment (Monica Geller, Paul the Wine Guy)",
+  "raw": "Apartment (Monica Geller, Paul the Wine Guy)"
+ },
+ "test:2": {
+  "scene": "Apartment (Ross, Joey, Chandler)",
+  "raw": "Apartment (Ross, Joey, Chandler)"
+ },
+ "test:3": {
+  "scene": "Central Perk. Paul the Wine Guy and Monica Geller are present.",
+  "raw": "Central Perk. Paul the Wine Guy and Monica Geller are present."
+ },
+ "test:4": {
+  "scene": "Monica and Rachel's apartment. Ross, Joey, and Chandler are present.",
+  "raw": "Monica and Rachel's apartment. Ross, Joey, and Chandler are present."
+ },
+ "test:5": {
+  "scene": "Apartment (Monica Geller, Franny)",
+  "raw": "Apartment (Monica Geller, Franny)"
+ },
+ "test:6": {
+  "scene": "Apartment (Monica, Joey, Ross)",
+  "raw": "Apartment (Monica, Joey, Ross)"
+ },
+ "test:7": {
+  "scene": "Apartment (Joey Tribbiani, Phoebe Buffay, Monica Geller)",
+  "raw": "Apartment (Joey Tribbiani, Phoebe Buffay, Monica Geller)"
+ },
+ "test:8": {
+  "scene": "Apartment (Ross, Monica, Chandler, Joey, Phoebe, and Rachel)",
+  "raw": "Apartment (Ross, Monica, Chandler, Joey, Phoebe, and Rachel)"
+ },
+ "test:9": {
+  "scene": "Coffee Shop (David, Phoebe)",
+  "raw": "Coffee Shop (David, Phoebe)"
+ },
+ "test:10": {
+  "scene": "Central Perk Coffeehouse. Phoebe Buffay and David (unspecified episode).",
+  "raw": "Central Perk Coffeehouse. Phoebe Buffay and David (unspecified episode)."
+ },
+ "test:11": {
+  "scene": "Apartment (Rachel Green, Monica Geller)",
+  "raw": "Apartment (Rachel Green, Monica Geller)"
+ },
+ "test:12": {
+  "scene": "Apartment (Monica Geller, Mr. Ratstatter)",
+  "raw": "Apartment (Monica Geller, Mr. Ratstatter)"
+ },
+ "test:13": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "test:14": {
+  "scene": "Central Perk Coffeehouse. Ross, Chandler, and Joey are present.",
+  "raw": "Central Perk Coffeehouse. Ross, Chandler, and Joey are present."
+ },
+ "test:15": {
+  "scene": "Thanksgiving setting at Monica's apartment (Monica, Rachel)",
+  "raw": "Thanksgiving setting at Monica's apartment (Monica, Rachel)"
+ },
+ "test:16": {
+  "scene": "Apartment (Chandler Bing, Monica Geller, Phoebe Buffay)",
+  "raw": "Apartment (Chandler Bing, Monica Geller, Phoebe Buffay)"
+ },
+ "test:17": {
+  "scene": "Apartment building, Ross and Rachel",
+  "raw": "Apartment building, Ross and Rachel"
+ },
+ "test:18": {
+  "scene": "Kitchen. Monica Geller and Mr. Ratstatter are present.",
+  "raw": "Kitchen. Monica Geller and Mr. Ratstatter are present."
+ },
+ "test:19": {
+  "scene": "Apartment (Monica, Ross, Rachel)",
+  "raw": "Apartment (Monica, Ross, Rachel)"
+ },
+ "test:20": {
+  "scene": "Apartment building lobby. Monica Geller and Mr. Ratstatter present.",
+  "raw": "Apartment building lobby. Monica Geller and Mr. Ratstatter present."
+ },
+ "test:21": {
+  "scene": "Apartment (Monica Geller, Richard Burke)",
+  "raw": "Apartment (Monica Geller, Richard Burke)"
+ },
+ "test:22": {
+  "scene": "Central Perk coffee shop. Chandler Bing and Joey Tribbiani are present.",
+  "raw": "Central Perk coffee shop. Chandler Bing and Joey Tribbiani are present."
+ },
+ "test:23": {
+  "scene": "Apartment (Rachel Green, Monica Geller, Phoebe Buffay)",
+  "raw": "Apartment (Rachel Green, Monica Geller, Phoebe Buffay)"
+ },
+ "test:24": {
+  "scene": "Apartment (Phoebe Buffay, Ryan)",
+  "raw": "Apartment (Phoebe Buffay, Ryan)"
+ },
+ "test:25": {
+  "scene": "Apartment (Joey Tribbiani, Chandler Bing)",
+  "raw": "Apartment (Joey Tribbiani, Chandler Bing)"
+ },
+ "test:26": {
+  "scene": "Central Perk Coffeehouse. Ryan and Phoebe Buffay present.",
+  "raw": "Central Perk Coffeehouse. Ryan and Phoebe Buffay present."
+ },
+ "test:27": {
+  "scene": "Boat. Joey Tribbiani, Karen, and unspecified children are present.",
+  "raw": "Boat. Joey Tribbiani, Karen, and unspecified children are present."
+ },
+ "test:28": {
+  "scene": "Apartment (Joey Tribbiani, Chandler Bing)",
+  "raw": "Apartment (Joey Tribbiani, Chandler Bing)"
+ },
+ "test:29": {
+  "scene": "Apartment (Monica, Rachel, Phoebe)",
+  "raw": "Apartment (Monica, Rachel, Phoebe)"
+ },
+ "test:30": {
+  "scene": "Apartment (Monica, Richard Burke)",
+  "raw": "Apartment (Monica, Richard Burke)"
+ },
+ "test:31": {
+  "scene": "Central Perk Coffee Shop. Rachel Green, Ross Geller, and Ryan (unspecified).",
+  "raw": "Central Perk Coffee Shop. Rachel Green, Ross Geller, and Ryan (unspecified)."
+ },
+ "test:32": {
+  "scene": "Central Perk. Rachel Green, Ross Geller present.",
+  "raw": "Central Perk. Rachel Green, Ross Geller present."
+ },
+ "test:33": {
+  "scene": "Apartment (Rachel Green, Chandler Bing)",
+  "raw": "Apartment (Rachel Green, Chandler Bing)"
+ },
+ "test:34": {
+  "scene": "Central Perk Coffee Shop. Ross Geller, Phoebe Buffay, and Gunther are present.",
+  "raw": "Central Perk Coffee Shop. Ross Geller, Phoebe Buffay, and Gunther are present."
+ },
+ "test:35": {
+  "scene": "Apartment building, Joey Tribbiani, Phoebe Buffay, Ross Geller present.",
+  "raw": "Apartment building, Joey Tribbiani, Phoebe Buffay, Ross Geller present."
+ },
+ "test:36": {
+  "scene": "Central Perk coffee shop. Chandler Bing and Joey Tribbiani are present.",
+  "raw": "Central Perk coffee shop. Chandler Bing and Joey Tribbiani are present."
+ },
+ "test:37": {
+  "scene": "Apartment (Monica, Rachel)",
+  "raw": "Apartment (Monica, Rachel)"
+ },
+ "test:38": {
+  "scene": "Central Perk coffee shop. Janice and Chandler are present.",
+  "raw": "Central Perk coffee shop. Janice and Chandler are present."
+ },
+ "test:39": {
+  "scene": "Apartment (Joey Tribbiani, Chandler Bing)",
+  "raw": "Apartment (Joey Tribbiani, Chandler Bing)"
+ },
+ "test:40": {
+  "scene": "Ross and Rachel's apartment (Ross, Rachel, and Ben are present)",
+  "raw": "Ross and Rachel's apartment (Ross, Rachel, and Ben are present)"
+ },
+ "test:41": {
+  "scene": "Central Perk. Chandler Bing and Janice Litman Goralnik are present.",
+  "raw": "Central Perk. Chandler Bing and Janice Litman Goralnik are present."
+ },
+ "test:42": {
+  "scene": "Apartment (Joey Tribbiani, Ross Geller, Phoebe Buffay)",
+  "raw": "Apartment (Joey Tribbiani, Ross Geller, Phoebe Buffay)"
+ },
+ "test:43": {
+  "scene": "Apartment (Chandler Bing, Phoebe Buffay)",
+  "raw": "Apartment (Chandler Bing, Phoebe Buffay)"
+ },
+ "test:44": {
+  "scene": "Apartment (Chandler Bing, Joey Tribbiani, Monica Geller)",
+  "raw": "Apartment (Chandler Bing, Joey Tribbiani, Monica Geller)"
+ },
+ "test:45": {
+  "scene": "Central Perk coffee shop. Rachel Green, Sophie, and Chandler Bing are present.",
+  "raw": "Central Perk coffee shop. Rachel Green, Sophie, and Chandler Bing are present."
+ },
+ "test:46": {
+  "scene": "Apartment (Joey Tribbiani, Kate Miller)",
+  "raw": "Apartment (Joey Tribbiani, Kate Miller)"
+ },
+ "test:47": {
+  "scene": "Central Perk Coffee Shop. Phoebe Buffay, Ross Geller, Rachel Green, Monica Geller, Chandler Bing, and Joey Tribbiani are present.",
+  "raw": "Central Perk Coffee Shop. Phoebe Buffay, Ross Geller, Rachel Green, Monica Geller, Chandler Bing, and Joey Tribbiani are present."
+ },
+ "test:48": {
+  "scene": "Apartment (Chandler, Joanna)",
+  "raw": "Apartment (Chandler, Joanna)"
+ },
+ "test:49": {
+  "scene": "Apartment (Joey Tribbiani, Ross Geller)",
+  "raw": "Apartment (Joey Tribbiani, Ross Geller)"
+ },
+ "test:50": {
+  "scene": "Central Perk. Joanna and Rachel Green are present.",
+  "raw": "Central Perk. Joanna and Rachel Green are present."
+ },
+ "test:51": {
+  "scene": "Apartment (Rachel Green, Chandler Bing)",
+  "raw": "Apartment (Rachel Green, Chandler Bing)"
+ },
+ "test:52": {
+  "scene": "Apartment (Joey Tribbiani, Kate Miller)",
+  "raw": "Apartment (Joey Tribbiani, Kate Miller)"
+ },
+ "test:53": {
+  "scene": "Apartment bathroom. Ross, Monica present.",
+  "raw": "Apartment bathroom. Ross, Monica present."
+ },
+ "test:54": {
+  "scene": "Central Perk Coffee Shop. Chandler Bing, Joanna.",
+  "raw": "Central Perk Coffee Shop. Chandler Bing, Joanna."
+ },
+ "test:55": {
+  "scene": "Apartment (Chandler Bing, Joey Tribbiani)",
+  "raw": "Apartment (Chandler Bing, Joey Tribbiani)"
+ },
+ "test:56": {
+  "scene": "Apartment (Monica Geller, Ross Geller)",
+  "raw": "Apartment (Monica Geller, Ross Geller)"
+ },
+ "test:57": {
+  "scene": "Apartment (Monica Geller, Rachel Green)",
+  "raw": "Apartment (Monica Geller, Rachel Green)"
+ },
+ "test:58": {
+  "scene": "Apartment (Ross, Joey, Chandler)",
+  "raw": "Apartment (Ross, Joey, Chandler)"
+ },
+ "test:59": {
+  "scene": "Apartment (Joey Tribbiani, Chandler Bing)",
+  "raw": "Apartment (Joey Tribbiani, Chandler Bing)"
+ },
+ "test:60": {
+  "scene": "Central Perk (Rachel Green, Ross Geller)",
+  "raw": "Central Perk (Rachel Green, Ross Geller)"
+ },
+ "test:61": {
+  "scene": "Apartment (Monica, Phoebe, Ross, Rachel, Chandler, Joey)",
+  "raw": "Apartment (Monica, Phoebe, Ross, Rachel, Chandler, Joey)"
+ },
+ "test:62": {
+  "scene": "Monica's apartment. Monica, Rachel, and Chip Matthews are present.",
+  "raw": "Monica's apartment. Monica, Rachel, and Chip Matthews are present."
+ },
+ "test:63": {
+  "scene": "Apartment (Joey Tribbiani, unspecified guy)",
+  "raw": "Apartment (Joey Tribbiani, unspecified guy)"
+ },
+ "test:64": {
+  "scene": "Monica Geller's apartment. Chip Matthews and Monica are present.",
+  "raw": "Monica Geller's apartment. Chip Matthews and Monica are present."
+ },
+ "test:65": {
+  "scene": "Apartment (Chandler Bing, Joey Tribbiani)",
+  "raw": "Apartment (Chandler Bing, Joey Tribbiani)"
+ },
+ "test:66": {
+  "scene": "Central Perk coffee shop. Chip Matthews and Monica Geller are present.",
+  "raw": "Central Perk coffee shop. Chip Matthews and Monica Geller are present."
+ },
+ "test:67": {
+  "scene": "Apartment building - Mr. Treeger, Joey Tribbiani, Chandler Bing",
+  "raw": "Apartment building - Mr. Treeger, Joey Tribbiani, Chandler Bing"
+ },
+ "test:68": {
+  "scene": "Central Perk Coffeehouse. Rachel Green, Chandler Bing present.",
+  "raw": "Central Perk Coffeehouse. Rachel Green, Chandler Bing present."
+ },
+ "test:69": {
+  "scene": "Apartment (Ross Geller, Monica Geller)",
+  "raw": "Apartment (Ross Geller, Monica Geller)"
+ },
+ "test:70": {
+  "scene": "Monica and Rachel's apartment (Rachel Green, Monica Geller)",
+  "raw": "Monica and Rachel's apartment (Rachel Green, Monica Geller)"
+ },
+ "test:71": {
+  "scene": "Apartment (Monica, Rachel, Phoebe, Alice Knight)",
+  "raw": "Apartment (Monica, Rachel, Phoebe, Alice Knight)"
+ },
+ "test:72": {
+  "scene": "Airport lounge. Ross Geller, Emily Waltham present.",
+  "raw": "Airport lounge. Ross Geller, Emily Waltham present."
+ },
+ "test:73": {
+  "scene": "Apartment (Rachel Green, Chandler Bing)",
+  "raw": "Apartment (Rachel Green, Chandler Bing)"
+ },
+ "test:74": {
+  "scene": "Apartment (Ross Geller, Emily Waltham)",
+  "raw": "Apartment (Ross Geller, Emily Waltham)"
+ },
+ "test:75": {
+  "scene": "Apartment (Ross Geller, Monica Geller)",
+  "raw": "Apartment (Ross Geller, Monica Geller)"
+ },
+ "test:76": {
+  "scene": "Apartment (Rachel Green, Phoebe Buffay, Monica Geller)",
+  "raw": "Apartment (Rachel Green, Phoebe Buffay, Monica Geller)"
+ },
+ "test:77": {
+  "scene": "Apartment (Monica, Chandler, Emily)",
+  "raw": "Apartment (Monica, Chandler, Emily)"
+ },
+ "test:78": {
+  "scene": "Apartment (Chandler Bing, Joey Tribbiani)",
+  "raw": "Apartment (Chandler Bing, Joey Tribbiani)"
+ },
+ "test:79": {
+  "scene": "Apartment store. Monica Geller, Phoebe Buffay, and a Saleslady are present.",
+  "raw": "Apartment store. Monica Geller, Phoebe Buffay, and a Saleslady are present."
+ },
+ "test:80": {
+  "scene": "Monica's apartment. Monica, Phoebe present.",
+  "raw": "Monica's apartment. Monica, Phoebe present."
+ },
+ "test:81": {
+  "scene": "Central Perk Coffeehouse. Joshua Burgin and Rachel Green present.",
+  "raw": "Central Perk Coffeehouse. Joshua Burgin and Rachel Green present."
+ },
+ "test:82": {
+  "scene": "Sleep Clinic, Joey Tribbiani and Sleep Clinic Worker present.",
+  "raw": "Sleep Clinic, Joey Tribbiani and Sleep Clinic Worker present."
+ },
+ "test:83": {
+  "scene": "Apartment (Monica, Phoebe)",
+  "raw": "Apartment (Monica, Phoebe)"
+ },
+ "test:84": {
+  "scene": "Central Perk Coffeehouse. Phoebe Buffay and Monica Geller present.",
+  "raw": "Central Perk Coffeehouse. Phoebe Buffay and Monica Geller present."
+ }
+}

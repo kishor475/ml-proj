@@ -1,0 +1,13 @@
+Writing meld_coe_* (persona=True, scene=True)
+   15742 rows -> meld_coe_aux/train.json
+    1109 rows -> meld_coe_aux/dev.json
+    2610 rows -> meld_coe_aux/test.json
+    9989 rows -> meld_coe_erc/train.json
+    1109 rows -> meld_coe_erc/dev.json
+    2610 rows -> meld_coe_erc/test.json
+   25731 rows -> meld_coe_mixed/train.json
+    1109 rows -> meld_coe_mixed/dev.json
+    2610 rows -> meld_coe_mixed/test.json
+    9989 rows -> meld_coe_steer/train4infer.json
+    1109 rows -> meld_coe_steer/dev.json
+    2610 rows -> meld_coe_steer/test.json

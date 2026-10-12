@@ -1,0 +1,12 @@
+# PyTorch should be installed with CUDA support first:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+
+transformers>=4.40.0
+peft>=0.10.0
+accelerate>=0.28.0
+bitsandbytes>=0.43.0
+deepspeed>=0.14.0
+datasets
+scikit-learn
+pandas
+tqdm

@@ -1,0 +1,211 @@
+{"Acc_SA": 78.125, "F1_SA": 75.859, "mode": "test"}
+Time: 2026-10-11 08:11:45
+              precision    recall  f1-score   support
+
+         hap   0.000000  0.000000  0.000000         2
+         sad   1.000000  1.000000  1.000000         4
+         neu   1.000000  0.777778  0.875000         9
+         ang   0.750000  0.600000  0.666667         5
+         exc   0.666667  1.000000  0.800000         8
+         fru   0.600000  0.750000  0.666667         4
+
+    accuracy                       0.781250        32
+   macro avg   0.669444  0.687963  0.668056        32
+weighted avg   0.765104  0.781250  0.758594        32
+
+confuse_case:[] 
+
+[
+     {
+          "index": 0,
+          "input": "You are performing Emotion Recognition in Conversations (ERC).\nThe following is a conversation excerpt from IEMOCAP.\n\n### Dialogue History:\nM: So now, I'm going to have to find somebody else to bear my children.\nF: [LAUGHTER]\nM: [LAUGHTER]\nM: Oh, thanks.  I'll need it.\nM: Oh thanks, you're too nice\n### Acoustic Clues:\nThe target speaker uses a higher pitch with noticeable variation, suggesting expressiveness, while using a moderate volume, with normal volume variation, and is likely talking slowly, possibly suggesting thoughtfulness, hesitation, or calmness.\n\n### Relational Clues:\nFriends catching up and sharing surprising news.\n\n### Current Utterance:\nM: just being polite now\n\nBased on the context, what is the emotion of the current utterance?\nChoose from: 'happy', 'sad', 'neutral', 'angry', 'excited', 'frustrated'\nAnswer with just the emotion label.",
+          "output": "Emotion Flow: excited -> excited -> excited -> excited. \nCurrent Emotion: excited",
+          "target": "Emotion Flow: happy -> happy -> happy. \nCurrent Emotion: happy"
+     },
+     {
+          "index": 1,
+          "input": "You are performing Emotion Recognition in Conversations (ERC).\nThe following is a conversation excerpt from IEMOCAP.\n\n### Dialogue History:\nF: What do you mean dishonest?\nM: You know that Larry's not coming back and I know it.  So why do we go on letting him think that we believe with him?\nF: What do you want to do, argue with him?\nM: I don't want to argue with him.  But it's time he knows that nobody else thinks that Larry's alive anymore.\nF: You can't say that to him.\n### Acoustic Clues:\nThe target speaker likely uses a higher pitch with typical variation, while likely speaking loudly, which might indicate excitement, confidence, or urgency, with normal volume variation, and is talking quickly, which could indicate excitement, urgency, or nervousness.\n\n### Relational Clues:\nFamily members discussing a difficult situation.\n\n### Current Utterance:\nM: Why should he dream about him, walking around looking for him at night?  Do we contradict him?  Do we say straight out that we don't have any hope anymore, that we haven't had any hope for years now?\n\nBased on the context, what is the emotion of the current utterance?\nChoose from: 'happy', 'sad', 'neutral', 'angry', 'excited', 'frustrated'\nAnswer with just the emotion label.",
+          "output": "Emotion Flow: frustrated. \nCurrent Emotion: frustrated",
+          "target": "Emotion Flow: frustrated -> frustrated. \nCurrent Emotion: angry"
+     },
+     {
+          "index": 2,
+          "input": "You are performing Emotion Recognition in Conversations (ERC).\nThe following is a conversation excerpt from IEMOCAP.\n\n### Dialogue History:\nM: Turn it off.\nF: Oh, marry you again?  I must have been insane.  What was I thinking?  I mean, you're completely outrageous.\nM: Amanda-- Listen- Listen-\nF: Beast; brute; cad; whore\nM: Very music- amusing indeed.\n### Acoustic Clues:\nThe target speaker likely uses a higher pitch with typical variation, while speaking loudly, which might indicate excitement, confidence, or urgency, with normal volume variation, and is talking quickly, which could indicate excitement, urgency, or nervousness.\n\n### Relational Clues:\nAn older couple reminiscing about their past.\n\n### Current Utterance:\nM: You are a vile tempered, loose living, wicked little beast, and I never want to set eyes on you again.\n\nBased on the context, what is the emotion of the current utterance?\nChoose from: 'happy', 'sad', 'neutral', 'angry', 'excited', 'frustrated'\nAnswer with just the emotion label.",
+          "output": "Emotion Flow: angry -> angry -> angry. \nCurrent Emotion: angry",
+          "target": "Emotion Flow: angry -> angry -> angry. \nCurrent Emotion: angry"
+     },
+     {
+          "index": 3,
+          "input": "You are performing Emotion Recognition in Conversations (ERC).\nThe following is a conversation excerpt from IEMOCAP.\n\n### Dialogue History:\nF: Um-Seventeen. Coming from --\nM: On what airline?\nF: It was Virgin Atlantic coming from London.\nM: From London, okay. Um- And you went through all your proper checkpoints?\nF: Yeah, I don't know where it was lost.  I was coming from Africa, so.\n### Acoustic Clues:\nThe target speaker has a moderate pitch with typical variation, while using a moderate volume, with normal volume variation, and is speaking at a moderate pace.\n\n### Relational Clues:\nAn angry customer and a worker.\n\n### Current Utterance:\nM: So you haven't seen your bags since Africa. You flew threw Heath Row to here.\n\nBased on the context, what is the emotion of the current utterance?\nChoose from: 'happy', 'sad', 'neutral', 'angry', 'excited', 'frustrated'\nAnswer with just the emotion label.",
+          "output": "Emotion Flow: neutral -> neutral. \nCurrent Emotion: neutral",
+          "target": "Emotion Flow: neutral -> neutral. \nCurrent Emotion: neutral"
+     },
+     {
+          "index": 4,
+          "input": "You are performing Emotion Recognition in Conversations (ERC).\nThe following is a conversation excerpt from IEMOCAP.\n\n### Dialogue History:\nM: All right.  But they are fish that do something no other fish do.  Like the swallows were turning into Capistrano or Lemmings jumping off the cliffs, you know like that. There's- There's magic here and mystery.  And a little bit of the unexplainable.  You know, I can't see how you could not be interested.\nM: For real?\nM: I don't get it.  I mean, the first time we came you said it was the best night of your life. And last year I remember distinctly you were so excited about coming that you stubbed your toe toe pushing me out the door and you didn't even notice until you got in the car.\nM: We weren't in a good spot.\nM: We just weren't in a good spot.  This is a much better spot.  I've got a great sense for these things.\n### Acoustic Clues:\nThe target speaker likely uses a higher pitch with typical variation, while using a moderate volume, with normal volume variation, and is speaking at a moderate pace.\n\n### Relational Clues:\nA couple on a romantic date or outing.\n\n### Current Utterance:\nM: Look there.  What is that?  Is that -- Oh No, that's seaweed.\n\nBased on the context, what is the emotion of the current utterance?\nChoose from: 'happy', 'sad', 'neutral', 'angry', 'excited', 'frustrated'\nAnswer with just the emotion label.",
+          "output": "Emotion Flow: excited. \nCurrent Emotion: excited",
+          "target": "Emotion Flow: excited -> frustrated -> frustrated. \nCurrent Emotion: excited"
+     },
+     {
+          "index": 5,
+          "input": "You are performing Emotion Recognition in Conversations (ERC).\nThe following is a conversation excerpt from IEMOCAP.\n\n### Dialogue History:\nM: There is a strict system here.  You need to wait in the right line for the right thing.  This is the line for registration.\nF: Right, well, last time they told me, it was this line, and obviously, it's not true.\nM: I told you it was line two A.\nF: Do you have a manager I could speak with?\nM: I don't know who told you that but they were wrong.  I'm sorry.\n### Acoustic Clues:\nThe target speaker has a moderate pitch with likely noticeable variation, suggesting expressiveness, while using a moderate volume, with significant volume changes, and is likely talking quickly, which could indicate excitement, urgency, or nervousness.\n\n### Relational Clues:\nA frustrated customer and a clerk at a counter.\n\n### Current Utterance:\nF: Are you being straight with me?\n\nBased on the context, what is the emotion of the current utterance?\nChoose from: 'happy', 'sad', 'neutral', 'angry', 'excited', 'frustrated'\nAnswer with just the emotion label.",
+          "output": "Emotion Flow: frustrated -> frustrated. \nCurrent Emotion: frustrated",
+          "target": "Emotion Flow: angry -> frustrated. \nCurrent Emotion: frustrated"
+     },
+     {
+          "index": 6,
+          "input": "You are performing Emotion Recognition in Conversations (ERC).\nThe following is a conversation excerpt from IEMOCAP.\n\n### Dialogue History:\nM: Yeah?  What'd he do?  What did they do?  How'd you know him?\nF: And he could of...  He was pretty awesome\nM: yeah.\nF: Uh,  We grew up together.\nM: Is he an actor too, or-?\n### Acoustic Clues:\nThe target speaker uses a higher pitch with noticeable variation, suggesting expressiveness, while speaking softly, possibly suggesting calmness, shyness, or caution, with little volume variation, and is speaking at a moderate pace.\n\n### Relational Clues:\nA friend comforting another friend experiencing loss or sadness.\n\n### Current Utterance:\nF: Yeah, he kind of did a lot of things, but we acted together, sometimes.\n\nBased on the context, what is the emotion of the current utterance?\nChoose from: 'happy', 'sad', 'neutral', 'angry', 'excited', 'frustrated'\nAnswer with just the emotion label.",
+          "output": "Emotion Flow: sad -> sad. \nCurrent Emotion: sad",
+          "target": "Emotion Flow: sad -> sad. \nCurrent Emotion: sad"
+     },
+     {
+          "index": 7,
+          "input": "You are performing Emotion Recognition in Conversations (ERC).\nThe following is a conversation excerpt from IEMOCAP.\n\n### Dialogue History:\nM: He let him kiss you.  You said you did.\nF: Well it gave him a lot of pleasure and it didn't hurt me.\nM: what of it?\nF: Well, if you hadn't been so nosey and suspicious you never would have known about it.\nM: What about me?\n### Acoustic Clues:\nThe target speaker uses a higher pitch with likely noticeable variation, suggesting expressiveness, while speaking loudly, which might indicate excitement, confidence, or urgency, with significant volume changes, and is speaking at a moderate pace.\n\n### Relational Clues:\nAn older couple reminiscing about their past.\n\n### Current Utterance:\nF: I'm getting very bored with this conversation.\n\nBased on the context, what is the emotion of the current utterance?\nChoose from: 'happy', 'sad', 'neutral', 'angry', 'excited', 'frustrated'\nAnswer with just the emotion label.",
+          "output": "Emotion Flow: None. \nCurrent Emotion: frustrated",
+          "target": "Emotion Flow: neutral. \nCurrent Emotion: frustrated"
+     },
+     {
+          "index": 8,
+          "input": "You are performing Emotion Recognition in Conversations (ERC).\nThe following is a conversation excerpt from IEMOCAP.\n\n### Dialogue History:\nM: They'd put me in jail and then how long- when will I get to see the kids?  What, ten years?  I don't know.\nF: I know.  I know.  I know I know. You're good You're good at what you do, but there's just so much chance involved.\nM: I know.  But I'll-I'll send the pictures all the time and I'll write them emails and you can read them the emails that I send them.\nF: I mean, I-I know that you're a good soldier, but not everybody else is. and what if\nM: I'm gonna be in Bagdad, just doing security.\n### Acoustic Clues:\nThe target speaker has a moderate pitch with typical variation, while using a moderate volume, with normal volume variation, and is speaking at a moderate pace.\n\n### Relational Clues:\nFriends dealing with bad news.\n\n### Current Utterance:\nF: It's just so much.\n\nBased on the context, what is the emotion of the current utterance?\nChoose from: 'happy', 'sad', 'neutral', 'angry', 'excited', 'frustrated'\nAnswer with just the emotion label.",
+          "output": "Emotion Flow: sad -> sad. \nCurrent Emotion: sad",
+          "target": "Emotion Flow: None. \nCurrent Emotion: sad"
+     },
+     {
+          "index": 9,
+          "input": "You are performing Emotion Recognition in Conversations (ERC).\nThe following is a conversation excerpt from IEMOCAP.\n\n### Dialogue History:\nF: How ridiculous, utterly ridiculous\nM: Oh, The worst one was in Cannes when your curling iron burnt a hole in my new dressing gown?\nF: Very much sillier.\nM: [LAUGHTER] That was quit a rouser, wasn't it?\nF: You knew there was nothing in that.\n### Acoustic Clues:\nThe target speaker has a moderate pitch with likely noticeable variation, suggesting expressiveness, while using a moderate volume, with normal volume variation, and is likely talking quickly, which could indicate excitement, urgency, or nervousness.\n\n### Relational Clues:\nA couple in hiding or a secretive affair.\n\n### Current Utterance:\nM: Oh, I didn't hit you very hard.\n\nBased on the context, what is the emotion of the current utterance?\nChoose from: 'happy', 'sad', 'neutral', 'angry', 'excited', 'frustrated'\nAnswer with just the emotion label.",
+          "output": "Emotion Flow: excited. \nCurrent Emotion: excited",
+          "target": "Emotion Flow: excited -> excited. \nCurrent Emotion: excited"
+     },
+     {
+          "index": 10,
+          "input": "You are performing Emotion Recognition in Conversations (ERC).\nThe following is a conversation excerpt from IEMOCAP.\n\n### Dialogue History:\nF: Yes.\nM: Honey, it's a natural phenomenon.  I mean, this kind of thing only happens once a year.  It's a great opportunity.\nF: Well, if you also remember last year we- our shoes got wet, I got sand in my panties, we had a big argument, you had a sore throat, and we didn't see the grunion.\nM: I mean, Think about people in Kansas, they've got to get like you know plane tickets and hotel reservations just to see this.  We're just forty minutes away.  It's just too good of an opportunity to pass up.\nF: We didn't see them the first time either.\n### Acoustic Clues:\nThe target speaker uses a higher pitch with typical variation, while likely speaking loudly, which might indicate excitement, confidence, or urgency, with likely significant volume changes, and is likely talking quickly, which could indicate excitement, urgency, or nervousness.\n\n### Relational Clues:\nA couple on a romantic date or outing.\n\n### Current Utterance:\nM: Yeah, but all that time on the beach is the highlight of their little lives.  You know,\n\nBased on the context, what is the emotion of the current utterance?\nChoose from: 'happy', 'sad', 'neutral', 'angry', 'excited', 'frustrated'\nAnswer with just the emotion label.",
+          "output": "Emotion Flow: excited -> excited. \nCurrent Emotion: excited",
+          "target": "Emotion Flow: excited -> excited. \nCurrent Emotion: excited"
+     },
+     {
+          "index": 11,
+          "input": "You are performing Emotion Recognition in Conversations (ERC).\nThe following is a conversation excerpt from IEMOCAP.\n\n### Dialogue History:\nM: I don't want to argue with him.  But it's time he knows that nobody else thinks that Larry's alive anymore.\nF: You can't say that to him.\nM: Why should he dream about him, walking around looking for him at night?  Do we contradict him?  Do we say straight out that we don't have any hope anymore, that we haven't had any hope for years now?\nF: how are you gonna prove it?  Can you prove it?\nM: We have to say it to him.\n### Acoustic Clues:\nThe target speaker uses a higher pitch with typical variation, while likely speaking loudly, which might indicate excitement, confidence, or urgency, with significant volume changes, and is speaking at a moderate pace.\n\n### Relational Clues:\nFamily members discussing a difficult situation.\n\n### Current Utterance:\nF: To you it is and to me, but not to him.  Now you can talk yourself until you're blue in the face, Chris, but there's no body and there's no grave.  So where are you?\n\nBased on the context, what is the emotion of the current utterance?\nChoose from: 'happy', 'sad', 'neutral', 'angry', 'excited', 'frustrated'\nAnswer with just the emotion label.",
+          "output": "Emotion Flow: frustrated. \nCurrent Emotion: frustrated",
+          "target": "Emotion Flow: frustrated. \nCurrent Emotion: frustrated"
+     },
+     {
+          "index": 12,
+          "input": "You are performing Emotion Recognition in Conversations (ERC).\nThe following is a conversation excerpt from IEMOCAP.\n\n### Dialogue History:\nF: Hmm. Hmm.\nM: Hi. Um-  My luggage didn't come out of the conveyor thingy.\nF: How long ago was that?\n### Acoustic Clues:\nThe target speaker has a moderate pitch with typical variation, while using a moderate volume, with normal volume variation, and is likely talking slowly, possibly suggesting thoughtfulness, hesitation, or calmness.\n\n### Relational Clues:\nAn angry customer and a worker.\n\n### Current Utterance:\nM: So, um, what do I do?\n\nBased on the context, what is the emotion of the current utterance?\nChoose from: 'happy', 'sad', 'neutral', 'angry', 'excited', 'frustrated'\nAnswer with just the emotion label.",
+          "output": "Emotion Flow: neutral. \nCurrent Emotion: neutral",
+          "target": "Emotion Flow: neutral. \nCurrent Emotion: neutral"
+     },
+     {
+          "index": 13,
+          "input": "You are performing Emotion Recognition in Conversations (ERC).\nThe following is a conversation excerpt from IEMOCAP.\n\n### Dialogue History:\nF: So where are you going to have your wedding?\nM: Yeah.  And she said yes.  And she cried, of course.\nF: Yeah. of course.\nM: Yes.  We did that in the beginning, exactly.  So we had, so we just had, you know, good times the rest of the weekend, yeah.\nF: Okay Okay.\n### Acoustic Clues:\nThe target speaker has a moderate pitch with likely noticeable variation, suggesting expressiveness, while using a moderate volume, with likely little volume variation, and is talking quickly, which could indicate excitement, urgency, or nervousness.\n\n### Relational Clues:\nFriends catching up and sharing surprising news.\n\n### Current Utterance:\nM: It was a lot of fun- It was a lot of fun.  She's great.  And I'm so happy.\n\nBased on the context, what is the emotion of the current utterance?\nChoose from: 'happy', 'sad', 'neutral', 'angry', 'excited', 'frustrated'\nAnswer with just the emotion label.",
+          "output": "Emotion Flow: excited -> excited. \nCurrent Emotion: excited",
+          "target": "Emotion Flow: happy -> happy. \nCurrent Emotion: happy"
+     },
+     {
+          "index": 14,
+          "input": "You are performing Emotion Recognition in Conversations (ERC).\nThe following is a conversation excerpt from IEMOCAP.\n\n### Dialogue History:\nF: Okay.  All right.\nM: Yes!  Nobody wants a juggler.  I am not going to -- I'm not going to dress up like a clown. I'm not going to dress up like a freaking clown. No.\nF: Okay.  Well, fine. we won't- I won't argue with you about that.\nM: No, it's demeaning.  I am not a clown.  I have talent.  Clowns don't have talent.\nF: What else?  I can't -- uh.  I'm drawing a blank here.\n### Acoustic Clues:\nThe target speaker likely uses a higher pitch with typical variation, while using a moderate volume, with normal volume variation, and is talking quickly, which could indicate excitement, urgency, or nervousness.\n\n### Relational Clues:\nFriends discussing looking for something.\n\n### Current Utterance:\nM: It's that simple.\n\nBased on the context, what is the emotion of the current utterance?\nChoose from: 'happy', 'sad', 'neutral', 'angry', 'excited', 'frustrated'\nAnswer with just the emotion label.",
+          "output": "Emotion Flow: angry -> angry. \nCurrent Emotion: angry",
+          "target": "Emotion Flow: frustrated -> frustrated. \nCurrent Emotion: frustrated"
+     },
+     {
+          "index": 15,
+          "input": "You are performing Emotion Recognition in Conversations (ERC).\nThe following is a conversation excerpt from IEMOCAP.\n\n### Dialogue History:\nF: Fine.\nM: What time is it?  They're supposed to run around midnight.  Oh, this is great, isn't it?  Look at the night we've got here.  It couldn't be better.  Actually, I wanted to go a little further up the coast you know to get away from all the lights and the people.  I was afraid we might miss it though, so how are you doing?\n### Acoustic Clues:\nThe target speaker has a moderate pitch with typical variation, while using a moderate volume, with normal volume variation, and is speaking at a moderate pace.\n\n### Relational Clues:\nA couple on a romantic date or outing.\n\n### Current Utterance:\nF: What flashlight?\n\nBased on the context, what is the emotion of the current utterance?\nChoose from: 'happy', 'sad', 'neutral', 'angry', 'excited', 'frustrated'\nAnswer with just the emotion label.",
+          "output": "Emotion Flow: None. \nCurrent Emotion: excited",
+          "target": "Emotion Flow: sad. \nCurrent Emotion: neutral"
+     },
+     {
+          "index": 16,
+          "input": "You are performing Emotion Recognition in Conversations (ERC).\nThe following is a conversation excerpt from IEMOCAP.\n\n### Dialogue History:\nF: Very well.  If you have to be boorish and idiotic.\nM: Well, there are people downstairs, I suppose.\nF: You are far too temperamental.  Try to control yourself.\nM: This is no time of the year for Tunis.\nF: Go away!  Go away!  I- I hate you.\n### Acoustic Clues:\nThe target speaker likely uses a higher pitch with typical variation, while likely speaking loudly, which might indicate excitement, confidence, or urgency, with likely significant volume changes, and is talking quickly, which could indicate excitement, urgency, or nervousness.\n\n### Relational Clues:\nAn older couple reminiscing about their past.\n\n### Current Utterance:\nM: I do I shall do no such thing.\n\nBased on the context, what is the emotion of the current utterance?\nChoose from: 'happy', 'sad', 'neutral', 'angry', 'excited', 'frustrated'\nAnswer with just the emotion label.",
+          "output": "Emotion Flow: angry. \nCurrent Emotion: angry",
+          "target": "Emotion Flow: angry -> angry. \nCurrent Emotion: angry"
+     },
+     {
+          "index": 17,
+          "input": "You are performing Emotion Recognition in Conversations (ERC).\nThe following is a conversation excerpt from IEMOCAP.\n\n### Dialogue History:\nM: No, no that is quit laughable.  The cutting little mystery all done with mirrors.\nF: Which particular one?\nM: So is everyone else in the long run.  Let's be superficial and pity the poor philosophers.  Let's blow trumpets and squeakers and enjoy the party as long as we can, like little quiet idiotic school children.\nF: Awe, Charles.  That was his name.  He did wriggle so beautifully.\nM: [garbage] Darling, kiss me before your body rots and worms start popping in and out of your eye sockets.\n### Acoustic Clues:\nThe target speaker likely uses a higher pitch with typical variation, while speaking loudly, which might indicate excitement, confidence, or urgency, with normal volume variation, and is talking quickly, which could indicate excitement, urgency, or nervousness.\n\n### Relational Clues:\nA couple in hiding or a secretive affair.\n\n### Current Utterance:\nF: I know you did.  You threw it out the window into the Canal below.  I don't think I'll ever forgive you for that.\n\nBased on the context, what is the emotion of the current utterance?\nChoose from: 'happy', 'sad', 'neutral', 'angry', 'excited', 'frustrated'\nAnswer with just the emotion label.",
+          "output": "Emotion Flow: excited. \nCurrent Emotion: excited",
+          "target": "Emotion Flow: None. \nCurrent Emotion: excited"
+     },
+     {
+          "index": 18,
+          "input": "You are performing Emotion Recognition in Conversations (ERC).\nThe following is a conversation excerpt from IEMOCAP.\n\n### Dialogue History:\nF: Brian, I need help.\n### Acoustic Clues:\nThe target speaker has a moderate pitch with typical variation, while likely speaking softly, possibly suggesting calmness, shyness, or caution, with normal volume variation, and is speaking at a moderate pace.\n\n### Relational Clues:\nFriends discussing looking for something.\n\n### Current Utterance:\nM: Babe, I don't know what to tell you.  Don't give up.\n\nBased on the context, what is the emotion of the current utterance?\nChoose from: 'happy', 'sad', 'neutral', 'angry', 'excited', 'frustrated'\nAnswer with just the emotion label.",
+          "output": "Emotion Flow: None. \nCurrent Emotion: neutral",
+          "target": "Emotion Flow: None. \nCurrent Emotion: neutral"
+     },
+     {
+          "index": 19,
+          "input": "You are performing Emotion Recognition in Conversations (ERC).\nThe following is a conversation excerpt from IEMOCAP.\n\n### Dialogue History:\nM: Can you like talk to somebody about this, can you like can you tell them that this is ridiculous and can they change it from now on, is there a phone number you have that I can call that will like automatically be talking to somebody a human being.\nF: Sir-\nM: Well, okay ,well First off, fine, fine, fine.  Let's see, first off, um- yeah my bill's wrong.\nF: If yeah, well if you just slow down we'll um, we'll definitely have your problem solved and after we have your problem solved, then I can transfer you to a manager, someone who can you know, you can voice your complaint to, who will be able to something about it.\nM: Like I know I paid last month, but it hasn't been paid and you charged me a late fee.\n### Acoustic Clues:\nThe target speaker has a moderate pitch with typical variation, while using a moderate volume, with significant volume changes, and is speaking at a moderate pace.\n\n### Relational Clues:\nA frustrated customer and a customer service agent.\n\n### Current Utterance:\nF: Okay, so where?, okay, all right, so where did you uh- locate your your bill?\n\nBased on the context, what is the emotion of the current utterance?\nChoose from: 'happy', 'sad', 'neutral', 'angry', 'excited', 'frustrated'\nAnswer with just the emotion label.",
+          "output": "Emotion Flow: neutral -> neutral. \nCurrent Emotion: neutral",
+          "target": "Emotion Flow: frustrated -> neutral. \nCurrent Emotion: neutral"
+     },
+     {
+          "index": 20,
+          "input": "You are performing Emotion Recognition in Conversations (ERC).\nThe following is a conversation excerpt from IEMOCAP.\n\n### Dialogue History:\nM: Okay, great, go ahead.\nF: Okay so, I'll just look it up and you know see what's going on, maybe we can...\nM: It was one ninety eight sixty three. I paid the minimum.\nF: if I call it up on the screen.\nM: Wow.  I can't believe you're actually admitting to having a problem on your end.  That's a first.\n### Acoustic Clues:\nThe target speaker has a moderate pitch with typical variation, while using a moderate volume, with normal volume variation, and is speaking at a moderate pace.\n\n### Relational Clues:\nA frustrated customer and a customer service agent.\n\n### Current Utterance:\nF: So in the database, it looks as though um, there is a there is like a glitch in the transaction where it hadn't gone through before, but I do see that you paid the, what can you tell me the amount, what was the amount?\n\nBased on the context, what is the emotion of the current utterance?\nChoose from: 'happy', 'sad', 'neutral', 'angry', 'excited', 'frustrated'\nAnswer with just the emotion label.",
+          "output": "Emotion Flow: neutral -> neutral. \nCurrent Emotion: neutral",
+          "target": "Emotion Flow: neutral -> neutral. \nCurrent Emotion: neutral"
+     },
+     {
+          "index": 21,
+          "input": "You are performing Emotion Recognition in Conversations (ERC).\nThe following is a conversation excerpt from IEMOCAP.\n\n### Dialogue History:\nM: Uhh, It's amazing how once you feel--\nF: Well, it's true.  The whole business is a very poor joke.\nM: things that ought to matter most dreadfully don't matter at all when one's happy, do they?\nF: Meaning just that.\nM: Uhh, You mustn't say that, my darling.\n### Acoustic Clues:\nThe target speaker has a moderate pitch that likely remains steady, potentially indicating calmness or seriousness, while using a moderate volume, with normal volume variation, and is speaking at a moderate pace.\n\n### Relational Clues:\nA couple in hiding or a secretive affair.\n\n### Current Utterance:\nF: Don't laugh at me.  I'm serious.\n\nBased on the context, what is the emotion of the current utterance?\nChoose from: 'happy', 'sad', 'neutral', 'angry', 'excited', 'frustrated'\nAnswer with just the emotion label.",
+          "output": "Emotion Flow: None. \nCurrent Emotion: excited",
+          "target": "Emotion Flow: None. \nCurrent Emotion: neutral"
+     },
+     {
+          "index": 22,
+          "input": "You are performing Emotion Recognition in Conversations (ERC).\nThe following is a conversation excerpt from IEMOCAP.\n\n### Dialogue History:\nF: Oh, it sent shivers up my spine.\nM: Hello?  Hello?  What?  Wrong number.\nF: Behave exquisitely.\nM: Oh, what shall we do if they suddenly walk in on us.\nF: I shall probably do a Court Curtsey.\n### Acoustic Clues:\nThe target speaker has a moderate pitch with typical variation, while likely speaking loudly, which might indicate excitement, confidence, or urgency, with normal volume variation, and is talking quickly, which could indicate excitement, urgency, or nervousness.\n\n### Relational Clues:\nA couple in hiding or a secretive affair.\n\n### Current Utterance:\nM: With the worst- with the most perfect poise?\n\nBased on the context, what is the emotion of the current utterance?\nChoose from: 'happy', 'sad', 'neutral', 'angry', 'excited', 'frustrated'\nAnswer with just the emotion label.",
+          "output": "Emotion Flow: excited. \nCurrent Emotion: excited",
+          "target": "Emotion Flow: excited. \nCurrent Emotion: excited"
+     },
+     {
+          "index": 23,
+          "input": "You are performing Emotion Recognition in Conversations (ERC).\nThe following is a conversation excerpt from IEMOCAP.\n\n### Dialogue History:\nM: Let's Let's drive someplace.  I- I want to be alone with you.\nF: It wouldn't work like this.\nM: No, nothing like that.\nF: yeah sure.\nM: Yeah, I suppose I have been.  But it's going from me.\n### Acoustic Clues:\nThe target speaker likely uses a higher pitch with noticeable variation, suggesting expressiveness, while likely speaking softly, possibly suggesting calmness, shyness, or caution, with normal volume variation, and is likely talking slowly, possibly suggesting thoughtfulness, hesitation, or calmness.\n\n### Relational Clues:\nFriends having an intimate conversation.\n\n### Current Utterance:\nF: how many?\n\nBased on the context, what is the emotion of the current utterance?\nChoose from: 'happy', 'sad', 'neutral', 'angry', 'excited', 'frustrated'\nAnswer with just the emotion label.",
+          "output": "Emotion Flow: sad -> sad. \nCurrent Emotion: sad",
+          "target": "Emotion Flow: sad -> neutral. \nCurrent Emotion: sad"
+     },
+     {
+          "index": 24,
+          "input": "You are performing Emotion Recognition in Conversations (ERC).\nThe following is a conversation excerpt from IEMOCAP.\n\n### Dialogue History:\nM: No, it's demeaning.  I am not a clown.  I have talent.  Clowns don't have talent.\nF: What else?  I can't -- uh.  I'm drawing a blank here.\nM: It's that simple.\nF: That's rough.  I'm really sorry, Ryan.\nM: yeah.\n### Acoustic Clues:\nThe target speaker has a moderate pitch with typical variation, while using a moderate volume, with normal volume variation, and is likely talking quickly, which could indicate excitement, urgency, or nervousness.\n\n### Relational Clues:\nFriends discussing looking for something.\n\n### Current Utterance:\nF: Well, um, is that kinda like the side of you that you let people see when you go into these job interviews?\n\nBased on the context, what is the emotion of the current utterance?\nChoose from: 'happy', 'sad', 'neutral', 'angry', 'excited', 'frustrated'\nAnswer with just the emotion label.",
+          "output": "Emotion Flow: neutral -> neutral. \nCurrent Emotion: neutral",
+          "target": "Emotion Flow: frustrated -> neutral. \nCurrent Emotion: neutral"
+     },
+     {
+          "index": 25,
+          "input": "You are performing Emotion Recognition in Conversations (ERC).\nThe following is a conversation excerpt from IEMOCAP.\n\n### Dialogue History:\nF: What?\nM: Guess what?\nF: Oh, for real?\nM: I got it.  I got accepted to U.S.C..\nF: That's awesome!\n### Acoustic Clues:\nThe target speaker uses a higher pitch with likely noticeable variation, suggesting expressiveness, while speaking loudly, which might indicate excitement, confidence, or urgency, with normal volume variation, and is talking quickly, which could indicate excitement, urgency, or nervousness.\n\n### Relational Clues:\nFriends celebrating good news.\n\n### Current Utterance:\nM: Yes! I just found out today.  I just got the letter.\n\nBased on the context, what is the emotion of the current utterance?\nChoose from: 'happy', 'sad', 'neutral', 'angry', 'excited', 'frustrated'\nAnswer with just the emotion label.",
+          "output": "Emotion Flow: excited. \nCurrent Emotion: excited",
+          "target": "Emotion Flow: excited -> excited. \nCurrent Emotion: excited"
+     },
+     {
+          "index": 26,
+          "input": "You are performing Emotion Recognition in Conversations (ERC).\nThe following is a conversation excerpt from IEMOCAP.\n\n### Dialogue History:\nM: what, no, I'm sure they did not tell you here.\nF: No.\nM: what The lady, what? the janitor?\nF: No, I'm not, I'm sorry.I'm not stupid.\nM: You asked the janitor what line to stand in?  Obviously, that's not going to be the right thing.\n### Acoustic Clues:\nThe target speaker likely uses a higher pitch with noticeable variation, suggesting expressiveness, while using a moderate volume, with likely significant volume changes, and is talking quickly, which could indicate excitement, urgency, or nervousness.\n\n### Relational Clues:\nA frustrated customer and a clerk at a counter.\n\n### Current Utterance:\nF: Isn't there anything you can do?  Just call over and ask them if I can go to the front of the line in the other line.\n\nBased on the context, what is the emotion of the current utterance?\nChoose from: 'happy', 'sad', 'neutral', 'angry', 'excited', 'frustrated'\nAnswer with just the emotion label.",
+          "output": "Emotion Flow: frustrated -> frustrated. \nCurrent Emotion: frustrated",
+          "target": "Emotion Flow: frustrated -> frustrated. \nCurrent Emotion: angry"
+     },
+     {
+          "index": 27,
+          "input": "You are performing Emotion Recognition in Conversations (ERC).\nThe following is a conversation excerpt from IEMOCAP.\n\n### Dialogue History:\nF: Elliot, worms don't pop.\nM: Darling, come here and kiss me before your body rots and worms pop in and out of your eye sockets.\nF: Oh, thank you dear.  And the same goes for you except that if I so much as see you looking at another woman, I'll kill you.\nM: I don't mind what you do, see, you could paint your body green all over and dance naked through the Place Vendome and run off with every man in the world.  And I shan't say a word as long as I know that you love me best.\nF: Which particular one?\n### Acoustic Clues:\nThe target speaker has a moderate pitch with typical variation, while using a moderate volume, with normal volume variation, and is speaking at a moderate pace.\n\n### Relational Clues:\nA couple in hiding or a secretive affair.\n\n### Current Utterance:\nM: Do you remember that awful scene we had in Venice?\n\nBased on the context, what is the emotion of the current utterance?\nChoose from: 'happy', 'sad', 'neutral', 'angry', 'excited', 'frustrated'\nAnswer with just the emotion label.",
+          "output": "Emotion Flow: excited. \nCurrent Emotion: excited",
+          "target": "Emotion Flow: excited. \nCurrent Emotion: excited"
+     },
+     {
+          "index": 28,
+          "input": "You are performing Emotion Recognition in Conversations (ERC).\nThe following is a conversation excerpt from IEMOCAP.\n\n### Dialogue History:\nF: Just a couple days ago.\nM: No way, when? when,when, When did it happen?\nF: [LAUGHTER]\nM: Oh my gosh.\nF: I know me neither.\n### Acoustic Clues:\nThe target speaker has a moderate pitch with typical variation, while using a moderate volume, with likely significant volume changes, and is likely talking quickly, which could indicate excitement, urgency, or nervousness.\n\n### Relational Clues:\nFriends catching up and sharing surprising news.\n\n### Current Utterance:\nM: And you actually said yes.  I can't believe it.  I never thought you would get married.\n\nBased on the context, what is the emotion of the current utterance?\nChoose from: 'happy', 'sad', 'neutral', 'angry', 'excited', 'frustrated'\nAnswer with just the emotion label.",
+          "output": "Emotion Flow: excited. \nCurrent Emotion: excited",
+          "target": "Emotion Flow: excited -> excited. \nCurrent Emotion: excited"
+     },
+     {
+          "index": 29,
+          "input": "You are performing Emotion Recognition in Conversations (ERC).\nThe following is a conversation excerpt from IEMOCAP.\n\n### Dialogue History:\nM: Oh, you're not going like this.\nF: Brute\nM: [GARBAGE] No, you're not.\nF: pig\nM: oh! Marry you again? I wouldn't marry you again if you came crawling to me on bended knee.\n### Acoustic Clues:\nThe target speaker uses a higher pitch with likely noticeable variation, suggesting expressiveness, while speaking loudly, which might indicate excitement, confidence, or urgency, with significant volume changes, and is talking quickly, which could indicate excitement, urgency, or nervousness.\n\n### Relational Clues:\nAn older couple reminiscing about their past.\n\n### Current Utterance:\nM: You're a wicked little vampire.  And I pray to God I never set eyes on you again as long as I live.\n\nBased on the context, what is the emotion of the current utterance?\nChoose from: 'happy', 'sad', 'neutral', 'angry', 'excited', 'frustrated'\nAnswer with just the emotion label.",
+          "output": "Emotion Flow: angry -> angry -> angry. \nCurrent Emotion: angry",
+          "target": "Emotion Flow: angry -> angry -> angry. \nCurrent Emotion: angry"
+     },
+     {
+          "index": 30,
+          "input": "You are performing Emotion Recognition in Conversations (ERC).\nThe following is a conversation excerpt from IEMOCAP.\n\n### Dialogue History:\nF: Maybe we should call your parents.\nM: Iraq of all-come on.  People die every day.\nF: I'm going to miss their first words.\nM: I jus-\nF: You'll have to send me pictures and letters everyday.\n### Acoustic Clues:\nThe target speaker likely uses a higher pitch with noticeable variation, suggesting expressiveness, while speaking softly, possibly suggesting calmness, shyness, or caution, with likely little volume variation, and is speaking at a moderate pace.\n\n### Relational Clues:\nFriends dealing with bad news.\n\n### Current Utterance:\nM: I don't know.\n\nBased on the context, what is the emotion of the current utterance?\nChoose from: 'happy', 'sad', 'neutral', 'angry', 'excited', 'frustrated'\nAnswer with just the emotion label.",
+          "output": "Emotion Flow: frustrated -> frustrated. \nCurrent Emotion: sad",
+          "target": "Emotion Flow: sad. \nCurrent Emotion: sad"
+     },
+     {
+          "index": 31,
+          "input": "You are performing Emotion Recognition in Conversations (ERC).\nThe following is a conversation excerpt from IEMOCAP.\n\n### Dialogue History:\nF: Okay, I do see that on here, and it says that um, it had some trouble clearing for some reason.  And I think that was the problem on our end.  So um-\nM: Absolutely.\nF: Well you know sometimes-- just with online transactions, things happens. so um-\nM: Did they take-\nF: Yeah, we- Somebody went in and- and cleared the problem and it looks like you're all paid.\n### Acoustic Clues:\nThe target speaker likely uses a higher pitch with noticeable variation, suggesting expressiveness, while using a moderate volume, with normal volume variation, and is speaking at a moderate pace.\n\n### Relational Clues:\nA frustrated customer and a customer service agent.\n\n### Current Utterance:\nM: Yes, yes, exactly.\n\nBased on the context, what is the emotion of the current utterance?\nChoose from: 'happy', 'sad', 'neutral', 'angry', 'excited', 'frustrated'\nAnswer with just the emotion label.",
+          "output": "Emotion Flow: neutral -> neutral. \nCurrent Emotion: neutral",
+          "target": "Emotion Flow: neutral. \nCurrent Emotion: neutral"
+     }
+]

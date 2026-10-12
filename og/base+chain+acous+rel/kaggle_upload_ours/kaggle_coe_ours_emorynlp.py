@@ -86,29 +86,7 @@ with open(erc_path, "r") as f:
     code = f.read()
 print("Patching erc_trainer.py...")
 
-code = swap(code,
-    '''        ## for llama, vicuna, belle
-        config = AutoConfig.from_pretrained(args.model_name_or_path, trust_remote_code=True)
-        tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path, trust_remote_code=True)
-        model = AutoModelForCausalLM.from_pretrained(args.model_name_or_path, trust_remote_code=True).half()''',
-    '''        ## for llama, vicuna, belle
-        config = AutoConfig.from_pretrained(args.model_name_or_path, trust_remote_code=True)
-        tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path, trust_remote_code=True)
-        from transformers import BitsAndBytesConfig
-        bnb_config = BitsAndBytesConfig(
-            load_in_4bit=True,
-            bnb_4bit_compute_dtype=torch.float16,
-            bnb_4bit_use_double_quant=True,
-            bnb_4bit_quant_type='nf4'
-        )
-        model = AutoModelForCausalLM.from_pretrained(
-            args.model_name_or_path,
-            trust_remote_code=True,
-            quantization_config=bnb_config,
-            low_cpu_mem_usage=True,
-            device_map={"": int(args.local_rank)} if int(args.local_rank) != -1 else "auto"
-        )''',
-    "QLoRA load")
+# (QLoRA loading is already built into src/erc_trainer.py)
 
 code = swap(code,
     'if args.lora:\n    model = get_peft_model(model, lora_config)',
@@ -119,10 +97,7 @@ code = swap(code,
     model.print_trainable_parameters()''',
     "kbit training")
 
-code = swap(code,
-    'if args.gradient_checkpointing:\n    if "chatglm" in args.model_name_or_path:',
-    'if args.gradient_checkpointing and not args.lora:\n    if "chatglm" in args.model_name_or_path:',
-    "grad ckpt guard")
+# (gradient-checkpointing guard is already built into src/erc_trainer.py)
 
 code = swap(code,
     'if args.checkpoint_dir is not None:\n    from deepspeed.utils.zero_to_fp32 import load_state_dict_from_zero_checkpoint',

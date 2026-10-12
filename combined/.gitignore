@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.log
+outputs/
+# regenerable by build_coe_data.py
+base/Truebaseline/data/*_coe_aux/
+base/Truebaseline/data/*_coe_erc/
+base/Truebaseline/data/*_coe_mixed/
+base/Truebaseline/data/*_coe_noscene_*/
+base/Truebaseline/data/*_coe_nopersona_*/
+base/Truebaseline/data/*_coe_steer/train4infer.json
+base/Truebaseline/data/*_coe_steer/dev.json
+base/Truebaseline/data/*_coe_steer/test.json

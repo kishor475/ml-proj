@@ -1,10 +1,25 @@
+# =============================================================================
+# erc_trainer.py -- Emotion Recognition in Conversation (ERC) trainer/evaluator
+#
+# Fine-tunes (4-bit QLoRA + DeepSpeed) or evaluates a decoder-only LLM
+# (e.g. Mistral-7B-Instruct) to generate the "Current Emotion: <label>" text
+# for a conversation turn. This is a SCRIPT: everything below runs at import
+# time, in this order:
+#   1. Imports
+#   2. Helper functions (labels, metrics, fuzzy label matching)
+#   3. CLI argument parsing -> ModelArgs object (`args`)
+#   4. Setup: seeds, LoRA config, DeepSpeed config, batch helpers
+#   5. Model + tokenizer loading (4-bit quantization, LoRA)
+#   6. Dataset / collator preparation
+#   7. DeepSpeed init (train mode) or inference init (eval-only mode)
+#   8. Main block: training loop with per-epoch eval, OR eval-only run
+# =============================================================================
+
+# ----------------------------- 1. Imports ------------------------------------
 from transformers import (
-    AutoModel,
     AutoModelForCausalLM,
     AutoTokenizer,
     AutoConfig,
-    BertTokenizerFast,
-    T5ForConditionalGeneration,
     LlamaForCausalLM,
     LlamaConfig,
     LlamaTokenizer,
@@ -13,6 +28,7 @@ from transformers import (
 )
 import sys
 import os
+# Make the project root (parent of src/) importable so `data_utils` resolves.
 current_script_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir_of_script = os.path.dirname(current_script_dir)
 sys.path.insert(0, parent_dir_of_script)
@@ -43,7 +59,9 @@ from sklearn import metrics
 from sklearn.metrics import accuracy_score, f1_score
 import torch.distributed as dist
 
+# ------------------- 2. Helpers: labels, metrics, matching -------------------
 def get_labels_attr(dataset):
+    """Return (label->index dict, comma-separated label string) for a dataset."""
     label_list_set = {
         'iemocap': ['happy', 'sad', 'neutral', 'angry', 'excited', 'frustrated'],
         'meld': ['neutral', 'surprise', 'fear', 'sad', 'joyful', 'disgust', 'angry'],
@@ -60,6 +78,7 @@ def get_labels_attr(dataset):
     return emotional_label_dict, emotional_label_str
 
 def report_score(dataset, golds, preds, mode='test'):
+    """Compute accuracy + weighted F1 (x100) and a per-class sklearn report."""
     if dataset == 'iemocap':
         target_names = ['hap', 'sad', 'neu', 'ang', 'exc', 'fru']
         digits = 6
@@ -82,6 +101,8 @@ def report_score(dataset, golds, preds, mode='test'):
     return res, res_matrix     
     
 def match_text(text, word_set_):
+    """Scan `text` left to right and return the longest (<12 chars) substrings
+    found in `word_set_` (used to spot an emotion label in free-form output)."""
     if text is None:
         return []
     len_text = len(text)
@@ -120,6 +141,7 @@ def edit_distance(s1, s2):
                 dp[i][j] = min(dp[i - 1][j], dp[i][j - 1], dp[i - 1][j - 1]) + 1
     return dp[m][n]
 
+# Fallback when match_text finds no valid label: snap to the nearest label.
 def optimize_output(output, label_set):
     """
     Calculate output and label set editing distance and return the label with minimum distance
@@ -133,6 +155,7 @@ def optimize_output(output, label_set):
             optimized_output = label
     return optimized_output
 
+# ----------------- 3. Global runtime settings + CLI arguments ----------------
 device = torch.device("cuda")
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
@@ -361,6 +384,8 @@ parser.add_argument(
     help='hyperparameter that determining the KL divergency weights participating in the final loss'
 )
 
+# Note: --do_train/--do_eval/--lora/--emotion_prediction are passed as the
+# strings 'True'/'False' and converted to real booleans a few lines below.
 args = parser.parse_args()
 do_sample = args.top_k is not None or args.top_p is not None or args.num_beams > 1 or args.temp is not None
 '''
@@ -374,6 +399,7 @@ args.temp is not None (temp is a parameter that controls the temperature of soft
 # This variable is likely being used later in the code to determine whether or not to use sampling when generating text.
 '''
 
+# Convert string flags ('True'/'False') into real booleans.
 if args.do_train == 'True':
     args.do_train = True
 else:
@@ -397,6 +423,8 @@ else:
 # eval_result_path = args.eval_result_path if args.eval_result_path is not None else args.output_dir
 # os.makedirs(eval_result_path, exist_ok=True)
 # pdb.set_trace()
+# Collect parsed CLI values into the ModelArgs container (from data_utils),
+# which also provides .update(), .save() and defaults such as model_type.
 model_args = {
     "dataset": args.dataset,
     "model_name_or_path": args.model_name_or_path,
@@ -452,6 +480,7 @@ if args.local_rank == "0":
     # print(11111)
     # print(11111)
     pass
+# ------------- 4. Setup: output dir, seeds, LoRA, DeepSpeed config -----------
 if not os.path.exists(args.output_dir):
     os.makedirs(args.output_dir, exist_ok=True)
 
@@ -461,6 +490,7 @@ torch.manual_seed(args.seed)
 torch.cuda.manual_seed(args.seed)
 torch.cuda.manual_seed_all(args.seed)
 
+# LoRA adapter config (applied to attention projections listed in args).
 lora_config = LoraConfig(
     task_type="CAUSAL_LM",
     r=args.lora_dim,
@@ -469,6 +499,7 @@ lora_config = LoraConfig(
     target_modules=args.lora_module_name.split(","),
     bias='none',
 )
+# Load the DeepSpeed JSON and override batch size / grad accumulation from CLI.
 with open(args.deepspeed_config, 'r', encoding='utf-8') as f:
     deepspeed_config = json.load(f)
 deepspeed_config["train_batch_size"] = args.batch_size
@@ -476,6 +507,8 @@ deepspeed_config["gradient_accumulation_steps"] = args.gradient_accumulation_ste
 if deepspeed_config["zero_optimization"]["stage"] == 3:
     deepspeed_config["zero_optimization"]['mics_shard_size'] = world_size
 def getOptimizerGroup(model):
+    # Split trainable params into two groups: biases/LayerNorm weights get no
+    # weight decay; everything else uses args.weight_decay.
     no_decay = ["bias", "LayerNorm.weight"]
     optimizer_grouped_parameters = [
         {
@@ -500,6 +533,8 @@ def getOptimizerGroup(model):
     
     return [g for g in optimizer_grouped_parameters if len(g['params']) > 0]
 
+# Batch helpers: move tensors to the GPU. (_get_pred_input_dict is the
+# paired train/prediction variant; the training loop uses _get_input_dict.)
 def _get_pred_input_dict(batch):
     # print(batch["input_ids"].shape,batch["labels"].shape,batch["attention_mask"].shape)
     batch['input_ids'] = batch['input_ids'].unsqueeze(1)
@@ -534,52 +569,26 @@ def _get_input_dict(batch):
         
     }
 
-## prepare model
-if "chatglm" in args.model_name_or_path:
-    config = AutoConfig.from_pretrained(args.model_name_or_path, trust_remote_code=True)
-    tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path, trust_remote_code=True)
-    model = AutoModel.from_pretrained(args.model_name_or_path, trust_remote_code=True).half()
+# ----------------- 5. Model + tokenizer loading (QLoRA) ----------------------
+## prepare model  (Mistral-7B-Instruct: decoder-only, 4-bit QLoRA)
+config = AutoConfig.from_pretrained(args.model_name_or_path, trust_remote_code=True)
+tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path, trust_remote_code=True)
+from transformers import BitsAndBytesConfig
+bnb_config = BitsAndBytesConfig(
+    load_in_4bit=True,
+    bnb_4bit_compute_dtype=torch.float16,
+    bnb_4bit_use_double_quant=True,
+    bnb_4bit_quant_type='nf4'
+)
+model = AutoModelForCausalLM.from_pretrained(
+    args.model_name_or_path,
+    trust_remote_code=True,
+    quantization_config=bnb_config,
+    low_cpu_mem_usage=True,
+    device_map={"": int(args.local_rank)} if int(args.local_rank) != -1 else "auto"
+)
 
-elif "t5" in args.model_name_or_path:
-    config = AutoConfig.from_pretrained(args.model_name_or_path)
-    try:
-        tokenizer = BertTokenizerFast.from_pretrained(args.model_name_or_path)
-    except:
-        tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path)
-    model = T5ForConditionalGeneration.from_pretrained(args.model_name_or_path)
-
-    args.model_type = "encoder-decoder"
-    
-else:
-    if "bloom" in args.model_name_or_path or "falcon" in args.model_name_or_path:
-        ## for bloom, falcon
-        config = AutoConfig.from_pretrained(args.model_name_or_path, trust_remote_code=True)
-        tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path, trust_remote_code=True)
-        model = AutoModelForCausalLM.from_pretrained(args.model_name_or_path, trust_remote_code=True, output_hidden_states=True).half()
-    else:
-        ## for llama, vicuna, belle
-        config = AutoConfig.from_pretrained(args.model_name_or_path, trust_remote_code=True)
-        tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path, trust_remote_code=True)
-        from transformers import BitsAndBytesConfig
-        bnb_config = BitsAndBytesConfig(
-            load_in_4bit=True,
-            bnb_4bit_compute_dtype=torch.float16,
-            bnb_4bit_use_double_quant=True,
-            bnb_4bit_quant_type='nf4'
-        )
-        model = AutoModelForCausalLM.from_pretrained(
-            args.model_name_or_path,
-            trust_remote_code=True,
-            quantization_config=bnb_config,
-            low_cpu_mem_usage=True,
-            device_map={"": int(args.local_rank)} if int(args.local_rank) != -1 else "auto"
-        )
-        # if args.dataset == 'EmoryNLP':
-        #     deepspeed_config["bfloat16"]["enabled"] = True
-        #     deepspeed_config["fp16"]["enabled"] = False
-        # else:
-
-
+# Ensure pad/eos tokens exist; decoder-only models pad on the LEFT for generation.
 if tokenizer.pad_token is None:
     if tokenizer.unk_token:
         tokenizer.pad_token = tokenizer.unk_token
@@ -591,6 +600,7 @@ if tokenizer.eos_token is None:
 if args.model_type == "decoder":
     tokenizer.padding_side = "left"
 
+# Wrap the quantized base model with trainable LoRA adapters.
 if args.lora:
     from peft import prepare_model_for_kbit_training
     model = prepare_model_for_kbit_training(model, use_gradient_checkpointing=args.gradient_checkpointing)
@@ -598,22 +608,22 @@ if args.lora:
     model.print_trainable_parameters()
 
 if args.gradient_checkpointing and not args.lora:
-    if "chatglm" in args.model_name_or_path:
-        model.supports_gradient_checkpointing = True
-        model.transformer.gradient_checkpointing = True
     model.gradient_checkpointing_enable()
     model.enable_input_require_grads()
 
+# Optionally restore full weights from a DeepSpeed ZeRO checkpoint (non-LoRA only).
 if args.checkpoint_dir is not None and not args.lora:
     from deepspeed.utils.zero_to_fp32 import load_state_dict_from_zero_checkpoint
 
     model = load_state_dict_from_zero_checkpoint(model, args.checkpoint_dir)
 
 
+# Log total/trainable parameter counts to output_dir/model_params.json.
 num_parameters = get_parameter_number(model)
 with open(os.path.join(args.output_dir, "model_params.json"), 'w', encoding='utf-8') as f:
     f.write(json.dumps(num_parameters, indent=5))
 
+# ----------------- 6. Datasets and collators ---------------------------------
 ## prepare data
 train_file = os.path.join(args.data_dir, "train.json")
 dev_file = os.path.join(args.data_dir, "test.json")
@@ -632,6 +642,7 @@ if args.do_eval:
     dev_dataset = Seq2SeqDataset(args, df_dev, mode='dev')
     dev_collator = Seq2SeqCollator(args, tokenizer, mode="dev")
 
+# Build stopping criteria from special token ids (currently unused in generate()).
 stop_word_list = ['sep_token_id', 'eos_token_id', 'pad_token_id']
 stop_ids = []
 for stop_word in stop_word_list:
@@ -639,6 +650,7 @@ for stop_word in stop_word_list:
     if id_ is not None:
         stop_ids.append(id_)
 stop_criteria = KeywordsStoppingCriteria(stop_ids)
+# ----------------- 7. DeepSpeed init (train) / inference init (eval) ---------
 ## prepare deepspeed model training
 if args.do_train:
     t_total = math.ceil(len(train_dataset) / args.batch_size) * args.num_train_epochs
@@ -665,6 +677,7 @@ if args.do_train:
     model = model_engine    
     should_save = True
 
+# Eval-only path: optionally load trained weights, then wrap for inference.
 elif args.do_eval:
     if not args.zero_shot:
         model = load_state_dict_from_zero_checkpoint(model, args.output_dir)
@@ -677,6 +690,7 @@ elif args.do_eval:
     )
     model = model_engine.module
 
+# ----------------- 8. Main: training loop / evaluation -----------------------
 if __name__ == "__main__":
     eval_score_list = []
     emotional_label_dict, emotional_label_str = get_labels_attr(dataset=args.dataset)
@@ -687,6 +701,7 @@ if __name__ == "__main__":
         args.beta = torch.tensor(eval(args.beta))
         args.beta.to(device)
     # pdb.set_trace()
+    # ---- Training: per epoch -> train steps -> save LoRA -> evaluate on test set ----
     if args.do_train:
         global_steps = 0
         best_f1_score = 0
@@ -698,6 +713,7 @@ if __name__ == "__main__":
                 disable=False,
                 mininterval=0,
             )
+            # Inner loop: forward, loss, DeepSpeed backward/step, periodic checkpoint.
             for step, batch in enumerate(batch_iterator):
                 if args.emotion_prediction:
                     # pdb.set_trace()
@@ -738,6 +754,7 @@ if __name__ == "__main__":
 
                 # model starts to evaluation
             
+            # End of epoch: save the LoRA adapter (main process only), then evaluate.
             if int(args.local_rank) in (-1, 0):
                 model.module.save_pretrained(os.path.join(args.output_dir, f'lora_epoch_{epoch}'))
             model.eval()
@@ -746,6 +763,7 @@ if __name__ == "__main__":
             eval_dataloader = DataLoader(dev_dataset, batch_size=args.eval_batch_size, sampler=eval_sampler, collate_fn=dev_collator, num_workers=8)
             all_outputs = []
 
+            # Generate predictions for the whole eval set (batched, no grad).
             print("\n*****    Evaluating  *****\n")
             eval_inputs_iter = []
             for eval_step, eval_batch in enumerate(tqdm(eval_dataloader)):
@@ -753,34 +771,24 @@ if __name__ == "__main__":
                 eval_inputs_iter.extend(eval_batch["input_ids"])
                 max_length_this_batch = eval_batch["input_ids"].size(-1) if args.model_type == "decoder" else 0
                 with torch.no_grad():
-                    if "chatglm" in args.model_name_or_path:
-                        outputs = model.generate(
-                            **eval_batch,
-                            num_beams=args.num_beams,
-                            # max_length=max_length_this_batch + args.max_length,
-                            max_length=args.max_length,
-                            do_sample=args.do_sample,
-                            top_p=args.top_p,
-                            top_k=args.top_k,
-                        )
-                    else:
-                        if "token_type_ids" in eval_batch:
-                            token_type_ids = eval_batch.pop("token_type_ids")
-                        outputs = model.generate(
-                            **eval_batch,
-                            num_beams=args.num_beams,
-                            top_k=args.top_k,
-                            top_p=args.top_p,
-                            early_stopping=True,
-                            # max_length=max_length_this_batch + args.max_length,
-                            max_length=args.max_length,
-                            length_penalty=2.0,
-                            repetition_penalty=1.0,
-                            num_return_sequences=1
-                            # stopping_criteria=StoppingCriteriaList([stop_criteria])
-                        )
+                    if "token_type_ids" in eval_batch:
+                        token_type_ids = eval_batch.pop("token_type_ids")
+                    outputs = model.generate(
+                        **eval_batch,
+                        num_beams=args.num_beams,
+                        top_k=args.top_k,
+                        top_p=args.top_p,
+                        early_stopping=True,
+                        # max_length=max_length_this_batch + args.max_length,
+                        max_length=args.max_length,
+                        length_penalty=2.0,
+                        repetition_penalty=1.0,
+                        num_return_sequences=1
+                        # stopping_criteria=StoppingCriteriaList([stop_criteria])
+                    )
                 outputs[outputs[:, :] < 0] = tokenizer.pad_token_id
                 all_outputs.extend(outputs)
+            # Decode token ids to text; strip the echoed prompt to isolate the answer.
             eval_inputs_iter = [tokenizer.decode(e_id, skip_special_tokens=True, clean_up_tokenization_spaces=True) for e_id in eval_inputs_iter]
             # all_outputs
             outs = [tokenizer.decode(o_id, skip_special_tokens=True, clean_up_tokenization_spaces=True) for o_id in all_outputs]
@@ -806,6 +814,8 @@ if __name__ == "__main__":
                     "target": targets[index],
                 }
                 preds_for_eval.append(this_eval_instance)
+            # Score: map each answer to a label (exact match, else nearest by edit
+            # distance), compute metrics, write report, keep best-F1 artifacts.
             if args.statistic_mode == "True":
                 preds = []
                 golds = []
@@ -878,6 +888,7 @@ if __name__ == "__main__":
 
             
 
+    # ---- Eval-only: same generate -> decode -> label-match -> score pipeline ----
     if not args.do_train and args.do_eval:
         # model starts to evaluation
         model.eval()
@@ -894,32 +905,21 @@ if __name__ == "__main__":
             eval_inputs_iter.extend(eval_batch["input_ids"])
             max_length_this_batch = eval_batch["input_ids"].size(-1) if args.model_type == "decoder" else 0
             with torch.no_grad():
-                if "chatglm" in args.model_name_or_path:
-                    outputs = model.generate(
-                        **eval_batch,
-                        num_beams=args.num_beams,
-                        # max_length=max_length_this_batch + args.max_length,
-                        max_length=args.max_length,
-                        do_sample=args.do_sample,
-                        top_p=args.top_p,
-                        top_k=args.top_k,
-                    )
-                else:
-                    if "token_type_ids" in eval_batch:
-                        token_type_ids = eval_batch.pop("token_type_ids")
-                    outputs = model.generate(
-                        **eval_batch,
-                        num_beams=args.num_beams,
-                        top_k=args.top_k,
-                        top_p=args.top_p,
-                        early_stopping=True,
-                        # max_length=max_length_this_batch + args.max_length,
-                        max_length=args.max_length,
-                        length_penalty=2.0,
-                        repetition_penalty=1.0,
-                        num_return_sequences=1
-                        # stopping_criteria=StoppingCriteriaList([stop_criteria])
-                    )
+                if "token_type_ids" in eval_batch:
+                    token_type_ids = eval_batch.pop("token_type_ids")
+                outputs = model.generate(
+                    **eval_batch,
+                    num_beams=args.num_beams,
+                    top_k=args.top_k,
+                    top_p=args.top_p,
+                    early_stopping=True,
+                    # max_length=max_length_this_batch + args.max_length,
+                    max_length=args.max_length,
+                    length_penalty=2.0,
+                    repetition_penalty=1.0,
+                    num_return_sequences=1
+                    # stopping_criteria=StoppingCriteriaList([stop_criteria])
+                )
             outputs[outputs[:, :] < 0] = tokenizer.pad_token_id
             all_outputs.extend(outputs)
         eval_inputs_iter = [tokenizer.decode(e_id, skip_special_tokens=True, clean_up_tokenization_spaces=True) for e_id in eval_inputs_iter]
@@ -976,5 +976,6 @@ if __name__ == "__main__":
             f.write(f'\nThe num of confuse_case is : {len(confuse_case)} \n')
             f.write(json.dumps(preds_for_eval, indent=5, ensure_ascii=False))
 
+    # Print collected eval scores (eval-only mode).
     for i in eval_score_list:
         print(i)

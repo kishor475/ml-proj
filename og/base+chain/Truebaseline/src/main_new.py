@@ -936,17 +936,7 @@ if __name__ == "__main__":
         # bad_case = []
         confuse_case = []
         for index, answer in enumerate(all_answers):
-            target_str = targets[index]
-            if "Current Emotion: " in target_str:
-                target_emo = target_str.split("Current Emotion: ")[-1].strip()
-            else:
-                target_emo = target_str.strip()
-                
-            golds += [emotional_label_dict[target_emo]]
-            
-            if "Current Emotion: " in answer:
-                answer = answer.split("Current Emotion: ")[-1].strip()
-                
+            golds += [emotional_label_dict[targets[index]]]
             match_res = match_text(answer, list(emotional_label_dict.keys()))
             if match_res:
                 preds += [emotional_label_dict[match_res[0]]]

@@ -159,6 +159,7 @@ parser.add_argument("--output_dir", type=str, required=True, help="Output direct
 parser.add_argument("--mode", type=str, default="sft")
 parser.add_argument("--deepspeed_config", type=str, default="./data_utils/deepspeed_config.json")
 parser.add_argument("--num_train_epochs", default=3, type=int)
+parser.add_argument("--epoch_offset", default=0, type=int, help="resume: number of epochs already done (only changes file names / logs)")
 parser.add_argument("--gradient_accumulation_steps", default=8, type=int)
 parser.add_argument("--warmup_ratio", default=0.1, type=float)
 parser.add_argument('--local_rank', default=-1)
@@ -217,6 +218,7 @@ model_args = {
     "gradient_accumulation_steps": args.gradient_accumulation_steps,
     "learning_rate": args.learning_rate,
     "num_train_epochs": args.num_train_epochs,
+    "epoch_offset": args.epoch_offset,
     "save_steps": args.save_steps,
     "output_dir": args.output_dir,
     "max_length": args.max_length,
@@ -375,11 +377,17 @@ if __name__ == "__main__":
     if args.do_train:
         global_steps = 0
         best_f1_score = 0
+        if args.epoch_offset:  # resuming: keep the best F1 of the epochs finished before the interruption
+            _prev = [float(m.group(1)) for f in os.listdir(args.output_dir)
+                     for m in [re.fullmatch(r"preds_for_eval_\d+_([\d.]+)\.text", f)] if m]
+            best_f1_score = max(_prev, default=0)
+            print(f"Resuming after {args.epoch_offset} finished epochs; best F1 so far {best_f1_score}%")
         for epoch in range(args.num_train_epochs):
+            ep = epoch + args.epoch_offset  # epoch number used in logs and file names
             model.train()
             batch_iterator = tqdm(
                 train_dataloader,
-                desc=f"Running epoch {epoch} / {args.num_train_epochs}",
+                desc=f"Running epoch {ep} / {args.num_train_epochs + args.epoch_offset}",
                 disable=False
             )
             for step, batch in enumerate(batch_iterator):
@@ -392,14 +400,14 @@ if __name__ == "__main__":
                 model.step()
 
                 batch_iterator.set_description(
-                    f"Epoch {epoch}/{args.num_train_epochs} | Loss: {loss.item():.4f}"
+                    f"Epoch {ep}/{args.num_train_epochs + args.epoch_offset} | Loss: {loss.item():.4f}"
                 )
 
                 if step % args.gradient_accumulation_steps == 0:
                     global_steps += 1
 
             if int(args.local_rank) in (-1, 0):
-                adapter_save_dir = os.path.join(args.output_dir, f'lora_epoch_{epoch}')
+                adapter_save_dir = os.path.join(args.output_dir, f'lora_epoch_{ep}')
                 (model.module if hasattr(model, 'module') else model).save_pretrained(adapter_save_dir)
                 print(f"Saved LoRA checkpoint to {adapter_save_dir}")
 
@@ -411,7 +419,7 @@ if __name__ == "__main__":
                 all_outputs = []
                 eval_inputs_iter = []
 
-                print(f"\n***** Evaluating Epoch {epoch} *****\n")
+                print(f"\n***** Evaluating Epoch {ep} *****\n")
                 for eval_batch in tqdm(eval_dataloader):
                     eval_batch = eval_batch.to(device)
                     eval_inputs_iter.extend(eval_batch["input_ids"])
@@ -461,9 +469,9 @@ if __name__ == "__main__":
                     preds.append(pred_label_num)
 
                 score, res_matrix = report_score(dataset=args.dataset, golds=golds, preds=preds)
-                print(f"Epoch {epoch} Test Weighted-F1: {score['F1_SA']}% | Accuracy: {score['Acc_SA']}%")
+                print(f"Epoch {ep} Test Weighted-F1: {score['F1_SA']}% | Accuracy: {score['Acc_SA']}%")
 
-                preds_path = os.path.join(args.output_dir, f"preds_for_eval_{epoch}_{score['F1_SA']}.text")
+                preds_path = os.path.join(args.output_dir, f"preds_for_eval_{ep}_{score['F1_SA']}.text")
                 with open(preds_path, 'w', encoding='utf-8') as f:
                     f.write(json.dumps(score) + f"\nTime: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n{res_matrix}\n\n")
                     f.write(json.dumps(preds_for_eval, indent=2, ensure_ascii=False))

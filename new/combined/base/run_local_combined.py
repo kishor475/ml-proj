@@ -55,6 +55,8 @@ def main():
     parser.add_argument("--checkpoint_dir", type=str, default=None,
                         help="Path to saved LoRA adapter checkpoint")
     parser.add_argument("--epoch_offset", type=int, default=0, help="resume: epochs already finished (naming only)")
+    parser.add_argument("--max_new_tokens", type=int, default=16,
+                        help="generation budget at eval; raise it for chain-of-emotion outputs (default 16 = single label)")
     parser.add_argument("--no_eval", action="store_true",
                         help="Skip per-epoch eval (use for the auxiliary stage; adapter saved in final_checkpoint)")
     parser.add_argument("--eval_only", action="store_true",
@@ -147,6 +149,7 @@ def main():
         "--do_train", do_train_val,
         "--do_eval", do_eval_val,
         "--epoch_offset", str(args.epoch_offset),
+        "--max_new_tokens", str(args.max_new_tokens),
         "--gradient_checkpointing"
     ]
 

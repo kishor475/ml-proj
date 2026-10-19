@@ -95,10 +95,22 @@ def main():
         print(f"{'change relative to the full design':42s} {'arm':20s} {'wF1':>6s}  {'delta [95% CI]':24s} reading")
         for k in sorted((k for k in P if k != ref), key=lambda k: -base_f[k]):
             d = diff(k, ref)
-            read = ("CHANGE HURTS -> component helps" if d[2] < 0 else "change helps -> component not needed" if d[1] > 0
-                    else "no measurable difference")
+            lab = label.get(k, k)
+            sig_down, sig_up = d[2] < 0, d[1] > 0
+            if lab.startswith("-"):            # a component was removed
+                read = ("removing it HURTS -> component is justified" if sig_down else
+                        "removing it HELPS -> component not needed" if sig_up else "no measurable difference")
+            elif lab.startswith("+"):          # a component was added on top of the full design
+                read = ("adding it HURTS -> leave it out" if sig_down else
+                        "adding it HELPS -> consider adding" if sig_up else "no measurable difference")
+            elif "control" in lab or lab.startswith(("no clue", "impression, shuffled")):
+                read = ("control is WORSE than the full design" if sig_down else
+                        "control is BETTER than the full design" if sig_up else "indistinguishable from the full design")
+            else:                              # an alternative setting replaced a component
+                read = ("alternative is WORSE -> keep the full design's setting" if sig_down else
+                        "alternative is BETTER -> switch" if sig_up else "no measurable difference")
             print(f"{label.get(k, k):42s} {k:20s} {base_f[k]:6.2f}  {d[0]:+5.2f} [{d[1]:+5.2f},{d[2]:+5.2f}]   {read}")
-        print("(a component is justified only where removing it hurts with the 95% interval below zero; "
+        print("(a component is justified only where removing it HURTS with the 95% interval below zero; "
               "'no measurable difference' means the data cannot tell it from the full design)\n")
 
     # verdict: a threshold config is adopted only if it beats BOTH controls with the 95% interval above zero

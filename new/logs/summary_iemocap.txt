@@ -1,0 +1,35 @@
+iemocap: 1021 held-out dev rows
+arm                                                  wF1    acc | vs nocue: diff [95% CI] P(<=0) | vs shuffled: diff [95% CI] P(<=0)
+desc-nop                                             60.86  63.9 | +0.62 [-1.10,+2.26] 0.223 | +1.11 [-0.63,+2.81] 0.108 |
+nocue                                                60.24  63.1 |        -                              | +0.49 [-1.00,+1.95] 0.263 |
+desc-3c                                              60.07  63.9 | -0.19 [-1.97,+1.57] 0.584 | +0.30 [-1.66,+2.08] 0.375 |
+3c-p25-75-global-8feat                               59.98  63.0 | -0.30 [-2.10,+1.39] 0.602 | +0.19 [-1.60,+2.04] 0.402 |
+shuffled                                             59.74  62.8 | -0.49 [-1.95,+1.00] 0.737 |        -                              |
+desc-nov                                             59.58  62.7 | -0.65 [-2.18,+1.03] 0.798 | -0.17 [-1.65,+1.43] 0.594 |
+desc                                                 59.31  63.1 | -0.93 [-2.88,+0.83] 0.828 | -0.45 [-2.35,+1.48] 0.671 |
+both                                                 59.04  62.5 | -1.24 [-3.43,+0.82] 0.869 | -0.75 [-2.86,+1.10] 0.770 |
+desc-nor                                             58.93  62.5 | -1.35 [-3.31,+0.64] 0.906 | -0.86 [-2.70,+0.98] 0.803 |
+desc-spk                                             58.24  62.8 | -2.04 [-4.24,-0.07] 0.979 | -1.55 [-3.72,+0.42] 0.928 |
+5c-p10-30-70-90-speaker-pct-8feat                    58.02  61.8 | -2.20 [-4.24,-0.16] 0.980 | -1.72 [-3.63,+0.27] 0.952 |
+default                                              57.62  61.7 | -2.59 [-4.76,-0.41] 0.996 | -2.10 [-4.39,-0.03] 0.977 |
+shuffled-desc                                        56.25  60.2 | -4.02 [-5.64,-2.40] 1.000 | -3.53 [-5.25,-1.83] 1.000 |
+COMPONENT ABLATION   full design = 'desc' (wF1 59.31)   delta = arm - full, paired bootstrap
+change relative to the full design         arm                     wF1  delta [95% CI]           reading
+- pitch features (and tags)                desc-nop              60.86  +1.56 [+0.07,+3.05]   change helps -> component not needed
+no clue at all                             nocue                 60.24  +0.93 [-0.83,+2.88]   no measurable difference
+5-class -> 3-class cutoffs                 desc-3c               60.07  +0.75 [-0.66,+2.15]   no measurable difference
+3c-p25-75-global-8feat                     3c-p25-75-global-8feat  59.98  +0.64 [-0.92,+2.15]   no measurable difference
+impression, shuffled onto random turns     shuffled              59.74  +0.45 [-1.48,+2.35]   no measurable difference
+- volume features                          desc-nov              59.58  +0.28 [-1.46,+1.91]   no measurable difference
++ impression sentence                      both                  59.04  -0.30 [-1.84,+1.18]   no measurable difference
+- speech-rate feature                      desc-nor              58.93  -0.42 [-1.76,+0.84]   no measurable difference
+global -> per-speaker cutoffs              desc-spk              58.24  -1.11 [-2.51,+0.36]   no measurable difference
+5c-p10-30-70-90-speaker-pct-8feat          5c-p10-30-70-90-speaker-pct-8feat  58.02  -1.27 [-2.80,+0.28]   no measurable difference
+impression form instead of description     default               57.62  -1.65 [-3.25,-0.08]   CHANGE HURTS -> component helps
+description, shuffled (control)            shuffled-desc         56.25  -3.08 [-4.96,-1.19]   CHANGE HURTS -> component helps
+(a component is justified only where removing it hurts with the 95% interval below zero; 'no measurable difference' means the data cannot tell it from the full design)
+
+
+FORM 'desc': vs nocue -0.93 [-2.88,+0.83], vs shuffled_desc +3.08 [+1.19,+4.96] -> not supported (does not beat both controls)
+
+VERDICT: no threshold config beats both controls with a 95% interval above zero -> keep the default recipe (run_acoustic.py without --config). Differences between configs are within noise.

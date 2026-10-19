@@ -40,14 +40,15 @@ def latest_epoch(out_dir):
     return max(ks) if ks else None
 
 
-def train_stage(name, data_sub, dataset, epochs, percent, port, start_ckpt=None, extra=()):
+def train_stage(name, data_sub, dataset, epochs, percent, port, start_ckpt=None, extra=(), lr=None):
     """Run one training stage; skip it if finished, continue from the latest epoch adapter if interrupted."""
     out = os.path.join(OUT, name, data_sub)
-    if os.path.exists(os.path.join(out, "final_checkpoint")):
+    k = latest_epoch(out)
+    # finished stage: skip, unless MORE epochs were requested than were trained -> extend it from its last epoch adapter
+    if os.path.exists(os.path.join(out, "final_checkpoint")) and (k is None or k + 1 >= epochs):
         print(f"[skip] {name}: final_checkpoint exists", flush=True)
         return
     ckpt, offset = start_ckpt, 0
-    k = latest_epoch(out)
     if k is not None:
         offset = k + 1
         ckpt = os.path.join(out, f"lora_epoch_{k}")
@@ -60,6 +61,8 @@ def train_stage(name, data_sub, dataset, epochs, percent, port, start_ckpt=None,
            "--port", str(port)] + MP + list(extra)
     if ckpt:
         cmd += ["--checkpoint_dir", ckpt]
+    if lr:
+        cmd += ["--lr", str(lr)]
     run(cmd)
 
 
@@ -73,6 +76,7 @@ def main():
     ap.add_argument("--aux_percent", type=float, default=1.0)
     ap.add_argument("--erc_epochs", type=int, default=5)
     ap.add_argument("--erc_percent", type=float, default=1.0)
+    ap.add_argument("--erc_lr", default=None, help="learning rate for stage 2 (default 2e-4); use ~1e-4 when extending a finished run")
     ap.add_argument("--eval_percent", type=float, default=1.0, help="share of test set scored in stage 2")
     ap.add_argument("--skip_steer", action="store_true", help="aux stage without STEeR rows")
     ap.add_argument("--model_path", default=None, help="local Mistral-7B-Instruct-v0.3 folder (default: /home/user2/Mistral-7B-Instruct-v0.3)")
@@ -103,7 +107,7 @@ def main():
                 args.aux_percent, 29511, extra=["--no_eval"])
     # stage 2 starts from the stage-1 adapter; if interrupted it continues from its own latest epoch
     train_stage(f"Stage2_erc_{args.dataset}{args.tag}", f"{base}_erc", args.dataset, args.erc_epochs,
-                args.erc_percent, 29512, start_ckpt=s1, extra=["--eval_percent", str(args.eval_percent)])
+                args.erc_percent, 29512, start_ckpt=s1, extra=["--eval_percent", str(args.eval_percent)], lr=args.erc_lr)
 
 
 if __name__ == "__main__":

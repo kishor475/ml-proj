@@ -96,6 +96,14 @@ def report_score(dataset, golds, preds, mode='test'):
     )
     return res, res_matrix     
     
+def current_emotion_text(text):
+    """Text that holds the answer. With a 'Current Emotion:' marker only the FIRST LINE after the last marker counts (so label-first
+    answers 'Current Emotion: X\\nEmotion Flow: ...' are scored on X); without a marker the whole text, as before."""
+    if "Current Emotion:" in text:
+        return text.split("Current Emotion:")[-1].strip().split("\n")[0].strip()
+    return text.strip()
+
+
 def match_text(text, word_set_):
     if text is None:
         return []
@@ -455,15 +463,15 @@ if __name__ == "__main__":
                 golds = []
                 confuse_case = []
                 for index, answer in enumerate(all_answers):
-                    raw_gold = targets[index].split("Current Emotion:")[-1].strip().strip('<>')
+                    raw_gold = current_emotion_text(targets[index]).strip('<>')
                     gold_label_num = emotional_label_dict.get(raw_gold, emotional_label_dict.get(raw_gold.lower(), 0))
                     golds.append(gold_label_num)
 
-                    match_res = match_text(answer.split("Current Emotion:")[-1].strip(), base_labels)
+                    match_res = match_text(current_emotion_text(answer), base_labels)
                     if match_res:
                         pred_label_num = emotional_label_dict.get(match_res[0], emotional_label_dict.get(match_res[0].lower(), 0))
                     else:
-                        nearest = optimize_output(answer.split("Current Emotion:")[-1].strip(), base_labels)
+                        nearest = optimize_output(current_emotion_text(answer), base_labels)
                         pred_label_num = emotional_label_dict.get(nearest, emotional_label_dict.get(nearest.lower(), 0))
                         confuse_case.append(index)
                     preds.append(pred_label_num)

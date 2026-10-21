@@ -1,3 +1,7 @@
+> **Status: implemented and tested, deliberately NOT run at full length.** The acoustic ablation (`../acoustic_ablation`, all three datasets,
+> controls + component ablation) found no benefit over the no-clue base, so the final system does not use acoustic clues. This folder is kept as a
+> working implementation (including SpeechCueLLM's description / audio_context forms) for anyone who wants to try it at full training length.
+
 # base+acoustic — CoE ERC with acoustic clues
 
 Adds a `### Acoustic Clues:` sentence (SpeechCueLLM-style impression, e.g. "The target speaker likely uses a lower pitch ...")

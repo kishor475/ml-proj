@@ -1,0 +1,305 @@
+name,turns,dialogues,is_main_cast,in_current_kb,appears_with_main,example_line
+Joey,2070,538,1,Joey Tribbiani,Chandler(236); Ross(186); Rachel(180),But then who? The waitress I went out with last month?
+Ross,2048,524,1,Ross Geller,Rachel(229); Joey(186); Chandler(172),Hi!
+Rachel,1955,543,1,Rachel Green,Ross(229); Monica(208); Phoebe(194),You know? Forget it!
+Phoebe,1797,486,1,Phoebe Buffay,Monica(221); Rachel(194); Joey(180),"Oh my God, oh my God! Poor Monica!"
+Monica,1782,522,1,Monica Geller,Chandler(248); Phoebe(221); Rachel(208),Hey-hey-hey. You wanna hear something that sucks.
+Chandler,1763,507,1,Chandler Bing,Monica(248); Joey(236); Ross(172),also I was the point person on my company’s transition from the KL-5 to GR-6 system.
+Janice,89,32,0,Janice Litman Goralnik,Chandler(18); Rachel(10); Monica(10),"No, no, I'm still working on mine."
+Carol,60,20,0,Carol Willick,Ross(17); Joey(5); Rachel(4),Is it a good sign that they asked us to hang around after the audition?
+Tag,60,17,0,Tag Jones,Rachel(14); Ross(3); Joey(2),"Hey Joey, you wanted to talk to me?"
+Emily,59,13,0,Emily Waltham,Ross(13); Joey(4); Chandler(1),I think you’ve got concussion.
+All,51,45,0,,Chandler(34); Ross(33); Monica(32),A test?!!
+Mona,46,12,0,Mona,Ross(12); Joey(3); Rachel(1),I love your place! Where is this guy from?
+Doug,44,6,0,,Chandler(5); Monica(2),"So, in conclusion, the lines all go up , so I’m happy."
+Joanna,38,6,0,,Rachel(5),"Oh, I must’ve said that after you left."
+Pete,37,7,0,Pete Becker,Monica(6); Chandler(2); Phoebe(2),"Yeah, a slice of cheesecake and-and a date if you’re given’ ‘em out."
+Frank,37,9,0,Frank Buffay Jr.,Phoebe(9); Chandler(2); Joey(2),"Well, I don’t think this, y'know."
+Mark,35,12,0,,Rachel(9); Ross(3); Joey(2),"Hi. Well, look, I was just gonna leave a message, isn’t tonight your, your big anniversary"
+Susan,35,11,0,Susan Bunch,Ross(11); Phoebe(4); Rachel(2),Your son.
+Richard,31,8,0,Richard Burke,Monica(5); Joey(3); Phoebe(1),Hi!
+Paul,29,9,0,,Rachel(6); Ross(4); Monica(1),I usually prefer Elizabeth’s boyfriends to address me as Mr. Stevens.
+Woman,29,11,0,,Joey(5); Ross(5); Chandler(3),Hi Joey.
+Gunther,29,16,0,Gunther,Chandler(9); Joey(8); Rachel(7),You’re paying for that.
+Danny,28,6,0,,Rachel(6); Monica(3); Joey(2),I had a really nice time tonight.
+Mr. Treeger,27,6,0,Mr. Treeger,Joey(5); Rachel(2); Phoebe(2),": I know, we did it!! Hey, that was incredible, huh?!"
+Mr. Geller,26,9,0,Jack Geller,Ross(7); Monica(6); Chandler(3),Wanna peek?
+Phoebe Sr,26,4,0,,Phoebe(4),"Well, yes, it’s kind’ve an unusual house."
+Mrs. Geller,25,12,0,Judy Geller,Monica(8); Ross(7); Rachel(5),"So Chandler, your parents must’ve been thrilled when you told them you were engaged."
+Elizabeth,24,8,0,,Ross(7),"This is my father, Paul Stevens. Dad, this is Ross Geller."
+Julie,24,11,0,,Rachel(6); Ross(4); Chandler(2),Hello Skidmark.
+Director,21,5,0,,Joey(5); Ross(2); Monica(2),"...Dammit, hire the girl!  Okay, everybody ready?"
+Eric,21,5,0,,Phoebe(4); Chandler(1),"Oh no, stay here we’ll keep doing this. I’ll pay you."
+Mike,21,7,0,Mike Hannigan,Chandler(4); Monica(3); Phoebe(3),"Ok, so it's a tie again, 41 to 41."
+Man,19,9,0,,Joey(3); Rachel(3); Ross(2),It's Jake.
+Guy,19,7,0,,Phoebe(3); Joey(2); Monica(2),"Oh, it’s you. I see you everywhere. I’m Jim, Jim Nelson."
+Dr. Green,18,4,0,Dr. Green,Ross(3); Phoebe(1); Rachel(1),You think you can knock up my daughter and then not marry her?! I’m gonna kill you!!
+David,18,5,0,David,Phoebe(4); Chandler(2); Monica(2),"Well, I was probably going to do it at some point."
+Gary,18,6,0,,Chandler(4); Phoebe(2); Ross(2),I really like waking up with you.
+Chip,18,5,0,,Monica(5); Rachel(2); Ross(1),"Hey Monica, it’s Chip."
+Earl,17,5,0,,Phoebe(3); Joey(1),Well…I only have one thing to do today.  I guess I could push it back.
+Barry,17,5,0,Barry Farber,Rachel(5); Ross(1),C'mon in.
+Lydia,17,3,0,,Joey(2),Knick fan?
+Kate,16,6,0,,Joey(5),Happy?! Is that what I’m supposed to be Vic? Happy?
+Nurse,15,7,0,,Joey(5); Rachel(5); Ross(2),"It's just her water breaking. Calm down, will you?"
+Dina,15,2,0,,Joey(2); Rachel(1),"Joey, I am scared to death about this."
+Jill,15,6,0,Jill Green,Chandler(4); Ross(3); Rachel(3),"Hi Mom, it's Jill."
+Chloe,15,5,0,,Ross(4); Rachel(2); Chandler(1),Hi guys. I haven’t seen you since this morning.
+Dana,15,3,0,,Chandler(3),Y’know who I ran into from school? Howie.
+Charlie,14,4,0,Charlie Wheeler,Ross(4),"Ross, can I talk to you for a minute?"
+Bonnie,14,3,0,,Rachel(3); Phoebe(1); Ross(1),Hi!
+Leslie,14,4,0,,Phoebe(4); Joey(1),"Wow, that’s great."
+Janine,14,4,0,,Joey(3); Ross(2); Chandler(1),...and live forever as a machine!
+The Casting Director,13,3,0,,Joey(3); Ross(1),"Okay uh, we have narrowed it down to Raymond, Ben, Kyle, and Joey. The rest of you, thank "
+Mr. Tribbiani,13,3,0,Mr. Tribbiani,Joey(3); Monica(1); Phoebe(1),"Gotta go. I miss you too, I love you, but it's getting real late now"
+Dr. Long,13,3,0,,Rachel(3); Ross(2),Do we have a name yet?
+Joshua,13,6,0,Joshua Burgin,Rachel(6); Monica(1); Phoebe(1),I gotta go.
+Kim,13,3,0,,Rachel(3),We get high.
+Cassie,13,4,0,,Ross(2); Chandler(1); Monica(1),I thought I heard voices. You must be Chandler.
+Kristen,13,2,0,,Ross(1); Joey(1),"Umm, this is great wine."
+Tour Guide,13,3,0,,Joey(3); Ross(2),You mean Dr. Geller?
+Steve,13,3,0,,Ross(3); Phoebe(2); Chandler(1),"Good, good, I'm a lawyer now."
+Cliff,12,4,0,,Phoebe(2); Joey(2),"I’d have to say…the talking gorilla, because at least I can explain to him that you’re mak"
+Julio,12,2,0,,Monica(2),What?
+Katie,12,3,0,,Joey(2); Rachel(2); Ross(1),"Ohh, Joey has the nicest friends!"
+Ben,12,5,0,Ben Geller,Rachel(4); Ross(3); Chandler(1),Yay!
+Russell,12,2,0,,Ross(1); Rachel(1),You got married again.
+Bob,11,6,0,,Chandler(3); Joey(2); Monica(1),Hey! How’s my pal Toby doing today?
+Policeman,11,2,0,,Ross(2); Rachel(2),"You’re an Aquarius, huh?"
+Duncan,11,3,0,,Phoebe(3),Phoebe!
+Issac,11,2,0,,Chandler(1); Joey(1); Ross(1),Can I help you?
+Kathy,11,4,0,Kathy,Chandler(3); Joey(1); Monica(1),"Hey, Chandler! What are you doing here?"
+Stanley,11,1,0,,Joey(1),"Umm, slight change of plans. We've shut down."
+The Interviewer,10,3,0,,Joey(2); Chandler(1); Ross(1),You must’ve had your hands full.
+The Director,10,7,0,,Joey(6); Phoebe(1),"Tasty! I’m really starting to feel like you guys have a history, it’s-it’s nice."
+Mischa,10,2,0,,Phoebe(2); Monica(1),"Well, you just asked if I wanted to go to bed with you tonight."
+Robert,10,3,0,,Chandler(3); Phoebe(3); Ross(2),Hey!
+Flight Attendant,10,3,0,,Rachel(3); Ross(2),May I see your boarding pass?
+Roger,10,2,0,,Phoebe(2),"What's wrong, sweetie?"
+Receptionist,10,4,0,,Joey(3); Chandler(1); Ross(1),"Oh, that's attractive."
+Ursula,10,4,0,Ursula Buffay,Phoebe(4),Who is it?
+The Cooking Teacher,10,2,0,,Joey(2); Monica(2),"Welcome to introduction to cooking. Now, before we start, can anyone tell me the differenc"
+Krista,9,3,0,,Rachel(3); Chandler(1); Joey(1),"Nice to meet you. I wish you'd told me we were having company, I'd fix myself up!"
+Mr. Heckles,9,3,0,Mr. Heckles,Phoebe(3); Ross(2); Monica(2),You’re disturbing my oboe practice.
+Isabella,9,2,0,,Ross(2); Monica(1); Rachel(1),"Um, coffee to go, please."
+Dr. Baldhara,9,1,0,,Chandler(1); Ross(1); Joey(1),"Well, it's technically not a zoo per se, it's more of an interactive wildlife experience."
+Student,9,4,0,,Joey(3); Ross(1),"Yeah, it’s the new building on Avenue A."
+Joey/Drake,9,2,0,,Joey(1); Rachel(1),I can't believe you married him.
+Estelle,9,3,0,Estelle Leonard,Joey(3); Chandler(1); Phoebe(1),"All right, first thing we gotta do, damage control."
+Mrs. Bing,9,2,0,,Ross(2); Monica(1); Chandler(1),"As I recall when we got married, I saw the groom in the wedding dress."
+Hypnosis Tape,9,1,0,,,You are falling fast asleep.
+Mr. Franklin,8,2,0,,Chandler(2),Oh then you know each other.
+Megan,8,1,0,,Rachel(1); Monica(1); Phoebe(1),"Oh I’m not, I just like to try these on."
+Shelley,8,1,0,,Chandler(1),"Question. You're not dating anybody, are you, because I met somebody who would be perfect "
+Cecilia,8,2,0,,Joey(2),Y’know what? It doesn’t matter! Because it is not true!
+Larry,8,2,0,,Phoebe(2); Monica(1),"Hey, ready for dinner?"
+The Stripper,8,1,0,,Chandler(1); Joey(1); Ross(1),Did anybody call for security?
+Tommy,8,1,0,,Chandler(1); Ross(1); Monica(1),Ice coffee? Tell me it’s ice coffee!
+Mr. Kaplan,8,2,0,,Rachel(2),"How’s that coffee comin,’ dear?"
+Jade,7,2,0,,Chandler(2); Ross(2),"Oh, you know, the usual, teaching aerobics, partying way too much."
+Jim,7,2,0,,Phoebe(2),"We have. Maybe we’ll be seeing each other at dinner tomorrow night, say around 8 o’clock?"
+Kyle,7,2,0,,Ross(2); Phoebe(2); Chandler(1),Me too! I’m sorry that guy in the subway licked your neck.
+The Potential Roommate,7,2,0,,Joey(2); Chandler(1),"Oh don’t worry, I’m not really a party girl."
+The Instructor,7,2,0,,Ross(2),Why?
+Terry,7,1,0,,Phoebe(1); Rachel(1),"Uh, Rachel, sweetheart, could I see ya for a minute?"
+The Teacher,7,1,0,,Phoebe(1); Rachel(1),"How would you characterize the theme of this book, uh let's see here , Rachel Green?"
+Nancy,6,3,0,,Rachel(3),I thought you didn't smoke.
+Sarah,6,3,0,,Ross(3); Chandler(2),"Well, I kinda wanted to sell the cookies. The girl who sells the most wins a trip to Space"
+Joey's Hand Twin,6,2,0,,Joey(2); Ross(1),Excuse me?
+Fireman No. 3,6,2,0,,Rachel(2); Monica(2); Phoebe(1),"We get off around midnight, why don't we pick you up then?"
+Young Ethan,6,1,0,,Monica(1),I just had sex.
+Mindy,6,2,0,,Rachel(2); Joey(1),Yeah... I'm pretty sure I'm still gonna marry him.
+Stage Director,6,2,0,,Joey(2); Phoebe(1),Back on in 30 seconds people!
+Mrs. Green,6,3,0,,Monica(2); Phoebe(2); Ross(2),Try. There’s my little girl.
+Evil Bitch,6,1,0,,Ross(1); Rachel(1),Are you looking at her?!
+Dr. Zane,6,2,0,,Phoebe(2),It looks like your uterus is ready for implantation.
+Alice,6,2,0,,Phoebe(2); Chandler(1),"Sweety, now, she’s a woman, not a gumball machine."
+The Smoking Woman,6,1,0,,Phoebe(1),"Yeah I can, it worked real well."
+The Dry Cleaner,5,3,0,,Joey(3); Phoebe(3),"Well, then it’s not on the wall yet."
+Dr. Rhodes,5,3,0,,Ross(2),"Take your shirt off, and let's see what we're dealing with here.  What are you doing?"
+Phoebe Sr.,5,2,0,,Phoebe(2); Chandler(1); Joey(1),"I knew it, wow!!"
+Mr. Burgin,5,2,0,,Rachel(1),"So, have you kids eaten yet?"
+Carl,5,3,0,,Joey(2); Ross(1); Rachel(1),"I'm just sayin', if I see one more picture of Ed Begley, Jr. in that"
+Lorraine,5,2,0,,Chandler(2); Joey(2),"Hi, Joey. Well well, look what you brought. Very nice."
+The Fireman,5,1,0,,Phoebe(1),We found your fire alarm in the trash chute.
+Kristin,5,2,0,,Ross(2),That's funny. Who are they?
+Teacher,5,1,0,,Rachel(1); Joey(1); Monica(1),May I help you?
+The Security Guard,5,1,0,,Phoebe(1),Is that true miss?
+Girl,5,2,0,,Ross(1); Phoebe(1),I’m not gonna tell you! You’re the bad man who broke Sarah’s leg.
+Rick,5,1,0,,Phoebe(1),"Wow, you have really pretty feet."
+Fake Monica,5,1,0,,Monica(1),Hey.
+The Museum Official,5,2,0,,Chandler(2); Monica(1),"Hi, this is Heldi from the Morgan Chase museum."
+Melissa,5,1,0,,Rachel(1),"anyway, his name is Allan and we’ve been going out for three years."
+Max,5,1,0,,Phoebe(1),No. Have you seen David?
+Brenda,5,1,0,,Chandler(1),What are you doing?
+Doctor Connelly,5,1,0,,Chandler(1); Monica(1),Hi there.
+Wayne,4,2,0,,Joey(2); Chandler(1),Don’t touch him!
+Bobby,4,2,0,,Rachel(2); Joey(1),"You bet I am!  And to answer your earlier question, we’re straight-up gangster rap."
+Ticket Counter Attendant,4,2,0,,Chandler(2),One ticket to Yemen?
+Jester,4,1,0,,Joey(1); Monica(1),"Uh, may I help you?"
+Dr. Miller,4,1,0,,Monica(1); Rachel(1),"Almost! But first, we gotta start."
+Angela,4,2,0,,Monica(2); Joey(1),"Yeah, isn't he?"
+The Head Librarian,4,3,0,,Ross(2),How can I help you?
+Dr. Drake Remoray,4,1,0,,Rachel(1),Not so fast Wesley!
+Stranger,4,1,0,,Rachel(1),Hi.
+Mr. Waltham,4,2,0,,Ross(1); Rachel(1),"All right, I’ll tell her.  Come on bugger face!"
+Paula,4,1,0,,Monica(1),Listen.
+Ronni,4,1,0,,Chandler(1); Joey(1),"Now, y'see, most people, when their pets pass on, they want 'em sorta laid out like they'r"
+Trudie Styler,4,1,0,,Phoebe(1); Rachel(1),Hi!
+Woman On Train,4,1,0,,Ross(1),"I made a bet with myself that you have beautiful eyes. Now that I see them, I win."
+Allesandro,4,1,0,,Monica(1),"Well, you said that we except the"
+Whitney,4,1,0,,Ross(1); Phoebe(1),"Well, I went over to Kyle’s last night to pick up a few things and we got to reminiscing"
+Kori,4,1,0,,Chandler(1); Ross(1),I can't believe that Ross is gone. It is just so sad.
+Jen,4,1,0,,Ross(1),Sure! That would be nice.
+Lauren,4,1,0,,Joey(1),Where are you Vic?
+Judge,4,1,0,,Ross(1); Rachel(1),Okay you two are asking the court for an annulment?
+Molly,4,1,0,,Ross(1); Joey(1),So where did you study?
+Drew,4,1,0,,Chandler(1),I didn’t think you were gay. I do now.
+Customer,3,2,0,,Chandler(1); Phoebe(1); Ross(1),I don’t know.  Let me see the ring.
+Tony,3,1,0,,Chandler(1); Joey(1),"Wow! That’s ah, that’s pretty nice!"
+Sophie,3,3,0,,Rachel(3); Ross(1),Isn’t this great?!
+Singer,3,1,0,,Chandler(1); Monica(1); Ross(1),"‘Cause every time I see your face, I can’t help but fall from grace. I know....."
+Hitchhiker,3,2,0,,Joey(2); Phoebe(2),Morning!
+Jane,3,1,0,,Joey(1); Rachel(1),"Hi Joey it's Jane Rogers, can't wait    for your party tonight."
+Joanne,3,1,0,,Rachel(1),Alright. Let's talk reality for a second.
+Tom,3,1,0,,Monica(1); Rachel(1),So you work at
+The Vendor,3,1,0,,Chandler(1); Joey(1),"So, what are you guys in the market for? We’ve got uh, scarves, tulip post cards..."
+Supervisor,3,1,0,,Phoebe(1),So basically this is very easy. You read from the script and try to sell as much toner as 
+Annabelle,3,2,0,,Joey(2),"Hey, Joey. So did you hear about the new guy?"
+Mr. Zelner,3,2,0,,Rachel(2),Yes!
+Liam,3,1,0,,Joey(1); Ross(1),You don’t say!
+Richard’s Date,3,1,0,,Joey(1); Monica(1),"Well, I just wanted to see where you lived. Now, give me the tour."
+Mona's Date,3,1,0,,Ross(1),"Oh, it’s okay."
+Hoshi,3,1,0,,,You are iron.
+The Lurker,3,1,0,,Phoebe(1),I won! That was my quarter!
+Ms. McKenna,3,1,0,,Chandler(1),What?
+Hotel Clerk,3,1,0,,Chandler(1); Monica(1),I think you'll find this room more to your liking.
+Dr. Franzblau,3,2,0,,Chandler(1); Joey(1); Monica(1),"All right, ten centimeters, here we go."
+Jeannine,3,2,0,,Monica(2); Ross(1),Night Mon. Night Julio.
+The Food Critic,3,1,0,,Joey(1); Monica(1),Still?
+Maitre d',3,1,0,,Chandler(1); Monica(1),"Oh-kay, we'll have a table for you in about 45 minutes."
+The Hot Girl,3,1,0,,Ross(1),I know. You're the guy who wouldn't chip in for the handyman.
+Waitress,3,2,0,,Monica(1); Joey(1); Phoebe(1),"Hey Monica, there’s a customer who wants to complement the chef, should I let him in?"
+Ross and Rachel,3,1,0,,Chandler(1); Monica(1); Phoebe(1),Uh-huh.
+Marjorie,3,1,0,,Chandler(1); Joey(1),Hi.
+Fireman #1,3,1,0,,Chandler(1); Monica(1); Rachel(1),"Yeah, most of the damage is pretty mostly contained in the bedrooms."
+Host,3,1,0,,Chandler(1); Ross(1); Rachel(1),"Welcome everybody, welcome to Amazing Discoveries!"
+Female Clerk,3,1,0,,Joey(1),Can I help you?
+The Fan,3,1,0,,Phoebe(1),Excuse me.
+Ginger,3,2,0,,Chandler(1); Joey(1); Phoebe(1),Don’t you have to use the bathroom?
+Alan,3,1,0,,Monica(1),Wow.
+Caitlin,2,1,0,,Chandler(1); Monica(1); Ross(1),Pizza delivery!
+Charlton Heston,2,1,0,,Joey(1),Hello! Who’s in there?
+The Singing Man,2,1,0,,Joey(1); Monica(1); Rachel(1),"Morning’s here! Sunshine is here! The sky is clear, the morning’s here! The morning’s here"
+3rd Customer,2,1,0,,Monica(1),Actually I do have one small complaint.
+Kiki,2,1,0,,Rachel(1),"Well, the biggest news is still you dumping Barry at the altar!"
+Jake,2,1,0,,Joey(1),"Yeah, big fan."
+The Woman,2,1,0,,Chandler(1); Monica(1),"Yes! Yes! Please, just give it to me!"
+Bernice,2,2,0,,Rachel(2),"Dr. Farber, we've got a bit of an emergency here...Jason Costalano is choking on his retai"
+Voice,2,1,0,,Chandler(1); Joey(1),"Hey! Hey! Hey! This is 92.3, WXRK, K-Rock for our $1,000 daily challenge."
+Dr. Ledbetter,2,1,0,,Ross(1),I must say it's nice to see you back on your feet.
+Mrs. Burgin,2,1,0,,Rachel(1),"Hello. Well, Joshua, that $500 was for groceries."
+Jason,2,1,0,,Phoebe(1),"Yeah, come on in."
+PBS Volunteer,2,1,0,,Joey(1); Phoebe(1),"Hey, no way, I'm in the shot man."
+an,2,1,0,,Ross(1); Rachel(1),Congratulations you two!
+Marc,2,2,0,,Rachel(1); Ross(1),"Julie’s cervix is dilated a seven centimeters, that’s about four fingers. The doctor let m"
+Sick Bastard,2,1,0,,Ross(1); Rachel(1),No!
+Airline Employee,2,1,0,,Chandler(1); Monica(1),"Uh sir, may I see your tickets please?"
+Mr. Posner,2,1,0,,Rachel(1),"You have a very impressive resume, Ms. Green. I especially like what I see here about impl"
+Leader,2,1,0,,Ross(1),"All right girls, and man. Let’s see your final tallies.  Ohhhh, Debbie,  321 boxes of cook"
+Dr. Wesley,2,1,0,,Rachel(1),"Good-bye and God speed, Hope Brady."
+Hope,2,1,0,,Rachel(1),Drake!
+Hold Voice,2,2,0,,Monica(2); Phoebe(2); Rachel(1),"Thank you for your patience, you’re the next caller."
+Rachel/actress,2,1,0,,Joey(1); Rachel(1),But what choice did I have. He was keeping my sister    in a
+Doctor,2,2,0,,Ross(2); Monica(2); Chandler(1),"No, under these circumstances it has to be an injection, and it has to be now."
+Older Scientist,2,1,0,,Ross(1); Joey(1),"Dr. Geller, there’s a seat over here."
+Another Scientist,2,1,0,,Ross(1); Joey(1),I’m Scott.
+Casey,2,1,0,,Chandler(1); Joey(1),Here you go.
+Jay Leno,2,1,0,,Chandler(1); Monica(1); Ross(1),"Folks, when we come back we'll be talking about her new book, 'Euphoria Unbound': the alwa"
+The Guys,2,1,0,,Monica(1); Phoebe(1); Rachel(1),Yes! Yes! Yes! Yes! Awww!
+Friend No. 2,2,1,0,,Chandler(1); Rachel(1),Rachel! Rachel!
+Fireman No. 1,2,1,0,,Monica(1); Rachel(1),What do we got there?
+Fireman No. 2,2,1,0,,Monica(1); Rachel(1),"A piece of something: boxer shorts, greeting cards, and what looks like a half-charred pic"
+Dr. Oberman,2,1,0,,Ross(1); Phoebe(1),"Umm, I'm actually a first year resident, but I get that a lot, you see, I-I graduated earl"
+Gerston,2,1,0,,Chandler(1); Phoebe(1),"Uh, like, could these margaritas"
+Santos,2,1,0,,Chandler(1); Phoebe(1),"Hello, Mr. Bing."
+The Grip,2,1,0,,Joey(1),"Hey pal, are you Joey Tribbiani?"
+Dr. Harad,2,1,0,,Chandler(1); Phoebe(1),Okay. You ready to push again?
+TV Announcer,2,1,0,,Chandler(1); Monica(1); Ross(1),"Pete Becker is circling the ring now. It looks like, he’s just trying to feel him out. Oh,"
+The Waiter,2,1,0,,Joey(1); Monica(1),"Yeah, people get pretty generous around the holidays. And it never hurts to wear tight tro"
+Frannie,2,1,0,,Ross(1); Monica(1),Monica! What
+Erin,2,1,0,,Joey(1); Rachel(1),Hey Joey!
+Jessica Lockhart,2,1,0,,Joey(1),Oh yes there is!
+Sergei,1,1,0,,Joey(1); Phoebe(1),Everybody!!
+Paleontologist,1,1,0,,Ross(1),"Ok Geller. Last day of the conference, you know what happens to the keynote speaker."
+Professore Clerk,1,1,0,,Ross(1),Or we could throw you both in
+Joey and Chandler,1,1,0,,Chandler(1); Monica(1); Ross(1),Ooooohh!
+Guru Saj,1,1,0,,Chandler(1),"Hello, I am Guru Saj--Whoa!!  That’s supposed to be a duck right? ‘Cause otherwise, this i"
+Stevens,1,1,0,,Chandler(1),"Oh, excuse me. I forgot my briefcase y'know, by accident."
+Peter,1,1,0,,Chandler(1); Joey(1),We’re not throwing it away! I built that canoe!
+Dr. Johnson,1,1,0,,,I'm with Hamilton!
+Commercial,1,1,0,,Joey(1); Monica(1),"Problem odour in the litter box? Don’t change your kitty, change your kitty litter."
+A Female Student,1,1,0,,Monica(1); Phoebe(1),"Yeah, what's up with that girl Monica?"
+1st Customer,1,1,0,,Monica(1),Everything was delicious!
+2nd Customer,1,1,0,,Monica(1),It was. The duck in particular was superb.
+The Presenter,1,1,0,,Joey(1),in the category of Favorite Returning Male Character the nominees are: John Wheeler from
+Message,1,1,0,,Joey(1); Rachel(1),"""Hi Joey, it's Jane Rogers can't wait for your party tonight"""
+The Assistant Director,1,1,0,,Joey(1); Phoebe(1),Here’s your call sheet for tomorrow.
+Emeril,1,1,0,,Chandler(1); Monica(1),"Now maybe you just like wanna but the whole duck in there! Who cares, y'know? Now I got th"
+Lecturer,1,1,0,,Ross(1),We’re beginning to see a lot of layering of sheer fabrics and colours. For instance a shee
+Monica and Ross,1,1,0,,Chandler(1); Ross(1); Monica(1),"1, 2, 3, 4, 5, 6, 7, 8"
+Dr. Leedbetter,1,1,0,,Ross(1),"Well, it was quite large. I-I-I-I-I had to throw most of it away."
+Robbie,1,1,0,,Ross(1); Rachel(1),Huh?!
+Stu,1,1,0,,Monica(1),"Either that or she’s just the best, most expensive date I ever had."
+Front Desk Clerk,1,1,0,,Chandler(1); Monica(1),"As a wedding gift to you, the hotel would like to give you the honeymoon suite."
+Gary Collins,1,1,0,,Joey(1); Phoebe(1),Welcome back to our fall telethon. Now if you've been enjoying the performance of
+Phoebe and Rachel,1,1,0,,Chandler(1); Ross(1); Rachel(1),Oh no.
+The Cigarette Guy,1,1,0,,Chandler(1); Monica(1); Phoebe(1),"Hi, I’m Joshua, I’m here to pick up Rachel."
+Rachel and Phoebe,1,1,0,,Monica(1); Phoebe(1); Rachel(1),Eww!
+Ross and Joey,1,1,0,,Chandler(1); Joey(1); Monica(1),No.
+Both,1,1,0,,Chandler(1); Ross(1); Joey(1),"Hey, buddy."
+Drunken Gambler,1,1,0,,Chandler(1); Monica(1),It went under the table.
+Raymond,1,1,0,,Joey(1),COME ON!!!!
+Monica and Phoebe,1,1,0,,Rachel(1); Monica(1); Phoebe(1),Shut up!
+A Student,1,1,0,,Ross(1); Rachel(1),What’s happening to your accent?
+Stephanie,1,1,0,,Chandler(1); Joey(1); Monica(1),No.
+Nurse #1,1,1,0,,Joey(1),This poor guy’s been in a coma for five years. It’s hopeless.
+Nurse #2,1,1,0,,Joey(1),"It’s not hopeless! Dr. Stryker Ramoray’s a miracle worker. Look, here he comes."
+Dr. Stryker Ramoray,1,1,0,,Joey(1),"Good morning.  Drake, it’s your brother Stryker. Can you hear me?"
+Helena,1,1,0,,Chandler(1),Hello darlings.
+Janitor,1,1,0,,Ross(1); Phoebe(1),Wait! You forgot your legs!
+Mrs. Lynch,1,1,0,,Rachel(1),I notice that you’ve been trusted with a lot of rather important responsibilities.
+Paolo,1,1,0,,Ross(1); Joey(1); Monica(1),"Ciao, bela."
+Joey and Ross,1,1,0,,Chandler(1); Monica(1); Ross(1),"Oh, yeah. Yeah. Let her dangle."
+Hombre Man,1,1,0,,Joey(1),"Ready, Annabelle?"
+The Librarian,1,1,0,,Ross(1),"Well, yes! Just give me five minutes, I just have to find someone to cover my shift."
+Guy #1,1,1,0,,Joey(1),Nice car!
+Vince,1,1,0,,Phoebe(1),Good deal.
+Phoebe/Waitress,1,1,0,,,What about my children Drake?! Huh!?  No!! No!! No! God!
+Mrs. Waltham,1,1,0,,Ross(1),Call me.
+Boy in the Cape,1,1,0,,Chandler(1); Monica(1); Rachel(1),You’re a mean old woman.
+Mrs. Chatracus,1,1,0,,Monica(1); Rachel(1),Hello darling.
+Burt,1,1,0,,Ross(1),Dr. Geller!
+Another Tour Guide,1,1,0,,Ross(1); Joey(1),"I’m Ted, and I just moved here a month ago, and New York really scares me."
+Aunt Lillian,1,1,0,,Ross(1); Monica(1),The doctor says it's a matter of hours.
+The Acting Teacher,1,1,0,,Joey(1); Monica(1),"All right, let’s start with some basics. Can anybody tell me what the difference between u"
+Mrs. Tedlock,1,1,0,,Chandler(1),"Yes. Well, Mr. Kostelick wants you to stop by his office at the end of the day."
+The Croupier,1,1,0,,Monica(1); Phoebe(1),Comin' out. Place your bet.  Dice are out.  Double or nothin'! Pay the front line!
+The Conductor,1,1,0,,Ross(1),"Last stop, Montreal. This stop is Montreal."
+Waiter,1,1,0,,Joey(1); Rachel(1),"I'm sorry sir, these are for the pharmaceutical convention"
+Friend No. 1,1,1,0,,Chandler(1); Rachel(1),"My God, what were you thinking about?"
+Her-Friends,1,1,0,,Chandler(1); Rachel(1),Awwwww
+Mrs. Tribbiani,1,1,0,,Joey(1),I came to give you this  and this.
+Petrie,1,1,0,,Chandler(1); Phoebe(1),Loved your Stevie Wonder last night.
+Passerby,1,1,0,,Joey(1); Ross(1); Rachel(1),Maybe because you’ve got the keys?
+Cookie,1,1,0,,Chandler(1); Joey(1),I’ll do it.
+Monica and Rachel,1,1,0,,Monica(1); Rachel(1),Oh!!
+Stage Manager,1,1,0,,Joey(1),"Joey, onstage!"
+A Waiter,1,1,0,,Joey(1); Monica(1),"Hey, dragon! Here’s your tips from Monday and Tuesday."
+Mr. Bing,1,1,0,,Ross(1); Monica(1),"But that was after the wedding, it’s not bad luck then."
+Phoebe and Leslie,1,1,0,,Phoebe(1),"Sticky shoes, sticky shoes, always make me smile. Sticky shoes, sticky shoes, next time I’"
+Female Student,1,1,0,,Chandler(1); Ross(1),I’m so sorry!
+Ross and Chandler,1,1,0,,Ross(1); Joey(1),Come on! Joe!
+Frank Sr.,1,1,0,,Phoebe(1),Thank you. All right.
+Guest #1,1,1,0,,Ross(1); Phoebe(1),"See ya Phoebe! Oh and hey, thanks for chipping in!"
+Rachel and Bonnie,1,1,0,,Ross(1); Rachel(1),Hi!

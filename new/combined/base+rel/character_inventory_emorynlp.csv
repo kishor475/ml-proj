@@ -1,0 +1,264 @@
+name,turns,dialogues,is_main_cast,in_current_kb,appears_with_main,example_line
+Chandler Bing,1780,422,1,Chandler Bing,Joey Tribbiani(280); Ross Geller(216); Monica Geller(186),"Yeah, I think for us, kissing is pretty much like an opening act, y'know? I mean it's like"
+Ross Geller,1729,387,1,Ross Geller,Rachel Green(217); Chandler Bing(216); Joey Tribbiani(189),"Yeah, and-and it's not that we don't like the comedian, it's that-that... that's not why w"
+Monica Geller,1642,393,1,Monica Geller,Rachel Green(228); Phoebe Buffay(218); Chandler Bing(186),"What you guys don't understand is, for us, kissing is as important as any part of it."
+Joey Tribbiani,1577,393,1,Joey Tribbiani,Chandler Bing(280); Ross Geller(189); Monica Geller(177),"Yeah, right!.......Y'serious?"
+Phoebe Buffay,1558,362,1,Phoebe Buffay,Monica Geller(218); Rachel Green(198); Chandler Bing(181),"Oh, yeah!"
+Rachel Green,1556,383,1,Rachel Green,Monica Geller(228); Ross Geller(217); Phoebe Buffay(198),Everything you need to know is in that first kiss.
+Carol Willick,131,30,0,Carol Willick,Ross Geller(28); Monica Geller(9); Phoebe Buffay(7),So.
+Richard Burke,114,23,0,Richard Burke,Monica Geller(21); Ross Geller(8); Rachel Green(6),"Ah, that's OK, come on in. Um, I'm sorry, is Monica Geller coming? I was told she was."
+Janice Litman Goralnik,98,21,0,Janice Litman Goralnik,Chandler Bing(17); Joey Tribbiani(9); Phoebe Buffay(6),"Oh, my god, I am so glad you called me. I had the most supremely awful day."
+#ALL#,90,67,0,,Ross Geller(59); Chandler Bing(57); Phoebe Buffay(54),Yeah. Yeah. A little.
+Emily Waltham,87,16,0,Emily Waltham,Ross Geller(15); Monica Geller(5); Joey Tribbiani(4),"I can't believe you really walk alone here! I mean, you hear such stories about New York."
+Peter Becker,82,14,0,Pete Becker,Monica Geller(14); Chandler Bing(3); Ross Geller(3),"Yeah, a slice of cheesecake and-and a date if you're given' 'em out."
+Susan Bunch,79,25,0,Susan Bunch,Ross Geller(25); Phoebe Buffay(8); Monica Geller(6),Hi.
+Eddie Menuek,56,12,0,Eddie Menuek,Chandler Bing(12); Joey Tribbiani(3); Phoebe Buffay(1),"Hey Chan, is that Joey guy gonna come by and pick up his moose hat or should I just toss i"
+Frank Buffay Jr.,50,8,0,Frank Buffay Jr.,Phoebe Buffay(8),What?
+Kate Miller,49,8,0,,Joey Tribbiani(8),Hi.
+Judy Geller,48,16,0,Judy Geller,Ross Geller(13); Monica Geller(13); Joey Tribbiani(4),"Well, that doesn't mean she can't look nice!"
+Joshua Burgin,48,7,0,Joshua Burgin,Rachel Green(7); Phoebe Buffay(1); Monica Geller(1),"So I'll see you at the party? Beer's beer man, 24, 7!!"
+Phoebe Abbott,47,5,0,,Phoebe Buffay(5),"Well, yes, it's kind've an unusual house. It has umm, three beautiful bedrooms and ah, no "
+Kathy,47,11,0,Kathy,Chandler Bing(10); Ross Geller(4); Joey Tribbiani(4),Hi.
+Joanna,44,8,0,,Rachel Green(8); Chandler Bing(3); Joey Tribbiani(1),"Hello, Rachel."
+Mark Robinson,37,9,0,,Rachel Green(9); Ross Geller(6),Rachel?
+Gunther,35,17,0,Gunther,Chandler Bing(10); Rachel Green(10); Joey Tribbiani(8),Lemonade? You ok man?
+Guy,33,11,0,,Phoebe Buffay(6); Monica Geller(5); Joey Tribbiani(5),Nice hat.
+Mr. Treeger,32,7,0,Mr. Treeger,Joey Tribbiani(5); Monica Geller(3); Rachel Green(3),He musta been sweepin'. They found a broom in his hand.
+Ryan,32,4,0,,Phoebe Buffay(4); Ross Geller(3); Rachel Green(3),"Hey baby, I'm back..."
+Julie,30,10,0,,Rachel Green(9); Ross Geller(6); Chandler Bing(6),"Oh, thanks, sweetie."
+Bonnie,29,7,0,,Rachel Green(6); Ross Geller(5); Phoebe Buffay(4),Hi!
+Barry Farber,28,6,0,Barry Farber,Rachel Green(6); Ross Geller(2); Monica Geller(1),C'mon in.
+Alice Knight,24,6,0,,Phoebe Buffay(6); Chandler Bing(1); Joey Tribbiani(1),"Oh my God, who died on this?!"
+Director,22,5,0,,Joey Tribbiani(5),"...Dammit, hire the girl! Okay, everybody ready?"
+Jack Geller,22,5,0,Jack Geller,Ross Geller(4); Monica Geller(4); Joey Tribbiani(2),"Judy, the kids.."
+Woman,21,11,0,,Ross Geller(7); Chandler Bing(6); Rachel Green(4),"Yeah, well, I had a 24-inch waist. You lose things. Now come on, get outta my way."
+Lydia,21,4,0,,Joey Tribbiani(3); Monica Geller(1); Chandler Bing(1),Knick fan?
+Duncan,20,3,0,,Phoebe Buffay(3),Phoebe!
+Stephen Waltham,19,6,0,Stephen Waltham,Rachel Green(4); Ross Geller(4); Monica Geller(2),"In a moment, please, I'm in the middle of a task. And you have a customer."
+Grandmother,18,2,0,,Phoebe Buffay(2),Esther Livingston. Gone.
+Doug,18,4,0,,Chandler Bing(4),"So thanks for the warm welcome. It's good to have you guys on my team, and I come to play."
+David,18,2,0,David,Phoebe Buffay(2),"...But, you can't actually test this theory, because today's particle accelerators are now"
+Mr. Ratstatter,18,3,0,,Monica Geller(3),"This is a nice resume. Nice, nice, nice. Muy impressivo."
+Chip Matthews,18,4,0,,Monica Geller(4); Rachel Green(2); Ross Geller(1),"Hey Monica, it's Chip."
+Fake Monica,17,2,0,,Monica Geller(2); Rachel Green(1),Monana was very brave.
+Lauren,17,4,0,,Joey Tribbiani(4),"Vic! Where have you been, baby?!"
+Dr. Franzblau,16,5,0,,Rachel Green(4); Ross Geller(2); Chandler Bing(2),"Hey, how's my favorite parenting team doing?"
+Ginger,16,4,0,,Chandler Bing(3); Phoebe Buffay(1); Joey Tribbiani(1),Don't you have to use the bathroom?
+Cheryl,16,3,0,,Ross Geller(3); Phoebe Buffay(1); Monica Geller(1),"So, thank you for the delicious dinner."
+Rob,15,4,0,,Phoebe Buffay(4); Monica Geller(3); Chandler Bing(3),Hi. I'm Rob Dohnen.
+Chloe,15,4,0,,Ross Geller(3); Chandler Bing(2); Rachel Green(2),Hi guys. I haven't seen you since this morning.
+The Salesman,15,3,0,,Joey Tribbiani(3); Ross Geller(1); Monica Geller(1),"Good afternoon, are you the decision maker of the house?"
+Andrea Waltham,15,5,0,Andrea Waltham,Ross Geller(4); Monica Geller(3); Chandler Bing(3),"Sorry, what?"
+Ticket Agent,15,3,0,,Rachel Green(2); Ross Geller(1),Hello.
+Leslie,14,4,0,,Phoebe Buffay(3); Rachel Green(1); Joey Tribbiani(1),Well. Your mom didn't tell us about the blobbies.
+Nina Bookbinder,14,4,0,,Chandler Bing(4),Hi.
+Michael,14,2,0,,Rachel Green(2),I don't know if Monica told you but this is the first date I've gone on since my divorce s
+Erica Ford,14,3,0,,Joey Tribbiani(3); Chandler Bing(1),It's Erica.
+Malcom,14,2,0,,Phoebe Buffay(2),Here's my binoculars.
+Mischa,14,3,0,,Phoebe Buffay(3); Monica Geller(2),"He's says, 'Walking with you makes this strange city, feel like home.'"
+Mr. Heckles,13,3,0,Mr. Heckles,Phoebe Buffay(2); Rachel Green(2); Monica Geller(2),"Er, yeah, it's mine."
+Mr. Douglas,13,3,0,,Chandler Bing(3); Joey Tribbiani(1),"Ohh, its been better. The Annual Net Usage Statistics are in."
+Julio (poet),13,3,0,,Monica Geller(2),Adios.
+Jason,13,2,0,,Phoebe Buffay(2),"...and I know I'll never miss doing it, but I gotta tell you, it's pretty cool knowing tha"
+Interviewer,12,1,0,,Monica Geller(1),"Well, this all looks good."
+Estelle Leonard,12,2,0,Estelle Leonard,Joey Tribbiani(2),Don't worry about it already. Things happen.
+Timothy Burke,12,2,0,,Monica Geller(2); Rachel Green(1),Ready?
+Shelley,11,2,0,,Chandler Bing(2),"Question. You're not dating anybody, are you, because I met somebody who would be perfect "
+Girl,11,2,0,,Joey Tribbiani(1); Ross Geller(1),We did?
+Nurse Sizemore,11,5,0,,Rachel Green(3); Monica Geller(3); Chandler Bing(3),Mmm hmmm.
+Ethan,11,2,0,,Monica Geller(2); Ross Geller(1); Rachel Green(1),I just had sex.
+Janitor,11,2,0,,Ross Geller(2); Phoebe Buffay(1),Wait! You forgot your legs!
+Jean-Claude Van Damme,11,3,0,,Monica Geller(2); Rachel Green(1); Joey Tribbiani(1),Sure.
+Sarah Tuttle,11,3,0,,Ross Geller(3); Chandler Bing(2); Joey Tribbiani(1),"So that's two boxes of the Holiday Macaroons. On behalf of the Brown Birds of America, I s"
+The Director,11,5,0,,Joey Tribbiani(5),Joe. How's it going?
+Vince,11,2,0,,Phoebe Buffay(2),Yo!!
+Guru Saj,11,1,0,,Ross Geller(1),You must be Ross.
+Paul the Wine Guy,11,2,0,,Monica Geller(2),"I know, I know, I'm such an idiot. I guess I should have caught on when she started going "
+Leonard Green,10,2,0,,Ross Geller(2); Rachel Green(2); Phoebe Buffay(1),To get my coat.
+Rick Sanoven,10,2,0,,Phoebe Buffay(2),"Wow, you have really pretty feet."
+Allesandro,10,2,0,,Monica Geller(2); Phoebe Buffay(1),"It's Allesandro, from Allesandro's."
+Lizzy,9,1,0,,Phoebe Buffay(1),"Hey, Weird Girl."
+Joey Tribbiani Sr.,9,3,0,,Joey Tribbiani(3); Monica Geller(2); Rachel Green(1),"Gotta go. I miss you too, I love you, but it's getting real late now"
+Ronni Rapalono,9,2,0,,Joey Tribbiani(2); Chandler Bing(2); Rachel Green(1),"Oh, no thanks, I'm just waiting for, uh, Joey Tribbiani."
+Hombre Man,9,3,0,,Joey Tribbiani(3),Hombre?
+Charlton Heston,9,1,0,,Joey Tribbiani(1),Hello! Who's in there?
+Mr. Burgin,9,2,0,,Rachel Green(2),France sucks!
+Mrs. Burkart,9,3,0,,Phoebe Buffay(3); Monica Geller(3),"Oh, good. Thank you."
+The Waiter,9,2,0,,Monica Geller(2); Joey Tribbiani(2),"Yeah, people get pretty generous around the holidays. And it never hurts to wear tight tro"
+Both,8,7,0,,Joey Tribbiani(5); Chandler Bing(4); Ross Geller(2),"Hey, buddy."
+Gloria Tribbiani,8,1,0,,Joey Tribbiani(1),I came to give you this and this.
+Flight Attendant,8,1,0,,Ross Geller(1); Rachel Green(1),Alright!
+Tilly,8,1,0,,Chandler Bing(1),Hi.
+Little Bully,8,2,0,,Ross Geller(2); Chandler Bing(2),"Hey, we were sitting there."
+Mrs. Lynch,8,2,0,,Rachel Green(2),I notice that you've been trusted with a lot of rather important responsibilities.
+The Doctor,8,2,0,,Joey Tribbiani(1); Ross Geller(1); Chandler Bing(1),Somebody lose a ring?
+Kid,7,3,0,,Joey Tribbiani(2); Ross Geller(2); Phoebe Buffay(2),"I found it. Finders keepers, losers weepers."
+Jill Goodacre,7,3,0,,Chandler Bing(3),"Hi Mom, it's Jill."
+Lowell,7,1,0,,Chandler Bing(1),"Hey, Chandler."
+Roger,7,1,0,,Phoebe Buffay(1),"What's wrong, sweetie?"
+Dr. Baldhara,7,1,0,,Ross Geller(1); Chandler Bing(1); Joey Tribbiani(1),"Well, it's technically not a zoo per se, it's more of an interactive wildlife experience. "
+Man,7,4,0,,Ross Geller(3); Rachel Green(3),What?
+Annabelle,7,3,0,,Joey Tribbiani(3),"Hey, Joey. So did you hear about the new guy?"
+Mike,7,2,0,Mike Hannigan,Chandler Bing(2); Phoebe Buffay(1); Ross Geller(1),And there is Kevin.
+Student,7,2,0,,Joey Tribbiani(2),"Hey, Mr. Trib."
+Mr. Kaplan,7,1,0,,Rachel Green(1),"How's that coffee comin,' dear?"
+Jasmine,7,1,0,,Ross Geller(1),Uh-huh.
+Amanda (Ross' date),7,1,0,,Ross Geller(1),Hi!
+Sophie,7,4,0,,Rachel Green(4); Chandler Bing(1),Good morning!
+The A.D,7,1,0,,Joey Tribbiani(1),"Calm down, we got time, we're running a little late."
+Liam,7,2,0,,Ross Geller(2); Phoebe Buffay(1); Joey Tribbiani(1),How are ya man?
+Housekeeper,7,1,0,,Phoebe Buffay(1),The Waltham Residence.
+Passenger,7,2,0,,Rachel Green(2),"Ahh, ahh, excuse me."
+Ursula Buffay,7,1,0,Ursula Buffay,Phoebe Buffay(1),Hey!
+Receptionist,6,2,0,,Ross Geller(2); Chandler Bing(2); Joey Tribbiani(2),"It says to call this number if you're not completely satisfied with this candy bar. Well, "
+Terry,6,2,0,,Rachel Green(2); Phoebe Buffay(1),An advance?
+Ursula,6,2,0,Ursula Buffay,Chandler Bing(2); Joey Tribbiani(1); Phoebe Buffay(1),"Hi. Okay, will that be all?"
+Teacher,6,3,0,,Ross Geller(3),"Good for you. Alrighty, next?"
+Melanie,6,1,0,,Joey Tribbiani(1),"Mmmmmm... Oh, Joey, Joey, Joey... I think I blacked out there for a minute!"
+Steven Fisher,6,1,0,,Phoebe Buffay(1); Monica Geller(1); Chandler Bing(1),"Excuse me, you're Monica Geller aren't you?"
+Caroline,6,1,0,,Chandler Bing(1); Joey Tribbiani(1),Hello.
+Sandra Green,6,2,0,,Phoebe Buffay(2); Monica Geller(2); Chandler Bing(2),"Oh, am I! I just danced with a wonderfully large woman. And three other girls made eyes at"
+Dean Lipson,6,1,0,,Ross Geller(1),"Hi, Dean Lipson, zoo administrator. I was told you had a question."
+Big Bully,6,2,0,,Ross Geller(2); Chandler Bing(2),Hey you're in our seats.
+Sherman Whitfield,6,1,0,,Ross Geller(1); Chandler Bing(1),"Dr. Geller, Sherman Whitfield, London Institute."
+Eric (photographer),6,2,0,,Chandler Bing(1); Phoebe Buffay(1); Ross Geller(1),"Oh, mostly fashion, so there may be models here from time to time, I hope that's cool."
+Sergei,6,2,0,,Phoebe Buffay(2); Monica Geller(1),"Uh, plate?"
+Gym Employee,6,1,0,,Ross Geller(1); Chandler Bing(1),You wanna quit?
+Tour Guide,6,2,0,,Ross Geller(2); Joey Tribbiani(2),You mean Dr. Geller?
+The Singing Man,6,2,0,,Joey Tribbiani(2); Rachel Green(1); Monica Geller(1),"Morning's here! Sunshine is here! The sky is clear, the morning's here! The morning's here"
+The Saleslady,6,1,0,,Phoebe Buffay(1); Monica Geller(1),May I help you ladies?
+Robbie,5,2,0,,Rachel Green(2),Huh?!
+Angela Delveccio,5,3,0,,Monica Geller(3); Joey Tribbiani(2),"Hey, Joey."
+Paolo,5,3,0,,Phoebe Buffay(3); Ross Geller(2); Rachel Green(2),Monopoly!
+Aunt Lillian,5,1,0,,Ross Geller(1),No.
+Kristin,5,2,0,,Ross Geller(2),That's funny. Who are they?
+Dr. Mitchell,5,2,0,,Rachel Green(2); Monica Geller(2); Ross Geller(1),"..you add a pinch of saffron, it makes all the difference."
+Jade,5,1,0,,Ross Geller(1); Chandler Bing(1); Joey Tribbiani(1),"Hello, I'm looking for Bob. This is Jane. I don't know if you're still at this number, but"
+Waiter,5,4,0,,Joey Tribbiani(2); Monica Geller(2); Rachel Green(1),"So, would you like any dessert?"
+Susie Moss,5,1,0,,Chandler Bing(1),"Oh, shoot, we gotta go, got a reservation in 30 minutes."
+Delivery Guy,5,2,0,,Monica Geller(1); Joey Tribbiani(1),Pizza delivery.
+Leader,5,1,0,,Ross Geller(1),"All right girls, and man. Let's see your final tallies. Ohhhh, Debbie, 321 boxes of cookie"
+Quartet,5,2,0,,Ross Geller(1); Rachel Green(1),Congratulations on your first week at your brand new job! It won't be long before your the
+Dr. Rhodes,5,1,0,,Ross Geller(1),"Take your shirt off, and let's see what we're dealing with here. What are you doing?"
+Dr. Zane,5,1,0,,Phoebe Buffay(1),It looks like your uterus is ready for implantation.
+Ticket Counter Attendant,5,2,0,,Chandler Bing(2),One ticket to Yemen?
+Mrs. Burgin,5,2,0,,Rachel Green(2),"Oh, hi, darling!"
+The Stripper,5,1,0,,Ross Geller(1); Chandler Bing(1); Joey Tribbiani(1),Did anybody call for security?
+Felicity,5,2,0,,Joey Tribbiani(2); Phoebe Buffay(1); Chandler Bing(1),Are you going home? I was hoping to get to know you better.
+Celia,5,1,0,,Ross Geller(1),Talk to me.
+Danielle,5,1,0,,Phoebe Buffay(1); Monica Geller(1); Chandler Bing(1),Chandler?
+Franny,5,1,0,,Monica Geller(1),"Hey, Monica!"
+Marsha,4,1,0,,Ross Geller(1),"Well, she has issues."
+Paula,4,1,0,,Monica Geller(1),No.
+Bob,4,2,0,,Joey Tribbiani(2); Monica Geller(1),Cleveland.
+Stranger,4,1,0,,Rachel Green(1),Hi.
+Friend,4,2,0,,Monica Geller(1); Ross Geller(1),"Well, you kids take the train in?"
+Joey's Co-Star,4,1,0,,Joey Tribbiani(1); Chandler Bing(1),Hey.
+Producer,4,1,0,,Phoebe Buffay(1),"OK Phoebe, you ready to try one?"
+Casting Guy,4,1,0,,Joey Tribbiani(1),"Excuse me, that's 50 bucks."
+Jester,4,1,0,,Monica Geller(1); Joey Tribbiani(1),"Uh, may I help you?"
+Robert Bobby,4,1,0,,Phoebe Buffay(1); Ross Geller(1); Chandler Bing(1),Hey!
+Singer,4,2,0,,Phoebe Buffay(2); Monica Geller(2); Chandler Bing(2),"'Cause every time I see your face, I can't help but fall from grace. I know....."
+Hold Voice,4,3,0,,Phoebe Buffay(3); Monica Geller(3); Chandler Bing(1),"Please, stay on the line. Your call is important to us."
+Tommy,4,1,0,,Phoebe Buffay(1); Ross Geller(1); Rachel Green(1),"Hey, mind if I use the phone?"
+The Guys,4,3,0,,Phoebe Buffay(2); Monica Geller(2); Chandler Bing(2),Pete?!
+Hoshi,4,1,0,,Monica Geller(1),"You are iron. You are steel! Let me ask you something, how come when I call your computer "
+Kathy's Co-Star,4,1,0,,Ross Geller(1); Chandler Bing(1),Hi!
+Devon,4,1,0,,Ross Geller(1),"Hey, mate."
+The Vendor,4,1,0,,Joey Tribbiani(1); Chandler Bing(1),"So, what are you guys in the market for? We've got uh, scarves, tulip post cards..."
+Steve (drug addict),4,1,0,,Phoebe Buffay(1),Eeeee!
+Bobby Rush,4,2,0,,Rachel Green(1); Monica Geller(1),"Hey, Dr. Farber."
+Russ,4,1,0,,Phoebe Buffay(1); Chandler Bing(1),Hi.
+Drew,4,1,0,,Chandler Bing(1),I didn't think you were gay. I do now.
+Woman On Train,4,1,0,,Ross Geller(1),"I made a bet with myself that you have beautiful eyes. Now that I see them, I win."
+Scott Alexander,4,1,0,,Chandler Bing(1); Joey Tribbiani(1),"Hey Chandler, here's this morning's projections."
+Alan,3,1,0,,Monica Geller(1),Wow.
+Joanne,3,1,0,,Rachel Green(1),Alright. Let's talk reality for a second.
+Customer,3,3,0,,Joey Tribbiani(3); Phoebe Buffay(2); Monica Geller(2),"Hey, can we get some cappuccino over here?"
+Fireman No. 3,3,2,0,,Rachel Green(2); Monica Geller(2); Phoebe Buffay(1),It's all right. It's all right. You don't have to explain. This isn't the first boyfriend 
+Buddy Boyles,3,1,0,,Rachel Green(1); Monica Geller(1),"All right, kids. Here's the deal. According to my client's will, he wants to leave all his"
+Security Guard,3,1,0,,Ross Geller(1); Monica Geller(1); Chandler Bing(1),"C'mon people, back up please, back up, c'mon, c'mon, c'mon, c'mon."
+Amber,3,1,0,,Monica Geller(1); Chandler Bing(1); Ross Geller(1),Oh Drake.
+Dr. Drake Ramoray,3,1,0,,Monica Geller(1); Chandler Bing(1); Ross Geller(1),I'm sorry Amber. It's just like Brad to have to have the last word.
+Best Man,3,1,0,,Ross Geller(1); Rachel Green(1); Monica Geller(1),"Yo! Can I have your attention, please, Best Man, making a toast here. Thank you. I remembe"
+Jeannine,3,1,0,,Monica Geller(1),"All right, I just got changed in thirty seconds so you can be alone with him. You'd better"
+Issac,3,2,0,,Chandler Bing(2); Joey Tribbiani(1); Ross Geller(1),Can I help you?
+Stevens,3,2,0,,Chandler Bing(2),We never get smacked.
+Mrs. Potter,3,1,0,,Phoebe Buffay(1),Mr. Simon's been waiting for- Oh my God!
+Ben Geller,3,1,0,Ben Geller,Phoebe Buffay(1); Rachel Green(1); Monica Geller(1),Monica.
+Tony,3,1,0,,Joey Tribbiani(1); Chandler Bing(1),"Wow! That's ah, that's pretty nice!"
+Sleep Clinic Worker,3,1,0,,Chandler Bing(1); Joey Tribbiani(1),"Your name, please?"
+Marjorie,3,1,0,,Chandler Bing(1); Joey Tribbiani(1),Hi.
+Bernice,2,2,0,,Rachel Green(2),"Dr. Farber, Jason Greenstein's gagging."
+Dr. Oberman,2,1,0,,Ross Geller(1),Knock knock!How are we today? Any nausea?
+Kiki,2,1,0,,Rachel Green(1),"Well, the biggest news is still you dumping Barry at the altar!"
+Phoebe's Assistant,2,1,0,,Phoebe Buffay(1),We've got a couple changes in your schedule. Your 4:00 herbal massage has been pushed back
+Guys,2,2,0,,Phoebe Buffay(2); Monica Geller(2); Chandler Bing(2),Oooooo....
+Lorraine,2,1,0,,Joey Tribbiani(1); Chandler Bing(1),"Hi, Joey. Well well, look what you brought. Very nice."
+Fireman No. 1,2,1,0,,Rachel Green(1); Monica Geller(1),What do we got there?
+Fireman No. 2,2,1,0,,Rachel Green(1); Monica Geller(1),"A piece of something: boxer shorts, greeting cards, and what looks like a half-charred pic"
+Helen,2,2,0,,Chandler Bing(2),Nina Bookbinder is here to see you.
+Dr. Rosen,2,1,0,,Rachel Green(1); Monica Geller(1),"And I'm his friend, Dr.Rosen."
+Casting Director No. 2,2,1,0,,Joey Tribbiani(1),Next.
+Gerston,2,1,0,,Phoebe Buffay(1); Chandler Bing(1),"Uh, like, could these margaritas be any stronger? Hey, Chandler."
+Santos,2,1,0,,Phoebe Buffay(1); Chandler Bing(1),"Hello, Mr. Bing."
+Store Guy,2,1,0,,Joey Tribbiani(1),"All right, everybody, I'm openin' the doors. You boys ready?"
+Gail,2,1,0,,Phoebe Buffay(1); Chandler Bing(1),I'm Gail.
+Host,2,1,0,,Phoebe Buffay(1); Chandler Bing(1); Ross Geller(1),"Welcome everybody, welcome to Amazing Discoveries!"
+Friend No. 2,2,1,0,,Rachel Green(1); Chandler Bing(1),Rachel! Rachel!
+Matress King,2,1,0,,Phoebe Buffay(1); Monica Geller(1); Chandler Bing(1),'Despair fills the mattress showroom. My kingdom is suddenly without a queen. I'm so depre
+The Bass Barber,2,1,0,,Ross Geller(1); Rachel Green(1),"Omm-pah, omm-pah, omm-pah."
+Clerk,2,1,0,,Monica Geller(1),"Six dollars, please."
+Spokeswoman,2,1,0,,Monica Geller(1),"...has become the penicillin of the twenty-first century. And so today, this hospital is a"
+Stage Manager,2,2,0,,Joey Tribbiani(2),"Look, we held the curtain for you buddy. Come on, let's go! Let's go!"
+Phil,2,1,0,,Chandler Bing(1),"With him? You're is favourite, you're his guy!"
+Announcer,2,1,0,,Ross Geller(1); Monica Geller(1),"From New York City, New York! Appearing in his Ultimate Fighting Championship debut! He's "
+Tv Announcer,2,1,0,,Phoebe Buffay(1); Monica Geller(1); Chandler Bing(1),"Pete Becker is circling the ring now. It looks like, he's just trying to feel him out. Oh,"
+Bank Officer,2,1,0,,Ross Geller(1); Chandler Bing(1),Close your accounts? Is there some kind of problem?
+Casey,2,1,0,,Joey Tribbiani(1); Chandler Bing(1),Here you go.
+Voice,2,1,0,,Joey Tribbiani(1); Chandler Bing(1),"Hey! Hey! Hey! This is 92.3, WXRK, K-Rock for our $1,000 daily challenge."
+Nurse,2,1,0,,Rachel Green(1); Monica Geller(1),Dr. Burke will see you know.
+Mr. Posner,2,1,0,,Rachel Green(1),"You have a very impressive resume, Ms. Green. I especially like what I see here about impl"
+Older Scientist,2,1,0,,Ross Geller(1); Joey Tribbiani(1),"Dr. Geller, there's a seat over here."
+Another Scientist,2,1,0,,Ross Geller(1); Joey Tribbiani(1),I'm Scott.
+Drunk Man,2,1,0,,Ross Geller(1); Monica Geller(1); Chandler Bing(1),I just want to say that Ross is a wonderful young man.
+Air Hostess,2,1,0,,Rachel Green(1),Okay.
+Kitchen Worker,2,1,0,,Monica Geller(1); Joey Tribbiani(1),I don't speak English.
+Max,2,1,0,,Phoebe Buffay(1),It'd be even more exciting if we were going.
+Radio,2,1,0,,Ross Geller(1); Rachel Green(1); Monica Geller(1),"The next one's dedicated to Rachel from Ross. Rachel, he wants you to know he's deeply sor"
+Jeannie,2,1,0,,Joey Tribbiani(1); Chandler Bing(1),"Oh, that sounds lovely. We're gonna have to set that up. Oh, I better get back. Hope the b"
+Soothing Male Voice,1,1,0,,Ross Geller(1),"..a sound Mom and Dad never forget. For this after all, is the miracle of birth."
+The Whole Party,1,1,0,,Phoebe Buffay(1); Monica Geller(1); Ross Geller(1),SURPRISE!!!
+Phoebe's Friends,1,1,0,,Phoebe Buffay(1); Monica Geller(1); Ross Geller(1),Surprise!
+Announcement,1,1,0,,Phoebe Buffay(1); Chandler Bing(1); Ross Geller(1),"This is the final boarding call for flight 67 to San Diego, boarding at gate 42A."
+Actor,1,1,0,,Joey Tribbiani(1),"Oh, that I were a glove upon that hand, that I might... touch thy cheek..."
+Casting Director No. 1,1,1,0,,Joey Tribbiani(1),"That's fine, thank you."
+Petrie,1,1,0,,Phoebe Buffay(1); Chandler Bing(1),Loved your Stevie Wonder last night.
+Intercom,1,1,0,,Rachel Green(1); Monica Geller(1),"It's me, Carl."
+Paulo,1,1,0,,Phoebe Buffay(1); Monica Geller(1); Chandler Bing(1),Bon giorno tutti!
+Minister,1,1,0,,Phoebe Buffay(1); Ross Geller(1); Joey Tribbiani(1),"You know, nothing makes God happier than when two people, any two people, come together in"
+Kids,1,1,0,,Phoebe Buffay(1); Monica Geller(1); Ross Geller(1),Ooohhh.
+Tattoo Artist,1,1,0,,Phoebe Buffay(1); Rachel Green(1),"Alright, blonde girl, you're in room two, not so blonde girl, you're with me."
+Wedding Planner,1,1,0,,Ross Geller(1); Rachel Green(1),"All rightie, everybody look at me. Good. All right, its time. Bridesmaids and ushers let's"
+Friend No. 1,1,1,0,,Rachel Green(1); Chandler Bing(1),"My God, what were you thinking about?"
+Her Friends,1,1,0,,Rachel Green(1); Chandler Bing(1),Awwww!!
+Joey's Sisters,1,1,0,,Chandler Bing(1); Joey Tribbiani(1),"Hey, Chandler!"
+Bass Singer,1,1,0,,,No one likes a buttmunch.
+Commercial,1,1,0,,Phoebe Buffay(1); Monica Geller(1); Joey Tribbiani(1),"Problem odour in the litter box? Don't change your kitty, change your kitty litter."
+Secretary,1,1,0,,Monica Geller(1),You have a Miss Monica Geller here.
+Employee,1,1,0,,Monica Geller(1),"Umm, I'm still here."
+Dr. Johnson,1,1,0,,Ross Geller(1),I'm with Hamilton!
+Fireman,1,1,0,,Phoebe Buffay(1),Oh sure. Vince?!
+Referee,1,1,0,,Ross Geller(1); Monica Geller(1),"Here we go gentlemen, here we go! Are you ready? Are you ready? Let's get it on!!"
+Ms. Lambert,1,1,0,,Ross Geller(1); Chandler Bing(1),"Hi, I'm Karen."
+Mr. Simon,1,1,0,,Phoebe Buffay(1),Why wasn't I offered that? I'd definitely pay more for that.
+Doctor,1,1,0,,Rachel Green(1); Monica Geller(1),"I'll be right with you. Okay? Thanks, Wendy."
+Another Tour Guide,1,1,0,,Ross Geller(1); Joey Tribbiani(1),"I'm Ted, and I just moved here a month ago, and New York really scares me."
+The Cigarette Smoking Guy,1,1,0,,Phoebe Buffay(1); Rachel Green(1); Monica Geller(1),"Well, maybe you and your baby should go to another strip club."
+The Cigarette Guy,1,1,0,,Phoebe Buffay(1); Rachel Green(1); Monica Geller(1),"Hi, I'm Joshua, I'm here to pick up Rachel."
+Mrs. Chatracus,1,1,0,,Rachel Green(1); Monica Geller(1),Hello darling.
+Dressmaker,1,1,0,,Monica Geller(1),Sorry. Lucky this dress is red!
+Anchorwoman,1,1,0,,Ross Geller(1); Chandler Bing(1); Joey Tribbiani(1),While most of us think of chocolate bunnies and baskets as traditional Easter gifts. Some 
+A Waiter,1,1,0,,Monica Geller(1); Joey Tribbiani(1),"Hey, dragon! Here's your tips from Monday and Tuesday."
+The Conductor,1,1,0,,Ross Geller(1),"Last stop, Montreal. This stop is Montreal."
+Peter,1,1,0,,Joey Tribbiani(1); Chandler Bing(1),We're not throwing it away! I built that canoe!

@@ -1,0 +1,3487 @@
+[
+    {
+        "character": "Alan",
+        "core_friend": "Monica",
+        "relation": "romantic",
+        "detail": "Boyfriend (adored by all six friends)",
+        "description": "Monica's charming boyfriend whom the entire group adored; Monica struggled to break up with him because the group loved him so much.",
+        "all_core_relations": [
+            {
+                "core_friend": "Monica",
+                "relation": "romantic",
+                "detail": "Boyfriend"
+            },
+            {
+                "core_friend": "Chandler",
+                "relation": "friend",
+                "detail": "Idol / Role Model"
+            },
+            {
+                "core_friend": "Joey",
+                "relation": "friend",
+                "detail": "Close pal"
+            },
+            {
+                "core_friend": "Ross",
+                "relation": "friend",
+                "detail": "Close pal"
+            },
+            {
+                "core_friend": "Rachel",
+                "relation": "friend",
+                "detail": "Close pal"
+            },
+            {
+                "core_friend": "Phoebe",
+                "relation": "friend",
+                "detail": "Close pal"
+            }
+        ]
+    },
+    {
+        "character": "Alice",
+        "core_friend": "Phoebe",
+        "relation": "family",
+        "detail": "Sister-in-law (Frank Buffay Jr.'s wife)",
+        "description": "Phoebe's older sister-in-law, a high school home economics teacher who married Frank Jr.; Phoebe acted as surrogate mother for their triplets.",
+        "all_core_relations": [
+            {
+                "core_friend": "Phoebe",
+                "relation": "family",
+                "detail": "Sister-in-law"
+            }
+        ]
+    },
+    {
+        "character": "Allesandro",
+        "core_friend": "Monica",
+        "relation": "colleague",
+        "detail": "Restaurant Owner / Employer",
+        "description": "Owner of Alessandro's Italian restaurant who hired Monica as head chef after she wrote a scathing review of his food.",
+        "all_core_relations": [
+            {
+                "core_friend": "Monica",
+                "relation": "colleague",
+                "detail": "Employer"
+            }
+        ]
+    },
+    {
+        "character": "Angela",
+        "core_friend": "Joey",
+        "relation": "romantic",
+        "detail": "Ex-girlfriend",
+        "description": "Joey's ex-girlfriend whom he tried to win back by tricking Monica into a double date with Angela and her new boyfriend Bob.",
+        "all_core_relations": [
+            {
+                "core_friend": "Joey",
+                "relation": "romantic",
+                "detail": "Ex-girlfriend"
+            },
+            {
+                "core_friend": "Monica",
+                "relation": "service_neighbor",
+                "detail": "Double-date acquaintance"
+            }
+        ]
+    },
+    {
+        "character": "Annabelle",
+        "core_friend": "Joey",
+        "relation": "colleague",
+        "detail": "Department Store Coworker / Crush",
+        "description": "Joey's attractive coworker at the department store perfume counter whom he tried to impress.",
+        "all_core_relations": [
+            {
+                "core_friend": "Joey",
+                "relation": "colleague",
+                "detail": "Coworker"
+            }
+        ]
+    },
+    {
+        "character": "Aunt Lillian",
+        "core_friend": "Monica",
+        "relation": "family",
+        "detail": "Aunt (to Monica and Ross)",
+        "description": "Ross and Monica's deceased aunt whose funeral they attend in Season 1.",
+        "all_core_relations": [
+            {
+                "core_friend": "Monica",
+                "relation": "family",
+                "detail": "Aunt"
+            },
+            {
+                "core_friend": "Ross",
+                "relation": "family",
+                "detail": "Aunt"
+            }
+        ]
+    },
+    {
+        "character": "Barry",
+        "core_friend": "Rachel",
+        "relation": "romantic",
+        "detail": "Ex-fiancé (Dr. Barry Farber)",
+        "description": "Rachel's orthodontist ex-fiancé whom she left at the altar in the pilot episode; he later married Rachel's maid of honor Mindy.",
+        "all_core_relations": [
+            {
+                "core_friend": "Rachel",
+                "relation": "romantic",
+                "detail": "Runaway ex-fiancé"
+            }
+        ]
+    },
+    {
+        "character": "Ben",
+        "core_friend": "Ross",
+        "relation": "family",
+        "detail": "Son (to Ross) / Nephew (to Monica)",
+        "description": "Ross Geller and Carol Willick's son; Monica's nephew.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "family",
+                "detail": "Son"
+            },
+            {
+                "core_friend": "Monica",
+                "relation": "family",
+                "detail": "Nephew"
+            },
+            {
+                "core_friend": "Rachel",
+                "relation": "family",
+                "detail": "Stepson / Co-parent's child"
+            },
+            {
+                "core_friend": "Chandler",
+                "relation": "friend",
+                "detail": "Uncle figure"
+            },
+            {
+                "core_friend": "Joey",
+                "relation": "friend",
+                "detail": "Uncle figure"
+            }
+        ]
+    },
+    {
+        "character": "Bernice",
+        "core_friend": "Rachel",
+        "relation": "service_neighbor",
+        "detail": "Hospital Administrator / Nurse",
+        "description": "Hospital desk administrator during the insurance mix-up between Rachel and Monica.",
+        "all_core_relations": [
+            {
+                "core_friend": "Rachel",
+                "relation": "service_neighbor",
+                "detail": "Hospital desk staff"
+            },
+            {
+                "core_friend": "Monica",
+                "relation": "service_neighbor",
+                "detail": "Hospital desk staff"
+            }
+        ]
+    },
+    {
+        "character": "Bob",
+        "core_friend": "Chandler",
+        "relation": "colleague",
+        "detail": "Office Coworker",
+        "description": "Chandler's corporate office coworker who mistakenly called Chandler 'Toby' for years.",
+        "all_core_relations": [
+            {
+                "core_friend": "Chandler",
+                "relation": "colleague",
+                "detail": "Office coworker"
+            }
+        ]
+    },
+    {
+        "character": "Bobby",
+        "core_friend": "Monica",
+        "relation": "romantic",
+        "detail": "Boyfriend ('Fun Bobby')",
+        "description": "Monica's boyfriend who was the life of the party when drinking, but boring and sober when he quit alcohol.",
+        "all_core_relations": [
+            {
+                "core_friend": "Monica",
+                "relation": "romantic",
+                "detail": "Boyfriend"
+            }
+        ]
+    },
+    {
+        "character": "Bonnie",
+        "core_friend": "Ross",
+        "relation": "romantic",
+        "detail": "Girlfriend (Phoebe's friend)",
+        "description": "Phoebe's former bald friend who dates Ross at the beach house; Rachel convinces her to shave her head bald again.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "romantic",
+                "detail": "Girlfriend"
+            },
+            {
+                "core_friend": "Phoebe",
+                "relation": "friend",
+                "detail": "Friend"
+            },
+            {
+                "core_friend": "Rachel",
+                "relation": "romantic",
+                "detail": "Romantic rival"
+            }
+        ]
+    },
+    {
+        "character": "Brenda",
+        "core_friend": "Monica",
+        "relation": "service_neighbor",
+        "detail": "Maid / Cleaner",
+        "description": "Chandler and Monica's housekeeper whom Monica suspects of stealing her jeans and bra.",
+        "all_core_relations": [
+            {
+                "core_friend": "Monica",
+                "relation": "service_neighbor",
+                "detail": "Housekeeper"
+            },
+            {
+                "core_friend": "Chandler",
+                "relation": "service_neighbor",
+                "detail": "Housekeeper"
+            }
+        ]
+    },
+    {
+        "character": "Burt",
+        "core_friend": "Ross",
+        "relation": "colleague",
+        "detail": "Museum Colleague",
+        "description": "Fellow paleontology researcher and colleague at the Museum of Natural History.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "colleague",
+                "detail": "Colleague"
+            }
+        ]
+    },
+    {
+        "character": "Caitlin",
+        "core_friend": "Ross",
+        "relation": "romantic",
+        "detail": "Crush / Flirtation",
+        "description": "The pizza delivery girl Ross awkwardly tries to flirt with by talking about the smell of gas.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "romantic",
+                "detail": "Flirtation"
+            }
+        ]
+    },
+    {
+        "character": "Carl",
+        "core_friend": "Joey",
+        "relation": "colleague",
+        "detail": "Identical Twin Audition Partner",
+        "description": "An actor Joey hires to pose as his identical twin brother for a paid medical research study.",
+        "all_core_relations": [
+            {
+                "core_friend": "Joey",
+                "relation": "colleague",
+                "detail": "Audition partner"
+            }
+        ]
+    },
+    {
+        "character": "Carol",
+        "core_friend": "Ross",
+        "relation": "romantic",
+        "detail": "First Ex-wife / Co-parent",
+        "description": "Carol Willick, Ross's first ex-wife and mother of Ben; realized she was a lesbian and left Ross to marry Susan Bunch.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "romantic",
+                "detail": "First Ex-wife / Co-parent"
+            },
+            {
+                "core_friend": "Monica",
+                "relation": "family",
+                "detail": "Former sister-in-law"
+            }
+        ]
+    },
+    {
+        "character": "Casey",
+        "core_friend": "Joey",
+        "relation": "romantic",
+        "detail": "Date",
+        "description": "A woman Joey dated who was also seeing another guy casually at the same time.",
+        "all_core_relations": [
+            {
+                "core_friend": "Joey",
+                "relation": "romantic",
+                "detail": "Date"
+            }
+        ]
+    },
+    {
+        "character": "Cassie",
+        "core_friend": "Ross",
+        "relation": "family",
+        "detail": "Cousin (to Ross and Monica)",
+        "description": "Cassie Geller (Denise Richards), Ross and Monica's stunning cousin whose visit causes awkward attraction for Ross and Chandler.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "family",
+                "detail": "Cousin"
+            },
+            {
+                "core_friend": "Monica",
+                "relation": "family",
+                "detail": "Cousin"
+            },
+            {
+                "core_friend": "Chandler",
+                "relation": "family",
+                "detail": "Wife's cousin"
+            }
+        ]
+    },
+    {
+        "character": "Cecilia",
+        "core_friend": "Joey",
+        "relation": "romantic",
+        "detail": "DOOL Co-star / Fling",
+        "description": "Cecilia Monroe (Susan Sarandon), veteran soap star on Days of Our Lives whose character's brain is transplanted into Drake Remoray; has a fling with Joey.",
+        "all_core_relations": [
+            {
+                "core_friend": "Joey",
+                "relation": "romantic",
+                "detail": "Co-star and fling"
+            }
+        ]
+    },
+    {
+        "character": "Chandler",
+        "core_friend": "Monica",
+        "relation": "core_group",
+        "detail": "Core Friend (Husband to Monica, best friend to Joey, college friend to Ross)",
+        "description": "Chandler Bing, sarcastic, witty core friend; married to Monica, longtime roommate and best friend of Joey.",
+        "all_core_relations": [
+            {
+                "core_friend": "Monica",
+                "relation": "romantic",
+                "detail": "Husband / Partner"
+            },
+            {
+                "core_friend": "Joey",
+                "relation": "friend",
+                "detail": "Best friend / Longtime roommate"
+            },
+            {
+                "core_friend": "Ross",
+                "relation": "friend",
+                "detail": "College best friend / Brother-in-law"
+            },
+            {
+                "core_friend": "Rachel",
+                "relation": "friend",
+                "detail": "Close friend"
+            },
+            {
+                "core_friend": "Phoebe",
+                "relation": "friend",
+                "detail": "Close friend"
+            }
+        ]
+    },
+    {
+        "character": "Charlie",
+        "core_friend": "Ross",
+        "relation": "romantic",
+        "detail": "Girlfriend / Paleontology Colleague",
+        "description": "Dr. Charlie Wheeler (Aisha Tyler), paleontology professor who dates Joey first in Barbados before dating Ross.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "romantic",
+                "detail": "Girlfriend & colleague"
+            },
+            {
+                "core_friend": "Joey",
+                "relation": "romantic",
+                "detail": "Ex-girlfriend"
+            }
+        ]
+    },
+    {
+        "character": "Charlton Heston",
+        "core_friend": "Joey",
+        "relation": "celebrity_guest",
+        "detail": "Celebrity Guest Star / Acting Mentor",
+        "description": "Celebrity guest star as himself; catches Joey using his private dressing room shower on set.",
+        "all_core_relations": [
+            {
+                "core_friend": "Joey",
+                "relation": "celebrity_guest",
+                "detail": "Film co-star"
+            }
+        ]
+    },
+    {
+        "character": "Chip",
+        "core_friend": "Monica",
+        "relation": "romantic",
+        "detail": "High School Crush / Date",
+        "description": "Chip Matthews, high school prom king who took Rachel to prom and ditched her; later dates Monica until she discovers he still lives with his parents and works at a cinema.",
+        "all_core_relations": [
+            {
+                "core_friend": "Monica",
+                "relation": "romantic",
+                "detail": "Date / High school crush"
+            },
+            {
+                "core_friend": "Rachel",
+                "relation": "romantic",
+                "detail": "High school prom date"
+            }
+        ]
+    },
+    {
+        "character": "Chloe",
+        "core_friend": "Ross",
+        "relation": "romantic",
+        "detail": "One-night Stand ('The Xerox Girl')",
+        "description": "The copy shop girl Ross sleeps with while Ross and Rachel were 'on a break'.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "romantic",
+                "detail": "One-night stand"
+            }
+        ]
+    },
+    {
+        "character": "Cliff",
+        "core_friend": "Phoebe",
+        "relation": "romantic",
+        "detail": "Crush / Date",
+        "description": "An injured patient in the hospital whom Phoebe falls for while visiting Rachel in labor.",
+        "all_core_relations": [
+            {
+                "core_friend": "Phoebe",
+                "relation": "romantic",
+                "detail": "Date"
+            }
+        ]
+    },
+    {
+        "character": "Dana",
+        "core_friend": "Chandler",
+        "relation": "friend",
+        "detail": "College Friend / Director",
+        "description": "Dana Keystone, Chandler's college acquaintance who became a casting director whom Joey attempts to audition for.",
+        "all_core_relations": [
+            {
+                "core_friend": "Chandler",
+                "relation": "friend",
+                "detail": "College friend"
+            },
+            {
+                "core_friend": "Joey",
+                "relation": "colleague",
+                "detail": "Audition director"
+            }
+        ]
+    },
+    {
+        "character": "Danny",
+        "core_friend": "Rachel",
+        "relation": "romantic",
+        "detail": "Neighbor / Boyfriend ('The Yeti')",
+        "description": "A bearded neighbor whom Rachel and Monica fog with bug bomb; Rachel later dates him until creeped out by his sister's closeness.",
+        "all_core_relations": [
+            {
+                "core_friend": "Rachel",
+                "relation": "romantic",
+                "detail": "Boyfriend / Neighbor"
+            },
+            {
+                "core_friend": "Monica",
+                "relation": "service_neighbor",
+                "detail": "Neighbor"
+            }
+        ]
+    },
+    {
+        "character": "David",
+        "core_friend": "Phoebe",
+        "relation": "romantic",
+        "detail": "Major Love Interest ('The Scientist Guy')",
+        "description": "David the Scientist Guy (Hank Azaria), Phoebe's beloved scientist partner who leaves for Minsk on research.",
+        "all_core_relations": [
+            {
+                "core_friend": "Phoebe",
+                "relation": "romantic",
+                "detail": "Major love interest"
+            }
+        ]
+    },
+    {
+        "character": "Dina",
+        "core_friend": "Joey",
+        "relation": "family",
+        "detail": "Younger Sister (Dina Tribbiani)",
+        "description": "Joey's younger sister who becomes pregnant and seeks Rachel's advice on single motherhood.",
+        "all_core_relations": [
+            {
+                "core_friend": "Joey",
+                "relation": "family",
+                "detail": "Younger sister"
+            },
+            {
+                "core_friend": "Rachel",
+                "relation": "friend",
+                "detail": "Adviser"
+            }
+        ]
+    },
+    {
+        "character": "Doctor Connelly",
+        "core_friend": "Chandler",
+        "relation": "service_neighbor",
+        "detail": "Fertility Doctor (for Chandler and Monica)",
+        "description": "The reproductive specialist who tests Chandler and Monica and discovers fertility complications.",
+        "all_core_relations": [
+            {
+                "core_friend": "Chandler",
+                "relation": "service_neighbor",
+                "detail": "Fertility doctor"
+            },
+            {
+                "core_friend": "Monica",
+                "relation": "service_neighbor",
+                "detail": "Fertility doctor"
+            }
+        ]
+    },
+    {
+        "character": "Doug",
+        "core_friend": "Chandler",
+        "relation": "colleague",
+        "detail": "Executive Boss",
+        "description": "Chandler's loud executive boss who regularly slaps male employees on the behind as praise.",
+        "all_core_relations": [
+            {
+                "core_friend": "Chandler",
+                "relation": "colleague",
+                "detail": "Boss"
+            }
+        ]
+    },
+    {
+        "character": "Dr. Baldhara",
+        "core_friend": "Ross",
+        "relation": "service_neighbor",
+        "detail": "Physician",
+        "description": "Physician treating Ross for his bizarre skin condition.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "service_neighbor",
+                "detail": "Physician"
+            }
+        ]
+    },
+    {
+        "character": "Dr. Drake Remoray",
+        "core_friend": "Joey",
+        "relation": "alter_ego",
+        "detail": "Soap Opera Character",
+        "description": "Joey Tribbiani's fictional neurosurgeon alter-ego on Days of Our Lives.",
+        "all_core_relations": [
+            {
+                "core_friend": "Joey",
+                "relation": "alter_ego",
+                "detail": "Soap opera character"
+            }
+        ]
+    },
+    {
+        "character": "Dr. Franzblau",
+        "core_friend": "Ross",
+        "relation": "service_neighbor",
+        "detail": "Obstetrician",
+        "description": "The obstetrician who delivers Ross and Carol's son Ben in Season 1.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "service_neighbor",
+                "detail": "Obstetrician"
+            }
+        ]
+    },
+    {
+        "character": "Dr. Green",
+        "core_friend": "Rachel",
+        "relation": "family",
+        "detail": "Father (Dr. Leonard Green)",
+        "description": "Rachel's wealthy, blunt, and intimidating vascular surgeon father.",
+        "all_core_relations": [
+            {
+                "core_friend": "Rachel",
+                "relation": "family",
+                "detail": "Father"
+            },
+            {
+                "core_friend": "Ross",
+                "relation": "family",
+                "detail": "Grandfather to Emma / Ex-partner's father"
+            }
+        ]
+    },
+    {
+        "character": "Dr. Harad",
+        "core_friend": "Phoebe",
+        "relation": "service_neighbor",
+        "detail": "Obstetrician",
+        "description": "The eccentric doctor obsessed with 'The Fonz' from Happy Days who delivers Phoebe's surrogate triplets.",
+        "all_core_relations": [
+            {
+                "core_friend": "Phoebe",
+                "relation": "service_neighbor",
+                "detail": "Obstetrician"
+            }
+        ]
+    },
+    {
+        "character": "Dr. Johnson",
+        "core_friend": "Monica",
+        "relation": "service_neighbor",
+        "detail": "Eye Doctor",
+        "description": "Dr. Richard Burke's on-call partner eye doctor whom Monica visits.",
+        "all_core_relations": [
+            {
+                "core_friend": "Monica",
+                "relation": "service_neighbor",
+                "detail": "Eye doctor"
+            }
+        ]
+    },
+    {
+        "character": "Dr. Ledbetter",
+        "core_friend": "Ross",
+        "relation": "colleague",
+        "detail": "Museum Boss",
+        "description": "Ross's superior at the museum who ate Ross's leftover Thanksgiving turkey sandwich.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "colleague",
+                "detail": "Boss"
+            }
+        ]
+    },
+    {
+        "character": "Dr. Leedbetter",
+        "core_friend": "Ross",
+        "relation": "colleague",
+        "detail": "Museum Boss (spelling variant)",
+        "description": "Spelling variant of Dr. Ledbetter in dataset scripts.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "colleague",
+                "detail": "Boss"
+            }
+        ]
+    },
+    {
+        "character": "Dr. Long",
+        "core_friend": "Rachel",
+        "relation": "service_neighbor",
+        "detail": "Obstetrician",
+        "description": "Rachel's obstetrician who guides her through pregnancy and the birth of Emma.",
+        "all_core_relations": [
+            {
+                "core_friend": "Rachel",
+                "relation": "service_neighbor",
+                "detail": "Obstetrician"
+            },
+            {
+                "core_friend": "Ross",
+                "relation": "service_neighbor",
+                "detail": "Obstetrician"
+            }
+        ]
+    },
+    {
+        "character": "Dr. Miller",
+        "core_friend": "Rachel",
+        "relation": "service_neighbor",
+        "detail": "Pediatrician",
+        "description": "Pediatrician consulted by Rachel and Ross for baby Emma.",
+        "all_core_relations": [
+            {
+                "core_friend": "Rachel",
+                "relation": "service_neighbor",
+                "detail": "Pediatrician"
+            },
+            {
+                "core_friend": "Ross",
+                "relation": "service_neighbor",
+                "detail": "Pediatrician"
+            }
+        ]
+    },
+    {
+        "character": "Dr. Oberman",
+        "core_friend": "Ross",
+        "relation": "colleague",
+        "detail": "Doctor / Colleague",
+        "description": "Consulting physician/scientist interacting with the group.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "colleague",
+                "detail": "Colleague"
+            }
+        ]
+    },
+    {
+        "character": "Dr. Rhodes",
+        "core_friend": "Chandler",
+        "relation": "service_neighbor",
+        "detail": "Physician",
+        "description": "Doctor treating Chandler or group members at the clinic.",
+        "all_core_relations": [
+            {
+                "core_friend": "Chandler",
+                "relation": "service_neighbor",
+                "detail": "Physician"
+            }
+        ]
+    },
+    {
+        "character": "Dr. Stryker Ramoray",
+        "core_friend": "Joey",
+        "relation": "alter_ego",
+        "detail": "Soap Opera Character",
+        "description": "Dr. Drake Remoray's evil twin brother on Days of Our Lives.",
+        "all_core_relations": [
+            {
+                "core_friend": "Joey",
+                "relation": "alter_ego",
+                "detail": "Soap opera character"
+            }
+        ]
+    },
+    {
+        "character": "Dr. Wesley",
+        "core_friend": "Ross",
+        "relation": "service_neighbor",
+        "detail": "Hospital Doctor",
+        "description": "Hospital physician examining Ross.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "service_neighbor",
+                "detail": "Hospital doctor"
+            }
+        ]
+    },
+    {
+        "character": "Dr. Zane",
+        "core_friend": "Ross",
+        "relation": "service_neighbor",
+        "detail": "Specialist Doctor",
+        "description": "Medical specialist Ross visits for health checkups.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "service_neighbor",
+                "detail": "Physician"
+            }
+        ]
+    },
+    {
+        "character": "Drew",
+        "core_friend": "Chandler",
+        "relation": "colleague",
+        "detail": "Office Coworker",
+        "description": "Chandler's coworker at his corporate office.",
+        "all_core_relations": [
+            {
+                "core_friend": "Chandler",
+                "relation": "colleague",
+                "detail": "Office coworker"
+            }
+        ]
+    },
+    {
+        "character": "Drunken Gambler",
+        "core_friend": "Joey",
+        "relation": "service_neighbor",
+        "detail": "Casino Acquaintance",
+        "description": "A drunken gambler at the craps table in Las Vegas with Joey and Chandler.",
+        "all_core_relations": [
+            {
+                "core_friend": "Joey",
+                "relation": "service_neighbor",
+                "detail": "Casino acquaintance"
+            },
+            {
+                "core_friend": "Chandler",
+                "relation": "service_neighbor",
+                "detail": "Casino acquaintance"
+            }
+        ]
+    },
+    {
+        "character": "Duncan",
+        "core_friend": "Phoebe",
+        "relation": "romantic",
+        "detail": "First Husband (Green Card Marriage)",
+        "description": "Phoebe's gay Canadian ice-dancer friend whom she married for a green card; later reveals he is straight and loves another woman.",
+        "all_core_relations": [
+            {
+                "core_friend": "Phoebe",
+                "relation": "romantic",
+                "detail": "First husband"
+            }
+        ]
+    },
+    {
+        "character": "Earl",
+        "core_friend": "Chandler",
+        "relation": "friend",
+        "detail": "Telephone Acquaintance",
+        "description": "A suicidal office manager (Jason Alexander) whom Chandler saves over the phone while working as a toner salesman.",
+        "all_core_relations": [
+            {
+                "core_friend": "Chandler",
+                "relation": "friend",
+                "detail": "Phone acquaintance"
+            }
+        ]
+    },
+    {
+        "character": "Elizabeth",
+        "core_friend": "Ross",
+        "relation": "romantic",
+        "detail": "Girlfriend / Undergraduate Student",
+        "description": "Elizabeth Stevens, Ross's college student with whom he has an illicit romance.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "romantic",
+                "detail": "Girlfriend / Student"
+            }
+        ]
+    },
+    {
+        "character": "Emeril",
+        "core_friend": "Monica",
+        "relation": "celebrity_guest",
+        "detail": "Celebrity Chef",
+        "description": "Celebrity chef Emeril Lagasse on TV with Monica.",
+        "all_core_relations": [
+            {
+                "core_friend": "Monica",
+                "relation": "celebrity_guest",
+                "detail": "Celebrity chef"
+            }
+        ]
+    },
+    {
+        "character": "Emily",
+        "core_friend": "Ross",
+        "relation": "romantic",
+        "detail": "Second Ex-wife (Emily Waltham)",
+        "description": "Emily Waltham, Ross's British second wife; Ross infamously says Rachel's name at their altar.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "romantic",
+                "detail": "Second Ex-wife"
+            },
+            {
+                "core_friend": "Rachel",
+                "relation": "romantic",
+                "detail": "Romantic rival"
+            }
+        ]
+    },
+    {
+        "character": "Eric",
+        "core_friend": "Phoebe",
+        "relation": "romantic",
+        "detail": "Boyfriend (Ursula's Ex-fiancé)",
+        "description": "Ursula's former fiancé (Sean Penn) who dumps Ursula after discovering her lies and dates Phoebe.",
+        "all_core_relations": [
+            {
+                "core_friend": "Phoebe",
+                "relation": "romantic",
+                "detail": "Boyfriend"
+            }
+        ]
+    },
+    {
+        "character": "Erin",
+        "core_friend": "Joey",
+        "relation": "romantic",
+        "detail": "Casual Date",
+        "description": "Joey's casual hookup (Kristin Davis) whom Rachel and Phoebe adore, but who dumps Joey because she only wanted casual fun.",
+        "all_core_relations": [
+            {
+                "core_friend": "Joey",
+                "relation": "romantic",
+                "detail": "Casual date"
+            }
+        ]
+    },
+    {
+        "character": "Estelle",
+        "core_friend": "Joey",
+        "relation": "colleague",
+        "detail": "Talent Agent (Estelle Leonard)",
+        "description": "Estelle Leonard, Joey's eccentric, chain-smoking talent agent.",
+        "all_core_relations": [
+            {
+                "core_friend": "Joey",
+                "relation": "colleague",
+                "detail": "Talent agent"
+            }
+        ]
+    },
+    {
+        "character": "Fake Monica",
+        "core_friend": "Monica",
+        "relation": "friend",
+        "detail": "Credit Card Thief / Friend",
+        "description": "The woman who steals Monica's credit card; Monica tracks her down and befriends her for her adventurous lifestyle.",
+        "all_core_relations": [
+            {
+                "core_friend": "Monica",
+                "relation": "friend",
+                "detail": "Friend / Identity thief"
+            }
+        ]
+    },
+    {
+        "character": "Frank",
+        "core_friend": "Phoebe",
+        "relation": "family",
+        "detail": "Half-brother (Frank Buffay Jr.)",
+        "description": "Phoebe's eccentric half-brother who loves melting things; marries Alice Knight.",
+        "all_core_relations": [
+            {
+                "core_friend": "Phoebe",
+                "relation": "family",
+                "detail": "Half-brother"
+            }
+        ]
+    },
+    {
+        "character": "Frank Sr.",
+        "core_friend": "Phoebe",
+        "relation": "family",
+        "detail": "Biological Father (Frank Buffay Sr.)",
+        "description": "Phoebe and Ursula's biological father who abandoned the family when they were babies.",
+        "all_core_relations": [
+            {
+                "core_friend": "Phoebe",
+                "relation": "family",
+                "detail": "Biological father"
+            }
+        ]
+    },
+    {
+        "character": "Frannie",
+        "core_friend": "Monica",
+        "relation": "colleague",
+        "detail": "Coworker / Friend",
+        "description": "Monica's coworker at the restaurant in Season 1 who dated Paul the Wine Guy.",
+        "all_core_relations": [
+            {
+                "core_friend": "Monica",
+                "relation": "colleague",
+                "detail": "Coworker"
+            }
+        ]
+    },
+    {
+        "character": "Gary",
+        "core_friend": "Phoebe",
+        "relation": "romantic",
+        "detail": "Boyfriend (Police Officer)",
+        "description": "The NYPD police officer who dates Phoebe and moves in with her until he shoots a bird.",
+        "all_core_relations": [
+            {
+                "core_friend": "Phoebe",
+                "relation": "romantic",
+                "detail": "Boyfriend"
+            }
+        ]
+    },
+    {
+        "character": "Gary Collins",
+        "core_friend": "Phoebe",
+        "relation": "celebrity_guest",
+        "detail": "Telethon Host",
+        "description": "Television host Gary Collins hosting the PBS telethon where Phoebe volunteers.",
+        "all_core_relations": [
+            {
+                "core_friend": "Phoebe",
+                "relation": "celebrity_guest",
+                "detail": "Telethon host"
+            }
+        ]
+    },
+    {
+        "character": "Gerston",
+        "core_friend": "Chandler",
+        "relation": "colleague",
+        "detail": "Office Colleague",
+        "description": "Coworker at Chandler's data office.",
+        "all_core_relations": [
+            {
+                "core_friend": "Chandler",
+                "relation": "colleague",
+                "detail": "Coworker"
+            }
+        ]
+    },
+    {
+        "character": "Ginger",
+        "core_friend": "Chandler",
+        "relation": "romantic",
+        "detail": "Girlfriend (Joey's Ex)",
+        "description": "Woman with an artificial leg who dates Chandler; Joey accidentally threw her wooden leg into a fireplace years earlier.",
+        "all_core_relations": [
+            {
+                "core_friend": "Chandler",
+                "relation": "romantic",
+                "detail": "Girlfriend"
+            },
+            {
+                "core_friend": "Joey",
+                "relation": "romantic",
+                "detail": "Ex-girlfriend"
+            }
+        ]
+    },
+    {
+        "character": "Gunther",
+        "core_friend": "Rachel",
+        "relation": "romantic",
+        "detail": "Unrequited Crush / Central Perk Barista",
+        "description": "Central Perk manager with bleached hair who carries an unrequited, decade-long crush on Rachel.",
+        "all_core_relations": [
+            {
+                "core_friend": "Rachel",
+                "relation": "romantic",
+                "detail": "Unrequited crush"
+            },
+            {
+                "core_friend": "Chandler",
+                "relation": "service_neighbor",
+                "detail": "Central Perk barista"
+            },
+            {
+                "core_friend": "Joey",
+                "relation": "service_neighbor",
+                "detail": "Central Perk boss / barista"
+            },
+            {
+                "core_friend": "Monica",
+                "relation": "service_neighbor",
+                "detail": "Central Perk barista"
+            },
+            {
+                "core_friend": "Phoebe",
+                "relation": "service_neighbor",
+                "detail": "Central Perk barista"
+            },
+            {
+                "core_friend": "Ross",
+                "relation": "service_neighbor",
+                "detail": "Central Perk barista"
+            }
+        ]
+    },
+    {
+        "character": "Guru Saj",
+        "core_friend": "Ross",
+        "relation": "service_neighbor",
+        "detail": "Herbalist / Alternative Practitioner",
+        "description": "Alternative medicine practitioner Phoebe sends Ross to in order to treat his skin issue.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "service_neighbor",
+                "detail": "Alternative healer"
+            },
+            {
+                "core_friend": "Phoebe",
+                "relation": "friend",
+                "detail": "Friend / Recommendation"
+            }
+        ]
+    },
+    {
+        "character": "Helena",
+        "core_friend": "Chandler",
+        "relation": "family",
+        "detail": "Father (Helena Handbasket / Charles Bing)",
+        "description": "Chandler's estranged drag-queen father performing in Las Vegas as Helena Handbasket.",
+        "all_core_relations": [
+            {
+                "core_friend": "Chandler",
+                "relation": "family",
+                "detail": "Father"
+            }
+        ]
+    },
+    {
+        "character": "Her-Friends",
+        "core_friend": "Rachel",
+        "relation": "friend",
+        "detail": "High School Social Circle",
+        "description": "Rachel's old Long Island socialite friends.",
+        "all_core_relations": [
+            {
+                "core_friend": "Rachel",
+                "relation": "friend",
+                "detail": "Social circle"
+            }
+        ]
+    },
+    {
+        "character": "Hitchhiker",
+        "core_friend": "Phoebe",
+        "relation": "service_neighbor",
+        "detail": "Taxi Passenger",
+        "description": "A hitchhiker picked up by Phoebe in her taxi.",
+        "all_core_relations": [
+            {
+                "core_friend": "Phoebe",
+                "relation": "service_neighbor",
+                "detail": "Taxi passenger"
+            }
+        ]
+    },
+    {
+        "character": "Hold Voice",
+        "core_friend": "Phoebe",
+        "relation": "service_neighbor",
+        "detail": "Customer Service Automated Voice",
+        "description": "Automated voice that keeps Phoebe on hold for customer service for days.",
+        "all_core_relations": [
+            {
+                "core_friend": "Phoebe",
+                "relation": "service_neighbor",
+                "detail": "Service voice"
+            }
+        ]
+    },
+    {
+        "character": "Hombre Man",
+        "core_friend": "Joey",
+        "relation": "colleague",
+        "detail": "Department Store Rival",
+        "description": "A rival cologne spritzer dressed in a cowboy outfit competing against Joey at the department store.",
+        "all_core_relations": [
+            {
+                "core_friend": "Joey",
+                "relation": "colleague",
+                "detail": "Coworker rival"
+            }
+        ]
+    },
+    {
+        "character": "Hope",
+        "core_friend": "Joey",
+        "relation": "romantic",
+        "detail": "Date",
+        "description": "One of Joey's romantic dates.",
+        "all_core_relations": [
+            {
+                "core_friend": "Joey",
+                "relation": "romantic",
+                "detail": "Date"
+            }
+        ]
+    },
+    {
+        "character": "Hoshi",
+        "core_friend": "Ross",
+        "relation": "friend",
+        "detail": "Martial Arts Instructor",
+        "description": "Martial arts instructor Ross consults about 'Unagi' and self-defense.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "friend",
+                "detail": "Instructor"
+            }
+        ]
+    },
+    {
+        "character": "Isabella",
+        "core_friend": "Ross",
+        "relation": "celebrity_guest",
+        "detail": "Celebrity Crush (Isabella Rossellini)",
+        "description": "Isabella Rossellini, guest star on Ross's laminated 'freebie' celebrity list.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "celebrity_guest",
+                "detail": "Celebrity crush"
+            }
+        ]
+    },
+    {
+        "character": "Issac",
+        "core_friend": "Joey",
+        "relation": "colleague",
+        "detail": "Copy Shop Friend",
+        "description": "Chloe the copy girl's friend who works at the copy shop and tells Joey about Ross sleeping with Chloe.",
+        "all_core_relations": [
+            {
+                "core_friend": "Joey",
+                "relation": "colleague",
+                "detail": "Copy shop friend"
+            },
+            {
+                "core_friend": "Chandler",
+                "relation": "colleague",
+                "detail": "Copy shop friend"
+            }
+        ]
+    },
+    {
+        "character": "Jade",
+        "core_friend": "Chandler",
+        "relation": "romantic",
+        "detail": "Date (Wrong Number Caller)",
+        "description": "A woman who leaves a message on Chandler's machine looking for 'Bob', whom Chandler poses as to date.",
+        "all_core_relations": [
+            {
+                "core_friend": "Chandler",
+                "relation": "romantic",
+                "detail": "Date"
+            }
+        ]
+    },
+    {
+        "character": "Jake",
+        "core_friend": "Joey",
+        "relation": "colleague",
+        "detail": "Actor / Colleague",
+        "description": "Fellow actor working with Joey.",
+        "all_core_relations": [
+            {
+                "core_friend": "Joey",
+                "relation": "colleague",
+                "detail": "Actor colleague"
+            }
+        ]
+    },
+    {
+        "character": "Jane",
+        "core_friend": "Monica",
+        "relation": "colleague",
+        "detail": "Restaurant Colleague",
+        "description": "Culinary colleague interacting with Monica.",
+        "all_core_relations": [
+            {
+                "core_friend": "Monica",
+                "relation": "colleague",
+                "detail": "Colleague"
+            }
+        ]
+    },
+    {
+        "character": "Janice",
+        "core_friend": "Chandler",
+        "relation": "romantic",
+        "detail": "Recurring On-and-off Girlfriend",
+        "description": "Janice Litman-Goralnik ('OH MY GOD!'), Chandler's iconic nasal-voiced girlfriend; also had a fling with Ross.",
+        "all_core_relations": [
+            {
+                "core_friend": "Chandler",
+                "relation": "romantic",
+                "detail": "Recurring on-and-off girlfriend"
+            },
+            {
+                "core_friend": "Ross",
+                "relation": "romantic",
+                "detail": "Brief fling / Ex-date"
+            },
+            {
+                "core_friend": "Joey",
+                "relation": "friend",
+                "detail": "Annoyance / Roommate's ex"
+            }
+        ]
+    },
+    {
+        "character": "Janine",
+        "core_friend": "Joey",
+        "relation": "romantic",
+        "detail": "Roommate & Girlfriend (Janine Lacroix)",
+        "description": "Janine Lacroix (Elle Macpherson), Australian dancer who moves in as Joey's roommate and becomes his girlfriend.",
+        "all_core_relations": [
+            {
+                "core_friend": "Joey",
+                "relation": "romantic",
+                "detail": "Roommate and girlfriend"
+            }
+        ]
+    },
+    {
+        "character": "Jason",
+        "core_friend": "Phoebe",
+        "relation": "romantic",
+        "detail": "Date (Kindergarten Teacher)",
+        "description": "A sensitive kindergarten teacher Phoebe dates at the same time as firefighter Vince.",
+        "all_core_relations": [
+            {
+                "core_friend": "Phoebe",
+                "relation": "romantic",
+                "detail": "Date"
+            }
+        ]
+    },
+    {
+        "character": "Jay Leno",
+        "core_friend": "Chandler",
+        "relation": "celebrity_guest",
+        "detail": "Talk Show Host",
+        "description": "The Tonight Show host who interviews Chandler's mother Nora Bing about her romance novels.",
+        "all_core_relations": [
+            {
+                "core_friend": "Chandler",
+                "relation": "celebrity_guest",
+                "detail": "Talk show host"
+            }
+        ]
+    },
+    {
+        "character": "Jeannine",
+        "core_friend": "Joey",
+        "relation": "romantic",
+        "detail": "Date / Variant",
+        "description": "Script variant of Janine or date of Joey.",
+        "all_core_relations": [
+            {
+                "core_friend": "Joey",
+                "relation": "romantic",
+                "detail": "Date"
+            }
+        ]
+    },
+    {
+        "character": "Jen",
+        "core_friend": "Rachel",
+        "relation": "friend",
+        "detail": "Acquaintance / Date",
+        "description": "Acquaintance of Rachel.",
+        "all_core_relations": [
+            {
+                "core_friend": "Rachel",
+                "relation": "friend",
+                "detail": "Acquaintance"
+            }
+        ]
+    },
+    {
+        "character": "Jessica Lockhart",
+        "core_friend": "Joey",
+        "relation": "colleague",
+        "detail": "DOOL Soap Star",
+        "description": "Legendary Days of Our Lives actress (Susan Sarandon) whose character's brain is transplanted into Drake Remoray.",
+        "all_core_relations": [
+            {
+                "core_friend": "Joey",
+                "relation": "colleague",
+                "detail": "DOOL co-star"
+            }
+        ]
+    },
+    {
+        "character": "Jester",
+        "core_friend": "Joey",
+        "relation": "colleague",
+        "detail": "Theater Actor",
+        "description": "An actor working with Joey.",
+        "all_core_relations": [
+            {
+                "core_friend": "Joey",
+                "relation": "colleague",
+                "detail": "Actor colleague"
+            }
+        ]
+    },
+    {
+        "character": "Jill",
+        "core_friend": "Rachel",
+        "relation": "family",
+        "detail": "Younger Sister (Jill Green)",
+        "description": "Rachel's spoiled younger sister (Reese Witherspoon) who visits and dates Ross to spite Rachel.",
+        "all_core_relations": [
+            {
+                "core_friend": "Rachel",
+                "relation": "family",
+                "detail": "Younger sister"
+            },
+            {
+                "core_friend": "Ross",
+                "relation": "romantic",
+                "detail": "Ex-date"
+            }
+        ]
+    },
+    {
+        "character": "Jim",
+        "core_friend": "Phoebe",
+        "relation": "romantic",
+        "detail": "Date (Vulgar Poet)",
+        "description": "Jim Nelson, a guy from Central Perk who dates Phoebe and turns out to write dirty limericks.",
+        "all_core_relations": [
+            {
+                "core_friend": "Phoebe",
+                "relation": "romantic",
+                "detail": "Date"
+            }
+        ]
+    },
+    {
+        "character": "Joanna",
+        "core_friend": "Rachel",
+        "relation": "colleague",
+        "detail": "Boss (Rachel) / Date (Chandler)",
+        "description": "Rachel's demanding boss at Bloomingdale's who dates Chandler and handcuffs him to a filing cabinet.",
+        "all_core_relations": [
+            {
+                "core_friend": "Rachel",
+                "relation": "colleague",
+                "detail": "Boss at Bloomingdale's"
+            },
+            {
+                "core_friend": "Chandler",
+                "relation": "romantic",
+                "detail": "Casual date"
+            }
+        ]
+    },
+    {
+        "character": "Joanne",
+        "core_friend": "Monica",
+        "relation": "service_neighbor",
+        "detail": "Hospital Nurse / Desk",
+        "description": "Nurse/receptionist at the hospital during Monica and Rachel's clinic visit.",
+        "all_core_relations": [
+            {
+                "core_friend": "Monica",
+                "relation": "service_neighbor",
+                "detail": "Clinic nurse"
+            }
+        ]
+    },
+    {
+        "character": "Joey",
+        "core_friend": "Chandler",
+        "relation": "core_group",
+        "detail": "Core Friend (Best friend to Chandler, roommate to Rachel, close friend to Phoebe, Monica, Ross)",
+        "description": "Joey Tribbiani, charming, aspiring actor, loyal roommate and best friend of Chandler.",
+        "all_core_relations": [
+            {
+                "core_friend": "Chandler",
+                "relation": "friend",
+                "detail": "Best friend / Longtime roommate"
+            },
+            {
+                "core_friend": "Rachel",
+                "relation": "friend",
+                "detail": "Roommate / Brief romantic interest"
+            },
+            {
+                "core_friend": "Phoebe",
+                "relation": "friend",
+                "detail": "Close friend / Confidant"
+            },
+            {
+                "core_friend": "Monica",
+                "relation": "friend",
+                "detail": "Close friend / Neighbor"
+            },
+            {
+                "core_friend": "Ross",
+                "relation": "friend",
+                "detail": "Close friend"
+            }
+        ]
+    },
+    {
+        "character": "Joey and Chandler",
+        "core_friend": "Joey",
+        "relation": "core_group",
+        "detail": "Core Friends Joint Utterance",
+        "description": "Joey Tribbiani and Chandler Bing speaking simultaneously in the dialogue.",
+        "all_core_relations": [
+            {
+                "core_friend": "Joey",
+                "relation": "core_group",
+                "detail": "Joint speaker"
+            },
+            {
+                "core_friend": "Chandler",
+                "relation": "core_group",
+                "detail": "Joint speaker"
+            }
+        ]
+    },
+    {
+        "character": "Joey and Ross",
+        "core_friend": "Joey",
+        "relation": "core_group",
+        "detail": "Core Friends Joint Utterance",
+        "description": "Joey Tribbiani and Ross Geller speaking simultaneously in the dialogue.",
+        "all_core_relations": [
+            {
+                "core_friend": "Joey",
+                "relation": "core_group",
+                "detail": "Joint speaker"
+            },
+            {
+                "core_friend": "Ross",
+                "relation": "core_group",
+                "detail": "Joint speaker"
+            }
+        ]
+    },
+    {
+        "character": "Joey's Hand Twin",
+        "core_friend": "Joey",
+        "relation": "colleague",
+        "detail": "Vegas Casino Dealer ('Thomas')",
+        "description": "A Las Vegas blackjack dealer whose hands match Joey's identically.",
+        "all_core_relations": [
+            {
+                "core_friend": "Joey",
+                "relation": "colleague",
+                "detail": "Prospective hand twin partner"
+            }
+        ]
+    },
+    {
+        "character": "Joey/Drake",
+        "core_friend": "Joey",
+        "relation": "alter_ego",
+        "detail": "Soap Opera Role",
+        "description": "Joey Tribbiani portraying Dr. Drake Remoray.",
+        "all_core_relations": [
+            {
+                "core_friend": "Joey",
+                "relation": "alter_ego",
+                "detail": "Soap opera role"
+            }
+        ]
+    },
+    {
+        "character": "Joshua",
+        "core_friend": "Rachel",
+        "relation": "romantic",
+        "detail": "Client / Boyfriend (Joshua Burgin)",
+        "description": "Rachel's handsome personal shopping client at Bloomingdale's with whom she has a relationship.",
+        "all_core_relations": [
+            {
+                "core_friend": "Rachel",
+                "relation": "romantic",
+                "detail": "Boyfriend / Client"
+            }
+        ]
+    },
+    {
+        "character": "Judge",
+        "core_friend": "Ross",
+        "relation": "service_neighbor",
+        "detail": "Annulment Judge",
+        "description": "The judge presiding over Ross and Rachel's marriage annulment hearing.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "service_neighbor",
+                "detail": "Judge"
+            },
+            {
+                "core_friend": "Rachel",
+                "relation": "service_neighbor",
+                "detail": "Judge"
+            }
+        ]
+    },
+    {
+        "character": "Julie",
+        "core_friend": "Ross",
+        "relation": "romantic",
+        "detail": "Girlfriend (Paleontologist)",
+        "description": "Ross's kind paleontologist girlfriend from grad school whom he dates after returning from China.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "romantic",
+                "detail": "Girlfriend"
+            }
+        ]
+    },
+    {
+        "character": "Julio",
+        "core_friend": "Monica",
+        "relation": "romantic",
+        "detail": "Boyfriend (The Moondance Poet)",
+        "description": "A poet waiter at the Moondance Diner who dates Monica and writes an insulting poem about her.",
+        "all_core_relations": [
+            {
+                "core_friend": "Monica",
+                "relation": "romantic",
+                "detail": "Boyfriend"
+            }
+        ]
+    },
+    {
+        "character": "Kate",
+        "core_friend": "Joey",
+        "relation": "romantic",
+        "detail": "Stage Co-star / Love Interest",
+        "description": "Kate Miller, Joey's off-Broadway stage co-star with whom he falls deeply in love.",
+        "all_core_relations": [
+            {
+                "core_friend": "Joey",
+                "relation": "romantic",
+                "detail": "Love interest / Co-star"
+            }
+        ]
+    },
+    {
+        "character": "Kathy",
+        "core_friend": "Chandler",
+        "relation": "romantic",
+        "detail": "Girlfriend (originally Joey's Girlfriend)",
+        "description": "Actress who dates Joey first, but falls in love with Chandler, sparking a major rift between the two guys.",
+        "all_core_relations": [
+            {
+                "core_friend": "Chandler",
+                "relation": "romantic",
+                "detail": "Girlfriend"
+            },
+            {
+                "core_friend": "Joey",
+                "relation": "romantic",
+                "detail": "Ex-girlfriend"
+            }
+        ]
+    },
+    {
+        "character": "Katie",
+        "core_friend": "Joey",
+        "relation": "romantic",
+        "detail": "Girlfriend ('The Puncher')",
+        "description": "Joey's petite girlfriend who punches him playfully but very hard on the arm.",
+        "all_core_relations": [
+            {
+                "core_friend": "Joey",
+                "relation": "romantic",
+                "detail": "Girlfriend"
+            }
+        ]
+    },
+    {
+        "character": "Kiki",
+        "core_friend": "Rachel",
+        "relation": "friend",
+        "detail": "High School Friend",
+        "description": "One of Rachel's old high school socialite friends from Long Island.",
+        "all_core_relations": [
+            {
+                "core_friend": "Rachel",
+                "relation": "friend",
+                "detail": "Friend"
+            }
+        ]
+    },
+    {
+        "character": "Kim",
+        "core_friend": "Rachel",
+        "relation": "colleague",
+        "detail": "Boss (Ralph Lauren)",
+        "description": "Rachel's smoking supervisor at Ralph Lauren; Rachel pretends to smoke to get career advice.",
+        "all_core_relations": [
+            {
+                "core_friend": "Rachel",
+                "relation": "colleague",
+                "detail": "Supervisor"
+            }
+        ]
+    },
+    {
+        "character": "Kori",
+        "core_friend": "Ross",
+        "relation": "colleague",
+        "detail": "Paleontology Colleague",
+        "description": "Kori Weston, fellow academic colleague in the paleontology department.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "colleague",
+                "detail": "Colleague"
+            }
+        ]
+    },
+    {
+        "character": "Krista",
+        "core_friend": "Joey",
+        "relation": "romantic",
+        "detail": "Date",
+        "description": "One of Joey's romantic dates.",
+        "all_core_relations": [
+            {
+                "core_friend": "Joey",
+                "relation": "romantic",
+                "detail": "Date"
+            }
+        ]
+    },
+    {
+        "character": "Kristen",
+        "core_friend": "Ross",
+        "relation": "romantic",
+        "detail": "Date (Competed for with Joey)",
+        "description": "A woman moving into the neighborhood whom both Ross and Joey discover they are dating simultaneously.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "romantic",
+                "detail": "Date"
+            },
+            {
+                "core_friend": "Joey",
+                "relation": "romantic",
+                "detail": "Date"
+            }
+        ]
+    },
+    {
+        "character": "Kristin",
+        "core_friend": "Ross",
+        "relation": "romantic",
+        "detail": "Date (Spelling variant of Kristen)",
+        "description": "Variant spelling of Kristen.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "romantic",
+                "detail": "Date"
+            }
+        ]
+    },
+    {
+        "character": "Kyle",
+        "core_friend": "Phoebe",
+        "relation": "romantic",
+        "detail": "Boyfriend",
+        "description": "A man Phoebe dates who is going through a bitter divorce; his ex-wife Whitney dates Ross.",
+        "all_core_relations": [
+            {
+                "core_friend": "Phoebe",
+                "relation": "romantic",
+                "detail": "Boyfriend"
+            }
+        ]
+    },
+    {
+        "character": "Larry",
+        "core_friend": "Phoebe",
+        "relation": "romantic",
+        "detail": "Boyfriend (Health Inspector)",
+        "description": "A health inspector who dates Phoebe and closes down all their favorite restaurants.",
+        "all_core_relations": [
+            {
+                "core_friend": "Phoebe",
+                "relation": "romantic",
+                "detail": "Boyfriend"
+            }
+        ]
+    },
+    {
+        "character": "Lauren",
+        "core_friend": "Joey",
+        "relation": "romantic",
+        "detail": "Understudy / Date",
+        "description": "Kate Miller's understudy in Joey's play, whom Joey dates while secretly pining for Kate.",
+        "all_core_relations": [
+            {
+                "core_friend": "Joey",
+                "relation": "romantic",
+                "detail": "Date"
+            }
+        ]
+    },
+    {
+        "character": "Leader",
+        "core_friend": "Rachel",
+        "relation": "service_neighbor",
+        "detail": "Seminar Leader",
+        "description": "Leader of an empowerment seminar attended by the girls.",
+        "all_core_relations": [
+            {
+                "core_friend": "Rachel",
+                "relation": "service_neighbor",
+                "detail": "Seminar leader"
+            }
+        ]
+    },
+    {
+        "character": "Lecturer",
+        "core_friend": "Ross",
+        "relation": "colleague",
+        "detail": "Guest Lecturer",
+        "description": "Academic lecturer speaking at NYU/museum.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "colleague",
+                "detail": "Colleague"
+            }
+        ]
+    },
+    {
+        "character": "Leslie",
+        "core_friend": "Phoebe",
+        "relation": "colleague",
+        "detail": "Former Musical Partner",
+        "description": "Phoebe's former singing partner who sold 'Smelly Cat' to be used in a cat litter commercial.",
+        "all_core_relations": [
+            {
+                "core_friend": "Phoebe",
+                "relation": "colleague",
+                "detail": "Former musical partner"
+            }
+        ]
+    },
+    {
+        "character": "Liam",
+        "core_friend": "Phoebe",
+        "relation": "romantic",
+        "detail": "Date",
+        "description": "One of Phoebe's dates.",
+        "all_core_relations": [
+            {
+                "core_friend": "Phoebe",
+                "relation": "romantic",
+                "detail": "Date"
+            }
+        ]
+    },
+    {
+        "character": "Lorraine",
+        "core_friend": "Joey",
+        "relation": "romantic",
+        "detail": "Double Date Partner",
+        "description": "Joey's date on a double date with Chandler and Janice.",
+        "all_core_relations": [
+            {
+                "core_friend": "Joey",
+                "relation": "romantic",
+                "detail": "Double-date partner"
+            }
+        ]
+    },
+    {
+        "character": "Lydia",
+        "core_friend": "Joey",
+        "relation": "friend",
+        "detail": "Hospital Friend",
+        "description": "A pregnant single mother and Boston Celtics fan (Leah Remini) whom Joey supports during childbirth.",
+        "all_core_relations": [
+            {
+                "core_friend": "Joey",
+                "relation": "friend",
+                "detail": "Friend in hospital"
+            }
+        ]
+    },
+    {
+        "character": "Maitre d'",
+        "core_friend": "Monica",
+        "relation": "service_neighbor",
+        "detail": "Restaurant Host",
+        "description": "Maitre d' at an upscale restaurant where the group dines.",
+        "all_core_relations": [
+            {
+                "core_friend": "Monica",
+                "relation": "service_neighbor",
+                "detail": "Restaurant staff"
+            }
+        ]
+    },
+    {
+        "character": "Marc",
+        "core_friend": "Joey",
+        "relation": "colleague",
+        "detail": "Actor / Colleague",
+        "description": "Actor interacting with Joey.",
+        "all_core_relations": [
+            {
+                "core_friend": "Joey",
+                "relation": "colleague",
+                "detail": "Actor colleague"
+            }
+        ]
+    },
+    {
+        "character": "Marjorie",
+        "core_friend": "Chandler",
+        "relation": "romantic",
+        "detail": "Sleep Clinic Date",
+        "description": "A woman Chandler meets at a sleep disorder clinic who screams violently in her sleep.",
+        "all_core_relations": [
+            {
+                "core_friend": "Chandler",
+                "relation": "romantic",
+                "detail": "Date"
+            }
+        ]
+    },
+    {
+        "character": "Mark",
+        "core_friend": "Rachel",
+        "relation": "colleague",
+        "detail": "Coworker (Bloomingdale's)",
+        "description": "Mark Robinson, Rachel's handsome coworker who helped her get hired at Bloomingdale's, sparking Ross's intense jealousy.",
+        "all_core_relations": [
+            {
+                "core_friend": "Rachel",
+                "relation": "colleague",
+                "detail": "Coworker / Friend"
+            },
+            {
+                "core_friend": "Ross",
+                "relation": "romantic",
+                "detail": "Romantic rival"
+            }
+        ]
+    },
+    {
+        "character": "Max",
+        "core_friend": "Phoebe",
+        "relation": "friend",
+        "detail": "Scientist Friend",
+        "description": "David the Scientist Guy's research colleague who moves with him to Minsk.",
+        "all_core_relations": [
+            {
+                "core_friend": "Phoebe",
+                "relation": "friend",
+                "detail": "Friend"
+            }
+        ]
+    },
+    {
+        "character": "Megan",
+        "core_friend": "Monica",
+        "relation": "service_neighbor",
+        "detail": "Rival Bride",
+        "description": "A bride who fights Monica for a discounted wedding dress and books Chandler's dream band to extort Monica.",
+        "all_core_relations": [
+            {
+                "core_friend": "Monica",
+                "relation": "service_neighbor",
+                "detail": "Rival bride"
+            }
+        ]
+    },
+    {
+        "character": "Melissa",
+        "core_friend": "Rachel",
+        "relation": "friend",
+        "detail": "Sorority Sister",
+        "description": "Melissa Warburton (Winona Ryder), Rachel's college sorority sister whom Rachel kissed in college.",
+        "all_core_relations": [
+            {
+                "core_friend": "Rachel",
+                "relation": "friend",
+                "detail": "College sorority sister"
+            }
+        ]
+    },
+    {
+        "character": "Message",
+        "core_friend": "Chandler",
+        "relation": "service_neighbor",
+        "detail": "Answering Machine Voice",
+        "description": "Answering machine recordings and audio prompts.",
+        "all_core_relations": [
+            {
+                "core_friend": "Chandler",
+                "relation": "service_neighbor",
+                "detail": "Answering machine voice"
+            }
+        ]
+    },
+    {
+        "character": "Mike",
+        "core_friend": "Phoebe",
+        "relation": "romantic",
+        "detail": "Husband (Mike Hannigan)",
+        "description": "Mike Hannigan (Paul Rudd), former lawyer turned pianist who meets Phoebe on a blind date set up by Joey and marries her.",
+        "all_core_relations": [
+            {
+                "core_friend": "Phoebe",
+                "relation": "romantic",
+                "detail": "Husband / Life partner"
+            },
+            {
+                "core_friend": "Joey",
+                "relation": "friend",
+                "detail": "Friend / Matchmaker"
+            },
+            {
+                "core_friend": "Ross",
+                "relation": "friend",
+                "detail": "Friend / Hangout partner"
+            }
+        ]
+    },
+    {
+        "character": "Mindy",
+        "core_friend": "Rachel",
+        "relation": "friend",
+        "detail": "Maid of Honor / Childhood Friend",
+        "description": "Mindy Hunter-Farber, Rachel's childhood best friend and maid of honor who marries Barry Farber.",
+        "all_core_relations": [
+            {
+                "core_friend": "Rachel",
+                "relation": "friend",
+                "detail": "Childhood friend"
+            }
+        ]
+    },
+    {
+        "character": "Mischa",
+        "core_friend": "Phoebe",
+        "relation": "friend",
+        "detail": "Translator",
+        "description": "Foreign language translator who translates between Phoebe and diplomat Sergei.",
+        "all_core_relations": [
+            {
+                "core_friend": "Phoebe",
+                "relation": "friend",
+                "detail": "Translator"
+            }
+        ]
+    },
+    {
+        "character": "Molly",
+        "core_friend": "Rachel",
+        "relation": "service_neighbor",
+        "detail": "Nanny (for Emma)",
+        "description": "Emma's attractive young nanny whom Ross protects from Joey's advances, only to find out she is gay.",
+        "all_core_relations": [
+            {
+                "core_friend": "Rachel",
+                "relation": "service_neighbor",
+                "detail": "Nanny"
+            },
+            {
+                "core_friend": "Ross",
+                "relation": "service_neighbor",
+                "detail": "Nanny"
+            }
+        ]
+    },
+    {
+        "character": "Mona",
+        "core_friend": "Ross",
+        "relation": "romantic",
+        "detail": "Girlfriend",
+        "description": "Ross's patient girlfriend whom he meets at Monica and Chandler's wedding; endures Ross's chaotic cohabitation with pregnant Rachel.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "romantic",
+                "detail": "Girlfriend"
+            }
+        ]
+    },
+    {
+        "character": "Mona's Date",
+        "core_friend": "Ross",
+        "relation": "service_neighbor",
+        "detail": "Rival Date",
+        "description": "A man Mona dates after breaking up with Ross.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "service_neighbor",
+                "detail": "Rival date"
+            }
+        ]
+    },
+    {
+        "character": "Monica",
+        "core_friend": "Ross",
+        "relation": "core_group",
+        "detail": "Core Friend (Sister to Ross, wife to Chandler, roommate to Rachel, close friend to Joey, Phoebe)",
+        "description": "Monica Geller, competitive head chef, sister of Ross, wife of Chandler, anchor of the apartment.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "family",
+                "detail": "Younger sister"
+            },
+            {
+                "core_friend": "Chandler",
+                "relation": "romantic",
+                "detail": "Wife / Partner"
+            },
+            {
+                "core_friend": "Rachel",
+                "relation": "friend",
+                "detail": "Best friend / Roommate / High school friend"
+            },
+            {
+                "core_friend": "Phoebe",
+                "relation": "friend",
+                "detail": "Former roommate / Close friend"
+            },
+            {
+                "core_friend": "Joey",
+                "relation": "friend",
+                "detail": "Neighbor / Close friend"
+            }
+        ]
+    },
+    {
+        "character": "Monica and Phoebe",
+        "core_friend": "Monica",
+        "relation": "core_group",
+        "detail": "Core Friends Joint Utterance",
+        "description": "Monica Geller and Phoebe Buffay speaking simultaneously in the dialogue.",
+        "all_core_relations": [
+            {
+                "core_friend": "Monica",
+                "relation": "core_group",
+                "detail": "Joint speaker"
+            },
+            {
+                "core_friend": "Phoebe",
+                "relation": "core_group",
+                "detail": "Joint speaker"
+            }
+        ]
+    },
+    {
+        "character": "Monica and Rachel",
+        "core_friend": "Monica",
+        "relation": "core_group",
+        "detail": "Core Friends Joint Utterance",
+        "description": "Monica Geller and Rachel Green speaking simultaneously in the dialogue.",
+        "all_core_relations": [
+            {
+                "core_friend": "Monica",
+                "relation": "core_group",
+                "detail": "Joint speaker"
+            },
+            {
+                "core_friend": "Rachel",
+                "relation": "core_group",
+                "detail": "Joint speaker"
+            }
+        ]
+    },
+    {
+        "character": "Monica and Ross",
+        "core_friend": "Monica",
+        "relation": "core_group",
+        "detail": "Core Friends Joint Utterance",
+        "description": "Monica Geller and Ross Geller speaking simultaneously in the dialogue.",
+        "all_core_relations": [
+            {
+                "core_friend": "Monica",
+                "relation": "core_group",
+                "detail": "Joint speaker"
+            },
+            {
+                "core_friend": "Ross",
+                "relation": "core_group",
+                "detail": "Joint speaker"
+            }
+        ]
+    },
+    {
+        "character": "Mr. Bing",
+        "core_friend": "Chandler",
+        "relation": "family",
+        "detail": "Father (Charles Bing / Helena Handbasket)",
+        "description": "Chandler's father who runs a drag revue in Las Vegas under the stage name Helena Handbasket.",
+        "all_core_relations": [
+            {
+                "core_friend": "Chandler",
+                "relation": "family",
+                "detail": "Father"
+            }
+        ]
+    },
+    {
+        "character": "Mr. Burgin",
+        "core_friend": "Rachel",
+        "relation": "family",
+        "detail": "Boyfriend's Father (Joshua's Dad)",
+        "description": "Joshua Burgin's wealthy father who walks into his apartment when Rachel is dressed in lingerie.",
+        "all_core_relations": [
+            {
+                "core_friend": "Rachel",
+                "relation": "family",
+                "detail": "Boyfriend's father"
+            }
+        ]
+    },
+    {
+        "character": "Mr. Franklin",
+        "core_friend": "Chandler",
+        "relation": "colleague",
+        "detail": "Corporate Manager",
+        "description": "Executive manager at Chandler's corporate office.",
+        "all_core_relations": [
+            {
+                "core_friend": "Chandler",
+                "relation": "colleague",
+                "detail": "Corporate manager"
+            }
+        ]
+    },
+    {
+        "character": "Mr. Geller",
+        "core_friend": "Ross",
+        "relation": "family",
+        "detail": "Father (Jack Geller, to Ross and Monica)",
+        "description": "Jack Geller, eccentric, opinionated, and lovable father of Ross and Monica.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "family",
+                "detail": "Father"
+            },
+            {
+                "core_friend": "Monica",
+                "relation": "family",
+                "detail": "Father"
+            },
+            {
+                "core_friend": "Chandler",
+                "relation": "family",
+                "detail": "Father-in-law"
+            }
+        ]
+    },
+    {
+        "character": "Mr. Heckles",
+        "core_friend": "Monica",
+        "relation": "service_neighbor",
+        "detail": "Downstairs Neighbor",
+        "description": "The eccentric, bathrobe-wearing downstairs neighbor who bangs on the ceiling with a broom; leaves all his possessions to Monica and Rachel when he dies.",
+        "all_core_relations": [
+            {
+                "core_friend": "Monica",
+                "relation": "service_neighbor",
+                "detail": "Downstairs neighbor"
+            },
+            {
+                "core_friend": "Rachel",
+                "relation": "service_neighbor",
+                "detail": "Downstairs neighbor"
+            },
+            {
+                "core_friend": "Chandler",
+                "relation": "service_neighbor",
+                "detail": "Downstairs neighbor"
+            },
+            {
+                "core_friend": "Joey",
+                "relation": "service_neighbor",
+                "detail": "Downstairs neighbor"
+            }
+        ]
+    },
+    {
+        "character": "Mr. Kaplan",
+        "core_friend": "Monica",
+        "relation": "colleague",
+        "detail": "Restaurateur / Chef Boss",
+        "description": "Chef and restaurateur who tests Monica's culinary expertise.",
+        "all_core_relations": [
+            {
+                "core_friend": "Monica",
+                "relation": "colleague",
+                "detail": "Chef boss"
+            }
+        ]
+    },
+    {
+        "character": "Mr. Posner",
+        "core_friend": "Rachel",
+        "relation": "colleague",
+        "detail": "Bloomingdale's Executive",
+        "description": "Senior manager at Bloomingdale's.",
+        "all_core_relations": [
+            {
+                "core_friend": "Rachel",
+                "relation": "colleague",
+                "detail": "Executive"
+            }
+        ]
+    },
+    {
+        "character": "Mr. Treeger",
+        "core_friend": "Monica",
+        "relation": "service_neighbor",
+        "detail": "Building Superintendent",
+        "description": "The building superintendent of Monica and Joey's apartment building; Joey practices ballroom dancing with him.",
+        "all_core_relations": [
+            {
+                "core_friend": "Monica",
+                "relation": "service_neighbor",
+                "detail": "Building superintendent"
+            },
+            {
+                "core_friend": "Rachel",
+                "relation": "service_neighbor",
+                "detail": "Building superintendent"
+            },
+            {
+                "core_friend": "Joey",
+                "relation": "service_neighbor",
+                "detail": "Building superintendent & dance partner"
+            },
+            {
+                "core_friend": "Chandler",
+                "relation": "service_neighbor",
+                "detail": "Building superintendent"
+            }
+        ]
+    },
+    {
+        "character": "Mr. Tribbiani",
+        "core_friend": "Joey",
+        "relation": "family",
+        "detail": "Father (Joey Tribbiani Sr.)",
+        "description": "Joey's pipe-fitter father who has a secret mistress.",
+        "all_core_relations": [
+            {
+                "core_friend": "Joey",
+                "relation": "family",
+                "detail": "Father"
+            }
+        ]
+    },
+    {
+        "character": "Mr. Waltham",
+        "core_friend": "Ross",
+        "relation": "family",
+        "detail": "Father-in-law (Emily's Father)",
+        "description": "Emily's wealthy father who gets into heated disputes with Jack Geller over wedding expenses.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "family",
+                "detail": "Father-in-law"
+            }
+        ]
+    },
+    {
+        "character": "Mr. Zelner",
+        "core_friend": "Rachel",
+        "relation": "colleague",
+        "detail": "Long-term Boss (Ralph Lauren)",
+        "description": "Rachel's serious executive boss at Ralph Lauren whom Rachel constantly causes awkward misunderstandings with.",
+        "all_core_relations": [
+            {
+                "core_friend": "Rachel",
+                "relation": "colleague",
+                "detail": "Boss at Ralph Lauren"
+            }
+        ]
+    },
+    {
+        "character": "Mrs. Bing",
+        "core_friend": "Chandler",
+        "relation": "family",
+        "detail": "Mother (Nora Tyler Bing)",
+        "description": "Chandler's glamorous, uninhibited mother who writes bestselling erotic romance novels; kisses Ross in Season 1.",
+        "all_core_relations": [
+            {
+                "core_friend": "Chandler",
+                "relation": "family",
+                "detail": "Mother"
+            },
+            {
+                "core_friend": "Ross",
+                "relation": "romantic",
+                "detail": "Brief kiss in restaurant"
+            }
+        ]
+    },
+    {
+        "character": "Mrs. Burgin",
+        "core_friend": "Rachel",
+        "relation": "family",
+        "detail": "Boyfriend's Mother (Joshua's Mom)",
+        "description": "Joshua's mother who walks in on Rachel wearing negligee in her apartment.",
+        "all_core_relations": [
+            {
+                "core_friend": "Rachel",
+                "relation": "family",
+                "detail": "Boyfriend's mother"
+            }
+        ]
+    },
+    {
+        "character": "Mrs. Chatracus",
+        "core_friend": "Monica",
+        "relation": "service_neighbor",
+        "detail": "Elderly Neighbor",
+        "description": "Elderly tenant in Monica and Rachel's building.",
+        "all_core_relations": [
+            {
+                "core_friend": "Monica",
+                "relation": "service_neighbor",
+                "detail": "Neighbor"
+            }
+        ]
+    },
+    {
+        "character": "Mrs. Geller",
+        "core_friend": "Ross",
+        "relation": "family",
+        "detail": "Mother (Judy Geller, to Ross and Monica)",
+        "description": "Judy Geller, hypercritical mother of Monica and Ross, who openly favors Ross as the 'medical marvel'.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "family",
+                "detail": "Mother"
+            },
+            {
+                "core_friend": "Monica",
+                "relation": "family",
+                "detail": "Mother"
+            },
+            {
+                "core_friend": "Chandler",
+                "relation": "family",
+                "detail": "Mother-in-law"
+            }
+        ]
+    },
+    {
+        "character": "Mrs. Green",
+        "core_friend": "Rachel",
+        "relation": "family",
+        "detail": "Mother (Sandra Green)",
+        "description": "Sandra Green (Marlo Thomas), Rachel's wealthy mother who divorces Rachel's father and looks to Rachel for modern lifestyle advice.",
+        "all_core_relations": [
+            {
+                "core_friend": "Rachel",
+                "relation": "family",
+                "detail": "Mother"
+            },
+            {
+                "core_friend": "Ross",
+                "relation": "family",
+                "detail": "Grandmother to Emma"
+            }
+        ]
+    },
+    {
+        "character": "Mrs. Lynch",
+        "core_friend": "Monica",
+        "relation": "service_neighbor",
+        "detail": "Apartment Neighbor",
+        "description": "Apartment neighbor in the girls' building.",
+        "all_core_relations": [
+            {
+                "core_friend": "Monica",
+                "relation": "service_neighbor",
+                "detail": "Neighbor"
+            }
+        ]
+    },
+    {
+        "character": "Mrs. Tedlock",
+        "core_friend": "Chandler",
+        "relation": "colleague",
+        "detail": "Office Colleague",
+        "description": "Colleague at Chandler's data office.",
+        "all_core_relations": [
+            {
+                "core_friend": "Chandler",
+                "relation": "colleague",
+                "detail": "Office colleague"
+            }
+        ]
+    },
+    {
+        "character": "Mrs. Tribbiani",
+        "core_friend": "Joey",
+        "relation": "family",
+        "detail": "Mother (Gloria Tribbiani)",
+        "description": "Joey's mother who tolerates her husband's secret affair to keep their marriage peaceful.",
+        "all_core_relations": [
+            {
+                "core_friend": "Joey",
+                "relation": "family",
+                "detail": "Mother"
+            }
+        ]
+    },
+    {
+        "character": "Mrs. Waltham",
+        "core_friend": "Ross",
+        "relation": "family",
+        "detail": "Stepmother-in-law (Emily's Stepmother)",
+        "description": "Emily's abrasive stepmother in London.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "family",
+                "detail": "Stepmother-in-law"
+            }
+        ]
+    },
+    {
+        "character": "Ms. McKenna",
+        "core_friend": "Rachel",
+        "relation": "colleague",
+        "detail": "Fashion Executive Recruiter",
+        "description": "Fashion industry executive recruiter who interviews Rachel.",
+        "all_core_relations": [
+            {
+                "core_friend": "Rachel",
+                "relation": "colleague",
+                "detail": "Interviewer"
+            }
+        ]
+    },
+    {
+        "character": "Nancy",
+        "core_friend": "Chandler",
+        "relation": "service_neighbor",
+        "detail": "Real Estate Agent",
+        "description": "Realtor who helps Chandler and Monica look for their suburban home in Westchester.",
+        "all_core_relations": [
+            {
+                "core_friend": "Chandler",
+                "relation": "service_neighbor",
+                "detail": "Realtor"
+            },
+            {
+                "core_friend": "Monica",
+                "relation": "service_neighbor",
+                "detail": "Realtor"
+            }
+        ]
+    },
+    {
+        "character": "Paolo",
+        "core_friend": "Rachel",
+        "relation": "romantic",
+        "detail": "Boyfriend (Italian Neighbor)",
+        "description": "A handsome Italian neighbor who speaks little English; dates Rachel until he makes an aggressive pass at Phoebe.",
+        "all_core_relations": [
+            {
+                "core_friend": "Rachel",
+                "relation": "romantic",
+                "detail": "Boyfriend"
+            },
+            {
+                "core_friend": "Ross",
+                "relation": "romantic",
+                "detail": "Romantic rival"
+            },
+            {
+                "core_friend": "Phoebe",
+                "relation": "service_neighbor",
+                "detail": "Massage client who crossed line"
+            }
+        ]
+    },
+    {
+        "character": "Paul",
+        "core_friend": "Rachel",
+        "relation": "romantic",
+        "detail": "Boyfriend (Paul Stevens / Bruce Willis) & Paul the Wine Guy (Monica)",
+        "description": "Elizabeth's intimidating father Paul Stevens (Bruce Willis) who dates Rachel; also refers to Paul the Wine Guy from the Pilot.",
+        "all_core_relations": [
+            {
+                "core_friend": "Rachel",
+                "relation": "romantic",
+                "detail": "Boyfriend (Paul Stevens)"
+            },
+            {
+                "core_friend": "Ross",
+                "relation": "family",
+                "detail": "Girlfriend's father (Paul Stevens)"
+            },
+            {
+                "core_friend": "Monica",
+                "relation": "romantic",
+                "detail": "First date (Paul the Wine Guy)"
+            }
+        ]
+    },
+    {
+        "character": "Paula",
+        "core_friend": "Monica",
+        "relation": "colleague",
+        "detail": "Coworker",
+        "description": "Coworker at Monica's restaurant or Chandler's office.",
+        "all_core_relations": [
+            {
+                "core_friend": "Monica",
+                "relation": "colleague",
+                "detail": "Coworker"
+            }
+        ]
+    },
+    {
+        "character": "Pete",
+        "core_friend": "Monica",
+        "relation": "romantic",
+        "detail": "Boyfriend (Pete Becker)",
+        "description": "Pete Becker (Jon Favreau), tech billionaire who falls in love with Monica and tries stubbornly to become the Ultimate Fighting Champion.",
+        "all_core_relations": [
+            {
+                "core_friend": "Monica",
+                "relation": "romantic",
+                "detail": "Boyfriend"
+            }
+        ]
+    },
+    {
+        "character": "Peter",
+        "core_friend": "Joey",
+        "relation": "colleague",
+        "detail": "Actor / Colleague",
+        "description": "Actor interacting with Joey.",
+        "all_core_relations": [
+            {
+                "core_friend": "Joey",
+                "relation": "colleague",
+                "detail": "Actor colleague"
+            }
+        ]
+    },
+    {
+        "character": "Petrie",
+        "core_friend": "Ross",
+        "relation": "service_neighbor",
+        "detail": "Hotel Guest / Clerk",
+        "description": "Hotel contact during Ross and Chandler's weekend trip to Vermont.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "service_neighbor",
+                "detail": "Hotel contact"
+            },
+            {
+                "core_friend": "Chandler",
+                "relation": "service_neighbor",
+                "detail": "Hotel contact"
+            }
+        ]
+    },
+    {
+        "character": "Phoebe",
+        "core_friend": "Monica",
+        "relation": "core_group",
+        "detail": "Core Friend (Former roommate to Monica, confidant to Joey, close friend to Rachel, Chandler, Ross)",
+        "description": "Phoebe Buffay, eccentric, empathetic masseuse and musician, singer of 'Smelly Cat'.",
+        "all_core_relations": [
+            {
+                "core_friend": "Monica",
+                "relation": "friend",
+                "detail": "Former roommate / Close friend"
+            },
+            {
+                "core_friend": "Joey",
+                "relation": "friend",
+                "detail": "Close confidant / Flirtatious pal"
+            },
+            {
+                "core_friend": "Rachel",
+                "relation": "friend",
+                "detail": "Close friend / Roommate"
+            },
+            {
+                "core_friend": "Chandler",
+                "relation": "friend",
+                "detail": "Close friend"
+            },
+            {
+                "core_friend": "Ross",
+                "relation": "friend",
+                "detail": "Close friend"
+            }
+        ]
+    },
+    {
+        "character": "Phoebe and Leslie",
+        "core_friend": "Phoebe",
+        "relation": "core_group",
+        "detail": "Musical Duo Joint Utterance",
+        "description": "Phoebe Buffay and Leslie singing together.",
+        "all_core_relations": [
+            {
+                "core_friend": "Phoebe",
+                "relation": "core_group",
+                "detail": "Joint speaker"
+            }
+        ]
+    },
+    {
+        "character": "Phoebe and Rachel",
+        "core_friend": "Phoebe",
+        "relation": "core_group",
+        "detail": "Core Friends Joint Utterance",
+        "description": "Phoebe Buffay and Rachel Green speaking simultaneously in the dialogue.",
+        "all_core_relations": [
+            {
+                "core_friend": "Phoebe",
+                "relation": "core_group",
+                "detail": "Joint speaker"
+            },
+            {
+                "core_friend": "Rachel",
+                "relation": "core_group",
+                "detail": "Joint speaker"
+            }
+        ]
+    },
+    {
+        "character": "Phoebe Sr",
+        "core_friend": "Phoebe",
+        "relation": "family",
+        "detail": "Birth Mother (Phoebe Abbott)",
+        "description": "Phoebe's biological birth mother who gave up Phoebe and Ursula at birth to Lily Buffay.",
+        "all_core_relations": [
+            {
+                "core_friend": "Phoebe",
+                "relation": "family",
+                "detail": "Biological birth mother"
+            }
+        ]
+    },
+    {
+        "character": "Phoebe Sr.",
+        "core_friend": "Phoebe",
+        "relation": "family",
+        "detail": "Birth Mother (Phoebe Abbott, spelling variant)",
+        "description": "Phoebe Abbott, Phoebe's biological mother (variant with period).",
+        "all_core_relations": [
+            {
+                "core_friend": "Phoebe",
+                "relation": "family",
+                "detail": "Biological birth mother"
+            }
+        ]
+    },
+    {
+        "character": "Phoebe/Waitress",
+        "core_friend": "Phoebe",
+        "relation": "alter_ego",
+        "detail": "Waitress Role / Ursula",
+        "description": "Phoebe Buffay acting as or mistaken for Ursula the waitress.",
+        "all_core_relations": [
+            {
+                "core_friend": "Phoebe",
+                "relation": "alter_ego",
+                "detail": "Mistaken identity / Twin"
+            }
+        ]
+    },
+    {
+        "character": "Rachel",
+        "core_friend": "Ross",
+        "relation": "core_group",
+        "detail": "Core Friend (Romantic partner to Ross, best friend to Monica, roommate to Joey, close friend to Chandler, Phoebe)",
+        "description": "Rachel Green, fashion executive, mother of Emma, longtime on-and-off romantic love of Ross.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "romantic",
+                "detail": "On-off partner / Co-parent of Emma"
+            },
+            {
+                "core_friend": "Monica",
+                "relation": "friend",
+                "detail": "Best friend / High school friend / Roommate"
+            },
+            {
+                "core_friend": "Joey",
+                "relation": "friend",
+                "detail": "Roommate / Brief romantic interest"
+            },
+            {
+                "core_friend": "Chandler",
+                "relation": "friend",
+                "detail": "Close friend"
+            },
+            {
+                "core_friend": "Phoebe",
+                "relation": "friend",
+                "detail": "Close friend / Roommate"
+            }
+        ]
+    },
+    {
+        "character": "Rachel and Bonnie",
+        "core_friend": "Rachel",
+        "relation": "core_group",
+        "detail": "Joint Utterance",
+        "description": "Rachel Green and Bonnie speaking simultaneously.",
+        "all_core_relations": [
+            {
+                "core_friend": "Rachel",
+                "relation": "core_group",
+                "detail": "Joint speaker"
+            }
+        ]
+    },
+    {
+        "character": "Rachel and Phoebe",
+        "core_friend": "Rachel",
+        "relation": "core_group",
+        "detail": "Core Friends Joint Utterance",
+        "description": "Rachel Green and Phoebe Buffay speaking simultaneously in the dialogue.",
+        "all_core_relations": [
+            {
+                "core_friend": "Rachel",
+                "relation": "core_group",
+                "detail": "Joint speaker"
+            },
+            {
+                "core_friend": "Phoebe",
+                "relation": "core_group",
+                "detail": "Joint speaker"
+            }
+        ]
+    },
+    {
+        "character": "Rachel/actress",
+        "core_friend": "Rachel",
+        "relation": "alter_ego",
+        "detail": "Rachel Acting",
+        "description": "Rachel Green performing in an acting or roleplay scenario.",
+        "all_core_relations": [
+            {
+                "core_friend": "Rachel",
+                "relation": "alter_ego",
+                "detail": "Acting exercise"
+            }
+        ]
+    },
+    {
+        "character": "Raymond",
+        "core_friend": "Joey",
+        "relation": "colleague",
+        "detail": "Actor / Colleague",
+        "description": "Actor coworker interacting with Joey.",
+        "all_core_relations": [
+            {
+                "core_friend": "Joey",
+                "relation": "colleague",
+                "detail": "Actor colleague"
+            }
+        ]
+    },
+    {
+        "character": "Richard",
+        "core_friend": "Monica",
+        "relation": "romantic",
+        "detail": "Major Long-term Boyfriend (Dr. Richard Burke)",
+        "description": "Dr. Richard Burke (Tom Selleck), suave older ophthalmologist and Geller family friend; Monica's deep love who did not want more children.",
+        "all_core_relations": [
+            {
+                "core_friend": "Monica",
+                "relation": "romantic",
+                "detail": "Major long-term boyfriend"
+            },
+            {
+                "core_friend": "Ross",
+                "relation": "friend",
+                "detail": "Family friend"
+            },
+            {
+                "core_friend": "Chandler",
+                "relation": "romantic",
+                "detail": "Romantic rival"
+            }
+        ]
+    },
+    {
+        "character": "Richard’s Date",
+        "core_friend": "Monica",
+        "relation": "service_neighbor",
+        "detail": "Date of Richard",
+        "description": "A woman Richard dates after breaking up with Monica.",
+        "all_core_relations": [
+            {
+                "core_friend": "Monica",
+                "relation": "service_neighbor",
+                "detail": "Acquaintance / Ex's date"
+            }
+        ]
+    },
+    {
+        "character": "Rick",
+        "core_friend": "Phoebe",
+        "relation": "romantic",
+        "detail": "Client / Date",
+        "description": "Phoebe's massage client whom she breaks her professional oath to date.",
+        "all_core_relations": [
+            {
+                "core_friend": "Phoebe",
+                "relation": "romantic",
+                "detail": "Client and date"
+            }
+        ]
+    },
+    {
+        "character": "Robbie",
+        "core_friend": "Joey",
+        "relation": "colleague",
+        "detail": "Actor / Colleague",
+        "description": "Actor working with Joey.",
+        "all_core_relations": [
+            {
+                "core_friend": "Joey",
+                "relation": "colleague",
+                "detail": "Actor colleague"
+            }
+        ]
+    },
+    {
+        "character": "Robert",
+        "core_friend": "Phoebe",
+        "relation": "romantic",
+        "detail": "Boyfriend (Athletic Guy)",
+        "description": "Phoebe's athletic boyfriend whose loose gym shorts constantly expose him to the group.",
+        "all_core_relations": [
+            {
+                "core_friend": "Phoebe",
+                "relation": "romantic",
+                "detail": "Boyfriend"
+            }
+        ]
+    },
+    {
+        "character": "Roger",
+        "core_friend": "Phoebe",
+        "relation": "romantic",
+        "detail": "Boyfriend (Psychiatrist)",
+        "description": "Phoebe's psychiatrist boyfriend (Fisher Stevens) who ruthlessly psychoanalyzes the group's unhealthy codependency.",
+        "all_core_relations": [
+            {
+                "core_friend": "Phoebe",
+                "relation": "romantic",
+                "detail": "Boyfriend"
+            }
+        ]
+    },
+    {
+        "character": "Ronni",
+        "core_friend": "Joey",
+        "relation": "family",
+        "detail": "Father's Mistress (Ronni Rappalopo)",
+        "description": "Joey's father's longtime mistress, an animal mortician.",
+        "all_core_relations": [
+            {
+                "core_friend": "Joey",
+                "relation": "family",
+                "detail": "Father's mistress"
+            }
+        ]
+    },
+    {
+        "character": "Ross",
+        "core_friend": "Rachel",
+        "relation": "core_group",
+        "detail": "Core Friend (Brother to Monica, on-off partner to Rachel, college friend to Chandler, close friend to Joey, Phoebe)",
+        "description": "Ross Geller, paleontologist, professor, father of Ben and Emma, brother of Monica.",
+        "all_core_relations": [
+            {
+                "core_friend": "Rachel",
+                "relation": "romantic",
+                "detail": "On-off partner / Co-parent of Emma"
+            },
+            {
+                "core_friend": "Monica",
+                "relation": "family",
+                "detail": "Older brother"
+            },
+            {
+                "core_friend": "Chandler",
+                "relation": "friend",
+                "detail": "College best friend / Brother-in-law"
+            },
+            {
+                "core_friend": "Joey",
+                "relation": "friend",
+                "detail": "Close friend"
+            },
+            {
+                "core_friend": "Phoebe",
+                "relation": "friend",
+                "detail": "Close friend"
+            }
+        ]
+    },
+    {
+        "character": "Ross and Chandler",
+        "core_friend": "Ross",
+        "relation": "core_group",
+        "detail": "Core Friends Joint Utterance",
+        "description": "Ross Geller and Chandler Bing speaking simultaneously in the dialogue.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "core_group",
+                "detail": "Joint speaker"
+            },
+            {
+                "core_friend": "Chandler",
+                "relation": "core_group",
+                "detail": "Joint speaker"
+            }
+        ]
+    },
+    {
+        "character": "Ross and Joey",
+        "core_friend": "Ross",
+        "relation": "core_group",
+        "detail": "Core Friends Joint Utterance",
+        "description": "Ross Geller and Joey Tribbiani speaking simultaneously in the dialogue.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "core_group",
+                "detail": "Joint speaker"
+            },
+            {
+                "core_friend": "Joey",
+                "relation": "core_group",
+                "detail": "Joint speaker"
+            }
+        ]
+    },
+    {
+        "character": "Ross and Rachel",
+        "core_friend": "Ross",
+        "relation": "core_group",
+        "detail": "Core Friends Joint Utterance",
+        "description": "Ross Geller and Rachel Green speaking simultaneously in the dialogue.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "core_group",
+                "detail": "Joint speaker"
+            },
+            {
+                "core_friend": "Rachel",
+                "relation": "core_group",
+                "detail": "Joint speaker"
+            }
+        ]
+    },
+    {
+        "character": "Russell",
+        "core_friend": "Ross",
+        "relation": "service_neighbor",
+        "detail": "Divorce Attorney",
+        "description": "Ross's weary divorce lawyer who handles his multiple divorces and annulments.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "service_neighbor",
+                "detail": "Divorce attorney"
+            }
+        ]
+    },
+    {
+        "character": "Santos",
+        "core_friend": "Chandler",
+        "relation": "colleague",
+        "detail": "Office Colleague",
+        "description": "Colleague at Chandler's corporate office.",
+        "all_core_relations": [
+            {
+                "core_friend": "Chandler",
+                "relation": "colleague",
+                "detail": "Office colleague"
+            }
+        ]
+    },
+    {
+        "character": "Sarah",
+        "core_friend": "Ross",
+        "relation": "friend",
+        "detail": "Brown Bird Scout",
+        "description": "The Brown Bird Girl Scout whose leg Ross accidentally breaks; Ross takes over selling her holiday cookies.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "friend",
+                "detail": "Scout / Cookie seller"
+            }
+        ]
+    },
+    {
+        "character": "Sergei",
+        "core_friend": "Phoebe",
+        "relation": "romantic",
+        "detail": "Boyfriend (Diplomat)",
+        "description": "A foreign diplomat from a fictional Eastern European country who dates Phoebe and communicates through his translator Mischa.",
+        "all_core_relations": [
+            {
+                "core_friend": "Phoebe",
+                "relation": "romantic",
+                "detail": "Boyfriend"
+            }
+        ]
+    },
+    {
+        "character": "Shelley",
+        "core_friend": "Chandler",
+        "relation": "colleague",
+        "detail": "Office Coworker",
+        "description": "Chandler's coworker who mistakenly assumes Chandler is gay and attempts to set him up with another man.",
+        "all_core_relations": [
+            {
+                "core_friend": "Chandler",
+                "relation": "colleague",
+                "detail": "Coworker"
+            }
+        ]
+    },
+    {
+        "character": "Sophie",
+        "core_friend": "Rachel",
+        "relation": "colleague",
+        "detail": "Coworker (Bloomingdale's)",
+        "description": "Joanna's timid, cheerful assistant at Bloomingdale's who works alongside Rachel and bears the brunt of Joanna's insults.",
+        "all_core_relations": [
+            {
+                "core_friend": "Rachel",
+                "relation": "colleague",
+                "detail": "Coworker at Bloomingdale's"
+            }
+        ]
+    },
+    {
+        "character": "Stanley",
+        "core_friend": "Joey",
+        "relation": "colleague",
+        "detail": "Movie Director",
+        "description": "The director of 'Shutterspeed', the independent movie that shuts down production in Las Vegas, leaving Joey stranded.",
+        "all_core_relations": [
+            {
+                "core_friend": "Joey",
+                "relation": "colleague",
+                "detail": "Movie director"
+            }
+        ]
+    },
+    {
+        "character": "Stephanie",
+        "core_friend": "Phoebe",
+        "relation": "colleague",
+        "detail": "Musician Rival",
+        "description": "Stephanie Schiffer (Chrissie Hynde), professional singer-guitarist hired by Terry to replace Phoebe at Central Perk.",
+        "all_core_relations": [
+            {
+                "core_friend": "Phoebe",
+                "relation": "colleague",
+                "detail": "Musician rival"
+            }
+        ]
+    },
+    {
+        "character": "Steve",
+        "core_friend": "Monica",
+        "relation": "service_neighbor",
+        "detail": "Massage Client / Restaurateur",
+        "description": "A stoned restaurant owner (Jon Lovitz) whom Phoebe brings to Monica's apartment for private chef tasting.",
+        "all_core_relations": [
+            {
+                "core_friend": "Monica",
+                "relation": "service_neighbor",
+                "detail": "Prospective restaurant employer"
+            },
+            {
+                "core_friend": "Phoebe",
+                "relation": "service_neighbor",
+                "detail": "Massage client"
+            }
+        ]
+    },
+    {
+        "character": "Stevens",
+        "core_friend": "Ross",
+        "relation": "family",
+        "detail": "Girlfriend's Father (Paul Stevens)",
+        "description": "Paul Stevens, father of Ross's student girlfriend Elizabeth Stevens.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "family",
+                "detail": "Girlfriend's father"
+            }
+        ]
+    },
+    {
+        "character": "Stu",
+        "core_friend": "Joey",
+        "relation": "colleague",
+        "detail": "Date Acquaintance",
+        "description": "Acquaintance from Joey's social/acting circle.",
+        "all_core_relations": [
+            {
+                "core_friend": "Joey",
+                "relation": "colleague",
+                "detail": "Acquaintance"
+            }
+        ]
+    },
+    {
+        "character": "Susan",
+        "core_friend": "Ross",
+        "relation": "family",
+        "detail": "Co-parent / Ex-wife's Wife (Susan Bunch)",
+        "description": "Carol's lesbian partner and wife; co-parent of Ben with Ross, frequently exchanging sarcastic barbs with him.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "family",
+                "detail": "Co-parent / Ex-wife's spouse"
+            },
+            {
+                "core_friend": "Monica",
+                "relation": "family",
+                "detail": "Nephew's co-parent"
+            }
+        ]
+    },
+    {
+        "character": "Tag",
+        "core_friend": "Rachel",
+        "relation": "romantic",
+        "detail": "Assistant & Boyfriend (Tag Jones)",
+        "description": "Tag Jones, Rachel's handsome, naive 24-year-old assistant at Ralph Lauren whom she hires and dates until turning 30.",
+        "all_core_relations": [
+            {
+                "core_friend": "Rachel",
+                "relation": "romantic",
+                "detail": "Assistant and boyfriend"
+            }
+        ]
+    },
+    {
+        "character": "Terry",
+        "core_friend": "Rachel",
+        "relation": "colleague",
+        "detail": "Central Perk Boss/Owner",
+        "description": "The original dry owner of Central Perk who thinks Rachel is a terrible waitress and Phoebe is a terrible singer.",
+        "all_core_relations": [
+            {
+                "core_friend": "Rachel",
+                "relation": "colleague",
+                "detail": "Employer / Coffee shop owner"
+            },
+            {
+                "core_friend": "Phoebe",
+                "relation": "colleague",
+                "detail": "Coffee shop owner"
+            }
+        ]
+    },
+    {
+        "character": "The Guys",
+        "core_friend": "Chandler",
+        "relation": "core_group",
+        "detail": "Core Friends Collective",
+        "description": "Collective line spoken by the male core friends (Chandler, Joey, Ross).",
+        "all_core_relations": [
+            {
+                "core_friend": "Chandler",
+                "relation": "core_group",
+                "detail": "Collective speaker"
+            },
+            {
+                "core_friend": "Joey",
+                "relation": "core_group",
+                "detail": "Collective speaker"
+            },
+            {
+                "core_friend": "Ross",
+                "relation": "core_group",
+                "detail": "Collective speaker"
+            }
+        ]
+    },
+    {
+        "character": "Tom",
+        "core_friend": "Monica",
+        "relation": "romantic",
+        "detail": "Date",
+        "description": "One of Monica's dates.",
+        "all_core_relations": [
+            {
+                "core_friend": "Monica",
+                "relation": "romantic",
+                "detail": "Date"
+            }
+        ]
+    },
+    {
+        "character": "Tommy",
+        "core_friend": "Rachel",
+        "relation": "romantic",
+        "detail": "Boyfriend ('The Screamer')",
+        "description": "Rachel's polite boyfriend (Ben Stiller) who flies into terrifying, screaming rages whenever only Ross is watching.",
+        "all_core_relations": [
+            {
+                "core_friend": "Rachel",
+                "relation": "romantic",
+                "detail": "Boyfriend"
+            },
+            {
+                "core_friend": "Ross",
+                "relation": "romantic",
+                "detail": "Romantic rival"
+            }
+        ]
+    },
+    {
+        "character": "Tony",
+        "core_friend": "Ross",
+        "relation": "colleague",
+        "detail": "Paleontology Colleague",
+        "description": "Fellow academic at the museum/NYU.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "colleague",
+                "detail": "Colleague"
+            }
+        ]
+    },
+    {
+        "character": "Trudie Styler",
+        "core_friend": "Phoebe",
+        "relation": "celebrity_guest",
+        "detail": "Celebrity Guest (Herself / Sting's Wife)",
+        "description": "Sting's wife, guest star as herself, whom Phoebe aggressively pursues to get tickets to Sting's concert.",
+        "all_core_relations": [
+            {
+                "core_friend": "Phoebe",
+                "relation": "celebrity_guest",
+                "detail": "Celebrity contact"
+            }
+        ]
+    },
+    {
+        "character": "Ursula",
+        "core_friend": "Phoebe",
+        "relation": "family",
+        "detail": "Identical Twin Sister (Ursula Buffay)",
+        "description": "Phoebe's estranged, uncaring identical twin sister; works as an incompetent waitress at Riff's (crossover character from Mad About You).",
+        "all_core_relations": [
+            {
+                "core_friend": "Phoebe",
+                "relation": "family",
+                "detail": "Identical twin sister"
+            },
+            {
+                "core_friend": "Joey",
+                "relation": "romantic",
+                "detail": "Brief dating fling"
+            }
+        ]
+    },
+    {
+        "character": "Vince",
+        "core_friend": "Phoebe",
+        "relation": "romantic",
+        "detail": "Boyfriend (Fireman)",
+        "description": "A muscular firefighter Phoebe dates simultaneously with sensitive kindergarten teacher Jason.",
+        "all_core_relations": [
+            {
+                "core_friend": "Phoebe",
+                "relation": "romantic",
+                "detail": "Boyfriend"
+            }
+        ]
+    },
+    {
+        "character": "Wayne",
+        "core_friend": "Joey",
+        "relation": "colleague",
+        "detail": "DOOL Actor / Ventriloquist",
+        "description": "Ventriloquist actor who refuses to teach Joey ventriloquism on Days of Our Lives.",
+        "all_core_relations": [
+            {
+                "core_friend": "Joey",
+                "relation": "colleague",
+                "detail": "Actor coworker"
+            }
+        ]
+    },
+    {
+        "character": "Whitney",
+        "core_friend": "Ross",
+        "relation": "romantic",
+        "detail": "Date (Kyle's Ex-wife)",
+        "description": "Kyle's vindictive ex-wife whom Ross dates while Phoebe is dating Kyle.",
+        "all_core_relations": [
+            {
+                "core_friend": "Ross",
+                "relation": "romantic",
+                "detail": "Date"
+            }
+        ]
+    },
+    {
+        "character": "Young Ethan",
+        "core_friend": "Monica",
+        "relation": "romantic",
+        "detail": "Boyfriend (High School Senior)",
+        "description": "A young man Monica dates who claimed to be a college senior, only for Monica to discover he is a 17-year-old high school senior.",
+        "all_core_relations": [
+            {
+                "core_friend": "Monica",
+                "relation": "romantic",
+                "detail": "Boyfriend"
+            }
+        ]
+    }
+]

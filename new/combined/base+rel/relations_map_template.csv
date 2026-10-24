@@ -1,0 +1,4 @@
+character_a,relation,character_b,note
+Chandler Bing,friend,Rachel Green,example row: symmetric relation
+Jack Geller,parent_of,Ross Geller,example row: directed relation (a is the parent of b)
+Carol Willick,ex_spouse,Ross Geller,example row

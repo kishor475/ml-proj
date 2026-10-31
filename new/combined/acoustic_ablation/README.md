@@ -22,7 +22,7 @@ less for IEMOCAP. Needs the finished base stage 1 (`Stage1_aux_<D>`). `--dry_run
 
 Expect the LLM noise to be about +-1 wF1, so only large differences are resolvable; tier 1 suggests none are likely.
 
-## Component ablation of the SpeechCueLLM-style clue (the justification for each design choice)
+## Component ablation of the clue (the justification for each design choice)
 Full design (reference) = `description` text + `audio_context` tags + 5 features + 5-class percentile cutoffs + the dataset's default normalisation.
 Each other arm changes ONE component; controls are no clue and the reference shuffled onto random turns:
 
@@ -38,7 +38,7 @@ Each other arm changes ONE component; controls are no clue and the reference shu
 
 IEMOCAP has no audio_context, so its preset uses `desc` as the reference (`desc_nov`, `desc_nop`, `desc_nor`, `desc_3c`, `desc_spk`, `both`).
 ```
-python run_ablation.py --dataset emorynlp --configs --speechcue_ablation --percent 0.3     # nocue/shuffled/default are reused
+python run_ablation.py --dataset emorynlp --configs --form_ablation --percent 0.3     # nocue/shuffled/default are reused
 python summarize_ablation.py --dataset emorynlp
 ```
 The summary prints (1) every arm vs `nocue` and `shuffled`, (2) a **component table**: each arm minus the full design with a paired-bootstrap 95 %
@@ -47,14 +47,14 @@ A component is justified only where removing it hurts with the interval below ze
 EmoryNLP/MELD (10 new arms ~15 h), ~30 min per arm on IEMOCAP (8 arms ~4 h). With ~1,100-1,300 dev rows the intervals are about +-2-3 wF1,
 so only large effects will be resolvable; report "no measurable difference" as such.
 
-## Testing the SpeechCueLLM-style forms (cheap check before a full-length run)
+## Testing the forms (cheap check before a full-length run)
 Each form is compared with `nocue` AND its own shuffled control (`shuffled_desc`, `shuffled_desc_ctx`, `shuffled_both`):
 ```
 python run_ablation.py --dataset emorynlp --configs --forms desc shuffled_desc desc_ctx shuffled_desc_ctx --percent 0.3
 python summarize_ablation.py --dataset emorynlp       # prints "FORM 'desc': ... -> ADOPT: python run_acoustic.py ..." or "not supported"
 ```
 Already-finished arms (nocue, shuffled, default) are reused. ~1.5 h per new arm on EmoryNLP (4 arms ~6 h; estimate). The ablation is a
-1-epoch / 30 % fine-tune, much shorter than SpeechCueLLM's 15-epoch LoRA, so a "not supported" here is weaker evidence than a full-length arm.
+1-epoch / 30 % fine-tune, much shorter than a full-length run, so a "not supported" here is weaker evidence than a full-length arm.
 
 ## Using a winning threshold config (steps)
 1. **Run the ablation** (GPU; needs the base `Stage1_aux_<D>` adapter; IEMOCAP ~2.5-3 h for 5 arms, estimated):

@@ -16,6 +16,8 @@ Comparison uses each arm's FINAL epoch against the base's FINAL epoch (no test-s
 | chain_prev | 3 | 38.30 | 38.30 | -1.69 [-3.97, +0.61] | n.s. |
 | chain_self | 3 | 38.07 | 38.07 | -1.85 [-4.28, +0.50] | n.s. |
 | erc_continued_to_8_epochs | 5 | 39.27 | 39.27 | -0.81 [-2.71, +1.06] | n.s. |
+| erc_lora_rank16 | 3 | 38.55 | 38.55 | -1.42 [-3.67, +0.60] | n.s. |
+| erc_mistral_v0.1 | 6 | 40.16 | 40.16 | +0.18 [-2.26, +2.69] | n.s. |
 
 ### meld  (paper 70.11)
 
@@ -35,6 +37,20 @@ Comparison uses each arm's FINAL epoch against the base's FINAL epoch (no test-s
 | chain_lf_all | 3 | 69.24 | 66.00 | -3.95 [-5.92, -2.00] | worse* |
 | chain_prev | 3 | 69.08 | 69.08 | -0.88 [-2.64, +0.92] | n.s. |
 | chain_self | 3 | 68.62 | 68.62 | -1.27 [-3.04, +0.51] | n.s. |
+
+## A2. Mistral-7B-v0.1 (EmoryNLP, 3 epochs, test set)
+
+Same pipeline with Mistral-7B-v0.1 as the base model. Every arm is compared with the v0.1 base after its first 3 epochs (epochs 0-2). The v0.1 base was also continued to 6 epochs (a second warm-restarted learning-rate cycle, so its epoch 3 dips).
+
+| arm | epoch 0 | epoch 1 | epoch 2 | vs v0.1 base @ epoch 2 [95% CI] | |
+|---|---|---|---|---|---|
+| acoustic_clue | 36.67 | 39.65 | 41.42 | +1.62 [-0.45, +3.79] | n.s. |
+| chain_all | 34.16 | 34.70 | 36.27 | -3.46 [-5.88, -1.01] | worse* |
+| chain_prev | 37.03 | 38.45 | 38.26 | -1.44 [-3.82, +0.95] | n.s. |
+| base (v0.1) | 36.08 | 38.88 | 39.79 | - | |
+| relmap_detail | 36.85 | 39.58 | 39.43 | -0.34 [-2.32, +1.66] | n.s. |
+
+v0.1 base continued: epoch 3: 37.82, epoch 4: 38.96, epoch 5: 40.16
 
 ## B. Short protocol (1 epoch, 30 % of the training data, held-out DEV rows)
 

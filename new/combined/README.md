@@ -92,7 +92,7 @@ $PY run_acoustic.py --dataset iemocap  --tag _scene --variants clue shuffled --e
 ```
 Run names: `Stage2_acoustic_clue_<D>`, `Stage2_acoustic_shuffled_<D>`. Compare with `Stage2_erc_<D>` (base).
 
-SpeechCueLLM-style variants (the reference repo in `sp/`; its headline form is the compact `description`, not our `impression`; optional `--audio_context`):
+variants (the compact `description` form instead of the default `impression`; optional `--audio_context`):
 ```
 $PY run_acoustic.py --dataset emorynlp --form description --variants clue shuffled --erc_epochs 3
 $PY run_acoustic.py --dataset emorynlp --form description --audio_context --variants clue shuffled --erc_epochs 3
@@ -100,7 +100,7 @@ $PY run_acoustic.py --dataset emorynlp --form description --audio_context --vari
 **Component ablation to justify the design choices** (full design vs removing/changing one component at a time, with controls; ~15 h on EmoryNLP/MELD, ~4 h on IEMOCAP, estimates):
 ```
 cd ~/ml_proj/combined/acoustic_ablation
-$PY run_ablation.py --dataset emorynlp --configs --speechcue_ablation --percent 0.3
+$PY run_ablation.py --dataset emorynlp --configs --form_ablation --percent 0.3
 $PY summarize_ablation.py --dataset emorynlp          # arms vs controls + COMPONENT ABLATION table
 ```
 Cheap check first (EmoryNLP, ~6 h, estimate): `cd ../acoustic_ablation && $PY run_ablation.py --dataset emorynlp --configs --forms desc shuffled_desc desc_ctx shuffled_desc_ctx --percent 0.3`, then `$PY summarize_ablation.py --dataset emorynlp`.
@@ -184,7 +184,7 @@ How to judge:
 - **acoustic** counts only if it beats **acoustic-shuffled** (otherwise the gain is just extra text/extra training), not just base.
 - **chain** counts if its interval vs base is above zero; look at the shift-turn column for *where* it helps.
 - The bootstrap covers test-set sampling noise, **not training-seed variance** (one seed per arm). Treat differences under ~1 F1 as unproven.
-- Selection of the best epoch/arm uses the test set (as the official code does); the acoustic *ablation* uses a held-out dev set.
+- Selection of the best epoch/arm uses the test set (as in the original CoE evaluation protocol); the acoustic *ablation* uses a held-out dev set.
 
 ## 5. Suggested order and cost (single 3060; "measured" from the EmoryNLP run, the rest estimated)
 
@@ -226,7 +226,7 @@ cd ../base+chain    && $PY run_chain.py --dataset iemocap --variants all --acous
 - Mistral-7B-Instruct-v0.3, 4-bit QLoRA, LoRA r=8, batch 2 x accumulation 8, reduced auxiliary data (`--aux_percent 0.5`).
 - Scenes (EmoryNLP, MELD) are synthetic and mostly generic; STEeR seed rationales come from the local model shown the gold label (no GPT-4o).
 - IEMOCAP: no persona/scene (as in the paper); no speaker-ID task; the `_scene` variant is an extension, not the paper's setting.
-- Single run per arm; model selection on the test set (as in the official code).
+- Single run per arm; model selection on the test set (as in the original CoE evaluation protocol).
 
 
 ## 8. Running on a second machine (split the workload)
@@ -308,3 +308,35 @@ Check each started: `sleep 20; ls -la ../logs | grep chain; cat ../logs/chain_ch
 rsync -avh --include='*/' --include='preds_for_eval_*' --exclude='*' $HOST:~/ml_proj/new/combined/base/Truebaseline/outputs/ ~/ml_proj/new/combined/base/Truebaseline/outputs/
 cd ~/ml_proj/combined/base+chain && $PY analyze_chain.py --dataset meld
 ```
+
+
+## 9. EmoryNLP base: continue training to 8 epochs on the second machine (closing the gap to the paper's 44)
+The base stage 2 was still improving at epoch 3 (36.7, 37.3, 40.0 wF1; rare classes learned last; the paper trains its ERC stage for 20 epochs).
+This continues the SAME run from its epoch-2 adapter for 5 more epochs with a lower learning rate (1e-4), writing to a **separate** output folder
+(`Stage2_erc_emorynlp_ext8`) so the controlled 3-epoch base used for all other comparisons stays untouched.
+
+On the main machine (HOST = the other desktop): refresh the code and send the epoch-2 adapter (41 MB)
+```
+HOST=user2@100.78.88.86
+rsync -avh --progress --exclude 'outputs/' --exclude '__pycache__' ~/ml_proj/new/combined/ $HOST:~/ml_proj/new/combined/
+rsync -avh --progress --relative ~/ml_proj/./new/combined/base/Truebaseline/outputs/Stage2_erc_emorynlp/emorynlp_coe_erc/lora_epoch_2 $HOST:~/ml_proj/
+```
+On the other machine (check nothing is running there first: `pgrep -af "run_chain|run_local_combined"` must print nothing):
+```
+cd ~/ml_proj/new/combined/base && mkdir -p ../logs
+ls Truebaseline/outputs/Stage2_erc_emorynlp/emorynlp_coe_erc/lora_epoch_2/adapter_config.json       # must exist
+nohup ~/ml_proj/.venv/bin/python run_local_combined.py --data_subdir emorynlp_coe_erc --run_name Stage2_erc_emorynlp_ext8 --dataset emorynlp \
+  --epochs 5 --epoch_offset 3 --lr 1e-4 --data_percent 1.0 --eval_percent 1.0 --port 29512 \
+  --checkpoint_dir ~/ml_proj/new/combined/base/Truebaseline/outputs/Stage2_erc_emorynlp/emorynlp_coe_erc/lora_epoch_2 > ../logs/emory_extend.log 2>&1 &
+sleep 20; pgrep -af run_local_combined | grep -v grep | cut -c1-100; tail -n 3 ../logs/emory_extend.log
+```
+~22 h (5 epochs x ~4.3 h + ~10 min evaluation each, estimate). Epochs are numbered 3..7; each epoch prints `Test Weighted-F1`. Re-running the same command after an
+interruption restarts it from epoch 3, so to resume instead use the latest `lora_epoch_N` of the ext8 folder as `--checkpoint_dir` with `--epoch_offset N+1 --epochs 7-N`.
+
+Bring it back (main machine), then compare:
+```
+rsync -avh --progress $HOST:~/ml_proj/new/combined/base/Truebaseline/outputs/Stage2_erc_emorynlp_ext8/ ~/ml_proj/new/combined/base/Truebaseline/outputs/Stage2_erc_emorynlp_ext8/
+ls ~/ml_proj/new/combined/base/Truebaseline/outputs/Stage2_erc_emorynlp_ext8/*/ | grep preds_for_eval     # F1 is in each file name (epochs 3..7)
+```
+The 8-epoch number is a separate result ("base, trained longer"); the other arms stay at 3 epochs. The best epoch is chosen on the test set as everywhere else, so also
+report the last epoch's score.

@@ -43,3 +43,52 @@ only in the prompt. Compare `Stage2_rel_<D>` with `Stage2_erc_<D>` using `base+c
   Only time-invariant facts are used (no season-dependent romances).
 - There is no control arm for this clue yet (e.g. relationships assigned to random turns). If a gain appears, check it against such a control
   before attributing it to the relationship information.
+
+
+## Building the relationship map yourself (planned replacement for the hand-written `FRIENDS_KB`)
+1. `python make_character_inventory.py` writes `character_inventory_emorynlp.csv` and `character_inventory_meld.csv`: every speaker name exactly as it appears in the
+   data, with turns, dialogues, the main characters they appear with and an example line. Describe the ~45 non-main characters with >= 15 turns first
+   (they cover most of the benefit; the long tail of one-line characters can be skipped).
+2. Write the relations as rows of one CSV (template: `relations_map_template.csv`), using the names from the inventory:
+   ```
+   character_a,relation,character_b,note
+   Chandler Bing,friend,Rachel Green,
+   Jack Geller,parent_of,Ross Geller,
+   Carol Willick,ex_spouse,Ross Geller,
+   ```
+   Relation words (keep to this list so the clue text stays consistent): symmetric `friend, sibling, spouse, ex_spouse, partner, ex_partner, roommate,
+   coworker, neighbor, acquaintance, enemy`; directed (a -> b) `parent_of, child_of, boss_of, employee_of, landlord_of`; or `other` with the
+   wording in `note`. For MELD, use the same names as the data (first names, e.g. `Carol`) or add alias rows.
+3. Rendering (to be implemented once the file exists): for each turn the characters in the window are the history speakers plus the current speaker;
+   every pair with a row becomes one sentence ("Jack Geller is the parent of Ross Geller."), pairs involving the current speaker first, at most 6 sentences;
+   turns with no matching pair get no block (as now). The result replaces `FRIENDS_KB`, and the same short-protocol ablation as the other clues
+   (`acoustic_ablation/run_ablation.py`, arms: no clue / relationships / relationships shuffled onto random turns) decides whether it helps.
+Only time-invariant relations should be entered (no season-dependent romances), since one map is used for every episode.
+
+
+## The hand-built relationship map (EmoryNLP, MELD) — `relmap.py`, `build_relmap_data.py`
+Source files (this folder, spelled as on disk): `emory_chars.json` / `emory_char_realtions.json` / `emory_relation_tuples.json` and `meld_chars.json` /
+`meld_char_relations.json` / `meld_realtion_tuples.json`. For every kept side character they give the relation to the six core friends (category, short `detail`, a
+`description`, and `all_core_relations`). Checked: every name matches a speaker name in the data (164/164, 210/210); the tuple files agree with `all_core_relations`
+on every pair they contain but lack some (2 pairs EmoryNLP, 32 MELD), so `all_core_relations` is the source of truth. `core_group` rows (the main cast about each other, with
+late-series facts like "Husband to Monica") are skipped by default (anachronistic in early seasons); `--core_group` includes them.
+For each turn the window is the current speaker + the history speakers; a side character in the window gets a line for its relations to the core friends in the scene
+(or its primary relation if none of them is present), at most 4 lines, current speaker first:
+```
+### Character Relationships:
+Alan - relation to Monica Geller: Boyfriend.
+```
+Styles: `detail` (default; ~18 tokens), `category` (a fixed phrase per category), `desc` (+ the description sentence, ~47 tokens). Coverage of turns with a block:
+EmoryNLP 39-40 %, MELD 27-28 % (the older built-in KB: 28 % / 17 %).
+```
+python build_relmap_data.py --dataset emorynlp --style detail          # -> {dataset}_coe_relmap_detail_erc  (also: meld; --style category | desc)
+python run_rel.py --dataset emorynlp --map user --style detail --erc_epochs 3     # full-length arm, run name Stage2_relmap_detail_<D>
+```
+**Short protocol with controls** (1 epoch, 30 % of the data, held-out dev; ~1.5 h per arm; arms `relmap`, `shuffled_relmap` (control: same blocks on random turns),
+`relmap_cat`, `relmap_desc`; `nocue` is already run):
+```
+cd ../acoustic_ablation
+python run_ablation.py --dataset emorynlp --configs --rel_ablation --percent 0.3
+python run_ablation.py --dataset meld     --configs --rel_ablation --percent 0.3
+python summarize_ablation.py --dataset emorynlp      # prints "RELMAP 'relmap': vs nocue ..., vs shuffled_relmap ... -> SUPPORTED / not supported"
+```

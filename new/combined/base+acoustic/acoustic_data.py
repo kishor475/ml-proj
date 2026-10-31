@@ -25,7 +25,7 @@ _CTX_TAG = re.compile(r" \((?:very low|low|moderate|high|very high) pitch(?: wit
 
 
 def add_context(prompt, hist_tags, cur_tag):
-    """SpeechCueLLM 'audio_context': tag the last (up to) 3 context utterances and the current one with e.g. '(high pitch with
+    """'audio_context': tag the last (up to) 3 context utterances and the current one with e.g. '(high pitch with
     low variation)'. hist_tags = tags of the previous turns, oldest first; None entries are skipped."""
     h0 = prompt.index("### Dialogue History:\n") + len("### Dialogue History:\n")
     h1 = prompt.index("### Current Utterance:\n")

@@ -1,6 +1,9 @@
 # =============================================================================
 # steer_trainer.py -- Self-paced / "memory"-based ERC trainer (STEeR)
 #
+# Portions adapted from the CoE training code (MIT License, (c) 2024 Zhiyu Shen,
+# Yunhe Pang, Yanghui Rao, Jianxing Yu).
+#
 # Same QLoRA + DeepSpeed setup as erc_trainer.py, but training data is curated
 # between epochs (a self-training / curriculum loop):
 #   * memory.json      = examples used for training; starts from trainbegin.json

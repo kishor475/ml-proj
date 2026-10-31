@@ -55,7 +55,7 @@ def build(dataset, variant, base_tag="", cfg=None, out_name=None, seed=0, slug=N
             ad.write_rows(os.path.join(out, f"{split}.json"),
                           [{"input": ad.add_clue(b["input"], t), "target": b["target"]} for b, t in zip(base_rows, texts)])
             continue
-        # SpeechCueLLM-style: clue text (+ optional tags on the last 3 context turns); None = no clue for that turn
+        # clue text (+ optional tags on the last 3 context turns); None = no clue for that turn
         bundles = ac.clue_bundle(cfg, rows["train"], rows[split], form, min_duration=ac.MIN_DURATION)
         per_turn = [(t, context_tags(rows[split], bundles, k) if ctx else [], c) for k, (t, c) in enumerate(bundles)]
         if variant == "shuffled":                  # control: whole bundles go to random turns
@@ -77,8 +77,8 @@ if __name__ == "__main__":
     ap.add_argument("--base_tag", default="", help="'' or _scene (IEMOCAP scene variant) - which base ERC data to extend")
     ap.add_argument("--config", default=None, help="threshold config from the ablation, e.g. \"5c p10-30-70-90 | speaker_pct | 8feat\" (default: the dataset's original recipe)")
     ap.add_argument("--form", default="impression", choices=ac.FORMS,
-                    help="impression = interpretive sentence (our original); description = SpeechCueLLM's compact factual form (headline setting); both")
-    ap.add_argument("--audio_context", action="store_true", help="SpeechCueLLM audio_context: tag the last 3 context turns with pitch/variation")
+                    help="impression = interpretive sentence (our original); description = compact factual form (headline setting); both")
+    ap.add_argument("--audio_context", action="store_true", help="audio_context: tag the last 3 context turns with pitch/variation")
     ap.add_argument("--seed", type=int, default=0)
     a = ap.parse_args()
     cfg, slug = ac.parse_config(a.config, a.dataset) if a.config else (None, None)

@@ -65,10 +65,17 @@ def main():
         md.append(f"| base | {len(base)} | {max(v[0] for v in base.values()):.2f} | {base[eb][0]:.2f} | - | |")
         runs = {os.path.basename(p)[len("Stage2_"):-len("_" + ds)]: p for p in sorted(glob.glob(os.path.join(rsb.OUT, f"Stage2_*_{ds}")))}
         runs.pop("erc", None)
+        runs = {k: v for k, v in runs.items() if not k.endswith("_v01") and "_v01" not in v}
         extra = {}
         ext = os.path.join(rsb.OUT, f"Stage2_erc_{ds}_ext8")
         if os.path.isdir(ext):
             extra["erc_continued_to_8_epochs"] = ext
+        r16 = os.path.join(rsb.OUT, f"Stage2_erc_{ds}_r16")
+        if os.path.isdir(r16):
+            extra["erc_lora_rank16"] = r16
+        v01 = os.path.join(rsb.OUT, f"Stage2_erc_{ds}_v01")
+        if os.path.isdir(v01):
+            extra["erc_mistral_v0.1"] = v01
         for name, path in list(runs.items()) + list(extra.items()):
             ep = epochs(path)
             if not ep:
@@ -80,6 +87,31 @@ def main():
             m, lo, hi = boot(g, p, gb_p, rng)
             md.append(f"| {name} | {len(ep)} | {max(v[0] for v in ep.values()):.2f} | {ep[last][0]:.2f} | {m:+.2f} [{lo:+.2f}, {hi:+.2f}] | {flag(lo, hi)} |")
             rows_csv.append(["full", ds, name, len(ep), max(v[0] for v in ep.values()), ep[last][0], m, lo, hi])
+        md.append("")
+    md.append("## A2. Mistral-7B-v0.1 (EmoryNLP, 3 epochs, test set)\n")
+    md.append("Same pipeline with Mistral-7B-v0.1 as the base model. Every arm is compared with the v0.1 base after its first 3 epochs (epochs 0-2). "
+              "The v0.1 base was also continued to 6 epochs (a second warm-restarted learning-rate cycle, so its epoch 3 dips).\n")
+    labels = cfg("emorynlp")["labels"]; rng = np.random.RandomState(0)
+    v01 = {os.path.basename(p)[len("Stage2_"):-len("_emorynlp_v01")]: p for p in sorted(glob.glob(os.path.join(rsb.OUT, "Stage2_*_emorynlp_v01")))}
+    if "erc" in v01:
+        eb = epochs(v01["erc"]); gb_p, g = preds(eb[2][1], labels)
+        md.append("| arm | epoch 0 | epoch 1 | epoch 2 | vs v0.1 base @ epoch 2 [95% CI] | |\n|---|---|---|---|---|---|")
+        for name, path in v01.items():
+            ep = epochs(path)
+            if 2 not in ep:
+                continue
+            p, _ = preds(ep[2][1], labels)
+            cell = lambda k: f"{ep[k][0]:.2f}" if k in ep else "-"
+            if len(p) != len(g):
+                md.append(f"| {name} | {cell(0)} | {cell(1)} | {cell(2)} | (incomplete) | |"); continue
+            if name == "erc":
+                md.append(f"| base (v0.1) | {cell(0)} | {cell(1)} | {cell(2)} | - | |")
+            else:
+                m, lo, hi = boot(g, p, gb_p, rng)
+                md.append(f"| {name} | {cell(0)} | {cell(1)} | {cell(2)} | {m:+.2f} [{lo:+.2f}, {hi:+.2f}] | {flag(lo, hi)} |")
+                rows_csv.append(["v01", "emorynlp", name, 3, ep[2][0], ep[2][0], m, lo, hi])
+        if max(eb) > 2:
+            md.append("\nv0.1 base continued: " + ", ".join(f"epoch {k}: {eb[k][0]:.2f}" for k in sorted(eb) if k > 2))
         md.append("")
     md.append("## B. Short protocol (1 epoch, 30 % of the training data, held-out DEV rows)\n")
     md.append("Every arm starts from the same stage-1 adapter. `nocue` = the same fine-tune without any added clue; `shuffled*` = the same clue text on random turns (control). "

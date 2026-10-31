@@ -20,6 +20,8 @@ sys.path.insert(0, HERE)
 sys.path.insert(0, os.path.join(HERE, "..", "base"))
 sys.path.insert(0, os.path.join(HERE, "..", "base+acoustic"))
 import acoustic_clues as ac  # noqa: E402
+sys.path.insert(0, os.path.join(HERE, "..", "base+chain"))
+import chain_data as cd  # noqa: E402
 import build_ablation_data as bld  # noqa: E402
 import configs  # noqa: E402
 from coe_clues import cfg as dataset_cfg  # noqa: E402
@@ -37,7 +39,9 @@ def load_preds(path, labels):
             if k != -1 and k < best[0]:
                 best = (k, l)
         return best[1] or "<none>"
-    return [lab(r["output"]) for r in rows], [r["target"].lower() for r in rows]
+    def final(t):  # chain answers: score the 'Current Emotion:' part only (works for chain-first and label-first answers)
+        return cd.split_chain(t)[1].split("\n")[0] if "Current Emotion:" in t else t
+    return [lab(final(r["output"])) for r in rows], [lab(final(r["target"])) for r in rows]
 
 
 def wf1(y, p):
@@ -122,7 +126,20 @@ def main():
                 adopt.append(k)
     t = f" --tag {a.tag}" if a.tag else ""
     print()
-    for fa, ctrl in bld.CONTROL_OF.items():          # SpeechCueLLM-style forms: each against nocue AND its own shuffled control
+    # hand-built relationship map: 'relmap' (detail style) against nocue AND its own shuffled control; the other styles against relmap
+    rk, rc = configs.slug("relmap"), configs.slug("shuffled_relmap")
+    if rk in P and rc in P:
+        d1, d2 = diff(rk, "nocue"), diff(rk, rc)
+        ok = d1 and d2 and d1[1] > 0 and d2[1] > 0
+        print(f"RELMAP 'relmap': vs nocue {d1[0]:+.2f} [{d1[1]:+.2f},{d1[2]:+.2f}], vs shuffled_relmap {d2[0]:+.2f} [{d2[1]:+.2f},{d2[2]:+.2f}] -> "
+              + (f"SUPPORTED: python run_rel.py --dataset {a.dataset}{t} --map user --style detail --erc_epochs 3" if ok
+                 else "not supported (does not beat both controls)"))
+        for other in ("relmap_cat", "relmap_desc"):
+            ok_ = configs.slug(other)
+            if ok_ in P:
+                dd = diff(ok_, rk)
+                print(f"   style '{other}' vs 'relmap' (detail): {dd[0]:+.2f} [{dd[1]:+.2f},{dd[2]:+.2f}]")
+    for fa, ctrl in bld.CONTROL_OF.items():          # forms: each against nocue AND its own shuffled control
         fk, ck = configs.slug(fa), configs.slug(ctrl)  # arm folders are named with hyphens (desc-ctx)
         if fk in P and ck in P:
             d1, d2 = diff(fk, "nocue"), diff(fk, ck)

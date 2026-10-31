@@ -1,10 +1,10 @@
 > **Status: implemented and tested, deliberately NOT run at full length.** The acoustic ablation (`../acoustic_ablation`, all three datasets,
 > controls + component ablation) found no benefit over the no-clue base, so the final system does not use acoustic clues. This folder is kept as a
-> working implementation (including SpeechCueLLM's description / audio_context forms) for anyone who wants to try it at full training length.
+> working implementation (including the description / audio_context forms) for anyone who wants to try it at full training length.
 
 # base+acoustic — CoE ERC with acoustic clues
 
-Adds a `### Acoustic Clues:` sentence (SpeechCueLLM-style impression, e.g. "The target speaker likely uses a lower pitch ...")
+Adds a `### Acoustic Clues:` sentence (impression, e.g. "The target speaker likely uses a lower pitch ...")
 to the ERC prompts of the base pipeline. Everything else (stage-1 adapter, STEeR rationales, hyper-parameters) is reused,
 so a clue run differs from the base run **only in the prompt**.
 
@@ -21,23 +21,22 @@ Each arm trains stage 2 only (~4 h per epoch for EmoryNLP/MELD). Compare, per da
 `Stage2_erc_<D>` (base, no clue)  vs  `Stage2_acoustic_clue_<D>`  vs  `Stage2_acoustic_shuffled_<D>` (control).
 The clue only counts if it beats the shuffled control, not just the base.
 
-## SpeechCueLLM-style forms (`--form`, `--audio_context`)
-The reference implementation (`sp/SpeechCueLLM`) has two kinds of audio text and we first used only the second:
-- `--form description` — **the paper's headline setting**: compact, factual, no emotion words, e.g.
+## forms (`--form`, `--audio_context`)
+Two kinds of audio text are supported:
+- `--form description` — compact, factual, no emotion words, e.g.
   `Target speech characteristics: moderate volume with low variation, low pitch with moderate variation, moderate speaking rate.`
-  (reproduces SpeechCueLLM's own MELD `description` column on 100 % of rows; ~22 tokens vs ~36 for the impression)
+  (~22 tokens vs ~36 for the impression)
 - `--form impression` (default, what the earlier arms used) — interpretive sentence ("might indicate excitement ...")
 - `--form both` — description followed by impression
-- `--audio_context` — SpeechCueLLM's `audio_context`: the last 3 context utterances and the current one get a short tag such as
+- `--audio_context` — the last 3 context utterances and the current one get a short tag such as
   `(low pitch with high variation)` (not available for IEMOCAP: its history contains unlabelled utterances).
-As in SpeechCueLLM, no clue is added when the clip is <= 0.5 s or no audio exists (EmoryNLP: ~26 % of turns). Data/run names carry the form:
+No clue is added when the clip is <= 0.5 s or no audio exists (EmoryNLP: ~26 % of turns). Data/run names carry the form:
 `emorynlp_coe_acoustic_clue_desc_ctx_erc`, `Stage2_acoustic_clue_desc_ctx_emorynlp`. The default (impression) output is byte-identical to before.
 ```
 python run_acoustic.py --dataset emorynlp --form description --variants clue shuffled --erc_epochs 3
 python run_acoustic.py --dataset emorynlp --form description --audio_context --variants clue shuffled --erc_epochs 3
 ```
-**Training budget differs from the paper:** SpeechCueLLM reports its gains with LoRA for 15 epochs (lr 3e-4, history window 12, LLaMA-3-8B); our
-arms use the base settings (3 epochs, window 5, Mistral-7B 4-bit). They did not evaluate EmoryNLP.
+**Training budget:** the arms use the base settings (3 epochs, history window 5, Mistral-7B 4-bit).
 
 ## Files
 - `acoustic_clues.py`  alignment of audio features to our turns (MELD / EmoryNLP / IEMOCAP), percentile thresholds, impression text

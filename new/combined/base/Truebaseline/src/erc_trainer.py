@@ -4,6 +4,9 @@
 # Fine-tunes (4-bit QLoRA + DeepSpeed) or evaluates a decoder-only LLM
 # (e.g. Mistral-7B-Instruct) on joint multi-task datasets (ERC + Speaker ID +
 # Role-Play + STEeR Emotion Reasoning).
+#
+# Portions adapted from the CoE training code (MIT License, (c) 2024 Zhiyu Shen,
+# Yunhe Pang, Yanghui Rao, Jianxing Yu).
 # =============================================================================
 
 from transformers import (

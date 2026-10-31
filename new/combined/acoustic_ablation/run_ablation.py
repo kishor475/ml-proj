@@ -30,10 +30,14 @@ def main():
     ap.add_argument("--tag", default="", help="base run tag ('' or _scene for IEMOCAP)")
     ap.add_argument("--top_k", type=int, default=2, help="screen shortlist size")
     ap.add_argument("--configs", nargs="*", default=None, help="explicit config names instead of the shortlist")
-    ap.add_argument("--forms", nargs="*", default=[], choices=list(bld.FORM_ARMS),
-                    help="SpeechCueLLM-style arms to add, e.g. --forms desc shuffled_desc (each needs its shuffled_* control)")
-    ap.add_argument("--speechcue_ablation", action="store_true",
-                    help="add the full component ablation of the SpeechCueLLM-style clue (preset for this dataset)")
+    ap.add_argument("--forms", nargs="*", default=[], choices=list(bld.FORM_ARMS) + list(bld.CHAIN_ARMS) + list(bld.REL_ARMS),
+                    help="arms to add, e.g. --forms desc shuffled_desc (each needs its shuffled_* control)")
+    ap.add_argument("--form_ablation", action="store_true",
+                    help="add the full component ablation of the clue (preset for this dataset)")
+    ap.add_argument("--chain_ablation", action="store_true",
+                    help="add the chain-of-emotion short-protocol arms (chain_prev, chain_all, lf_prev, lf_all; + chain_all_known on IEMOCAP)")
+    ap.add_argument("--rel_ablation", action="store_true",
+                    help="add the hand-built relationship-map arms (relmap, shuffled_relmap, relmap_cat, relmap_desc); EmoryNLP / MELD only")
     ap.add_argument("--epochs", type=int, default=1)
     ap.add_argument("--percent", type=float, default=0.3, help="share of the training part used per arm")
     ap.add_argument("--model_path", default=None)
@@ -51,7 +55,12 @@ def main():
         cfgs = configs.shortlist(a.dataset, a.top_k)
     else:
         sys.exit(f"no screen results for {a.dataset}: run screen_thresholds.py --dataset {a.dataset} or pass --configs")
-    forms = list(a.forms) + (bld.preset_for(a.dataset)[0] if a.speechcue_ablation else [])
+    forms = list(a.forms) + (bld.preset_for(a.dataset)[0] if a.form_ablation else [])
+    if a.rel_ablation:
+        if a.dataset == "iemocap":
+            sys.exit("the relationship map exists for EmoryNLP and MELD only")
+        forms += bld.REL_PRESET
+    forms += (bld.CHAIN_PRESET + (["chain_all_known"] if a.dataset == "iemocap" else [])) if a.chain_ablation else []
     arms = ["nocue", "shuffled", "default"] + list(dict.fromkeys(cfgs)) + list(dict.fromkeys(forms))
     print("arms:", arms)
     for i, arm in enumerate(arms):
@@ -62,7 +71,8 @@ def main():
             else:
                 bld.build_arm(a.dataset, arm, a.tag)
         rsb.train_stage(f"Abl_{a.dataset}{a.tag}_{configs.slug(arm)}", data, a.dataset, a.epochs, a.percent, 29530 + i,
-                        start_ckpt=s1, extra=["--eval_percent", "1.0"])
+                        start_ckpt=s1,
+                        extra=["--eval_percent", "1.0"] + (["--max_new_tokens", str(bld.max_new_tokens(arm))] if bld.max_new_tokens(arm) else []))
 
 
 if __name__ == "__main__":

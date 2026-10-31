@@ -1,5 +1,5 @@
 """Acoustic clues for CoE: align per-utterance audio features to our ERC turns, categorise them with
-configurable percentile thresholds, and verbalise them with the SpeechCueLLM-style impression template
+configurable percentile thresholds, and verbalise them with the impression template
 (copied from preprocessing/postprocess_emorynlp.py so the default config reproduces the original clues).
 
 Alignment (verified on our data):
@@ -167,7 +167,7 @@ class ClueConfig:
     """percentiles: cut points (3 classes -> 2 cuts, 5 classes -> 4 cuts); features;
     norm: 'global'      percentiles of the raw values over the whole training set (original EmoryNLP clues)
           'speaker_pct' percentiles of the raw values per speaker, global cuts for speakers with < min_speaker_n turns
-                        (original MELD / SpeechCueLLM clues)
+                        (original MELD clues)
           'speaker'     per-speaker z-scores, then global percentiles of the z-scores"""
     def __init__(self, percentiles=(10, 25, 75, 90), features=FEATS5, norm="global", min_speaker_n=30, speaker_field="speaker"):
         assert len(percentiles) in (2, 4)
@@ -331,11 +331,11 @@ def clue_texts(cfg, fit_rows, rows):
     return [impression(categorize(cfg, st, r)) if r["feats"] is not None else NO_AUDIO for r in rows]
 
 
-# ----------------------------------------------------------------------------- SpeechCueLLM-style 'description'
-# Mirrors sp/SpeechCueLLM/feature_utils/postprocess_audio_feature_meld.generate_concise_description (5-class terms; 3-class names
+# ----------------------------------------------------------------------------- 'description'
+# Compact factual description of the acoustic features (5-class terms; 3-class names
 # fall into the same table). The paper's headline setting is "text + audio description": compact, factual, no emotion words.
 _TERM = {"very_low": "very low", "low": "low", "medium": "moderate", "high": "high", "very_high": "very high"}
-MIN_DURATION = 0.5   # SpeechCueLLM adds no speech text for clips of <= 0.5 s (MELD)
+MIN_DURATION = 0.5   # No clue is added for clips of <= 0.5 s (MELD)
 
 
 def description(cats):
@@ -354,7 +354,7 @@ def description(cats):
 
 
 def context_phrase(cats):
-    """Short tag appended to context utterances (SpeechCueLLM 'audio_context'): '(high pitch with low variation)'."""
+    """Short tag appended to context utterances ('audio_context'): '(high pitch with low variation)'."""
     if cats.get("avg_pitch", "none") == "none":
         return None
     pv = cats.get("pitch_std", "none")
@@ -365,8 +365,8 @@ FORMS = ("impression", "description", "both")
 
 
 def clue_bundle(cfg, fit_rows, rows, form="impression", min_duration=None):
-    """Per row: (clue text or None, context tag or None). form: impression (our original), description (SpeechCueLLM headline),
-    both (description then impression, as the SpeechCueLLM flags allow). Rows without usable audio get no text for the
+    """Per row: (clue text or None, context tag or None). form: impression (our original), description (compact headline form),
+    both (description then impression). Rows without usable audio get no text for the
     description forms; the impression form keeps the fixed 'no acoustic variation' sentence like before."""
     st = fit(cfg, fit_rows)
     out = []

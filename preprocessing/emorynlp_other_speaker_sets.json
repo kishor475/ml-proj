@@ -1,0 +1,4503 @@
+[
+    [
+        "Marsha",
+        "Ross Geller"
+    ],
+    [
+        "Carol Willick",
+        "Marsha",
+        "Ross Geller"
+    ],
+    [
+        "Carol Willick",
+        "Ross Geller"
+    ],
+    [
+        "Ross Geller",
+        "Susan Bunch"
+    ],
+    [
+        "Carol Willick",
+        "Ross Geller",
+        "Susan Bunch"
+    ],
+    [
+        "Barry Farber",
+        "Rachel Green"
+    ],
+    [
+        "Barry Farber",
+        "Rachel Green",
+        "Robbie"
+    ],
+    [
+        "Barry Farber",
+        "Bernice",
+        "Rachel Green",
+        "Robbie"
+    ],
+    [
+        "Barry Farber",
+        "Bernice",
+        "Rachel Green"
+    ],
+    [
+        "Barry Farber"
+    ],
+    [
+        "Susan Bunch"
+    ],
+    [
+        "Lizzy",
+        "Phoebe Buffay"
+    ],
+    [
+        "Monica Geller",
+        "Paula"
+    ],
+    [
+        "Alan"
+    ],
+    [
+        "Alan",
+        "Monica Geller"
+    ],
+    [
+        "Kiki",
+        "Rachel Green"
+    ],
+    [
+        "Joanne",
+        "Kiki",
+        "Rachel Green"
+    ],
+    [
+        "Joanne",
+        "Rachel Green"
+    ],
+    [
+        "Joanne",
+        "Kiki",
+        "Leslie",
+        "Rachel Green"
+    ],
+    [
+        "Chandler Bing",
+        "Receptionist"
+    ],
+    [
+        "Chandler Bing",
+        "Receptionist",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Receptionist",
+        "Ross Geller"
+    ],
+    [
+        "Joey Tribbiani",
+        "Receptionist",
+        "Ross Geller"
+    ],
+    [
+        "Both",
+        "Chandler Bing",
+        "Joey Tribbiani"
+    ],
+    [
+        "Both",
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Ross Geller"
+    ],
+    [
+        "Both",
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Receptionist",
+        "Ross Geller"
+    ],
+    [
+        "Both",
+        "Chandler Bing",
+        "Receptionist",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Kid",
+        "Receptionist",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Kid",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Kid",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Kid",
+        "Receptionist",
+        "Ross Geller"
+    ],
+    [
+        "Kid",
+        "Receptionist",
+        "Ross Geller"
+    ],
+    [
+        "Angela Delveccio",
+        "Joey Tribbiani",
+        "Monica Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Janice Litman Goralnik",
+        "Phoebe Buffay"
+    ],
+    [
+        "Chandler Bing",
+        "Janice Litman Goralnik"
+    ],
+    [
+        "Angela Delveccio",
+        "Monica Geller"
+    ],
+    [
+        "Angela Delveccio",
+        "Bob",
+        "Monica Geller"
+    ],
+    [
+        "Angela Delveccio",
+        "Bob",
+        "Joey Tribbiani",
+        "Monica Geller"
+    ],
+    [
+        "Bob",
+        "Joey Tribbiani"
+    ],
+    [
+        "Rachel Green",
+        "Ross Geller",
+        "Woman"
+    ],
+    [
+        "Rachel Green",
+        "Woman"
+    ],
+    [
+        "Director"
+    ],
+    [
+        "Director",
+        "Joey Tribbiani"
+    ],
+    [
+        "Chandler Bing",
+        "Jill Goodacre"
+    ],
+    [
+        "Monica Geller",
+        "Paolo",
+        "Rachel Green"
+    ],
+    [
+        "Monica Geller",
+        "Paolo",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Paolo",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Shelley"
+    ],
+    [
+        "Judy Geller",
+        "Ross Geller"
+    ],
+    [
+        "Aunt Lillian",
+        "Ross Geller"
+    ],
+    [
+        "Aunt Lillian",
+        "Judy Geller",
+        "Ross Geller"
+    ],
+    [
+        "Judy Geller",
+        "Monica Geller"
+    ],
+    [
+        "Joey Tribbiani",
+        "Judy Geller",
+        "Monica Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Judy Geller",
+        "Monica Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Judy Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Lowell"
+    ],
+    [
+        "Rachel Green",
+        "Terry"
+    ],
+    [
+        "Girl",
+        "Joey Tribbiani"
+    ],
+    [
+        "Carol Willick"
+    ],
+    [
+        "Guy",
+        "Monica Geller",
+        "Phoebe Buffay"
+    ],
+    [
+        "Joey Tribbiani",
+        "Monica Geller",
+        "Paolo",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Paolo",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Monica Geller",
+        "Paolo",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Monica Geller",
+        "Paolo",
+        "Rachel Green"
+    ],
+    [
+        "Chandler Bing",
+        "Monica Geller",
+        "Paolo",
+        "Phoebe Buffay",
+        "Rachel Green"
+    ],
+    [
+        "Paolo",
+        "Phoebe Buffay"
+    ],
+    [
+        "Customer",
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Customer",
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Rachel Green"
+    ],
+    [
+        "Customer",
+        "Joey Tribbiani",
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Rachel Green"
+    ],
+    [
+        "Chandler Bing",
+        "Customer",
+        "Joey Tribbiani",
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Rachel Green"
+    ],
+    [
+        "Guys",
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Ross Geller"
+    ],
+    [
+        "Guys",
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Rachel Green"
+    ],
+    [
+        "Guys",
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Ronni Rapalono"
+    ],
+    [
+        "Ronni Rapalono"
+    ],
+    [
+        "Monica Geller",
+        "Ronni Rapalono"
+    ],
+    [
+        "Monica Geller",
+        "Rachel Green",
+        "Ronni Rapalono"
+    ],
+    [
+        "Rachel Green",
+        "Ronni Rapalono"
+    ],
+    [
+        "Joey Tribbiani",
+        "Rachel Green",
+        "Ronni Rapalono"
+    ],
+    [
+        "Gloria Tribbiani",
+        "Joey Tribbiani"
+    ],
+    [
+        "Roger"
+    ],
+    [
+        "Phoebe Buffay",
+        "Roger"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Ross Geller",
+        "Woman"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Lorraine"
+    ],
+    [
+        "Chandler Bing",
+        "Janice Litman Goralnik",
+        "Lorraine"
+    ],
+    [
+        "Janice Litman Goralnik"
+    ],
+    [
+        "Chandler Bing",
+        "Janice Litman Goralnik",
+        "Monica Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Janice Litman Goralnik",
+        "Monica Geller",
+        "Rachel Green"
+    ],
+    [
+        "Chandler Bing",
+        "Janice Litman Goralnik",
+        "Joey Tribbiani",
+        "Monica Geller",
+        "Rachel Green"
+    ],
+    [
+        "Kristin",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Janice Litman Goralnik",
+        "Joey Tribbiani"
+    ],
+    [
+        "Carol Willick",
+        "Kristin",
+        "Ross Geller"
+    ],
+    [
+        "Carol Willick",
+        "Kristin",
+        "Ross Geller",
+        "Susan Bunch"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Ursula"
+    ],
+    [
+        "Woman"
+    ],
+    [
+        "Teacher",
+        "Woman"
+    ],
+    [
+        "Ross Geller",
+        "Teacher",
+        "Woman"
+    ],
+    [
+        "Carol Willick",
+        "Ross Geller",
+        "Teacher",
+        "Woman"
+    ],
+    [
+        "Carol Willick",
+        "Ross Geller",
+        "Teacher"
+    ],
+    [
+        "Carol Willick",
+        "Ross Geller",
+        "Susan Bunch",
+        "Teacher"
+    ],
+    [
+        "Chandler Bing",
+        "Helen"
+    ],
+    [
+        "Chandler Bing",
+        "Helen",
+        "Nina Bookbinder"
+    ],
+    [
+        "Chandler Bing",
+        "Nina Bookbinder"
+    ],
+    [
+        "Ross Geller",
+        "Susan Bunch",
+        "Teacher"
+    ],
+    [
+        "Soothing Male Voice"
+    ],
+    [
+        "Soothing Male Voice",
+        "Teacher"
+    ],
+    [
+        "Ross Geller",
+        "Soothing Male Voice",
+        "Teacher"
+    ],
+    [
+        "Carol Willick",
+        "Ross Geller",
+        "Soothing Male Voice",
+        "Teacher"
+    ],
+    [
+        "Carol Willick",
+        "Ross Geller",
+        "Soothing Male Voice",
+        "Susan Bunch",
+        "Teacher"
+    ],
+    [
+        "Nina Bookbinder"
+    ],
+    [
+        "Phoebe Buffay",
+        "Rachel Green",
+        "Ross Geller",
+        "Ursula"
+    ],
+    [
+        "Phoebe Buffay",
+        "Rachel Green",
+        "Ursula"
+    ],
+    [
+        "Chandler Bing",
+        "Monica Geller",
+        "Rachel Green",
+        "The Whole Party"
+    ],
+    [
+        "Chandler Bing",
+        "Monica Geller",
+        "Rachel Green",
+        "Ross Geller",
+        "The Whole Party"
+    ],
+    [
+        "Chandler Bing",
+        "Rachel Green",
+        "Ross Geller",
+        "The Whole Party"
+    ],
+    [
+        "Monica Geller",
+        "Rachel Green",
+        "Ross Geller",
+        "The Whole Party"
+    ],
+    [
+        "Nurse Sizemore",
+        "Rachel Green"
+    ],
+    [
+        "Monica Geller",
+        "Nurse Sizemore",
+        "Rachel Green"
+    ],
+    [
+        "Nurse Sizemore",
+        "Ross Geller"
+    ],
+    [
+        "Monica Geller",
+        "Nurse Sizemore",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Monica Geller",
+        "Nurse Sizemore",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Monica Geller",
+        "Nurse Sizemore",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Monica Geller",
+        "Nurse Sizemore",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Barry Farber",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Fake Monica",
+        "Rachel Green"
+    ],
+    [
+        "Fake Monica",
+        "Monica Geller",
+        "Rachel Green"
+    ],
+    [
+        "Fake Monica",
+        "Monica Geller"
+    ],
+    [
+        "Announcement"
+    ],
+    [
+        "Announcement",
+        "Phoebe Buffay"
+    ],
+    [
+        "Announcement",
+        "Phoebe Buffay",
+        "Ross Geller"
+    ],
+    [
+        "Announcement",
+        "Chandler Bing",
+        "Phoebe Buffay",
+        "Ross Geller"
+    ],
+    [
+        "Announcement",
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Phoebe Buffay",
+        "Ross Geller"
+    ],
+    [
+        "Actor"
+    ],
+    [
+        "Actor",
+        "Joey Tribbiani"
+    ],
+    [
+        "Ethan",
+        "Monica Geller"
+    ],
+    [
+        "Ethan",
+        "Joey Tribbiani",
+        "Monica Geller",
+        "Ross Geller"
+    ],
+    [
+        "Ethan",
+        "Joey Tribbiani",
+        "Monica Geller",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Ethan",
+        "Monica Geller",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Ethan",
+        "Joey Tribbiani",
+        "Monica Geller",
+        "Rachel Green"
+    ],
+    [
+        "Ethan",
+        "Joey Tribbiani",
+        "Monica Geller"
+    ],
+    [
+        "Ethan",
+        "Monica Geller",
+        "Ross Geller"
+    ],
+    [
+        "Gerston"
+    ],
+    [
+        "Gerston",
+        "Santos"
+    ],
+    [
+        "Gerston",
+        "Petrie",
+        "Santos"
+    ],
+    [
+        "Chandler Bing",
+        "Gerston",
+        "Petrie",
+        "Santos"
+    ],
+    [
+        "Chandler Bing",
+        "Gerston",
+        "Petrie",
+        "Phoebe Buffay",
+        "Santos"
+    ],
+    [
+        "Chandler Bing",
+        "Gerston",
+        "Phoebe Buffay",
+        "Santos"
+    ],
+    [
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Ross Geller",
+        "Susan Bunch"
+    ],
+    [
+        "Carol Willick",
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Ross Geller",
+        "Susan Bunch"
+    ],
+    [
+        "Carol Willick",
+        "Chandler Bing",
+        "Phoebe Buffay",
+        "Ross Geller",
+        "Susan Bunch"
+    ],
+    [
+        "Carol Willick",
+        "Chandler Bing",
+        "Ross Geller",
+        "Susan Bunch"
+    ],
+    [
+        "Carol Willick",
+        "Rachel Green",
+        "Ross Geller",
+        "Susan Bunch"
+    ],
+    [
+        "Carol Willick",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Lydia",
+        "Monica Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Lydia"
+    ],
+    [
+        "Joey Tribbiani",
+        "Lydia"
+    ],
+    [
+        "Lydia"
+    ],
+    [
+        "Nurse Sizemore"
+    ],
+    [
+        "Lydia",
+        "Nurse Sizemore"
+    ],
+    [
+        "Joey Tribbiani",
+        "Lydia",
+        "Nurse Sizemore"
+    ],
+    [
+        "Phoebe Buffay",
+        "Ross Geller",
+        "Susan Bunch"
+    ],
+    [
+        "Carol Willick",
+        "Rachel Green"
+    ],
+    [
+        "Guy",
+        "Lydia"
+    ],
+    [
+        "Carol Willick",
+        "Monica Geller"
+    ],
+    [
+        "Carol Willick",
+        "Monica Geller",
+        "Rachel Green"
+    ],
+    [
+        "Carol Willick",
+        "Joey Tribbiani",
+        "Monica Geller",
+        "Rachel Green"
+    ],
+    [
+        "Carol Willick",
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Monica Geller",
+        "Rachel Green"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Nurse Sizemore",
+        "Rachel Green"
+    ],
+    [
+        "Carol Willick",
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Nurse Sizemore"
+    ],
+    [
+        "Carol Willick",
+        "Chandler Bing",
+        "Nurse Sizemore"
+    ],
+    [
+        "Janitor",
+        "Phoebe Buffay",
+        "Ross Geller",
+        "Susan Bunch"
+    ],
+    [
+        "Carol Willick",
+        "Nurse Sizemore",
+        "Ross Geller"
+    ],
+    [
+        "Carol Willick",
+        "Chandler Bing",
+        "Nurse Sizemore",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Nurse Sizemore",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Nurse Sizemore"
+    ],
+    [
+        "Carol Willick",
+        "Phoebe Buffay",
+        "Ross Geller",
+        "Susan Bunch"
+    ],
+    [
+        "Carol Willick",
+        "Monica Geller",
+        "Ross Geller",
+        "Susan Bunch"
+    ],
+    [
+        "Monica Geller",
+        "Ross Geller",
+        "Susan Bunch"
+    ],
+    [
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Rachel Green",
+        "Ross Geller",
+        "Susan Bunch"
+    ],
+    [
+        "Chandler Bing",
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Rachel Green",
+        "Ross Geller",
+        "Susan Bunch"
+    ],
+    [
+        "Chandler Bing",
+        "Monica Geller",
+        "Rachel Green",
+        "Ross Geller",
+        "Susan Bunch"
+    ],
+    [
+        "Flight Attendant"
+    ],
+    [
+        "Flight Attendant",
+        "Ross Geller"
+    ],
+    [
+        "Flight Attendant",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Flight Attendant",
+        "Rachel Green"
+    ],
+    [
+        "Flight Attendant",
+        "Man",
+        "Rachel Green"
+    ],
+    [
+        "Melanie"
+    ],
+    [
+        "Joey Tribbiani",
+        "Melanie"
+    ],
+    [
+        "Intercom",
+        "Monica Geller",
+        "Rachel Green"
+    ],
+    [
+        "Man",
+        "Rachel Green"
+    ],
+    [
+        "Man",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Julie",
+        "Man",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Julie",
+        "Man",
+        "Ross Geller"
+    ],
+    [
+        "Julie",
+        "Ross Geller"
+    ],
+    [
+        "Julie",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Paulo",
+        "Phoebe Buffay",
+        "Rachel Green"
+    ],
+    [
+        "Julie"
+    ],
+    [
+        "Julie",
+        "Phoebe Buffay"
+    ],
+    [
+        "Julie",
+        "Phoebe Buffay",
+        "Rachel Green"
+    ],
+    [
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Susan Bunch"
+    ],
+    [
+        "Carol Willick",
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Susan Bunch"
+    ],
+    [
+        "Carol Willick",
+        "Chandler Bing",
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Susan Bunch"
+    ],
+    [
+        "Carol Willick",
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Susan Bunch"
+    ],
+    [
+        "Carol Willick",
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Phoebe Buffay",
+        "Ross Geller",
+        "Susan Bunch"
+    ],
+    [
+        "Carol Willick",
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Ross Geller",
+        "Susan Bunch"
+    ],
+    [
+        "Carol Willick",
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Ross Geller"
+    ],
+    [
+        "Carol Willick",
+        "Chandler Bing",
+        "Joey Tribbiani"
+    ],
+    [
+        "Julie",
+        "Rachel Green"
+    ],
+    [
+        "Julie",
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Rachel Green"
+    ],
+    [
+        "Julie",
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Julie",
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Julie",
+        "Monica Geller",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Julie",
+        "Ross Geller"
+    ],
+    [
+        "Annabelle",
+        "Joey Tribbiani"
+    ],
+    [
+        "Annabelle",
+        "Hombre Man",
+        "Joey Tribbiani"
+    ],
+    [
+        "Guy",
+        "Hombre Man",
+        "Joey Tribbiani"
+    ],
+    [
+        "Monica Geller",
+        "Rachel Green",
+        "Ross Geller",
+        "Susan Bunch"
+    ],
+    [
+        "Carol Willick",
+        "Monica Geller",
+        "Phoebe Buffay"
+    ],
+    [
+        "Carol Willick",
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Ross Geller"
+    ],
+    [
+        "Carol Willick",
+        "Phoebe Buffay",
+        "Ross Geller"
+    ],
+    [
+        "Carol Willick",
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Phoebe Buffay",
+        "Ross Geller"
+    ],
+    [
+        "Carol Willick",
+        "Joey Tribbiani",
+        "Phoebe Buffay",
+        "Ross Geller",
+        "Susan Bunch"
+    ],
+    [
+        "Joey Tribbiani",
+        "Phoebe Buffay",
+        "Ross Geller",
+        "Susan Bunch"
+    ],
+    [
+        "Joey Tribbiani",
+        "Ross Geller",
+        "Susan Bunch"
+    ],
+    [
+        "Hombre Man",
+        "Joey Tribbiani"
+    ],
+    [
+        "Hombre Man",
+        "Joey Tribbiani",
+        "Store Guy"
+    ],
+    [
+        "Customer",
+        "Hombre Man",
+        "Joey Tribbiani",
+        "Store Guy"
+    ],
+    [
+        "Annabelle",
+        "Customer",
+        "Hombre Man",
+        "Joey Tribbiani",
+        "Store Guy"
+    ],
+    [
+        "Buddy Boyles",
+        "Monica Geller"
+    ],
+    [
+        "Buddy Boyles",
+        "Monica Geller",
+        "Rachel Green"
+    ],
+    [
+        "Rachel Green",
+        "Stranger"
+    ],
+    [
+        "Chandler Bing",
+        "Julie",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Julie",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Julie",
+        "Monica Geller",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Joey Tribbiani",
+        "Julie",
+        "Monica Geller",
+        "Rachel Green"
+    ],
+    [
+        "Joey Tribbiani",
+        "Julie",
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Rachel Green"
+    ],
+    [
+        "Joey Tribbiani",
+        "Julie",
+        "Phoebe Buffay",
+        "Rachel Green"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Julie",
+        "Phoebe Buffay"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Julie",
+        "Monica Geller",
+        "Phoebe Buffay"
+    ],
+    [
+        "Duncan",
+        "Phoebe Buffay"
+    ],
+    [
+        "Joey Tribbiani",
+        "Julie",
+        "Monica Geller",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Julie",
+        "Monica Geller",
+        "Ross Geller"
+    ],
+    [
+        "Julie",
+        "Monica Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Julie",
+        "Monica Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Julie",
+        "Monica Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Julie",
+        "Monica Geller",
+        "Rachel Green"
+    ],
+    [
+        "Julie",
+        "Monica Geller",
+        "Rachel Green"
+    ],
+    [
+        "Chandler Bing",
+        "Julie",
+        "Rachel Green"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Julie",
+        "Rachel Green"
+    ],
+    [
+        "Chandler Bing",
+        "Jade",
+        "Joey Tribbiani",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Jade",
+        "Joey Tribbiani"
+    ],
+    [
+        "Chandler Bing",
+        "Jade"
+    ],
+    [
+        "Chandler Bing",
+        "Jade",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Monica Geller",
+        "Ross Geller",
+        "Steven Fisher"
+    ],
+    [
+        "Chandler Bing",
+        "Monica Geller",
+        "Ross Geller",
+        "Steven Fisher"
+    ],
+    [
+        "Monica Geller",
+        "Ross Geller",
+        "Steven Fisher"
+    ],
+    [
+        "Monica Geller",
+        "Steven Fisher"
+    ],
+    [
+        "Phoebe Buffay",
+        "Rachel Green",
+        "Terry"
+    ],
+    [
+        "Caroline",
+        "Chandler Bing",
+        "Joey Tribbiani"
+    ],
+    [
+        "Caroline",
+        "Joey Tribbiani"
+    ],
+    [
+        "Kid",
+        "Phoebe Buffay",
+        "Rachel Green"
+    ],
+    [
+        "Michael"
+    ],
+    [
+        "Michael",
+        "Rachel Green"
+    ],
+    [
+        "Michael",
+        "Rachel Green",
+        "Waiter"
+    ],
+    [
+        "Guy",
+        "Michael",
+        "Rachel Green"
+    ],
+    [
+        "Guy",
+        "Rachel Green"
+    ],
+    [
+        "Grandmother"
+    ],
+    [
+        "Grandmother",
+        "Phoebe Buffay"
+    ],
+    [
+        "Carol Willick",
+        "Monica Geller",
+        "Ross Geller"
+    ],
+    [
+        "Carol Willick",
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Phoebe Buffay"
+    ],
+    [
+        "Carol Willick",
+        "Chandler Bing",
+        "Minister",
+        "Phoebe Buffay",
+        "Ross Geller"
+    ],
+    [
+        "Carol Willick",
+        "Minister",
+        "Phoebe Buffay",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Phoebe Buffay",
+        "Ross Geller",
+        "Woman"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Phoebe Buffay",
+        "Woman"
+    ],
+    [
+        "Chandler Bing",
+        "Phoebe Buffay",
+        "Woman"
+    ],
+    [
+        "Chandler Bing",
+        "Phoebe Buffay",
+        "Rachel Green",
+        "Woman"
+    ],
+    [
+        "Chandler Bing",
+        "Phoebe Buffay",
+        "Rachel Green",
+        "Sandra Green",
+        "Woman"
+    ],
+    [
+        "Chandler Bing",
+        "Ross Geller",
+        "Susan Bunch"
+    ],
+    [
+        "Chandler Bing",
+        "Phoebe Buffay",
+        "Rachel Green",
+        "Rob",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Phoebe Buffay",
+        "Rachel Green",
+        "Rob"
+    ],
+    [
+        "Phoebe Buffay",
+        "Rachel Green",
+        "Rob"
+    ],
+    [
+        "Phoebe Buffay",
+        "Rob"
+    ],
+    [
+        "Chandler Bing",
+        "Erica Ford",
+        "Joey Tribbiani"
+    ],
+    [
+        "Dean Lipson"
+    ],
+    [
+        "Dean Lipson",
+        "Ross Geller"
+    ],
+    [
+        "Kids"
+    ],
+    [
+        "Kids",
+        "Phoebe Buffay"
+    ],
+    [
+        "Kids",
+        "Monica Geller",
+        "Phoebe Buffay"
+    ],
+    [
+        "Chandler Bing",
+        "Kids",
+        "Monica Geller",
+        "Phoebe Buffay"
+    ],
+    [
+        "Chandler Bing",
+        "Monica Geller",
+        "Rachel Green",
+        "Rob"
+    ],
+    [
+        "Chandler Bing",
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Rachel Green",
+        "Rob"
+    ],
+    [
+        "Chandler Bing",
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Rob"
+    ],
+    [
+        "Chandler Bing",
+        "Phoebe Buffay",
+        "Rob",
+        "Ross Geller"
+    ],
+    [
+        "Phoebe Buffay",
+        "Rob",
+        "Ross Geller"
+    ],
+    [
+        "Erica Ford"
+    ],
+    [
+        "Erica Ford",
+        "Joey Tribbiani"
+    ],
+    [
+        "Erica Ford",
+        "Joey Tribbiani",
+        "Waiter"
+    ],
+    [
+        "Janitor"
+    ],
+    [
+        "Janitor",
+        "Ross Geller"
+    ],
+    [
+        "Joey Tribbiani",
+        "Kid",
+        "Phoebe Buffay",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Joey Tribbiani",
+        "Kid",
+        "Phoebe Buffay",
+        "Rachel Green"
+    ],
+    [
+        "Chandler Bing",
+        "Ross Geller",
+        "Security Guard"
+    ],
+    [
+        "Monica Geller",
+        "Ross Geller",
+        "Security Guard"
+    ],
+    [
+        "Susie Moss"
+    ],
+    [
+        "Chandler Bing",
+        "Susie Moss"
+    ],
+    [
+        "Interviewer"
+    ],
+    [
+        "Interviewer",
+        "Monica Geller"
+    ],
+    [
+        "Judy Geller",
+        "Monica Geller",
+        "Ross Geller"
+    ],
+    [
+        "Judy Geller",
+        "Monica Geller",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Judy Geller",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Gail",
+        "Phoebe Buffay"
+    ],
+    [
+        "Judy Geller"
+    ],
+    [
+        "Both",
+        "Judy Geller",
+        "Monica Geller",
+        "Ross Geller"
+    ],
+    [
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Richard Burke"
+    ],
+    [
+        "Monica Geller",
+        "Richard Burke"
+    ],
+    [
+        "Richard Burke"
+    ],
+    [
+        "Delivery Guy",
+        "Monica Geller",
+        "Richard Burke"
+    ],
+    [
+        "Judy Geller",
+        "Monica Geller",
+        "Richard Burke",
+        "Ross Geller"
+    ],
+    [
+        "Friend"
+    ],
+    [
+        "Friend",
+        "Judy Geller"
+    ],
+    [
+        "Friend",
+        "Judy Geller",
+        "Monica Geller"
+    ],
+    [
+        "Friend",
+        "Ross Geller"
+    ],
+    [
+        "Friend",
+        "Richard Burke",
+        "Ross Geller"
+    ],
+    [
+        "Richard Burke",
+        "Ross Geller"
+    ],
+    [
+        "Phoebe Buffay",
+        "Rachel Green",
+        "Tattoo Artist"
+    ],
+    [
+        "Judy Geller",
+        "Monica Geller",
+        "Richard Burke"
+    ],
+    [
+        "Judy Geller",
+        "Richard Burke",
+        "Ross Geller"
+    ],
+    [
+        "Guy",
+        "Phoebe Buffay",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Producer"
+    ],
+    [
+        "Phoebe Buffay",
+        "Producer"
+    ],
+    [
+        "Chandler Bing",
+        "Eddie Menuek",
+        "Joey Tribbiani"
+    ],
+    [
+        "Eddie Menuek"
+    ],
+    [
+        "Eddie Menuek",
+        "Joey Tribbiani"
+    ],
+    [
+        "Chandler Bing",
+        "Eddie Menuek"
+    ],
+    [
+        "Amber"
+    ],
+    [
+        "Amber",
+        "Ross Geller"
+    ],
+    [
+        "Amber",
+        "Monica Geller",
+        "Ross Geller"
+    ],
+    [
+        "Amber",
+        "Monica Geller",
+        "Rachel Green"
+    ],
+    [
+        "Amber",
+        "Joey Tribbiani",
+        "Rachel Green"
+    ],
+    [
+        "Amber",
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Rachel Green"
+    ],
+    [
+        "Chandler Bing",
+        "Eddie Menuek",
+        "Phoebe Buffay"
+    ],
+    [
+        "Phoebe Buffay",
+        "Richard Burke"
+    ],
+    [
+        "Phoebe Buffay",
+        "Rachel Green",
+        "Richard Burke"
+    ],
+    [
+        "Phoebe Buffay",
+        "Rachel Green",
+        "Richard Burke",
+        "Ross Geller"
+    ],
+    [
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Rachel Green",
+        "Richard Burke",
+        "Ross Geller"
+    ],
+    [
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Richard Burke",
+        "Ross Geller"
+    ],
+    [
+        "Monica Geller",
+        "Richard Burke",
+        "Ross Geller"
+    ],
+    [
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Rachel Green",
+        "Richard Burke"
+    ],
+    [
+        "Tilly"
+    ],
+    [
+        "Chandler Bing",
+        "Tilly"
+    ],
+    [
+        "Chandler Bing",
+        "Eddie Menuek",
+        "Tilly"
+    ],
+    [
+        "Delivery Guy",
+        "Joey Tribbiani"
+    ],
+    [
+        "Monica Geller",
+        "Rachel Green",
+        "Richard Burke",
+        "Ross Geller"
+    ],
+    [
+        "Monica Geller",
+        "Rachel Green",
+        "Richard Burke"
+    ],
+    [
+        "Estelle Leonard"
+    ],
+    [
+        "Estelle Leonard",
+        "Joey Tribbiani"
+    ],
+    [
+        "Gunther",
+        "Joey Tribbiani"
+    ],
+    [
+        "Casting Guy",
+        "Joey Tribbiani"
+    ],
+    [
+        "Big Bully",
+        "Chandler Bing",
+        "Ross Geller"
+    ],
+    [
+        "Big Bully",
+        "Chandler Bing",
+        "Little Bully",
+        "Ross Geller"
+    ],
+    [
+        "Big Bully",
+        "Chandler Bing",
+        "Little Bully"
+    ],
+    [
+        "Chandler Bing",
+        "Little Bully",
+        "Ross Geller"
+    ],
+    [
+        "Little Bully",
+        "Ross Geller"
+    ],
+    [
+        "Monica Geller",
+        "Sandra Green"
+    ],
+    [
+        "Monica Geller",
+        "Rachel Green",
+        "Sandra Green"
+    ],
+    [
+        "Joey Tribbiani",
+        "Monica Geller",
+        "Rachel Green",
+        "Sandra Green"
+    ],
+    [
+        "Joey Tribbiani",
+        "Rachel Green",
+        "Ross Geller",
+        "Sandra Green"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Rachel Green",
+        "Ross Geller",
+        "Sandra Green"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Leonard Green",
+        "Rachel Green",
+        "Ross Geller",
+        "Sandra Green"
+    ],
+    [
+        "Chandler Bing",
+        "Guys",
+        "Joey Tribbiani",
+        "Leonard Green",
+        "Ross Geller",
+        "Sandra Green"
+    ],
+    [
+        "Chandler Bing",
+        "Guys",
+        "Leonard Green",
+        "Ross Geller",
+        "Sandra Green"
+    ],
+    [
+        "Chandler Bing",
+        "Guys",
+        "Leonard Green",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Guys",
+        "Leonard Green",
+        "Phoebe Buffay"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Leonard Green",
+        "Phoebe Buffay"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Leonard Green",
+        "Phoebe Buffay",
+        "Sandra Green"
+    ],
+    [
+        "Joey Tribbiani",
+        "Leonard Green",
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Sandra Green"
+    ],
+    [
+        "Rachel Green",
+        "Ross Geller",
+        "Wedding Planner"
+    ],
+    [
+        "Best Man",
+        "Monica Geller",
+        "Richard Burke"
+    ],
+    [
+        "Best Man",
+        "Monica Geller",
+        "Rachel Green",
+        "Richard Burke"
+    ],
+    [
+        "Best Man",
+        "Monica Geller",
+        "Rachel Green"
+    ],
+    [
+        "Best Man",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Janice Litman Goralnik",
+        "Phoebe Buffay",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Janice Litman Goralnik",
+        "Phoebe Buffay",
+        "Ross Geller"
+    ],
+    [
+        "Sherman Whitfield"
+    ],
+    [
+        "Ross Geller",
+        "Sherman Whitfield"
+    ],
+    [
+        "Chandler Bing",
+        "Ross Geller",
+        "Sherman Whitfield"
+    ],
+    [
+        "Chandler Bing",
+        "Sherman Whitfield"
+    ],
+    [
+        "Guy",
+        "Phoebe Buffay"
+    ],
+    [
+        "Malcom"
+    ],
+    [
+        "Malcom",
+        "Phoebe Buffay"
+    ],
+    [
+        "Janice Litman Goralnik",
+        "Rachel Green"
+    ],
+    [
+        "Host"
+    ],
+    [
+        "Host",
+        "Phoebe Buffay"
+    ],
+    [
+        "Host",
+        "Joey Tribbiani",
+        "Phoebe Buffay"
+    ],
+    [
+        "Host",
+        "Joey Tribbiani",
+        "Mike",
+        "Phoebe Buffay"
+    ],
+    [
+        "Host",
+        "Joey Tribbiani",
+        "Mike"
+    ],
+    [
+        "Host",
+        "Joey Tribbiani",
+        "Mike",
+        "Rachel Green"
+    ],
+    [
+        "Joey Tribbiani",
+        "Mike",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Mike",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Janice Litman Goralnik",
+        "Phoebe Buffay"
+    ],
+    [
+        "Janice Litman Goralnik",
+        "Phoebe Buffay",
+        "Ross Geller"
+    ],
+    [
+        "Janice Litman Goralnik",
+        "Joey Tribbiani",
+        "Phoebe Buffay",
+        "Ross Geller"
+    ],
+    [
+        "Janice Litman Goralnik",
+        "Joey Tribbiani",
+        "Monica Geller",
+        "Ross Geller"
+    ],
+    [
+        "Janice Litman Goralnik",
+        "Joey Tribbiani",
+        "Monica Geller",
+        "Rachel Green"
+    ],
+    [
+        "Janice Litman Goralnik",
+        "Joey Tribbiani",
+        "Monica Geller",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Janice Litman Goralnik",
+        "Joey Tribbiani",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Her Friends",
+        "Rachel Green"
+    ],
+    [
+        "Chandler Bing",
+        "Gunther",
+        "Monica Geller",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Gunther",
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Janice Litman Goralnik",
+        "Joey Tribbiani",
+        "Monica Geller",
+        "Phoebe Buffay"
+    ],
+    [
+        "Chandler Bing",
+        "Janice Litman Goralnik",
+        "Joey Tribbiani",
+        "Matress King",
+        "Phoebe Buffay"
+    ],
+    [
+        "Chandler Bing",
+        "Janice Litman Goralnik",
+        "Joey Tribbiani",
+        "Matress King"
+    ],
+    [
+        "Chandler Bing",
+        "Janice Litman Goralnik",
+        "Matress King",
+        "Monica Geller"
+    ],
+    [
+        "Leonard Green",
+        "Rachel Green"
+    ],
+    [
+        "Leonard Green",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Leonard Green",
+        "Ross Geller"
+    ],
+    [
+        "Joey Tribbiani",
+        "Student"
+    ],
+    [
+        "Student"
+    ],
+    [
+        "Jester"
+    ],
+    [
+        "Jester",
+        "Monica Geller"
+    ],
+    [
+        "Jester",
+        "Joey Tribbiani",
+        "Monica Geller"
+    ],
+    [
+        "Janice Litman Goralnik",
+        "Jester",
+        "Joey Tribbiani"
+    ],
+    [
+        "Chandler Bing",
+        "Gunther",
+        "Rachel Green"
+    ],
+    [
+        "Gunther",
+        "Rachel Green"
+    ],
+    [
+        "Sarah Tuttle"
+    ],
+    [
+        "Ross Geller",
+        "Sarah Tuttle"
+    ],
+    [
+        "Chandler Bing",
+        "Ross Geller",
+        "Sarah Tuttle"
+    ],
+    [
+        "Chandler Bing",
+        "Gunther",
+        "Joey Tribbiani",
+        "Phoebe Buffay"
+    ],
+    [
+        "Chandler Bing",
+        "Gunther",
+        "Joey Tribbiani",
+        "Phoebe Buffay",
+        "Rachel Green"
+    ],
+    [
+        "Chandler Bing",
+        "Gunther",
+        "Phoebe Buffay",
+        "Rachel Green"
+    ],
+    [
+        "Ross Geller",
+        "Woman"
+    ],
+    [
+        "Guy",
+        "Joey Tribbiani"
+    ],
+    [
+        "Guy",
+        "Joey Tribbiani",
+        "Phoebe Buffay"
+    ],
+    [
+        "Guy",
+        "Joey Tribbiani",
+        "Monica Geller",
+        "Phoebe Buffay"
+    ],
+    [
+        "Girl",
+        "Ross Geller"
+    ],
+    [
+        "Girl",
+        "Leader",
+        "Ross Geller"
+    ],
+    [
+        "Leader",
+        "Ross Geller"
+    ],
+    [
+        "Joey Tribbiani",
+        "Ross Geller",
+        "Sarah Tuttle"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Ross Geller",
+        "Sarah Tuttle"
+    ],
+    [
+        "Guy",
+        "Joey Tribbiani",
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Rachel Green"
+    ],
+    [
+        "Guy",
+        "Joey Tribbiani",
+        "Phoebe Buffay",
+        "Rachel Green"
+    ],
+    [
+        "Guy",
+        "Monica Geller",
+        "Rachel Green"
+    ],
+    [
+        "Mark Robinson",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Mark Robinson",
+        "Rachel Green"
+    ],
+    [
+        "Chandler Bing",
+        "Guy",
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Rachel Green"
+    ],
+    [
+        "Jeannine"
+    ],
+    [
+        "Jeannine",
+        "Monica Geller"
+    ],
+    [
+        "Mark Robinson"
+    ],
+    [
+        "Man",
+        "Mark Robinson",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Man",
+        "Mark Robinson",
+        "Quartet",
+        "Rachel Green"
+    ],
+    [
+        "Man",
+        "Quartet",
+        "Rachel Green",
+        "The Bass Barber"
+    ],
+    [
+        "Man",
+        "Quartet",
+        "The Bass Barber"
+    ],
+    [
+        "Mark Robinson",
+        "Woman"
+    ],
+    [
+        "Mark Robinson",
+        "Rachel Green",
+        "Woman"
+    ],
+    [
+        "Mark Robinson",
+        "Rachel Green",
+        "Ross Geller",
+        "Woman"
+    ],
+    [
+        "Man"
+    ],
+    [
+        "Man",
+        "Quartet"
+    ],
+    [
+        "Bass Singer",
+        "Man",
+        "Quartet"
+    ],
+    [
+        "Clerk",
+        "Monica Geller"
+    ],
+    [
+        "Clerk",
+        "Monica Geller",
+        "Richard Burke"
+    ],
+    [
+        "Chandler Bing",
+        "Phoebe Buffay",
+        "Robert Bobby",
+        "Ross Geller"
+    ],
+    [
+        "Phoebe Buffay",
+        "Robert Bobby",
+        "Ross Geller"
+    ],
+    [
+        "Phoebe Buffay",
+        "Robert Bobby"
+    ],
+    [
+        "Chandler Bing",
+        "Gunther",
+        "Phoebe Buffay",
+        "Robert Bobby",
+        "Ross Geller"
+    ],
+    [
+        "Singer"
+    ],
+    [
+        "Joey Tribbiani",
+        "Singer"
+    ],
+    [
+        "Joey Tribbiani",
+        "Phoebe Buffay",
+        "Singer"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Phoebe Buffay",
+        "Singer"
+    ],
+    [
+        "Chandler Bing",
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Ross Geller",
+        "Singer"
+    ],
+    [
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Ross Geller",
+        "Singer"
+    ],
+    [
+        "Phoebe Buffay",
+        "Singer"
+    ],
+    [
+        "Leslie",
+        "Phoebe Buffay",
+        "Singer"
+    ],
+    [
+        "Chandler Bing",
+        "Leslie",
+        "Phoebe Buffay",
+        "Singer"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Leslie",
+        "Phoebe Buffay",
+        "Singer"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Leslie",
+        "Phoebe Buffay"
+    ],
+    [
+        "Joey Tribbiani",
+        "Leslie",
+        "Phoebe Buffay"
+    ],
+    [
+        "Leslie",
+        "Phoebe Buffay"
+    ],
+    [
+        "Joey Tribbiani",
+        "Leslie",
+        "Monica Geller",
+        "Phoebe Buffay"
+    ],
+    [
+        "Gunther"
+    ],
+    [
+        "Chandler Bing",
+        "Gunther"
+    ],
+    [
+        "Chandler Bing",
+        "Gunther",
+        "Woman"
+    ],
+    [
+        "Chandler Bing",
+        "Woman"
+    ],
+    [
+        "Chandler Bing",
+        "Ginger",
+        "Woman"
+    ],
+    [
+        "Chandler Bing",
+        "Ginger",
+        "Gunther",
+        "Woman"
+    ],
+    [
+        "Ginger",
+        "Joey Tribbiani",
+        "Phoebe Buffay"
+    ],
+    [
+        "Chandler Bing",
+        "Ginger"
+    ],
+    [
+        "Ginger"
+    ],
+    [
+        "Commercial"
+    ],
+    [
+        "Commercial",
+        "Monica Geller"
+    ],
+    [
+        "Commercial",
+        "Joey Tribbiani",
+        "Monica Geller"
+    ],
+    [
+        "Commercial",
+        "Joey Tribbiani",
+        "Monica Geller",
+        "Phoebe Buffay"
+    ],
+    [
+        "Chandler Bing",
+        "Issac"
+    ],
+    [
+        "Chandler Bing",
+        "Issac",
+        "Joey Tribbiani"
+    ],
+    [
+        "Chandler Bing",
+        "Chloe",
+        "Issac",
+        "Joey Tribbiani"
+    ],
+    [
+        "Chandler Bing",
+        "Chloe",
+        "Joey Tribbiani"
+    ],
+    [
+        "Chloe",
+        "Joey Tribbiani"
+    ],
+    [
+        "Mischa"
+    ],
+    [
+        "Mischa",
+        "Phoebe Buffay"
+    ],
+    [
+        "Chloe"
+    ],
+    [
+        "Chloe",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Chloe",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Chloe",
+        "Issac",
+        "Ross Geller"
+    ],
+    [
+        "Mischa",
+        "Monica Geller"
+    ],
+    [
+        "Mischa",
+        "Monica Geller",
+        "Phoebe Buffay"
+    ],
+    [
+        "Chloe",
+        "Mark Robinson",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Chloe",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Mischa",
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Sergei"
+    ],
+    [
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Sergei"
+    ],
+    [
+        "Phoebe Buffay",
+        "Sergei"
+    ],
+    [
+        "Sergei"
+    ],
+    [
+        "Jasmine",
+        "Ross Geller"
+    ],
+    [
+        "Gunther",
+        "Joey Tribbiani",
+        "Monica Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Gunther",
+        "Joey Tribbiani",
+        "Monica Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Gunther",
+        "Joey Tribbiani"
+    ],
+    [
+        "Monica Geller",
+        "Peter Becker",
+        "Rachel Green"
+    ],
+    [
+        "Monica Geller",
+        "Peter Becker"
+    ],
+    [
+        "Alice Knight",
+        "Phoebe Buffay"
+    ],
+    [
+        "Peter Becker"
+    ],
+    [
+        "Peter Becker",
+        "Secretary"
+    ],
+    [
+        "Monica Geller",
+        "Peter Becker",
+        "Secretary"
+    ],
+    [
+        "Employee",
+        "Monica Geller",
+        "Peter Becker"
+    ],
+    [
+        "Chandler Bing",
+        "Monica Geller",
+        "Peter Becker"
+    ],
+    [
+        "Chandler Bing",
+        "Monica Geller",
+        "Peter Becker",
+        "Rachel Green"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Monica Geller",
+        "Peter Becker",
+        "Rachel Green"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Monica Geller",
+        "Peter Becker",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Joey Tribbiani",
+        "Monica Geller",
+        "Peter Becker",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Joey Tribbiani",
+        "Monica Geller",
+        "Peter Becker",
+        "Rachel Green"
+    ],
+    [
+        "Gunther",
+        "Mark Robinson",
+        "Rachel Green"
+    ],
+    [
+        "Monica Geller",
+        "Peter Becker",
+        "Phoebe Buffay"
+    ],
+    [
+        "The Director"
+    ],
+    [
+        "Joey Tribbiani",
+        "The Director"
+    ],
+    [
+        "Joey Tribbiani",
+        "Kate Miller",
+        "The Director"
+    ],
+    [
+        "Joey Tribbiani",
+        "Kate Miller"
+    ],
+    [
+        "Chandler Bing",
+        "Peter Becker",
+        "Phoebe Buffay"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Peter Becker",
+        "Phoebe Buffay"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Peter Becker"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Monica Geller",
+        "Peter Becker"
+    ],
+    [
+        "Chandler Bing",
+        "Monica Geller",
+        "Peter Becker",
+        "Phoebe Buffay"
+    ],
+    [
+        "Kate Miller"
+    ],
+    [
+        "Spokeswoman"
+    ],
+    [
+        "Peter Becker",
+        "Spokeswoman"
+    ],
+    [
+        "Monica Geller",
+        "Peter Becker",
+        "Spokeswoman"
+    ],
+    [
+        "Kate Miller",
+        "The Director"
+    ],
+    [
+        "Hold Voice",
+        "Monica Geller",
+        "Phoebe Buffay"
+    ],
+    [
+        "Chandler Bing",
+        "Hold Voice",
+        "Monica Geller",
+        "Phoebe Buffay"
+    ],
+    [
+        "Hold Voice",
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Rachel Green"
+    ],
+    [
+        "Hold Voice"
+    ],
+    [
+        "Hold Voice",
+        "Monica Geller"
+    ],
+    [
+        "Hold Voice",
+        "Joey Tribbiani",
+        "Monica Geller",
+        "Phoebe Buffay"
+    ],
+    [
+        "Joey Tribbiani",
+        "Stage Manager"
+    ],
+    [
+        "Joey Tribbiani",
+        "Lauren",
+        "Stage Manager"
+    ],
+    [
+        "Joey Tribbiani",
+        "Lauren"
+    ],
+    [
+        "Tommy"
+    ],
+    [
+        "Phoebe Buffay",
+        "Tommy"
+    ],
+    [
+        "Chandler Bing",
+        "Phoebe Buffay",
+        "Tommy"
+    ],
+    [
+        "Chandler Bing",
+        "Phoebe Buffay",
+        "Ross Geller",
+        "Tommy"
+    ],
+    [
+        "Chandler Bing",
+        "Phoebe Buffay",
+        "Rachel Green",
+        "Ross Geller",
+        "Tommy"
+    ],
+    [
+        "Chandler Bing",
+        "Rachel Green",
+        "Ross Geller",
+        "Tommy"
+    ],
+    [
+        "Phoebe Buffay",
+        "Rachel Green",
+        "Ross Geller",
+        "Tommy"
+    ],
+    [
+        "Joey Tribbiani",
+        "Kate Miller",
+        "Stage Manager"
+    ],
+    [
+        "Joey Tribbiani",
+        "Kate Miller",
+        "Lauren",
+        "Stage Manager"
+    ],
+    [
+        "Joey Tribbiani",
+        "Kate Miller",
+        "Lauren"
+    ],
+    [
+        "Jason"
+    ],
+    [
+        "Jason",
+        "Phoebe Buffay"
+    ],
+    [
+        "Fireman",
+        "Phoebe Buffay"
+    ],
+    [
+        "Fireman",
+        "Phoebe Buffay",
+        "Vince"
+    ],
+    [
+        "Phoebe Buffay",
+        "Vince"
+    ],
+    [
+        "Guru Saj"
+    ],
+    [
+        "Guru Saj",
+        "Ross Geller"
+    ],
+    [
+        "Jason",
+        "Phoebe Buffay",
+        "Vince"
+    ],
+    [
+        "Monica Geller",
+        "Phoebe Buffay",
+        "The Guys"
+    ],
+    [
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Rachel Green",
+        "The Guys"
+    ],
+    [
+        "Doug"
+    ],
+    [
+        "Chandler Bing",
+        "Doug"
+    ],
+    [
+        "Hoshi"
+    ],
+    [
+        "Hoshi",
+        "Peter Becker"
+    ],
+    [
+        "Hoshi",
+        "Monica Geller",
+        "Peter Becker"
+    ],
+    [
+        "Bonnie",
+        "Phoebe Buffay",
+        "Rachel Green"
+    ],
+    [
+        "Bonnie",
+        "Rachel Green"
+    ],
+    [
+        "Chandler Bing",
+        "Doug",
+        "Phil"
+    ],
+    [
+        "Chandler Bing",
+        "Doug",
+        "Phil",
+        "Stevens"
+    ],
+    [
+        "Chandler Bing",
+        "Phil",
+        "Stevens"
+    ],
+    [
+        "Announcer",
+        "Monica Geller",
+        "Ross Geller"
+    ],
+    [
+        "Announcer",
+        "Monica Geller",
+        "Peter Becker",
+        "Ross Geller"
+    ],
+    [
+        "Announcer",
+        "Monica Geller",
+        "Peter Becker",
+        "Referee",
+        "Ross Geller"
+    ],
+    [
+        "Monica Geller",
+        "Peter Becker",
+        "Referee",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Doug",
+        "Stevens"
+    ],
+    [
+        "Tv Announcer"
+    ],
+    [
+        "Chandler Bing",
+        "Tv Announcer"
+    ],
+    [
+        "Chandler Bing",
+        "Rachel Green",
+        "Tv Announcer"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Rachel Green",
+        "Tv Announcer"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Monica Geller",
+        "Rachel Green",
+        "Tv Announcer"
+    ],
+    [
+        "Joey Tribbiani",
+        "Monica Geller",
+        "Rachel Green",
+        "Tv Announcer"
+    ],
+    [
+        "Joey Tribbiani",
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Tv Announcer"
+    ],
+    [
+        "Joey Tribbiani",
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Ross Geller",
+        "Tv Announcer"
+    ],
+    [
+        "Joey Tribbiani",
+        "Phoebe Buffay",
+        "Ross Geller",
+        "Tv Announcer"
+    ],
+    [
+        "Bonnie",
+        "Chandler Bing"
+    ],
+    [
+        "Bonnie",
+        "Chandler Bing",
+        "Rachel Green"
+    ],
+    [
+        "Bonnie",
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Rachel Green"
+    ],
+    [
+        "Bonnie",
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Monica Geller",
+        "Rachel Green"
+    ],
+    [
+        "Bonnie",
+        "Phoebe Buffay",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Bonnie",
+        "Joey Tribbiani",
+        "Phoebe Buffay",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Bonnie",
+        "Chandler Bing",
+        "Phoebe Buffay",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Bonnie",
+        "Chandler Bing",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Bonnie",
+        "Chandler Bing",
+        "Monica Geller",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Bonnie",
+        "Monica Geller",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Bonnie",
+        "Monica Geller",
+        "Rachel Green"
+    ],
+    [
+        "Bonnie"
+    ],
+    [
+        "Bonnie",
+        "Phoebe Buffay",
+        "Ross Geller"
+    ],
+    [
+        "Bonnie",
+        "Ross Geller"
+    ],
+    [
+        "Bonnie",
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Ross Geller"
+    ],
+    [
+        "Bonnie",
+        "Chandler Bing",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Joanna",
+        "Rachel Green"
+    ],
+    [
+        "Judy Geller",
+        "Monica Geller",
+        "Phoebe Buffay"
+    ],
+    [
+        "The Salesman"
+    ],
+    [
+        "Joey Tribbiani",
+        "The Salesman"
+    ],
+    [
+        "Joey Tribbiani",
+        "Ross Geller",
+        "The Salesman"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Ross Geller",
+        "The Salesman"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Monica Geller",
+        "Ross Geller",
+        "The Salesman"
+    ],
+    [
+        "Chandler Bing",
+        "Monica Geller",
+        "Ross Geller",
+        "The Salesman"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Monica Geller",
+        "The Salesman"
+    ],
+    [
+        "Joanna"
+    ],
+    [
+        "Joanna",
+        "Rachel Green"
+    ],
+    [
+        "Chandler Bing",
+        "Gym Employee",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Gym Employee"
+    ],
+    [
+        "Chandler Bing",
+        "Gym Employee",
+        "Ross Geller",
+        "Woman"
+    ],
+    [
+        "Rick Sanoven"
+    ],
+    [
+        "Phoebe Buffay",
+        "Rick Sanoven"
+    ],
+    [
+        "Bank Officer",
+        "Chandler Bing",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Kathy"
+    ],
+    [
+        "Joey Tribbiani",
+        "Kathy",
+        "Monica Geller",
+        "Phoebe Buffay"
+    ],
+    [
+        "Joey Tribbiani",
+        "Kathy",
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Rachel Green"
+    ],
+    [
+        "Joey Tribbiani",
+        "Kathy",
+        "Phoebe Buffay",
+        "Rachel Green"
+    ],
+    [
+        "Kathy",
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Rachel Green"
+    ],
+    [
+        "Chandler Bing",
+        "Kathy",
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Rachel Green"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Kathy",
+        "Monica Geller",
+        "Phoebe Buffay"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Kathy",
+        "Phoebe Buffay"
+    ],
+    [
+        "Joshua Burgin",
+        "Monica Geller",
+        "Rachel Green"
+    ],
+    [
+        "Kathy"
+    ],
+    [
+        "Joey Tribbiani",
+        "Kathy"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Kathy"
+    ],
+    [
+        "Gunther",
+        "Phoebe Buffay"
+    ],
+    [
+        "Gunther",
+        "Phoebe Buffay",
+        "Rachel Green"
+    ],
+    [
+        "Casey"
+    ],
+    [
+        "Casey",
+        "Joey Tribbiani"
+    ],
+    [
+        "Casey",
+        "Chandler Bing",
+        "Joey Tribbiani"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Voice"
+    ],
+    [
+        "Chandler Bing",
+        "Gunther",
+        "Joey Tribbiani",
+        "Kathy"
+    ],
+    [
+        "Doctor"
+    ],
+    [
+        "Doctor",
+        "Monica Geller"
+    ],
+    [
+        "Doctor",
+        "Monica Geller",
+        "Rachel Green"
+    ],
+    [
+        "Doctor",
+        "Monica Geller",
+        "Nurse",
+        "Rachel Green"
+    ],
+    [
+        "Monica Geller",
+        "Nurse",
+        "Rachel Green",
+        "Timothy Burke"
+    ],
+    [
+        "Timothy Burke"
+    ],
+    [
+        "Monica Geller",
+        "Timothy Burke"
+    ],
+    [
+        "Allesandro",
+        "Monica Geller",
+        "Phoebe Buffay"
+    ],
+    [
+        "Allesandro",
+        "Monica Geller"
+    ],
+    [
+        "Allesandro"
+    ],
+    [
+        "Chandler Bing",
+        "Gunther",
+        "Joey Tribbiani",
+        "Ross Geller"
+    ],
+    [
+        "Rachel Green",
+        "Sophie"
+    ],
+    [
+        "Joey Tribbiani",
+        "Tour Guide"
+    ],
+    [
+        "Joey Tribbiani",
+        "Ross Geller",
+        "Tour Guide"
+    ],
+    [
+        "Older Scientist"
+    ],
+    [
+        "Older Scientist",
+        "Ross Geller"
+    ],
+    [
+        "Joey Tribbiani",
+        "Older Scientist",
+        "Ross Geller"
+    ],
+    [
+        "Another Tour Guide",
+        "Joey Tribbiani",
+        "Older Scientist",
+        "Ross Geller"
+    ],
+    [
+        "Another Tour Guide",
+        "Joey Tribbiani",
+        "Ross Geller"
+    ],
+    [
+        "Another Tour Guide",
+        "Joey Tribbiani",
+        "Older Scientist",
+        "Ross Geller",
+        "Tour Guide"
+    ],
+    [
+        "Joey Tribbiani",
+        "Older Scientist",
+        "Ross Geller",
+        "Tour Guide"
+    ],
+    [
+        "Another Scientist",
+        "Joey Tribbiani",
+        "Older Scientist",
+        "Ross Geller",
+        "Tour Guide"
+    ],
+    [
+        "Another Scientist",
+        "Older Scientist",
+        "Ross Geller",
+        "Tour Guide"
+    ],
+    [
+        "Another Scientist",
+        "Ross Geller",
+        "Tour Guide"
+    ],
+    [
+        "Kathy",
+        "Monica Geller",
+        "Rachel Green"
+    ],
+    [
+        "Chandler Bing",
+        "Kathy",
+        "Ross Geller"
+    ],
+    [
+        "Kathy",
+        "Ross Geller"
+    ],
+    [
+        "Rachel Green",
+        "Stephen Waltham"
+    ],
+    [
+        "Joshua Burgin",
+        "Rachel Green",
+        "Stephen Waltham"
+    ],
+    [
+        "Joshua Burgin",
+        "Rachel Green"
+    ],
+    [
+        "Chandler Bing",
+        "Monica Geller",
+        "Phoebe Buffay",
+        "The Cigarette Smoking Guy"
+    ],
+    [
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Rachel Green",
+        "The Cigarette Smoking Guy"
+    ],
+    [
+        "Charlton Heston"
+    ],
+    [
+        "Charlton Heston",
+        "Joey Tribbiani"
+    ],
+    [
+        "Chandler Bing",
+        "Monica Geller",
+        "Phoebe Buffay",
+        "The Cigarette Guy"
+    ],
+    [
+        "Chandler Bing",
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Rachel Green",
+        "The Cigarette Guy"
+    ],
+    [
+        "Chandler Bing",
+        "Monica Geller",
+        "Rachel Green",
+        "The Cigarette Guy"
+    ],
+    [
+        "Chandler Bing",
+        "Rachel Green",
+        "Woman"
+    ],
+    [
+        "Emily Waltham"
+    ],
+    [
+        "Emily Waltham",
+        "Ross Geller"
+    ],
+    [
+        "Devon",
+        "Emily Waltham",
+        "Ross Geller"
+    ],
+    [
+        "Devon",
+        "Emily Waltham",
+        "Liam",
+        "Ross Geller"
+    ],
+    [
+        "Emily Waltham",
+        "Joey Tribbiani",
+        "Ross Geller"
+    ],
+    [
+        "Emily Waltham",
+        "Joey Tribbiani",
+        "Phoebe Buffay",
+        "Ross Geller"
+    ],
+    [
+        "Emily Waltham",
+        "Phoebe Buffay",
+        "Ross Geller"
+    ],
+    [
+        "Emily Waltham",
+        "Joey Tribbiani",
+        "Liam",
+        "Ross Geller"
+    ],
+    [
+        "Emily Waltham",
+        "Liam",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Janice Litman Goralnik",
+        "Ticket Counter Attendant"
+    ],
+    [
+        "Chandler Bing",
+        "Ticket Counter Attendant"
+    ],
+    [
+        "Ticket Counter Attendant"
+    ],
+    [
+        "Joshua Burgin"
+    ],
+    [
+        "Alice Knight",
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Phoebe Buffay"
+    ],
+    [
+        "Alice Knight",
+        "Joey Tribbiani",
+        "Phoebe Buffay"
+    ],
+    [
+        "Alice Knight",
+        "Chandler Bing",
+        "Phoebe Buffay"
+    ],
+    [
+        "Carol Willick",
+        "Emily Waltham",
+        "Ross Geller"
+    ],
+    [
+        "Carol Willick",
+        "Emily Waltham",
+        "Ross Geller",
+        "Susan Bunch"
+    ],
+    [
+        "Carol Willick",
+        "Emily Waltham",
+        "Susan Bunch"
+    ],
+    [
+        "Emily Waltham",
+        "Ross Geller",
+        "Susan Bunch"
+    ],
+    [
+        "The Singing Man"
+    ],
+    [
+        "Rachel Green",
+        "The Singing Man"
+    ],
+    [
+        "Joey Tribbiani",
+        "Rachel Green",
+        "The Singing Man"
+    ],
+    [
+        "Joey Tribbiani",
+        "Monica Geller",
+        "Rachel Green",
+        "The Singing Man"
+    ],
+    [
+        "Both",
+        "The Singing Man"
+    ],
+    [
+        "Both",
+        "Joey Tribbiani",
+        "The Singing Man"
+    ],
+    [
+        "Gunther",
+        "Joey Tribbiani",
+        "Ross Geller"
+    ],
+    [
+        "Joey Tribbiani",
+        "Ross Geller",
+        "The Stripper"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Ross Geller",
+        "The Stripper"
+    ],
+    [
+        "Chandler Bing",
+        "Ross Geller",
+        "The Stripper"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Ross Geller",
+        "The Guys",
+        "The Stripper"
+    ],
+    [
+        "Joey Tribbiani",
+        "Ross Geller",
+        "The Guys",
+        "The Stripper"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Ross Geller",
+        "The Doctor"
+    ],
+    [
+        "Joey Tribbiani",
+        "Ross Geller",
+        "The Doctor"
+    ],
+    [
+        "Emily Waltham",
+        "Monica Geller",
+        "Ross Geller"
+    ],
+    [
+        "Dressmaker",
+        "Monica Geller"
+    ],
+    [
+        "Dressmaker",
+        "Emily Waltham",
+        "Monica Geller"
+    ],
+    [
+        "Joey Tribbiani",
+        "The Vendor"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "The Vendor"
+    ],
+    [
+        "Emily Waltham",
+        "Monica Geller"
+    ],
+    [
+        "Housekeeper"
+    ],
+    [
+        "Housekeeper",
+        "Phoebe Buffay"
+    ],
+    [
+        "Jack Geller",
+        "Judy Geller",
+        "Monica Geller",
+        "Ross Geller"
+    ],
+    [
+        "Emily Waltham",
+        "Jack Geller",
+        "Judy Geller",
+        "Monica Geller"
+    ],
+    [
+        "Emily Waltham",
+        "Jack Geller",
+        "Judy Geller",
+        "Monica Geller",
+        "Stephen Waltham"
+    ],
+    [
+        "Andrea Waltham",
+        "Emily Waltham",
+        "Jack Geller",
+        "Judy Geller",
+        "Monica Geller",
+        "Stephen Waltham"
+    ],
+    [
+        "Andrea Waltham",
+        "Emily Waltham",
+        "Jack Geller",
+        "Monica Geller",
+        "Stephen Waltham"
+    ],
+    [
+        "Andrea Waltham",
+        "Emily Waltham",
+        "Monica Geller",
+        "Stephen Waltham"
+    ],
+    [
+        "Andrea Waltham",
+        "Emily Waltham",
+        "Stephen Waltham"
+    ],
+    [
+        "Andrea Waltham",
+        "Stephen Waltham"
+    ],
+    [
+        "Andrea Waltham",
+        "Jack Geller",
+        "Stephen Waltham"
+    ],
+    [
+        "Andrea Waltham",
+        "Jack Geller",
+        "Judy Geller",
+        "Stephen Waltham"
+    ],
+    [
+        "Andrea Waltham",
+        "Jack Geller",
+        "Judy Geller",
+        "Monica Geller",
+        "Stephen Waltham"
+    ],
+    [
+        "Waiter"
+    ],
+    [
+        "Joey Tribbiani",
+        "Waiter"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Waiter"
+    ],
+    [
+        "Chandler Bing",
+        "Jack Geller",
+        "Joey Tribbiani",
+        "Waiter"
+    ],
+    [
+        "Chandler Bing",
+        "Jack Geller",
+        "Joey Tribbiani",
+        "Ross Geller",
+        "Waiter"
+    ],
+    [
+        "Chandler Bing",
+        "Jack Geller",
+        "Joey Tribbiani",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Jack Geller",
+        "Joey Tribbiani",
+        "Judy Geller",
+        "Ross Geller"
+    ],
+    [
+        "Jack Geller",
+        "Joey Tribbiani",
+        "Judy Geller",
+        "Ross Geller"
+    ],
+    [
+        "Jack Geller",
+        "Judy Geller",
+        "Ross Geller"
+    ],
+    [
+        "Rachel Green",
+        "Ticket Agent"
+    ],
+    [
+        "Ross Geller",
+        "Stephen Waltham"
+    ],
+    [
+        "Andrea Waltham",
+        "Ross Geller",
+        "Stephen Waltham"
+    ],
+    [
+        "Andrea Waltham",
+        "Chandler Bing"
+    ],
+    [
+        "Andrea Waltham",
+        "Chandler Bing",
+        "Phoebe Buffay"
+    ],
+    [
+        "Andrea Waltham",
+        "Phoebe Buffay"
+    ],
+    [
+        "Andrea Waltham",
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Phoebe Buffay"
+    ],
+    [
+        "Andrea Waltham",
+        "Chandler Bing",
+        "Felicity",
+        "Joey Tribbiani",
+        "Phoebe Buffay"
+    ],
+    [
+        "Chandler Bing",
+        "Drunk Man",
+        "Monica Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Drunk Man",
+        "Jack Geller",
+        "Monica Geller"
+    ],
+    [
+        "Drunk Man",
+        "Jack Geller",
+        "Monica Geller",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Drunk Man",
+        "Jack Geller",
+        "Monica Geller",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Jack Geller",
+        "Monica Geller",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Jack Geller",
+        "Monica Geller"
+    ],
+    [
+        "Passenger",
+        "Rachel Green"
+    ],
+    [
+        "Andrea Waltham",
+        "Judy Geller"
+    ],
+    [
+        "Andrea Waltham",
+        "Judy Geller",
+        "Monica Geller"
+    ],
+    [
+        "Andrea Waltham",
+        "Joey Tribbiani",
+        "Judy Geller",
+        "Monica Geller"
+    ],
+    [
+        "Joey Tribbiani",
+        "Judy Geller",
+        "Monica Geller",
+        "Ross Geller"
+    ],
+    [
+        "Felicity"
+    ],
+    [
+        "Felicity",
+        "Joey Tribbiani"
+    ],
+    [
+        "Felicity",
+        "Joey Tribbiani",
+        "Judy Geller"
+    ],
+    [
+        "Felicity",
+        "Joey Tribbiani",
+        "Judy Geller",
+        "Stephen Waltham"
+    ],
+    [
+        "Felicity",
+        "Jack Geller",
+        "Joey Tribbiani",
+        "Judy Geller",
+        "Stephen Waltham"
+    ],
+    [
+        "Felicity",
+        "Jack Geller",
+        "Joey Tribbiani",
+        "Judy Geller",
+        "Ross Geller",
+        "Stephen Waltham"
+    ],
+    [
+        "Emily Waltham",
+        "Jack Geller",
+        "Joey Tribbiani",
+        "Judy Geller",
+        "Ross Geller",
+        "Stephen Waltham"
+    ],
+    [
+        "Emily Waltham",
+        "Jack Geller",
+        "Judy Geller",
+        "Ross Geller",
+        "Stephen Waltham"
+    ],
+    [
+        "Emily Waltham",
+        "Jack Geller",
+        "Ross Geller",
+        "Stephen Waltham"
+    ],
+    [
+        "Emily Waltham",
+        "Ross Geller",
+        "Stephen Waltham"
+    ],
+    [
+        "Emily Waltham",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Monica Geller",
+        "Ross Geller",
+        "Stephen Waltham"
+    ],
+    [
+        "Andrea Waltham",
+        "Chandler Bing",
+        "Monica Geller",
+        "Ross Geller",
+        "Stephen Waltham"
+    ],
+    [
+        "Andrea Waltham",
+        "Chandler Bing",
+        "Ross Geller",
+        "Stephen Waltham"
+    ],
+    [
+        "Andrea Waltham",
+        "Rachel Green",
+        "Ross Geller",
+        "Stephen Waltham"
+    ],
+    [
+        "Andrea Waltham",
+        "Rachel Green",
+        "Stephen Waltham"
+    ],
+    [
+        "Air Hostess",
+        "Rachel Green"
+    ],
+    [
+        "Monica Geller",
+        "Paul the Wine Guy"
+    ],
+    [
+        "Paul the Wine Guy"
+    ],
+    [
+        "Franny"
+    ],
+    [
+        "Franny",
+        "Monica Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Customer",
+        "Rachel Green"
+    ],
+    [
+        "David"
+    ],
+    [
+        "David",
+        "Phoebe Buffay"
+    ],
+    [
+        "David",
+        "Max",
+        "Phoebe Buffay"
+    ],
+    [
+        "Monica Geller",
+        "Rachel Green",
+        "Radio",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Scott Alexander"
+    ],
+    [
+        "Phoebe Buffay",
+        "Ryan"
+    ],
+    [
+        "Ryan"
+    ],
+    [
+        "Phoebe Buffay",
+        "Rachel Green",
+        "Ryan"
+    ],
+    [
+        "Phoebe Buffay",
+        "Rachel Green",
+        "Ross Geller",
+        "Ryan"
+    ],
+    [
+        "Jeannie",
+        "Joey Tribbiani"
+    ],
+    [
+        "Chandler Bing",
+        "Jeannie",
+        "Joey Tribbiani"
+    ],
+    [
+        "Phoebe Buffay",
+        "Ross Geller",
+        "Ryan"
+    ],
+    [
+        "Rachel Green",
+        "Ryan"
+    ],
+    [
+        "Rachel Green",
+        "Ross Geller",
+        "Ryan"
+    ],
+    [
+        "Gunther",
+        "Ross Geller"
+    ],
+    [
+        "Gunther",
+        "Phoebe Buffay",
+        "Ross Geller"
+    ],
+    [
+        "Gunther",
+        "Phoebe Buffay",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Ben Geller",
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Rachel Green"
+    ],
+    [
+        "Ben Geller",
+        "Monica Geller",
+        "Phoebe Buffay"
+    ],
+    [
+        "Ben Geller",
+        "Monica Geller",
+        "Rachel Green"
+    ],
+    [
+        "Chandler Bing",
+        "Gunther",
+        "Janice Litman Goralnik"
+    ],
+    [
+        "Chandler Bing",
+        "Rachel Green",
+        "Sophie"
+    ],
+    [
+        "Joanna",
+        "Rachel Green",
+        "Sophie"
+    ],
+    [
+        "Joey Tribbiani",
+        "Kate Miller",
+        "The Director",
+        "Woman"
+    ],
+    [
+        "Joey Tribbiani",
+        "Lauren",
+        "The Director",
+        "Woman"
+    ],
+    [
+        "Joey Tribbiani",
+        "Lauren",
+        "Woman"
+    ],
+    [
+        "Joey Tribbiani",
+        "Lauren",
+        "The Director"
+    ],
+    [
+        "Chandler Bing",
+        "Joanna"
+    ],
+    [
+        "Chip Matthews"
+    ],
+    [
+        "Chip Matthews",
+        "Monica Geller"
+    ],
+    [
+        "Chip Matthews",
+        "Monica Geller",
+        "Ross Geller"
+    ],
+    [
+        "Tony"
+    ],
+    [
+        "Joey Tribbiani",
+        "Tony"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Tony"
+    ],
+    [
+        "Chandler Bing",
+        "Peter",
+        "Tony"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Peter",
+        "Tony"
+    ],
+    [
+        "Chip Matthews",
+        "Monica Geller",
+        "Rachel Green"
+    ],
+    [
+        "Chip Matthews",
+        "Rachel Green"
+    ],
+    [
+        "Rachel Green",
+        "The Doctor"
+    ],
+    [
+        "Phoebe Buffay",
+        "Rachel Green",
+        "The Doctor"
+    ],
+    [
+        "Phoebe Buffay",
+        "The Doctor"
+    ],
+    [
+        "Alice Knight"
+    ],
+    [
+        "Ticket Agent"
+    ],
+    [
+        "Ross Geller",
+        "Ticket Agent"
+    ],
+    [
+        "Emily Waltham",
+        "Ross Geller",
+        "Ticket Agent"
+    ],
+    [
+        "Chandler Bing",
+        "Emily Waltham",
+        "Monica Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Emily Waltham",
+        "Joey Tribbiani",
+        "Monica Geller"
+    ],
+    [
+        "Emily Waltham",
+        "Joey Tribbiani",
+        "Monica Geller"
+    ],
+    [
+        "Monica Geller",
+        "Phoebe Buffay",
+        "The Saleslady"
+    ],
+    [
+        "Monica Geller",
+        "The Saleslady"
+    ],
+    [
+        "Gunther",
+        "Joshua Burgin",
+        "Rachel Green"
+    ],
+    [
+        "Sleep Clinic Worker"
+    ],
+    [
+        "Joey Tribbiani",
+        "Sleep Clinic Worker"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Sleep Clinic Worker"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Sleep Clinic Worker",
+        "Woman"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Woman"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Marjorie",
+        "Woman"
+    ],
+    [
+        "Chandler Bing",
+        "Marjorie",
+        "Woman"
+    ],
+    [
+        "Chandler Bing",
+        "Marjorie"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Marjorie"
+    ],
+    [
+        "Celia"
+    ],
+    [
+        "Celia",
+        "Ross Geller"
+    ],
+    [
+        "Barry Farber",
+        "Bernice",
+        "Bobby Rush",
+        "Rachel Green"
+    ],
+    [
+        "Barry Farber",
+        "Bobby Rush",
+        "Rachel Green"
+    ],
+    [
+        "Danielle",
+        "Joey Tribbiani",
+        "Phoebe Buffay",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Danielle",
+        "Joey Tribbiani",
+        "Phoebe Buffay",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Danielle",
+        "Phoebe Buffay",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Danielle",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Danielle"
+    ],
+    [
+        "Chandler Bing",
+        "Danielle",
+        "Phoebe Buffay"
+    ],
+    [
+        "Chandler Bing",
+        "Danielle",
+        "Monica Geller",
+        "Phoebe Buffay"
+    ],
+    [
+        "Chandler Bing",
+        "Danielle",
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Ross Geller"
+    ],
+    [
+        "Monica Geller",
+        "Waiter"
+    ],
+    [
+        "Bobby Rush",
+        "Monica Geller",
+        "Waiter"
+    ],
+    [
+        "Russ"
+    ],
+    [
+        "Chandler Bing",
+        "Russ"
+    ],
+    [
+        "Chandler Bing",
+        "Phoebe Buffay",
+        "Russ"
+    ],
+    [
+        "Chandler Bing",
+        "Julie",
+        "Phoebe Buffay",
+        "Russ"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Monica Geller",
+        "Richard Burke"
+    ],
+    [
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Richard Burke"
+    ],
+    [
+        "Janice Litman Goralnik",
+        "Joey Tribbiani"
+    ],
+    [
+        "Jack Geller",
+        "Monica Geller"
+    ],
+    [
+        "The Guys"
+    ],
+    [
+        "Phoebe Buffay",
+        "The Guys"
+    ],
+    [
+        "Gunther",
+        "Monica Geller",
+        "Phoebe Buffay",
+        "Rachel Green"
+    ],
+    [
+        "Gunther",
+        "Monica Geller",
+        "Phoebe Buffay"
+    ],
+    [
+        "Gunther",
+        "Joey Tribbiani",
+        "Monica Geller",
+        "Phoebe Buffay"
+    ],
+    [
+        "Anchorwoman",
+        "Chandler Bing",
+        "Joey Tribbiani",
+        "Ross Geller"
+    ],
+    [
+        "Bonnie",
+        "Rachel Green",
+        "Ross Geller"
+    ],
+    [
+        "Phoebe Buffay",
+        "Ursula Buffay"
+    ],
+    [
+        "Cheryl"
+    ],
+    [
+        "Cheryl",
+        "Ross Geller"
+    ],
+    [
+        "Cheryl",
+        "Phoebe Buffay",
+        "Ross Geller"
+    ],
+    [
+        "Chandler Bing",
+        "Cheryl",
+        "Phoebe Buffay",
+        "Ross Geller"
+    ],
+    [
+        "Both",
+        "Monica Geller",
+        "Phoebe Buffay"
+    ],
+    [
+        "Chandler Bing",
+        "Drew"
+    ],
+    [
+        "Chandler Bing",
+        "Drew",
+        "Mike"
+    ],
+    [
+        "A Waiter",
+        "Joey Tribbiani",
+        "Monica Geller"
+    ],
+    [
+        "A Waiter",
+        "Joey Tribbiani",
+        "Monica Geller",
+        "The Waiter"
+    ],
+    [
+        "Joey Tribbiani",
+        "Monica Geller",
+        "The Waiter"
+    ],
+    [
+        "Monica Geller",
+        "The Waiter"
+    ],
+    [
+        "Kitchen Worker",
+        "Monica Geller"
+    ],
+    [
+        "Kitchen Worker",
+        "Monica Geller",
+        "The Waiter"
+    ],
+    [
+        "The Conductor"
+    ],
+    [
+        "Ross Geller",
+        "The Conductor"
+    ],
+    [
+        "Ross Geller",
+        "The Conductor",
+        "Woman On Train"
+    ],
+    [
+        "Ross Geller",
+        "Woman On Train"
+    ]
+]

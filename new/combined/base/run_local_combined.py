@@ -54,6 +54,8 @@ def main():
                         help="Shortcut for smoke test (epochs=1, data_percent=0.002, eval_percent=0.02)")
     parser.add_argument("--checkpoint_dir", type=str, default=None,
                         help="Path to saved LoRA adapter checkpoint")
+    parser.add_argument("--lora_dim", type=int, default=8, help="LoRA rank")
+    parser.add_argument("--lora_alpha", type=int, default=16)
     parser.add_argument("--epoch_offset", type=int, default=0, help="resume: epochs already finished (naming only)")
     parser.add_argument("--max_new_tokens", type=int, default=16,
                         help="generation budget at eval; raise it for chain-of-emotion outputs (default 16 = single label)")
@@ -145,6 +147,8 @@ def main():
         "--eval_percent", str(args.eval_percent),
         "--save_steps", "100000",
         "--lora", "True",
+        "--lora_dim", str(args.lora_dim),
+        "--lora_alpha", str(args.lora_alpha),
         "--learning_rate", str(args.lr),
         "--do_train", do_train_val,
         "--do_eval", do_eval_val,

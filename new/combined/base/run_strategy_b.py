@@ -78,6 +78,9 @@ def main():
     ap.add_argument("--erc_percent", type=float, default=1.0)
     ap.add_argument("--erc_lr", default=None, help="learning rate for stage 2 (default 2e-4); use ~1e-4 when extending a finished run")
     ap.add_argument("--eval_percent", type=float, default=1.0, help="share of test set scored in stage 2")
+    ap.add_argument("--lora_dim", type=int, default=None, help="LoRA rank for stages 1+2 (default 8)")
+    ap.add_argument("--lora_alpha", type=int, default=None)
+    ap.add_argument("--suffix", default="", help="appended to the Stage1/Stage2 run names so a variant never touches the base run")
     ap.add_argument("--skip_steer", action="store_true", help="aux stage without STEeR rows")
     ap.add_argument("--model_path", default=None, help="local Mistral-7B-Instruct-v0.3 folder (default: /home/user2/Mistral-7B-Instruct-v0.3)")
     ap.add_argument("--dry_run", action="store_true", help="print the commands without running them")
@@ -85,6 +88,7 @@ def main():
     global DRY, MP
     DRY = args.dry_run
     MP = ["--model_path", args.model_path] if args.model_path else []
+    LORA = (["--lora_dim", str(args.lora_dim)] if args.lora_dim else []) + (["--lora_alpha", str(args.lora_alpha)] if args.lora_alpha else [])
     base = f"{args.dataset}_coe{args.tag}"
     flags = {"_noscene": ["--no_scene"], "_nopersona": ["--no_persona"], "_scene": ["--iemocap_scene"]}.get(args.tag, [])
 
@@ -102,12 +106,12 @@ def main():
                  "--epochs", str(args.steer_epochs), "--infer_per_epoch", str(args.infer_per_epoch)] + MP)
         run([PY, "build_coe_data.py", "--dataset", args.dataset, "--steer_rows", memory] + flags)
 
-    s1 = os.path.join(OUT, f"Stage1_aux_{args.dataset}{args.tag}", f"{base}_aux", "final_checkpoint")
-    train_stage(f"Stage1_aux_{args.dataset}{args.tag}", f"{base}_aux", args.dataset, args.aux_epochs,
-                args.aux_percent, 29511, extra=["--no_eval"])
+    s1 = os.path.join(OUT, f"Stage1_aux_{args.dataset}{args.tag}{args.suffix}", f"{base}_aux", "final_checkpoint")
+    train_stage(f"Stage1_aux_{args.dataset}{args.tag}{args.suffix}", f"{base}_aux", args.dataset, args.aux_epochs,
+                args.aux_percent, 29511, extra=["--no_eval"] + LORA)
     # stage 2 starts from the stage-1 adapter; if interrupted it continues from its own latest epoch
-    train_stage(f"Stage2_erc_{args.dataset}{args.tag}", f"{base}_erc", args.dataset, args.erc_epochs,
-                args.erc_percent, 29512, start_ckpt=s1, extra=["--eval_percent", str(args.eval_percent)], lr=args.erc_lr)
+    train_stage(f"Stage2_erc_{args.dataset}{args.tag}{args.suffix}", f"{base}_erc", args.dataset, args.erc_epochs,
+                args.erc_percent, 29512, start_ckpt=s1, extra=["--eval_percent", str(args.eval_percent)] + LORA, lr=args.erc_lr)
 
 
 if __name__ == "__main__":

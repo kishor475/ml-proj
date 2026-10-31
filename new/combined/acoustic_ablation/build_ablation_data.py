@@ -13,12 +13,16 @@ HERE = os.path.dirname(os.path.realpath(__file__))
 sys.path.insert(0, HERE)
 sys.path.insert(0, os.path.join(HERE, "..", "base+acoustic"))
 import acoustic_clues as ac  # noqa: E402
+sys.path.insert(0, os.path.join(HERE, "..", "base+chain"))
+sys.path.insert(0, os.path.join(HERE, "..", "base+rel"))
 import acoustic_data as ad  # noqa: E402
+import chain_data as cd  # noqa: E402
+from coe_clues import load_dialogues  # noqa: E402
 import build_acoustic_data as bad  # noqa: E402
 import configs  # noqa: E402
 
 
-# SpeechCueLLM-style arms: name -> (form, audio_context tags, shuffled control). Each form has its own shuffled control.
+# arms: name -> (form, audio_context tags, shuffled control). Each form has its own shuffled control.
 GROUPS = {"volume": ("avg_intensity", "intensity_variation"), "pitch": ("avg_pitch", "pitch_std"), "rate": ("articulation_rate",)}
 
 
@@ -26,7 +30,7 @@ def _arm(form="description", ctx=False, shuf=False, drop=None, perc=None, norm=N
     return dict(form=form, ctx=ctx, shuf=shuf, drop=drop, perc=perc, norm=norm)
 
 
-# Component ablation of the SpeechCueLLM-style clue. Reference ("full") = description + audio_context + 5 features + 5-class
+# Component ablation of the clue. Reference ("full") = description + audio_context + 5 features + 5-class
 # percentiles (10/25/75/90) + the dataset's default normalisation. Every other arm changes ONE component of it.
 FORM_ARMS = {
     # with audio_context tags (EmoryNLP / MELD)
@@ -58,11 +62,94 @@ def preset_for(dataset):
     return PRESET[k], REFERENCE[k]
 
 
+# Chain-of-emotion arms (short protocol). Same training subset and the same held-out dev rows as the other ablation arms.
+CHAIN_ARMS = {"chain_prev": "prev", "chain_self": "self", "chain_all": "all", "chain_all_known": "all_known",
+              "lf_all": "lf_all", "lf_prev": "lf_prev"}
+CHAIN_PRESET = ["chain_prev", "chain_all", "lf_prev", "lf_all"]   # + chain_all_known on IEMOCAP (see run_ablation)
+
+
+# Hand-built relationship-map arms (EmoryNLP / MELD): name -> (style, shuffled control). Same split as the other arms.
+REL_ARMS = {"relmap": ("detail", False), "relmap_cat": ("category", False), "relmap_desc": ("desc", False),
+            "shuffled_relmap": ("detail", True)}
+REL_PRESET = ["relmap", "shuffled_relmap", "relmap_cat", "relmap_desc"]
+
+
+def _build_rel_arm(dataset, arm, base_tag, seed=0):
+    import build_rel_data as brd
+    import build_relmap_data as brm
+    import relmap
+    style, shuf = REL_ARMS[arm]
+    rm = relmap.RelMap(dataset)
+    train, dev = _chain_items(dataset)
+    src = ad.base_erc_dir(dataset, base_tag)
+    base = {s: ad.read_rows(os.path.join(src, f"{s}.json")) for s in ("train", "dev")}
+    def rows(items, sd):
+        blocks = [brm.block_for(rm, d, i, style) for _, d, i, _ in items]
+        if shuf:                                   # control: the same blocks (and the same share of empty ones) on random turns
+            blocks = ad.shuffled(blocks, sd)
+        out = []
+        for (split, d, i, k), text in zip(items, blocks):
+            b = base[split][k]
+            assert b["target"] == d["turns"][i]["emotion"], "row/turn mismatch"
+            out.append({"input": brd.add_block(b["input"], text) if text else b["input"], "target": b["target"]})
+        return out
+    d_ = os.path.join(ad.DATA_DIR, arm_dir(dataset, arm, base_tag))
+    tr_rows, dv_rows = rows(train, seed), rows(dev, seed + 1)
+    print(f"{dataset} arm '{arm}': train {len(tr_rows)}  held-out dev {len(dv_rows)} -> {os.path.basename(d_)}")
+    for name, rs in (("train", tr_rows), ("test", dv_rows), ("dev", dv_rows)):
+        ad.write_rows(os.path.join(d_, f"{name}.json"), rs)
+    return os.path.basename(d_)
+
+
+def max_new_tokens(arm):
+    """Generation budget the arm needs at evaluation (None = trainer default)."""
+    return cd.MAX_NEW_TOKENS[CHAIN_ARMS[arm]] if arm in CHAIN_ARMS else None
+
+
+def _chain_items(dataset):
+    """(train_items, dev_items) as lists of (split, dialogue, turn index) with the SAME held-out rule as acoustic_data.holdout_split
+    (EmoryNLP/MELD: the dev set; IEMOCAP has no dev, so every 5th training dialogue is held out), without loading any audio."""
+    tr = [(d, i) for d in load_dialogues("train", dataset) for i in range(len(d["turns"]))]
+    if dataset == "iemocap":
+        ids = sorted({d["id"] for d, _ in tr}, key=lambda s: int(s.split(":")[1]))
+        held = set(ids[::5])
+        return [("train", d, i, k) for k, (d, i) in enumerate(tr) if d["id"] not in held], \
+               [("train", d, i, k) for k, (d, i) in enumerate(tr) if d["id"] in held]
+    dv = [(d, i) for d in load_dialogues("dev", dataset) for i in range(len(d["turns"]))]
+    return [("train", d, i, k) for k, (d, i) in enumerate(tr)], [("dev", d, i, k) for k, (d, i) in enumerate(dv)]
+
+
+def _build_chain_arm(dataset, arm, base_tag):
+    variant = CHAIN_ARMS[arm]
+    train, dev = _chain_items(dataset)
+    src = ad.base_erc_dir(dataset, base_tag)
+    base = {s: ad.read_rows(os.path.join(src, f"{s}.json")) for s in ("train", "dev")}
+    def rows(items):
+        out = []
+        for split, d, i, k in items:
+            b = base[split][k]
+            t = d["turns"][i]
+            assert b["target"] == t["emotion"], "row/turn mismatch"
+            out.append({"input": cd.chain_prompt(b["input"], variant),
+                        "target": cd.chain_target(variant, t["speaker"], cd.gold_history(d, i), t["emotion"])})
+        return out
+    d_ = os.path.join(ad.DATA_DIR, arm_dir(dataset, arm, base_tag))
+    tr_rows, dv_rows = rows(train), rows(dev)
+    print(f"{dataset} arm '{arm}': train {len(tr_rows)}  held-out dev {len(dv_rows)} -> {os.path.basename(d_)}")
+    for name, rs in (("train", tr_rows), ("test", dv_rows), ("dev", dv_rows)):
+        ad.write_rows(os.path.join(d_, f"{name}.json"), rs)
+    return os.path.basename(d_)
+
+
 def arm_dir(dataset, arm, base_tag=""):
     return f"{dataset}_coe{base_tag}_abl_{configs.slug(arm)}"
 
 
 def build_arm(dataset, arm, base_tag="", seed=0):
+    if arm in CHAIN_ARMS:
+        return _build_chain_arm(dataset, arm, base_tag)
+    if arm in REL_ARMS:
+        return _build_rel_arm(dataset, arm, base_tag, seed)
     train, dev = ad.holdout_split(dataset)
     src = ad.base_erc_dir(dataset, base_tag)
     base = {s: ad.read_rows(os.path.join(src, f"{s}.json")) for s in ("train", "dev")}

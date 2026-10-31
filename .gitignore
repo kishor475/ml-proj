@@ -10,3 +10,23 @@ __pycache__/
 
 # Environment variables / Secrets
 .env
+
+# Licensed / restricted datasets and derived text -- never commit
+transcripts/
+original_data/
+emotion-detection/
+audio/
+**/Truebaseline/data/
+**/source_data/
+
+# Model outputs, checkpoints, adapters, logs
+**/outputs/
+**/logs/
+*.safetensors
+*.bin
+*.pt
+
+# Archives and installers
+*.zip
+*.tgz
+*.whl

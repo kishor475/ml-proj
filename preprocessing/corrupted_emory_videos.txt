@@ -1,0 +1,6 @@
+Failed sea4_ep4_sc3_utt10.mp4: Cannot open file “C:\Users\kishor\Pictures\ML_proj\emorynlp_wavs\sea4_ep4_sc3_utt10.wav”.
+Sound not read from sound file “C:\Users\kishor\Pictures\ML_proj\emorynlp_wavs\sea4_ep4_sc3_utt10.wav”.
+Failed sea4_ep4_sc3_utt8.mp4: Cannot open file “C:\Users\kishor\Pictures\ML_proj\emorynlp_wavs\sea4_ep4_sc3_utt8.wav”.
+Sound not read from sound file “C:\Users\kishor\Pictures\ML_proj\emorynlp_wavs\sea4_ep4_sc3_utt8.wav”.
+Failed sea4_ep4_sc3_utt9.mp4: Cannot open file “C:\Users\kishor\Pictures\ML_proj\emorynlp_wavs\sea4_ep4_sc3_utt9.wav”.
+Sound not read from sound file “C:\Users\kishor\Pictures\ML_proj\emorynlp_wavs\sea4_ep4_sc3_utt9.wav”.

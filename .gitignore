@@ -12,15 +12,9 @@ __pycache__/
 .env
 
 # Licensed / restricted datasets and derived text -- never commit
-transcripts/
-original_data/
-emotion-detection/
-audio/
-**/Truebaseline/data/
-**/source_data/
+
 
 # Model outputs, checkpoints, adapters, logs
-**/outputs/
 **/logs/
 *.safetensors
 *.bin

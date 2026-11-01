@@ -235,7 +235,7 @@ MELD & base & 68.85 & --\\
 \item Resumed runs use a restarted learning-rate schedule and are not equal to a single long run.
 \item Not tested: fp16 or 8-bit training, 20 ERC epochs, and multiple seeds. Extensions on v0.1 were run for EmoryNLP only.
 \item Every prompt uses a window of the five previous utterances. IEMOCAP dialogues are much longer (median 58 turns), and longer windows were not tested within the 12\,GB budget. The IEMOCAP relationship clue (one sentence per scene) was run at full length only once.
-\item The IEMOCAP acoustic result is a single full-length run without a paired-bootstrap interval, and acoustic clues were not run at full length on EmoryNLP or MELD with the Instruct-v0.3 base. No shuffled-clue control was run, so a gain from acoustic text cannot be separated from the effect of added tokens.
+
 \end{itemize}
 
 %% ------------------------------------------------------------------

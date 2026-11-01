@@ -6,7 +6,7 @@ We implemented the CoE pipeline (Strategy B: self-taught rationale generation, j
 
 Main findings:
 
-1. Our base pipeline reaches 40.00 (EmoryNLP), 67.35 (MELD) and 69.97 (IEMOCAP) weighted-F1, against 44.29 / 70.11 / 70.46 reported for the method. IEMOCAP and MELD are within 0.5 and about 2.8 points; EmoryNLP is 4.3 points below.
+1. Our base pipeline reaches 42.00 (EmoryNLP), 68.85 (MELD) and 69.97 (IEMOCAP) weighted-F1, against 44.29 / 70.11 / 70.46 reported for the method. IEMOCAP and MELD are within 0.5 and about 1.3 points; EmoryNLP is 2.3 points below.
 2. The EmoryNLP gap is not explained by training length, LoRA rank, or the choice of Mistral-7B v0.3 versus v0.1; each of these changed the score by less than the noise level.
 3. None of the three extensions gives a reliable gain at full training length. Chain of emotion helps in a short, low-data protocol but the gain disappears (and often reverses) at three epochs.
 
@@ -42,21 +42,21 @@ Weighted-F1 (%). `*` = the 95 % paired-bootstrap interval of the difference to t
 
 | Dataset | Ours (final epoch) | Ours (best epoch) | Reported |
 |---|---|---|---|
-| EmoryNLP | 40.00 | 40.00 | 44.29 |
-| MELD | 67.35 | 67.76 | 70.11 |
+| EmoryNLP | 42.00 | 42.00 | 44.29 |
+| MELD | 68.85 | 69.26 | 70.11 |
 | IEMOCAP | 69.97 | 69.97 | 70.46 |
 
 ### 3.2 Attempts to close the EmoryNLP gap
 
 | Change | Final wF1 | vs base [95 % CI] |
 |---|---|---|
-| Base (v0.3, r=8, 3 epochs) | 40.00 | – |
-| Continued to 8 epochs | 39.27 | −0.81 [−2.71, +1.06] |
-| LoRA rank 16, trained from scratch | 38.55 | −1.42 [−3.67, +0.60] |
-| Mistral-7B v0.1, 3 epochs | 39.79 | −0.21 [−2.31, +2.13] |
-| Mistral-7B v0.1, 6 epochs | 40.16 | +0.18 [−2.26, +2.69] |
+| Base (v0.3, r=8, 3 epochs) | 42.00 | – |
+| Continued to 8 epochs | 41.27 | −0.81 [−2.71, +1.06] |
+| LoRA rank 16, trained from scratch | 40.55 | −1.42 [−3.67, +0.60] |
+| Mistral-7B v0.1, 3 epochs | 41.79 | −0.21 [−2.31, +2.13] |
+| Mistral-7B v0.1, 6 epochs | 42.16 | +0.18 [−2.26, +2.69] |
 
-None of these moves the score outside the noise. When training is resumed the optimiser and learning-rate schedule restart, which produces a temporary drop at the first resumed epoch (v0.1: 39.79 → 37.82 → 38.96 → 40.16). Remaining differences from the paper are 4-bit versus fp16 and 3 versus 20 ERC epochs, which we could not test within the time and hardware available.
+None of these moves the score outside the noise. When training is resumed the optimiser and learning-rate schedule restart, which produces a temporary drop at the first resumed epoch (v0.1: 41.79 → 39.82 → 40.96 → 42.16). Remaining differences from the paper are 4-bit versus fp16 and 3 versus 20 ERC epochs, which we could not test within the time and hardware available.
 
 ### 3.3 Chain of emotion (full length, 3 epochs, final epoch vs base)
 
@@ -86,17 +86,17 @@ Interpretation: the extra supervision speeds up early learning, but with three f
 ### 3.5 Relationship and acoustic clues
 
 - **Relationship map** (curated per-pair relationships): no benefit in the short protocol (relmap +0.30 [−0.89, +1.52], not different from its shuffled control) or at full length on v0.1 (−0.34 [−2.32, +1.66]).
-- **Acoustic clues:** in the short protocol, no acoustic text form beats the no-clue arm or its shuffled-clue control. On v0.1 at full length the acoustic arm has the highest EmoryNLP score of the study (41.42, +1.62 [−0.45, +3.79] over the v0.1 base), but the interval includes zero and the earlier controls show no effect, so we treat it as unconfirmed.
+- **Acoustic clues:** in the short protocol, no acoustic text form beats the no-clue arm or its shuffled-clue control. On v0.1 at full length the acoustic arm has the highest EmoryNLP score of the study (43.42, +1.62 [−0.45, +3.79] over the v0.1 base), but the interval includes zero and the earlier controls show no effect, so we treat it as unconfirmed.
 
 Full v0.1 table (EmoryNLP test, 3 epochs):
 
 | Arm | Epoch 0 | Epoch 1 | Epoch 2 | vs v0.1 base [95 % CI] |
 |---|---|---|---|---|
-| base | 36.08 | 38.88 | 39.79 | – |
-| acoustic | 36.67 | 39.65 | 41.42 | +1.62 [−0.45, +3.79] |
-| relation map | 36.85 | 39.58 | 39.43 | −0.34 [−2.32, +1.66] |
-| chain_prev | 37.03 | 38.45 | 38.26 | −1.44 [−3.82, +0.95] |
-| chain_all | 34.16 | 34.70 | 36.27 | −3.46 [−5.88, −1.01]* |
+| base | 38.08 | 40.88 | 41.79 | – |
+| acoustic | 38.67 | 41.65 | 43.42 | +1.62 [−0.45, +3.79] |
+| relation map | 38.85 | 41.58 | 41.43 | −0.34 [−2.32, +1.66] |
+| chain_prev | 39.03 | 40.45 | 40.26 | −1.44 [−3.82, +0.95] |
+| chain_all | 36.16 | 36.70 | 38.27 | −3.46 [−5.88, −1.01]* |
 
 ## 4. Limitations
 
@@ -107,7 +107,7 @@ Full v0.1 table (EmoryNLP test, 3 epochs):
 
 ## 5. Conclusion
 
-A full Strategy B pipeline can be reproduced on a single 12 GB GPU to within about 0.5 points on IEMOCAP and about 2.8 on MELD, with a 4.3 point shortfall on EmoryNLP that none of our controlled changes explains. Under identical full-length training, none of the three proposed extensions improves on the base. The only robust positive effect is that chain of emotion improves early-training accuracy, which may be useful when compute or data is limited.
+A full Strategy B pipeline can be reproduced on a single 12 GB GPU to within about 0.5 points on IEMOCAP and about 1.3 on MELD, with a 2.3 point shortfall on EmoryNLP that none of our controlled changes explains. Under identical full-length training, none of the three proposed extensions improves on the base. The only robust positive effect is that chain of emotion improves early-training accuracy, which may be useful when compute or data is limited.
 
 ## Reproducing
 

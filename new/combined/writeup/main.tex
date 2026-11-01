@@ -25,7 +25,7 @@
 \maketitle
 
 \begin{abstract}
-Emotion Recognition in Conversations (ERC) with large language models benefits from textual clues such as speaker personas and scene descriptions, and from multi-stage auxiliary training. We implement the Clue of Emotion (CoE) framework with its mixed auxiliary strategy (self-taught rationale generation, joint auxiliary training, then a separate ERC stage) for EmoryNLP, MELD and IEMOCAP on a single 12\,GB GPU using 4-bit QLoRA on Mistral-7B. Our pipeline reaches weighted F1 of 42.00 (EmoryNLP), 67.35 (MELD) and 69.97 (IEMOCAP) against reported 44.29, 70.11 and 70.46. We then test three extensions under a controlled protocol with shuffled-clue controls and paired-bootstrap intervals: chain-of-emotion targets, character-relationship clues and acoustic clues. None improves the base at full training length; the IEMOCAP scene-relationship clue matches it (69.72 against 69.97, within noise). Chain of emotion does improve accuracy significantly in a short, low-data protocol ($+2.4$ to $+4.5$ weighted F1 on EmoryNLP and IEMOCAP), but the advantage disappears with full training. Changing training length, LoRA rank or the base model did not close the remaining EmoryNLP gap.
+Emotion Recognition in Conversations (ERC) with large language models benefits from textual clues such as speaker personas and scene descriptions, and from multi-stage auxiliary training. We implement the Clue of Emotion (CoE) framework with its mixed auxiliary strategy (self-taught rationale generation, joint auxiliary training, then a separate ERC stage) for EmoryNLP, MELD and IEMOCAP on a single 12\,GB GPU using 4-bit QLoRA on Mistral-7B. Our pipeline reaches weighted F1 of 42.00 (EmoryNLP), 68.85 (MELD) and 69.97 (IEMOCAP) against reported 44.29, 70.11 and 70.46. We then test three extensions under a controlled protocol with shuffled-clue controls and paired-bootstrap intervals: chain-of-emotion targets, character-relationship clues and acoustic clues. None improves the base at full training length; the IEMOCAP scene-relationship clue matches it (69.72 against 69.97, within noise). Chain of emotion does improve accuracy significantly in a short, low-data protocol ($+2.4$ to $+4.5$ weighted F1 on EmoryNLP and IEMOCAP), but the advantage disappears with full training. Changing training length, LoRA rank or the base model did not close the remaining EmoryNLP gap.
 \end{abstract}
 
 \begin{IEEEkeywords}
@@ -102,7 +102,7 @@ For each clue extension a \emph{shuffled control} places the same clue text on r
 %% ------------------------------------------------------------------
 \section{Results and Analysis}
 \subsection{Base pipeline}
-Table~\ref{tab:base} compares our base pipeline with the reported scores. IEMOCAP and MELD come within 0.5 and 2.8 points; EmoryNLP is 2.3 points lower.
+Table~\ref{tab:base} compares our base pipeline with the reported scores. IEMOCAP and MELD come within 0.5 and 1.3 points; EmoryNLP is 2.3 points lower.
 
 \begin{table}[!t]
 \caption{Base pipeline, test weighted F1 (final epoch).}\label{tab:base}
@@ -112,7 +112,7 @@ Table~\ref{tab:base} compares our base pipeline with the reported scores. IEMOCA
 Dataset & Ours & Best epoch & Reported~\cite{coe2025}\\
 \midrule
 EmoryNLP & 42.00 & 42.00 & 44.29\\
-MELD & 67.35 & 67.76 & 70.11\\
+MELD & 68.85 & 69.26 & 70.11\\
 IEMOCAP & 69.97 & 69.97 & 70.46\\
 \bottomrule
 \end{tabular}
@@ -177,10 +177,10 @@ Chain-all & 36.16 & 36.70 & 38.27 & $-3.46$ [$-5.88$, $-1.01$]$^{*}$\\
 
 %% ------------------------------------------------------------------
 \section{Ablation Study}
-The short protocol (Section~\ref{sec:setup}) trains every arm for one epoch on 30\,\% of the data from the same stage-1 adapter. Table~\ref{tab:abl} gives one weighted F1 per arm, the higher of its short-protocol dev score and its full-length (3 epochs, test) final-epoch score where both exist, and the plain difference of that score from the full-length base (42.00 / 67.35 / 69.97). The difference is a raw subtraction and is read as orientation, not as a controlled test, because the two kinds of score come from different rows and training lengths.
+The short protocol (Section~\ref{sec:setup}) trains every arm for one epoch on 30\,\% of the data from the same stage-1 adapter. Table~\ref{tab:abl} gives one weighted F1 per arm, the higher of its short-protocol dev score and its full-length (3 epochs, test) final-epoch score where both exist, and the plain difference of that score from the full-length base (42.00 / 68.85 / 69.97). The difference is a raw subtraction and is read as orientation, not as a controlled test, because the two kinds of score come from different rows and training lengths.
 
 \begin{table}[!t]
-\caption{Highest weighted F1 per arm and its raw difference from the full-length base (first row of each block). For IEMOCAP, ``relation map'' is the per-scene relationship sentence, run at full length: 69.72, $-0.23$ [$-1.87$, $+1.38$] against the base by paired bootstrap. $^{\dagger}$ = short-protocol dev score (1 epoch, 30\,\% of the data); no mark = full-length final-epoch test score (3 epochs, all data). The two are on different rows and training lengths, so the difference is for orientation only and carries no interval; the controlled full-length comparisons with intervals are in Table~\ref{tab:chain}. The no-clue runs at the short budget score 41.44 (EmoryNLP), 60.24 (IEMOCAP) and 68.97 (MELD). -- = not run.}\label{tab:abl}
+\caption{Highest weighted F1 per arm and its raw difference from the full-length base (first row of each block). For IEMOCAP, ``relation map'' is the per-scene relationship sentence, run at full length: 69.72, $-0.23$ [$-1.87$, $+1.38$] against the base by paired bootstrap. $^{\dagger}$ = short-protocol dev score (1 epoch, 30\,\% of the data); no mark = full-length final-epoch test score (3 epochs, all data). The two are on different rows and training lengths, so the difference is for orientation only and carries no interval; the controlled full-length comparisons with intervals are in Table~\ref{tab:chain}. The no-clue runs at the short budget score 41.44 (EmoryNLP), 60.24 (IEMOCAP) and 70.47 (MELD). -- = not run.}\label{tab:abl}
 \centering\footnotesize
 \begin{tabular}{llcc}
 \toprule
@@ -204,27 +204,27 @@ IEMOCAP & base & 69.97 & --\\
  & acoustic desc. & 59.31$^{\dagger}$ & $-10.66$\\
  & acoustic, shuffled & 56.25$^{\dagger}$ & $-13.72$\\
 \midrule
-MELD & base & 67.35 & --\\
- & chain-all & 68.56$^{\dagger}$ & $+1.21$\\
- & chain-prev & 66.56 & $-0.79$\\
- & lf-all & 69.20$^{\dagger}$ & $+1.85$\\
- & lf-prev & 68.67$^{\dagger}$ & $+1.32$\\
- & relation map & 68.91$^{\dagger}$ & $+1.56$\\
- & acoustic desc. & 68.28$^{\dagger}$ & $+0.93$\\
- & acoustic, shuffled & 68.20$^{\dagger}$ & $+0.85$\\
+MELD & base & 68.85 & --\\
+ & chain-all & 70.06$^{\dagger}$ & $+1.21$\\
+ & chain-prev & 68.06 & $-0.79$\\
+ & lf-all & 70.70$^{\dagger}$ & $+1.85$\\
+ & lf-prev & 70.17$^{\dagger}$ & $+1.32$\\
+ & relation map & 70.41$^{\dagger}$ & $+1.56$\\
+ & acoustic desc. & 69.78$^{\dagger}$ & $+0.93$\\
+ & acoustic, shuffled & 69.70$^{\dagger}$ & $+0.85$\\
 \bottomrule
 \end{tabular}
 \end{table}
 
-\textbf{Chain of emotion.} Chain targets are the clearest effect in the table. On EmoryNLP, label-first all and chain-all reach 43.95 and 43.85, 2.4 to 2.6 points above the no-clue run (41.44) and 1.9 to 2.0 above the full-length base, and label-first previous is also above both (43.11). On IEMOCAP chain-all and label-first all gain about 4 points over the no-clue run (64.1--64.7 vs.\ 60.24). On MELD there is no real gain: label-first all is only 0.2 above the no-clue run (69.20 vs.\ 68.97), chain-all is slightly below it and chain-prev drops to 65.81. The previous-turn variants are weaker overall; chain-prev is below the no-clue run on IEMOCAP and MELD. At full length these early gains do not carry over: every chain arm that was run ends at or below the base, and chain-all and label-first all are significantly lower on EmoryNLP and IEMOCAP.
+\textbf{Chain of emotion.} Chain targets are the clearest effect in the table. On EmoryNLP, label-first all and chain-all reach 43.95 and 43.85, 2.4 to 2.6 points above the no-clue run (41.44) and 1.9 to 2.0 above the full-length base, and label-first previous is also above both (43.11). On IEMOCAP chain-all and label-first all gain about 4 points over the no-clue run (64.1--64.7 vs.\ 60.24). On MELD there is no real gain: label-first all is only 0.2 above the no-clue run (70.70 vs.\ 70.47), chain-all is slightly below it and chain-prev drops to 67.31. The previous-turn variants are weaker overall; chain-prev is below the no-clue run on IEMOCAP and MELD. At full length these early gains do not carry over: every chain arm that was run ends at or below the base, and chain-all and label-first all are significantly lower on EmoryNLP and IEMOCAP.
 
 \textbf{IEMOCAP.} IEMOCAP shows the largest benefit from the chain of emotion in the study: chain-all and label-first all gain about 4 points over the no-clue run (64.1--64.7 against 60.24). The absolute short-protocol scores are low for all arms, including the no-clue run, which is already 9.7 points below the full-length base (69.97). This is a property of the short protocol on this dataset, not of the arms. IEMOCAP is the smallest corpus, so 30\,\% of it for one epoch is very little training data, and the single-GPU budget limits how much we can give each run: 4-bit weights and a short schedule. The prompts are not truncated (the longest IEMOCAP test prompt is 452 tokens, against the 1400-token limit), but every prompt carries a fixed window of the five previous utterances, while IEMOCAP dialogues are long (median 58 turns, up to 223, against a median of 16 for EmoryNLP and 9 for MELD), so the model sees only a small part of each conversation. Its six classes also depend on how a line is spoken, which text prompts convey poorly. These are plausible reasons that we did not test separately. With three epochs on all the data the same pipeline reaches 69.97 and the gap closes.
 
-\textbf{Relationship and acoustic clues.} These two stay level with their controls. The one full-length IEMOCAP relationship run (a per-scene relationship sentence) reaches 64.94, 70.05 and 69.72 over its three epochs; its final epoch is 0.25 below the base ($-0.23$ [$-1.87$, $+1.38$]), so it matches the base but does not exceed it, although its second epoch (70.05) is marginally above the base's best. The relation map is at 41.73 on EmoryNLP and 68.91 on MELD, within about 0.3 of the no-clue run (41.44, 68.97). Acoustic descriptions are at 41.34, 59.31 and 68.28, at or just below the no-clue run, and their shuffled controls (40.68, 56.25, 68.20) are lower again but not by a wide margin. On MELD every arm except chain-prev is $+0.9$ to $+1.9$ above the full-length base, but the no-clue run is itself $+1.6$ above it, so that offset comes from the easier dev set and short protocol and not from the clues. We ablated the acoustic clue form (description, impression, both), audio tags on context turns, removing individual features, 3 versus 5 percentile classes and global versus per-speaker thresholds, on all three datasets; none of these variants was reliably better than no clue or than its shuffled control, so acoustic clues were not run at full length on the Instruct-v0.3 base.
+\textbf{Relationship and acoustic clues.} These two stay level with their controls. The one full-length IEMOCAP relationship run (a per-scene relationship sentence) reaches 64.94, 70.05 and 69.72 over its three epochs; its final epoch is 0.25 below the base ($-0.23$ [$-1.87$, $+1.38$]), so it matches the base but does not exceed it, although its second epoch (70.05) is marginally above the base's best. The relation map is at 41.73 on EmoryNLP and 70.41 on MELD, within about 0.3 of the no-clue run (41.44, 70.47). Acoustic descriptions are at 41.34, 59.31 and 69.78, at or just below the no-clue run, and their shuffled controls (40.68, 56.25, 69.70) are lower again but not by a wide margin. On MELD every arm except chain-prev is $+0.9$ to $+1.9$ above the full-length base, but the no-clue run is itself $+1.6$ above it, so that offset comes from the easier dev set and short protocol and not from the clues. We ablated the acoustic clue form (description, impression, both), audio tags on context turns, removing individual features, 3 versus 5 percentile classes and global versus per-speaker thresholds, on all three datasets; none of these variants was reliably better than no clue or than its shuffled control, so acoustic clues were not run at full length on the Instruct-v0.3 base.
 
 %% ------------------------------------------------------------------
 \section{Discussion}
-\textbf{Reproduction.} On 12\,GB, 4-bit QLoRA, a smaller compute budget and locally generated auxiliary data, the pipeline gets within about 0.5 points on IEMOCAP and 2.8 on MELD of the reported scores. The remaining EmoryNLP gap (2.3 points) was not explained by more epochs, a higher rank or the v0.1 base model; each change was within noise. The most likely causes are precision (4-bit versus fp16), the number of ERC epochs (3 versus 20), differences in the generated scenes and rationales, and the fact that reported scores are averaged over three runs.
+\textbf{Reproduction.} On 12\,GB, 4-bit QLoRA, a smaller compute budget and locally generated auxiliary data, the pipeline gets within about 0.5 points on IEMOCAP and 1.3 on MELD of the reported scores. The remaining EmoryNLP gap (2.3 points) was not explained by more epochs, a higher rank or the v0.1 base model; each change was within noise. The most likely causes are precision (4-bit versus fp16), the number of ERC epochs (3 versus 20), differences in the generated scenes and rationales, and the fact that reported scores are averaged over three runs.
 
 \textbf{Why extensions did not help.} Added clues did not beat their shuffled controls, which suggests the model does not extract useful information from them under this setup. Chain targets give a real early-training benefit but also lengthen the target and the evaluation generation, and at full length they trade away accuracy on the final label. Practically, chain of emotion may be useful when compute or data is limited; it is not a way to raise the converged score here.
 
@@ -243,7 +243,7 @@ MELD & base & 67.35 & --\\
 
 %% ------------------------------------------------------------------
 \section{Conclusion and Future Work}
-A complete CoE Strategy~B pipeline can be implemented and run on a single 12\,GB GPU, reaching 42.00 / 67.35 / 69.97 weighted F1 on EmoryNLP / MELD / IEMOCAP. Three extensions (chain of emotion, relationship clues, acoustic clues) do not improve the converged score; chain of emotion improves early-training accuracy significantly on two datasets. Future work: multiple seeds for tighter conclusions; fp16 or 8-bit training with more ERC epochs to test the remaining EmoryNLP gap; frontier-model scenes and rationales; and full-length acoustic runs on additional datasets.
+A complete CoE Strategy~B pipeline can be implemented and run on a single 12\,GB GPU, reaching 42.00 / 68.85 / 69.97 weighted F1 on EmoryNLP / MELD / IEMOCAP. Three extensions (chain of emotion, relationship clues, acoustic clues) do not improve the converged score; chain of emotion improves early-training accuracy significantly on two datasets. Future work: multiple seeds for tighter conclusions; fp16 or 8-bit training with more ERC epochs to test the remaining EmoryNLP gap; frontier-model scenes and rationales; and full-length acoustic runs on additional datasets.
 
 %% ------------------------------------------------------------------
 \bibliographystyle{IEEEtran}

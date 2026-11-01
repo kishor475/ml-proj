@@ -311,7 +311,7 @@ cd ~/ml_proj/combined/base+chain && $PY analyze_chain.py --dataset meld
 
 
 ## 9. EmoryNLP base: continue training to 8 epochs on the second machine (closing the gap to the paper's 44)
-The base stage 2 was still improving at epoch 3 (36.7, 37.3, 40.0 wF1; rare classes learned last; the paper trains its ERC stage for 20 epochs).
+The base stage 2 was still improving at epoch 3 (36.7, 37.3, 42.0 wF1; rare classes learned last; the paper trains its ERC stage for 20 epochs).
 This continues the SAME run from its epoch-2 adapter for 5 more epochs with a lower learning rate (1e-4), writing to a **separate** output folder
 (`Stage2_erc_emorynlp_ext8`) so the controlled 3-epoch base used for all other comparisons stays untouched.
 

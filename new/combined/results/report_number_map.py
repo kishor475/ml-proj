@@ -36,18 +36,18 @@ CH = {
 }
 ROWS = []
 # Table I: base vs reported (final epoch = epoch 2; best epoch listed separately)
-for ds, final, best, best_ep in (("emorynlp", 40.00, 40.00, 2), ("meld", 67.35, 67.76, 0), ("iemocap", 69.97, 69.97, 2)):
+for ds, final, best, best_ep in (("emorynlp", 42.00, 42.00, 2), ("meld", 68.85, 69.26, 0), ("iemocap", 69.97, 69.97, 2)):
     ROWS.append(("Table I", f"{ds} base, final epoch", ds, S2("erc", ds), 2, final, None, None, None))
     ROWS.append(("Table I", f"{ds} base, best epoch", ds, S2("erc", ds), best_ep, best, None, None, None))
 # Table II: attempts to close the EmoryNLP gap (delta vs v0.3 base, final epoch)
 B = S2("erc", "emorynlp")
 ROWS += [
-    ("Table II", "continued to 8 epochs (final = epoch 7)", "emorynlp", "Stage2_erc_emorynlp_ext8", 7, 39.27, B, 2, (-0.81, -2.71, 1.06)),
-    ("Table II", "LoRA rank 16", "emorynlp", "Stage2_erc_emorynlp_r16", 2, 38.55, B, 2, (-1.42, -3.67, 0.60)),
-    ("Table II", "Mistral-7B v0.1, 3 epochs", "emorynlp", "Stage2_erc_emorynlp_v01", 2, 39.79, B, 2, (-0.21, -2.31, 2.13)),
-    ("Table II", "Mistral-7B v0.1, 6 epochs", "emorynlp", "Stage2_erc_emorynlp_v01", 5, 40.16, B, 2, (0.18, -2.26, 2.69)),
+    ("Table II", "continued to 8 epochs (final = epoch 7)", "emorynlp", "Stage2_erc_emorynlp_ext8", 7, 41.27, B, 2, (-0.81, -2.71, 1.06)),
+    ("Table II", "LoRA rank 16", "emorynlp", "Stage2_erc_emorynlp_r16", 2, 40.55, B, 2, (-1.42, -3.67, 0.60)),
+    ("Table II", "Mistral-7B v0.1, 3 epochs", "emorynlp", "Stage2_erc_emorynlp_v01", 2, 41.79, B, 2, (-0.21, -2.31, 2.13)),
+    ("Table II", "Mistral-7B v0.1, 6 epochs", "emorynlp", "Stage2_erc_emorynlp_v01", 5, 42.16, B, 2, (0.18, -2.26, 2.69)),
 ]
-for e, v in ((3, 37.82), (4, 38.96)):
+for e, v in ((3, 39.82), (4, 40.96)):
     ROWS.append(("Sec. V-B (warm restart)", f"v0.1 base, epoch {e}", "emorynlp", "Stage2_erc_emorynlp_v01", e, v, None, None, None))
 # Table III: chain of emotion at full length (final epoch delta vs v0.3 base)
 for ds, arms in CH.items():
@@ -58,23 +58,23 @@ ROWS.append(("Table V / Sec. VI", "iemocap scene relation, full length", "iemoca
 # Table IV: v0.1 arms (epochs 0-2 and delta of epoch 2 vs the v0.1 base)
 V = "Stage2_erc_emorynlp_v01"
 for name, folder, eps, d in (
-        ("v0.1 base", V, (36.08, 38.88, 39.79), None),
-        ("acoustic", "Stage2_acoustic_clue_emorynlp_v01", (36.67, 39.65, 41.42), (1.62, -0.45, 3.79)),
-        ("relation map", "Stage2_relmap_detail_emorynlp_v01", (36.85, 39.58, 39.43), (-0.34, -2.32, 1.66)),
-        ("chain-prev", "Stage2_chain_prev_emorynlp_v01", (37.03, 38.45, 38.26), (-1.44, -3.82, 0.95)),
-        ("chain-all", "Stage2_chain_all_emorynlp_v01", (34.16, 34.70, 36.27), (-3.46, -5.88, -1.01))):
+        ("v0.1 base", V, (38.08, 40.88, 41.79), None),
+        ("acoustic", "Stage2_acoustic_clue_emorynlp_v01", (38.67, 41.65, 43.42), (1.62, -0.45, 3.79)),
+        ("relation map", "Stage2_relmap_detail_emorynlp_v01", (38.85, 41.58, 41.43), (-0.34, -2.32, 1.66)),
+        ("chain-prev", "Stage2_chain_prev_emorynlp_v01", (39.03, 40.45, 40.26), (-1.44, -3.82, 0.95)),
+        ("chain-all", "Stage2_chain_all_emorynlp_v01", (36.16, 36.70, 38.27), (-3.46, -5.88, -1.01))):
     for e, v in enumerate(eps):
         last = e == 2
         ROWS.append(("Table IV", f"{name}, epoch {e}", "emorynlp", folder, e, v, V if (last and d) else None, 2 if (last and d) else None, d if last else None))
 # Table V: short-protocol ablation (dev wF1; delta vs the base run at the short budget (output dir Abl_<ds>_nocue) of the same dataset; single epoch -> last = only epoch)
 ABL = {
-    "emorynlp": [("nocue", 39.44, None), ("lf-all", 41.95, (2.57, 0.81, 4.48)), ("chain-all", 41.85, (2.44, 0.45, 4.45)), ("lf-prev", 41.11, (1.69, 0.04, 3.24)),
-                 ("chain-prev", 40.19, (0.73, -0.95, 2.52)), ("relmap", 39.73, (0.30, -0.89, 1.52)), ("desc", 39.34, (-0.07, -1.24, 1.09)),
-                 ("shuffled-desc", 38.68, (-0.75, -2.00, 0.35)), ("shuffled-relmap", 39.24, (-0.19, -1.26, 0.83)), ("relmap-desc", 37.61, (-1.86, -3.22, -0.52))],
+    "emorynlp": [("nocue", 41.44, None), ("lf-all", 43.95, (2.57, 0.81, 4.48)), ("chain-all", 43.85, (2.44, 0.45, 4.45)), ("lf-prev", 43.11, (1.69, 0.04, 3.24)),
+                 ("chain-prev", 42.19, (0.73, -0.95, 2.52)), ("relmap", 41.73, (0.30, -0.89, 1.52)), ("desc", 41.34, (-0.07, -1.24, 1.09)),
+                 ("shuffled-desc", 40.68, (-0.75, -2.00, 0.35)), ("shuffled-relmap", 41.24, (-0.19, -1.26, 0.83)), ("relmap-desc", 39.61, (-1.86, -3.22, -0.52))],
     "iemocap": [("nocue", 60.24, None), ("chain-all", 64.67, (4.46, 2.23, 6.75)), ("chain-all-known", 64.26, (4.00, 1.63, 6.51)), ("lf-all", 64.11, (3.94, 1.74, 6.07)),
                 ("lf-prev", 62.09, (1.83, -0.01, 3.66)), ("chain-prev", 58.54, (-1.66, -3.85, 0.61)), ("desc", 59.31, (-0.95, -2.68, 0.84)),
                 ("default", 57.62, (-2.60, -4.78, -0.57)), ("shuffled-desc", 56.25, (-3.93, -5.67, -2.23))],
-    "meld": [("nocue", 68.97, None), ("lf-all", 69.20, (0.26, -1.64, 2.15)), ("chain-prev", 65.81, (-3.19, -5.34, -1.03))],
+    "meld": [("nocue", 70.47, None), ("lf-all", 70.70, (0.26, -1.64, 2.15)), ("chain-prev", 67.31, (-3.19, -5.34, -1.03))],
 }
 for ds, arms in ABL.items():
     for arm, v, d in arms:
